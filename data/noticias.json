@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-24T12:57:26.632Z",
- "actualizadoBogota": "24 de octubre de 2026 a las 7:57 a. m.",
+ "actualizado": "2026-10-24T16:10:53.979Z",
+ "actualizadoBogota": "24 de octubre de 2026 a las 11:10 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 14,
+  "prensa": 31,
   "prensaBing": 12,
-  "prensaAmbiente": 6,
+  "prensaAmbiente": 19,
   "notasAbiertas": 0,
   "fotosPrensa": 9,
   "paginasConFoto": 0,
@@ -19,7 +19,7 @@
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 47
+  "segundos": 35
  },
  "wwf": [
   {
@@ -696,7 +696,7 @@
    "fecha": "2022-03-22T17:00:00.000Z",
    "imagen": "https://wwflac.awsassets.panda.org/img/wwf_colombia_azul_765779.jpg",
    "credito": "© wwf",
-   "enlace": "https://www.wwf.org.pe/?375855/Colombia-Azul-acuicultura-creciente-y-pesca-sostenible",
+   "enlace": "https://www.wwf.org.pe/pacifico/?375855/Colombia-Azul-acuicultura-creciente-y-pesca-sostenible",
    "fuente": "wwf",
    "tipo": "prensa",
    "destacada": false,
@@ -757,6 +757,20 @@
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
+   "fotoRevisada": true
+  },
+  {
+   "id": "wwf-335551",
+   "titulo": "Plan estratégico WWF-Colombia 2017 - 2025",
+   "resumen": "",
+   "fecha": "2018-09-25T17:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://wwf.panda.org/es/?335551/Plan-estrategico-WWF-Colombia-2017---2025",
+   "fuente": "Panda",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T16:10:53.979Z",
    "fotoRevisada": true
   },
   {
