@@ -47,19 +47,29 @@ const RESPALDOS = [
   u => ['https://r.jina.ai/' + u, { 'X-Return-Format': 'html', 'Accept': 'text/html' }]
 ];
 const via = {};
-async function traer(url, ms = 20000) {
-  try { const x = await directo(url, ms); via[new URL(url).host] = 'directo'; return x; }
-  catch (e1) {
-    if (!/wwf\.org\.co|youtube\.com/.test(url)) throw e1;
-    for (const r of RESPALDOS) {
-      try {
-        const [u2, h] = r(url); const x = await directo(u2, 30000, h);
-        if (x && x.length > 500 && !/Just a moment|Access denied|403 Forbidden/i.test(x.slice(0, 3000))) { via[new URL(url).host] = new URL(u2).host; return x; }
-      } catch {}
-    }
-    throw e1;
+const INICIO = Date.now();
+const tiempo = () => (Date.now() - INICIO) / 1000;      // segundos desde que arrancó
+const LIMITE = 8 * 60;                                   // el robot no pasa de 8 minutos
+const ruta = {};                                         // por sitio: 'directo', índice de respaldo o 'caido'
+async function traer(url, ms = 15000) {
+  const host = new URL(url).host;
+  const permiteRespaldo = /wwf\.org\.co|youtube\.com/.test(url);
+  if (ruta[host] === 'caido') throw new Error('sitio no disponible en esta corrida');
+  if (ruta[host] === undefined || ruta[host] === 'directo') {
+    try { const x = await directo(url, ms); ruta[host] = 'directo'; via[host] = 'directo'; return x; }
+    catch (e) { if (!permiteRespaldo || ruta[host] === 'directo') throw e; }
   }
+  const orden = typeof ruta[host] === 'number' ? [ruta[host]] : RESPALDOS.map((_, i) => i);
+  for (const i of orden) {
+    try {
+      const [u2, h] = RESPALDOS[i](url); const x = await directo(u2, 20000, h);
+      if (x && x.length > 500 && !/Just a moment|Access denied|403 Forbidden/i.test(x.slice(0, 3000))) { ruta[host] = i; via[host] = new URL(u2).host; return x; }
+    } catch {}
+  }
+  if (typeof ruta[host] !== 'number') ruta[host] = 'caido';
+  throw new Error('bloqueado y sin respaldo');
 }
+
 const absoluto = href => {
   href = deco(href).trim().split(/\s+/)[0];
   if (!href) return '';
@@ -208,7 +218,7 @@ function leerFeed(xml) {
 }
 
 // ---------- 4) Traducción automática al inglés (con memoria) ----------
-let errorTraduccion = '';
+let errorTraduccion = ''; let fallosTraduccion = 0;
 async function aIngles(texto) {
   if (!texto) return '';
   try {
@@ -229,8 +239,8 @@ async function traducir(obj, campos, previo) {
     const en = c + '_en';
     if (!obj[c]) { obj[en] = ''; continue; }
     if (previo && previo[c] === obj[c] && previo[en]) { obj[en] = previo[en]; continue; }
-    if (traducciones >= 120) continue;
-    try { obj[en] = await aIngles(obj[c]); traducciones++; await espera(250); } catch (e) { errorTraduccion = errorTraduccion || e.message; }
+    if (traducciones >= 120 || tiempo() > LIMITE || fallosTraduccion >= 3) continue;
+    try { obj[en] = await aIngles(obj[c]); traducciones++; await espera(250); } catch (e) { fallosTraduccion++; errorTraduccion = errorTraduccion || e.message; }
   }
 }
 
@@ -297,7 +307,7 @@ async function main() {
   // Foto, crédito y video de cada nota de WWF (abre la nota)
   let abiertas = 0;
   for (const it of wwf) {
-    if ((it.imagen && it.fotoRevisada) || abiertas >= 20 || !it.enlace.includes('wwf.org.co')) continue;
+    if ((it.imagen && it.fotoRevisada) || abiertas >= 20 || !it.enlace.includes('wwf.org.co') || tiempo() > LIMITE * 0.45 || ruta['www.wwf.org.co'] === 'caido') continue;
     try {
       const h = await traer(it.enlace); abiertas++;
       const og = meta(h, 'og:image');
@@ -320,14 +330,15 @@ async function main() {
   if (viejo) {
     media.paginas = media.paginas || {};
     let ok = 0;
-    for (const [k, ruta] of Object.entries(PAGINAS)) {
+    for (const [k, camino] of Object.entries(PAGINAS)) {
+      if (tiempo() > LIMITE * 0.7 || ruta['www.wwf.org.co'] === 'caido') break;
       try {
-        const h = await traer(BASE + ruta);
+        const h = await traer(BASE + camino);
         const fotos = fotosDe(h);
         const og = meta(h, 'og:image');
         const principal = og && absoluto(og) !== absoluto(fotoGenerica || ' ') ? { img: absoluto(og), credito: (fotos.find(f => f.img === absoluto(og)) || fotos[0] || {}).credito || '© WWF' } : fotos[0];
-        if (principal) { media.paginas[k] = { ...principal, fotos: fotos.slice(0, 8), pagina: BASE + ruta }; ok++; }
-        galeria.push(...fotos.slice(0, 6).map(f => ({ ...f, pagina: BASE + ruta })));
+        if (principal) { media.paginas[k] = { ...principal, fotos: fotos.slice(0, 8), pagina: BASE + camino }; ok++; }
+        galeria.push(...fotos.slice(0, 6).map(f => ({ ...f, pagina: BASE + camino })));
         videosSueltos.push(...videosDe(h));
         await espera(300);
       } catch (e) { console.log(`✗ página ${k}: ${e.message}`); }
@@ -359,7 +370,7 @@ async function main() {
   for (const it of prensa.slice(0, 40)) await traducir(it, ['titulo'], prevPorId.get(it.id));
   for (const v of videos) await traducir(v, ['titulo', 'resumen'], prevPorId.get(v.id));
   estado.traducciones = traducciones; if (errorTraduccion) estado.errorTraduccion = errorTraduccion;
-  estado.rutas = via;
+  estado.rutas = via; estado.segundos = Math.round(tiempo());
 
   // ¿Cambió algo?
   const firma = o => JSON.stringify([o.wwf, o.prensa, o.videos, o.media && o.media.galeria && o.media.galeria.length, o.media && o.media.paginas && Object.keys(o.media.paginas).length].map(x => JSON.stringify(x)));

@@ -13,11 +13,12 @@ permissions:
 
 concurrency:
   group: robot-noticias
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   traer-noticias:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
 
