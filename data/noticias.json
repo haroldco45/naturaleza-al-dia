@@ -733,7 +733,24 @@
    "primeraVez": "2026-10-24T02:10:58.673Z"
   }
  ],
- "videos": [],
+ "videos": [
+  {
+   "id": "GbnDdGvFLts",
+   "titulo": "¿Qué hace WWF Colombia para cuidar la naturaleza?",
+   "titulo_en": "What does WWF Colombia do to protect nature?",
+   "resumen": "",
+   "fecha": null,
+   "canal": "WWF Colombia"
+  },
+  {
+   "id": "j7sIHGd4B_g",
+   "titulo": "Transmisión en vivo de WWF Colombia",
+   "titulo_en": "WWF Colombia live stream",
+   "resumen": "",
+   "fecha": null,
+   "canal": "WWF Colombia"
+  }
+ ],
  "media": {
   "paginas": {},
   "galeria": []

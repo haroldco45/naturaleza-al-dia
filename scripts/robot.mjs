@@ -1,6 +1,7 @@
 // Robot de Naturaleza al Día — trae de wwf.org.co noticias, fotos y videos reales,
 // y los deja en español e inglés. Corre en GitHub Actions cada 30 minutos. Sin dependencias (Node 20+).
 import fs from 'node:fs/promises';
+import { execFile } from 'node:child_process';
 
 const OUT = 'data/noticias.json';
 const UA = {
@@ -41,7 +42,18 @@ async function directo(url, ms = 20000, extra = {}) {
   } finally { clearTimeout(t); }
 }
 // Si el sitio bloquea a GitHub, se intenta por rutas de respaldo
+const ORIGEN = 'https://originlaccms1.wwf-sites.org:8301';
+function conCurl(url, ms = 20000) {
+  const h = Object.entries(UA).flatMap(([k, v]) => ['-H', `${k}: ${v}`]);
+  return new Promise((ok, mal) => execFile('curl', ['-sSL', '--compressed', '--http2', '-m', String(Math.round(ms / 1000)), '-w', '\\n%{http_code}', ...h, url], { maxBuffer: 20e6 }, (e, out) => {
+    if (e) return mal(e);
+    const i = out.lastIndexOf('\n'); const code = +out.slice(i + 1);
+    code >= 200 && code < 400 ? ok(out.slice(0, i)) : mal(new Error('curl HTTP ' + code));
+  }));
+}
 const RESPALDOS = [
+  u => /wwf\.org\.co/.test(u) ? [u.replace(/^https?:\/\/(www\.)?wwf\.org\.co/, ORIGEN), {}] : null,
+  u => ['curl:' + u, {}],
   u => ['https://api.allorigins.win/raw?url=' + encodeURIComponent(u), {}],
   u => ['https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u), {}],
   u => ['https://r.jina.ai/' + u, { 'X-Return-Format': 'html', 'Accept': 'text/html' }]
@@ -62,8 +74,9 @@ async function traer(url, ms = 15000) {
   const orden = typeof ruta[host] === 'number' ? [ruta[host]] : RESPALDOS.map((_, i) => i);
   for (const i of orden) {
     try {
-      const [u2, h] = RESPALDOS[i](url); const x = await directo(u2, 20000, h);
-      if (x && x.length > 500 && !/Just a moment|Access denied|403 Forbidden/i.test(x.slice(0, 3000))) { ruta[host] = i; via[host] = new URL(u2).host; return x; }
+      const r = RESPALDOS[i](url); if (!r) continue;
+      const [u2, h] = r; const x = u2.startsWith('curl:') ? await conCurl(url) : await directo(u2, 20000, h);
+      if (x && x.length > 500 && !/Just a moment|Access denied|403 Forbidden/i.test(x.slice(0, 3000))) { ruta[host] = i; via[host] = u2.startsWith('curl:') ? 'curl' : new URL(u2).host; return x; }
     } catch {}
   }
   if (typeof ruta[host] !== 'number') ruta[host] = 'caido';
@@ -73,6 +86,7 @@ async function traer(url, ms = 15000) {
 const absoluto = href => {
   href = deco(href).trim().split(/\s+/)[0];
   if (!href) return '';
+  href = href.replace(/^https?:\/\/originlaccms1\.wwf-sites\.org(:\d+)?/i, BASE);
   if (href.startsWith('//')) return 'https:' + href;
   if (href.startsWith('http')) return href;
   if (href.startsWith('?')) return BASE + '/' + href;
@@ -192,7 +206,16 @@ export function parseRSS(xml, tipo) {
 }
 
 // ---------- 3) YouTube de WWF Colombia (enlazado desde wwf.org.co) ----------
+const LISTA_WWF = 'PLDSAZA2y4sU56U9pfD78b8LtDDADX7m8z'; // "WWF COLOMBIA IN ENGLISH", de su canal
 async function videosCanal() {
+  let delaLista = [];
+  try {
+    const xml = await traer('https://www.youtube.com/feeds/videos.xml?playlist_id=' + LISTA_WWF);
+    delaLista = leerFeed(xml);
+    const id = (xml.match(/<yt:channelId>(UC[\w-]{22})<\/yt:channelId>/) || [])[1];
+    if (id) { const todos = leerFeed(await traer('https://www.youtube.com/feeds/videos.xml?channel_id=' + id)); if (todos.length) return [...todos, ...delaLista]; }
+  } catch (e) { console.log('lista YouTube:', e.message); }
+  if (delaLista.length) return delaLista;
   for (const f of ['https://www.youtube.com/feeds/videos.xml?user=wwfcolombia', 'https://www.youtube.com/feeds/videos.xml?user=WWFColombia']) {
     try { const xml = await traer(f); const v = leerFeed(xml); if (v.length) return v; } catch {}
   }
@@ -323,6 +346,22 @@ async function main() {
     } catch (e) { console.log('nota sin abrir', it.id, e.message); }
   }
   estado.notasAbiertas = abiertas;
+  let deMedios = 0;
+  for (const it of prensa) {
+    if (it.imagen || it.fotoRevisada || deMedios >= 25 || tiempo() > LIMITE * 0.5 || /news\.google\.com/.test(it.enlace)) continue;
+    try {
+      const h = await directo(it.enlace, 10000); deMedios++;
+      const og = meta(h, 'og:image') || meta(h, 'twitter:image');
+      if (og && /^https?:|^\/\//.test(og)) { it.imagen = og.startsWith('//') ? 'https:' + og : og; it.credito = '© ' + it.fuente; }
+    } catch {}
+    it.fotoRevisada = true;
+  }
+  for (const it of prensa) if (!it.imagen) {
+    const k = clave(it.titulo).slice(0, 40);
+    const par = prensa.find(b => b.imagen && clave(b.titulo).slice(0, 40) === k);
+    if (par) { it.imagen = par.imagen; it.credito = par.credito; }
+  }
+  estado.fotosPrensa = prensa.filter(i => i.imagen).length;
 
   // Fotos de regiones, frentes y especiales (se refrescan una vez al día)
   const media = previo.media || {};
