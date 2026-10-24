@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "*/30 * * * *"   # cada 30 minutos
   workflow_dispatch:          # botón "Run workflow" para correrlo a mano
+  push:                       # corre también apenas se sube un cambio al robot o a la app
+    branches: [main]
+    paths: ["scripts/**", "index.html", ".github/workflows/**"]
 
 permissions:
   contents: write

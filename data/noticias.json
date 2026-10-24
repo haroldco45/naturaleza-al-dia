@@ -1,7 +1,9 @@
 {
  "actualizado": "2026-10-24T01:30:00.000Z",
  "actualizadoBogota": "23 de octubre de 2026, 8:30 p. m.",
- "fuentes": { "semilla": "datos iniciales tomados de wwf.org.co" },
+ "fuentes": {
+  "semilla": "datos iniciales tomados de wwf.org.co"
+ },
  "wwf": [
   {
    "id": "wwf-401950",
@@ -13,7 +15,9 @@
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": true,
-   "primeraVez": "2026-10-24T01:30:00.000Z"
+   "primeraVez": "2026-10-24T01:30:00.000Z",
+   "titulo_en": "COP17: WWF calls for turning global biodiversity commitments into concrete action",
+   "resumen_en": "COP17 on biodiversity opens in Armenia, where Colombia will hand over the presidency. The goal: halt and reverse biodiversity loss by 2030."
   },
   {
    "id": "wwf-401810",
@@ -25,7 +29,9 @@
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": true,
-   "primeraVez": "2026-10-24T01:30:00.000Z"
+   "primeraVez": "2026-10-24T01:30:00.000Z",
+   "titulo_en": "Living Planet Report 2026: data that drives us to reverse biodiversity loss",
+   "resumen_en": "Latin America and the Caribbean show the steepest declines in the average size of monitored wildlife populations. The report also finds reasons for optimism."
   },
   {
    "id": "wwf-401730",
@@ -37,7 +43,9 @@
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:30:00.000Z"
+   "primeraVez": "2026-10-24T01:30:00.000Z",
+   "titulo_en": "Climate Week Medellín: declaration signed to protect urban and peri-urban natural areas",
+   "resumen_en": "Authorities from Medellín, Bogotá and Miami will work together to build technical evidence to protect nature in and around cities."
   },
   {
    "id": "wwf-401718",
@@ -49,7 +57,9 @@
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": true,
-   "primeraVez": "2026-10-24T01:30:00.000Z"
+   "primeraVez": "2026-10-24T01:30:00.000Z",
+   "titulo_en": "Meet the young people who know the most about biodiversity in Colombia",
+   "resumen_en": "Johan Jojoa (Amazon) and Carlos Guerrero (Caribbean) won the national final of Sabiduría Salvaje during Medellín's first Climate Week."
   },
   {
    "id": "wwf-401410",
@@ -61,8 +71,15 @@
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": true,
-   "primeraVez": "2026-10-24T01:30:00.000Z"
+   "primeraVez": "2026-10-24T01:30:00.000Z",
+   "titulo_en": "How 'El Niño' affects Colombia's regions",
+   "resumen_en": "Droughts, wildfires and impacts on wildlife and vegetation: the consequences differ from region to region."
   }
  ],
- "prensa": []
+ "prensa": [],
+ "videos": [],
+ "media": {
+  "paginas": {},
+  "galeria": []
+ }
 }

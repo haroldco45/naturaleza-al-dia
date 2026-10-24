@@ -1,5 +1,5 @@
 // Naturaleza al Día — siempre intenta lo más fresco de la red; si no hay señal, usa lo guardado.
-const CACHE = 'naturaleza-al-dia-v1';
+const CACHE = 'naturaleza-al-dia-v2';
 const BASE = ['./', 'index.html', 'manifest.json', 'icon.svg', 'data/noticias.json'];
 
 self.addEventListener('install', e => {

@@ -4,197 +4,231 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Naturaleza al Día · WWF Colombia</title>
-<meta name="description" content="Todo lo que publica WWF Colombia, al día y solito: noticias, prensa, regiones, retos verdes y cómo ayudar. App ciudadana de Vibras Positivas HM.">
+<meta name="description" content="Noticias, fotos y videos de WWF Colombia que se actualizan solos, en español e inglés. / WWF Colombia news, photos and videos, updated automatically, in Spanish and English.">
 <meta name="theme-color" content="#04130d">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
 <meta property="og:title" content="Naturaleza al Día · WWF Colombia">
-<meta property="og:description" content="Noticias de WWF Colombia que se actualizan solas, retos verdes diarios y cómo ayudar a la naturaleza.">
+<meta property="og:description" content="Noticias, fotos y videos de WWF Colombia al día, en español e inglés.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#04130d; --bg2:#082419; --card:rgba(255,255,255,.06); --card2:rgba(255,255,255,.1);
+  --bg:#04130d; --card:rgba(255,255,255,.06); --card2:rgba(255,255,255,.1);
   --line:rgba(255,255,255,.12); --txt:#ecfdf3; --sub:#a7c7b6; --muted:#6f9482;
-  --lima:#c6f432; --menta:#3df5a7; --turq:#22d3ee; --coral:#ff7a59; --sol:#ffd23f; --lila:#b69cff;
-  --r:20px; --sombra:0 10px 30px rgba(0,0,0,.35);
+  --lima:#c6f432; --menta:#3df5a7; --turq:#22d3ee; --coral:#ff7a59; --sol:#ffd23f;
+  --r:20px; --disp:"Bricolage Grotesque",Inter,system-ui,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{background:var(--bg);color:var(--txt);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
-body{min-height:100vh;overflow-x:hidden;padding-bottom:calc(84px + env(safe-area-inset-bottom))}
+body{min-height:100vh;overflow-x:hidden;padding-bottom:calc(76px + env(safe-area-inset-bottom))}
 a{color:inherit;text-decoration:none}
 button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
-h1,h2,h3{font-family:"Bricolage Grotesque",Inter,sans-serif;letter-spacing:-.02em}
+h1,h2,h3{font-family:var(--disp);letter-spacing:-.02em}
+img{display:block;max-width:100%}
 
-/* Aurora viva de fondo */
 .aurora{position:fixed;inset:0;z-index:-1;overflow:hidden;background:radial-gradient(120% 80% at 50% -10%,#0d3a27 0%,var(--bg) 60%)}
-.aurora i{position:absolute;border-radius:50%;filter:blur(70px);opacity:.45;animation:flota 18s ease-in-out infinite alternate}
+.aurora i{position:absolute;border-radius:50%;filter:blur(70px);opacity:.4;animation:flota 18s ease-in-out infinite alternate}
 .aurora i:nth-child(1){width:60vw;height:60vw;max-width:520px;max-height:520px;background:#15c27a;top:-15%;left:-20%}
 .aurora i:nth-child(2){width:50vw;height:50vw;max-width:440px;max-height:440px;background:#0ea5c6;top:30%;right:-25%;animation-duration:22s}
-.aurora i:nth-child(3){width:40vw;height:40vw;max-width:360px;max-height:360px;background:#9bd21a;bottom:-10%;left:10%;animation-duration:26s;opacity:.3}
+.aurora i:nth-child(3){width:40vw;height:40vw;max-width:360px;max-height:360px;background:#9bd21a;bottom:-10%;left:10%;animation-duration:26s;opacity:.25}
 @keyframes flota{0%{transform:translate(0,0) scale(1)}50%{transform:translate(8vw,6vh) scale(1.15)}100%{transform:translate(-6vw,10vh) scale(.95)}}
 
-.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+.wrap{max-width:820px;margin:0 auto;padding:0 16px}
 
 /* Cabecera */
-header{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(4,19,13,.72);border-bottom:1px solid var(--line)}
-.top{display:flex;align-items:center;gap:12px;padding:12px 0}
-.logo{width:40px;height:40px;border-radius:12px;background:conic-gradient(from 200deg,var(--menta),var(--turq),var(--lima),var(--menta));display:grid;place-items:center;font-size:20px;animation:gira 12s linear infinite;flex:none}
-.logo span{animation:gira 12s linear infinite reverse;display:block}
-@keyframes gira{to{transform:rotate(360deg)}}
+header{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(4,19,13,.75);border-bottom:1px solid var(--line)}
+.top{display:flex;align-items:center;gap:10px;padding:11px 0}
 .marca{flex:1;min-width:0}
-.marca h1{font-size:18px;line-height:1.1}
+.marca h1{font-size:19px;line-height:1.1}
+.marca h1 span{background:linear-gradient(90deg,var(--lima),var(--menta),var(--turq));-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200%;animation:brillo 6s ease infinite}
 .marca small{color:var(--sub);font-size:12px;display:flex;align-items:center;gap:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.vivo{width:8px;height:8px;border-radius:50%;background:var(--menta);box-shadow:0 0 0 0 rgba(61,245,167,.7);animation:late 1.6s infinite;flex:none}
-.vivo.busca{background:var(--sol);box-shadow:0 0 0 0 rgba(255,210,63,.7)}
+.vivo{width:8px;height:8px;border-radius:50%;background:var(--menta);animation:late 1.6s infinite;flex:none}
+.vivo.busca{background:var(--sol)}
 .vivo.off{background:var(--muted);animation:none}
-@keyframes late{70%{box-shadow:0 0 0 9px rgba(61,245,167,0)}100%{box-shadow:0 0 0 0 rgba(61,245,167,0)}}
-.btn-act{display:flex;align-items:center;gap:6px;padding:9px 14px;border-radius:999px;background:var(--lima);color:#0b2410;font-weight:700;font-size:13px;flex:none;transition:transform .15s}
+@keyframes late{0%{box-shadow:0 0 0 0 rgba(61,245,167,.7)}70%{box-shadow:0 0 0 9px rgba(61,245,167,0)}100%{box-shadow:0 0 0 0 rgba(61,245,167,0)}}
+.idioma{display:flex;border:1px solid var(--line);border-radius:999px;padding:3px;flex:none;background:var(--card)}
+.idioma button{padding:6px 10px;border-radius:999px;font-size:12.5px;font-weight:700;color:var(--sub);transition:all .25s}
+.idioma button.on{background:var(--txt);color:var(--bg)}
+.btn-act{padding:9px 14px;border-radius:999px;background:var(--lima);color:#0b2410;font-weight:800;font-size:13px;flex:none;transition:transform .15s;position:relative;overflow:hidden}
 .btn-act:active{transform:scale(.94)}
-.btn-act svg{width:16px;height:16px}
-.btn-act.gira svg{animation:gira .9s linear infinite}
+.btn-act.gira::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:40%;background:#0b2410;animation:barrita 1s ease-in-out infinite}
+@keyframes barrita{0%{left:-40%}100%{left:100%}}
+@media (max-width:420px){.marca h1{font-size:17px}.btn-act{padding:9px 11px}}
 
-/* Cinta de titulares */
 .cinta{overflow:hidden;border-top:1px solid var(--line);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
-.cinta div{display:inline-flex;gap:36px;padding:8px 0;white-space:nowrap;animation:corre 60s linear infinite;font-size:13px;color:var(--sub)}
-.cinta b{color:var(--lima);font-weight:600}
+.cinta div{display:inline-flex;gap:40px;padding:8px 0;white-space:nowrap;animation:corre 70s linear infinite;font-size:13px;color:var(--sub)}
+.cinta b{color:var(--lima);font-weight:700;margin-right:6px}
 @keyframes corre{to{transform:translateX(-50%)}}
 
-/* Secciones */
 section{display:none;padding:18px 0 8px;animation:entra .45s ease}
 section.on{display:block}
 @keyframes entra{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-.saludo{font-size:clamp(26px,7vw,38px);line-height:1.05;margin:4px 0 6px}
+.saludo{font-size:clamp(26px,7vw,40px);line-height:1.05;margin:4px 0 6px}
 .saludo em{font-style:normal;background:linear-gradient(90deg,var(--lima),var(--menta),var(--turq));-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200%;animation:brillo 6s ease infinite}
 @keyframes brillo{50%{background-position:100%}}
-.fecha-hoy{color:var(--sub);font-size:14px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.bajada{color:var(--sub);font-size:14.5px;line-height:1.5;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .reloj{font-variant-numeric:tabular-nums;color:var(--txt);font-weight:600;padding:3px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
-.tit{display:flex;align-items:center;justify-content:space-between;margin:26px 0 12px}
-.tit h2{font-size:20px}
-.tit small{color:var(--muted);font-size:12px}
+.tit{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:28px 0 12px}
+.tit h2{font-size:21px}
+.tit small{color:var(--muted);font-size:12px;white-space:nowrap}
+.tit h2 .pulso{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--coral);margin-right:8px;vertical-align:middle;animation:late 1.6s infinite}
 
-.tarjeta{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;position:relative;overflow:hidden}
-.grid{display:grid;gap:12px}
-.g2{grid-template-columns:1fr 1fr}
-@media (max-width:420px){.g2{grid-template-columns:1fr}}
+/* Foto con crédito */
+.foto{position:relative;overflow:hidden;background:linear-gradient(135deg,#0f3d2a,#0b2a3a)}
+.foto img{width:100%;height:100%;object-fit:cover;transition:transform 6s ease,opacity .6s;opacity:0}
+.foto img.ok{opacity:1}
+.foto .cred{position:absolute;right:8px;bottom:6px;font-size:10px;color:rgba(255,255,255,.85);background:rgba(0,0,0,.45);padding:2px 7px;border-radius:6px;max-width:80%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;backdrop-filter:blur(4px)}
+.sinfoto{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--disp);font-weight:800;font-size:44px;color:rgba(255,255,255,.12);letter-spacing:-.03em}
 
 /* Contadores */
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
-.stat{padding:14px 12px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-align:center}
-.stat b{display:block;font-family:"Bricolage Grotesque",Inter,system-ui,sans-serif;font-size:28px;line-height:1;font-variant-numeric:tabular-nums}
-.stat span{font-size:11.5px;color:var(--sub)}
-.stat:nth-child(1) b{color:var(--lima)}.stat:nth-child(2) b{color:var(--turq)}.stat:nth-child(3) b{color:var(--coral)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:16px}
+.stat{padding:13px 8px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-align:center}
+.stat b{display:block;font-family:var(--disp);font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
+.stat span{font-size:11px;color:var(--sub)}
+.stat:nth-child(1) b{color:var(--lima)}.stat:nth-child(2) b{color:var(--turq)}.stat:nth-child(3) b{color:var(--coral)}.stat:nth-child(4) b{color:var(--sol)}
 
-/* Novedades */
-.nuevo{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:16px;background:linear-gradient(110deg,rgba(198,244,50,.18),rgba(61,245,167,.08));border:1px solid rgba(198,244,50,.35);margin-top:16px}
-.nuevo .num{font-family:"Bricolage Grotesque",Inter,system-ui,sans-serif;font-size:30px;font-weight:800;color:var(--lima);min-width:36px;text-align:center}
-.nuevo p{font-size:14px;color:var(--sub)}.nuevo p b{color:var(--txt)}
+.aviso{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:16px;background:linear-gradient(110deg,rgba(198,244,50,.18),rgba(61,245,167,.08));border:1px solid rgba(198,244,50,.35);margin-top:14px}
+.aviso .num{font-family:var(--disp);font-size:30px;font-weight:800;color:var(--lima);min-width:34px;text-align:center}
+.aviso p{font-size:14px;color:var(--sub)}.aviso p b{color:var(--txt)}
 
-/* Carrusel "Está pasando" */
-.carrusel{position:relative;min-height:220px;border-radius:24px;overflow:hidden;border:1px solid var(--line)}
-.slide{position:absolute;inset:0;padding:22px;display:flex;flex-direction:column;justify-content:flex-end;opacity:0;transform:scale(1.04);transition:opacity .7s,transform .9s;pointer-events:none}
-.slide.on{opacity:1;transform:none;pointer-events:auto}
-.slide .fondo{position:absolute;inset:0;z-index:-1}
-.slide .emoji{position:absolute;right:-10px;top:-14px;font-size:150px;opacity:.22;transform:rotate(-12deg);animation:balancea 6s ease-in-out infinite}
-@keyframes balancea{50%{transform:rotate(-4deg) translateY(8px)}}
-.pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:999px;background:rgba(0,0,0,.35);width:max-content;margin-bottom:10px}
-.slide h3{font-size:clamp(20px,5.4vw,26px);line-height:1.15;margin-bottom:8px}
-.slide p{font-size:14px;color:rgba(255,255,255,.85);line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.puntos{position:absolute;left:22px;right:22px;top:16px;display:flex;gap:6px;z-index:2}
-.puntos i{flex:1;height:3px;border-radius:3px;background:rgba(255,255,255,.25);overflow:hidden}
+/* Carrusel con fotos reales */
+.carrusel{position:relative;height:min(64vw,400px);min-height:280px;border-radius:24px;overflow:hidden;border:1px solid var(--line)}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity .8s;pointer-events:none}
+.slide.on{opacity:1;pointer-events:auto}
+.slide .foto{position:absolute;inset:0}
+.slide.on .foto img.ok{transform:scale(1.08)}
+.slide .velo{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,0) 30%,rgba(2,12,8,.92) 100%)}
+.slide .txt{position:absolute;left:0;right:0;bottom:0;padding:20px 20px 26px}
+.pill{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:999px;background:var(--lima);color:#0b2410;margin-bottom:10px}
+.slide h3{font-size:clamp(20px,5.4vw,28px);line-height:1.15;margin-bottom:6px;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.slide p{font-size:14px;color:rgba(255,255,255,.88);line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.slide .cred{bottom:auto;top:34px}
+.puntos{position:absolute;left:20px;right:20px;top:14px;display:flex;gap:6px;z-index:2}
+.puntos i{flex:1;height:3px;border-radius:3px;background:rgba(255,255,255,.3);overflow:hidden}
 .puntos i b{display:block;height:100%;width:0;background:#fff}
 .puntos i.on b{animation:llena 7s linear forwards}
 .puntos i.ya b{width:100%}
 @keyframes llena{to{width:100%}}
 
+/* Video */
+.video{border-radius:22px;overflow:hidden;border:1px solid var(--line);background:#000}
+.video .marco{position:relative;aspect-ratio:16/9;cursor:pointer}
+.video .marco img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.video .marco:hover img{transform:scale(1.04)}
+.video .marco iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.play{position:absolute;left:50%;top:50%;width:74px;height:74px;margin:-37px 0 0 -37px;border-radius:50%;background:rgba(198,244,50,.95);box-shadow:0 0 0 0 rgba(198,244,50,.6);animation:latePlay 2s infinite}
+.play::after{content:"";position:absolute;left:29px;top:22px;border-left:22px solid #0b2410;border-top:15px solid transparent;border-bottom:15px solid transparent}
+@keyframes latePlay{70%{box-shadow:0 0 0 18px rgba(198,244,50,0)}100%{box-shadow:0 0 0 0 rgba(198,244,50,0)}}
+.video .info{padding:14px 16px;background:var(--card)}
+.video .info h3{font-family:Inter;font-size:15.5px;font-weight:700;letter-spacing:0;line-height:1.35}
+.video .info span{font-size:12px;color:var(--muted)}
+.gvid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media (max-width:560px){.gvid{grid-template-columns:1fr}}
+
 /* Dato y cuenta regresiva */
-.dato{background:linear-gradient(140deg,rgba(34,211,238,.18),rgba(182,156,255,.12));border-color:rgba(34,211,238,.3)}
-.dato .ico{font-size:34px;display:inline-block;animation:salta 2.4s ease-in-out infinite}
-@keyframes salta{50%{transform:translateY(-6px) rotate(6deg)}}
-.dato h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--turq);margin:8px 0 6px}
-.dato p{font-size:15px;line-height:1.45}
-.cuenta{background:linear-gradient(140deg,rgba(255,122,89,.2),rgba(255,210,63,.1));border-color:rgba(255,122,89,.32)}
-.cuenta h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--coral);margin-bottom:6px}
-.cuenta .ev{font-family:"Bricolage Grotesque",Inter,system-ui,sans-serif;font-size:19px;font-weight:700;line-height:1.2;margin-bottom:12px}
-.dig{display:flex;gap:8px}
-.dig div{flex:1;text-align:center;padding:8px 4px;border-radius:12px;background:rgba(0,0,0,.25)}
-.dig b{display:block;font-family:"Bricolage Grotesque",Inter,system-ui,sans-serif;font-size:24px;font-variant-numeric:tabular-nums}
+.grid{display:grid;gap:12px}
+.g2{grid-template-columns:1fr 1fr}
+@media (max-width:560px){.g2{grid-template-columns:1fr}}
+.tfoto{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--line);min-height:210px;display:flex;flex-direction:column;justify-content:flex-end}
+.tfoto>.foto{position:absolute;inset:0}
+.tfoto .velo{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(2,12,8,.9))}
+.tfoto .cont{position:relative;padding:18px}
+.etq{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.09em;color:var(--lima);margin-bottom:6px}
+.tfoto p.grande{font-family:var(--disp);font-size:20px;font-weight:700;line-height:1.25}
+.dig{display:flex;gap:8px;margin-top:12px}
+.dig div{flex:1;text-align:center;padding:8px 4px;border-radius:12px;background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
+.dig b{display:block;font-family:var(--disp);font-size:24px;font-variant-numeric:tabular-nums}
 .dig span{font-size:10.5px;color:var(--sub);text-transform:uppercase}
 
-/* Reto verde */
-.reto{display:flex;gap:14px;align-items:center;background:linear-gradient(120deg,rgba(61,245,167,.16),rgba(198,244,50,.08));border-color:rgba(61,245,167,.35)}
-.reto .ico{font-size:40px;flex:none}
-.reto h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--menta)}
-.reto p{font-size:16px;font-weight:600;margin:4px 0 10px;line-height:1.35}
-.reto button{padding:9px 16px;border-radius:999px;background:var(--menta);color:#05301c;font-weight:700;font-size:14px;transition:transform .15s}
+/* Reto */
+.reto{border-color:rgba(61,245,167,.4)}
+.reto .etq{color:var(--menta)}
+.reto button{margin-top:12px;padding:10px 18px;border-radius:999px;background:var(--menta);color:#05301c;font-weight:800;font-size:14px;transition:transform .15s}
 .reto button:active{transform:scale(.93)}
-.reto button.hecho{background:transparent;border:1px solid var(--menta);color:var(--menta)}
-.racha{font-size:13px;color:var(--sub);margin-left:8px}
+.reto button.hecho{background:rgba(0,0,0,.4);border:1px solid var(--menta);color:var(--menta)}
+.racha{font-size:13px;color:var(--sub);margin-left:10px}
 .chispa{position:fixed;width:10px;height:10px;border-radius:3px;pointer-events:none;z-index:99;animation:vuela 1.1s ease-out forwards}
 @keyframes vuela{to{transform:translate(var(--x),var(--y)) rotate(540deg);opacity:0}}
 
-/* Lista de noticias */
-.buscador{display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:16px;background:var(--card2);border:1px solid var(--line)}
+/* Galería */
+.galeria{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px}
+.galeria::-webkit-scrollbar{display:none}
+.galeria a{flex:none;width:68%;max-width:300px;aspect-ratio:4/5;border-radius:18px;overflow:hidden;scroll-snap-align:start;border:1px solid var(--line)}
+.galeria .foto{width:100%;height:100%}
+.galeria a:hover img.ok{transform:scale(1.06)}
+
+/* Noticias */
+.buscador{display:flex;align-items:center;gap:10px;padding:13px 16px;border-radius:16px;background:var(--card2);border:1px solid var(--line)}
 .buscador input{flex:1;background:none;border:0;color:var(--txt);font:inherit;font-size:16px;outline:none;min-width:0}
 .buscador input::placeholder{color:var(--muted)}
 .chips{display:flex;gap:8px;margin:12px 0 4px;overflow-x:auto;scrollbar-width:none}
 .chips::-webkit-scrollbar{display:none}
-.chip{padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:13.5px;font-weight:600;white-space:nowrap;transition:all .2s}
+.chip{padding:8px 15px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:13.5px;font-weight:600;white-space:nowrap;transition:all .2s}
 .chip.on{background:var(--txt);color:var(--bg);border-color:var(--txt)}
 .lista{display:grid;gap:10px;margin-top:12px}
-.nota{display:flex;gap:14px;padding:14px;border-radius:18px;background:var(--card);border:1px solid var(--line);transition:transform .2s,background .2s;opacity:0;animation:aparece .5s ease forwards}
+.nota{display:flex;gap:14px;padding:12px;border-radius:18px;background:var(--card);border:1px solid var(--line);transition:transform .2s,background .2s;opacity:0;animation:aparece .5s ease forwards}
 .nota:active{transform:scale(.985);background:var(--card2)}
 @keyframes aparece{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-.nota .ic{width:52px;height:52px;flex:none;border-radius:14px;display:grid;place-items:center;font-size:26px}
-.nota h3{font-family:Inter;font-size:15px;font-weight:600;line-height:1.35;letter-spacing:0}
+.nota .foto{width:104px;height:104px;flex:none;border-radius:14px}
+.nota .foto .cred{font-size:8.5px;right:4px;bottom:4px;padding:1px 5px}
+.nota .sinfoto{font-size:22px}
+.nota h3{font-family:Inter;font-size:15px;font-weight:600;line-height:1.35;letter-spacing:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .nota p{font-size:13px;color:var(--sub);line-height:1.4;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .meta{display:flex;gap:8px;align-items:center;margin-top:8px;font-size:12px;color:var(--muted);flex-wrap:wrap}
 .tag{padding:2px 8px;border-radius:999px;font-weight:700;font-size:11px}
 .tag.wwf{background:rgba(198,244,50,.16);color:var(--lima)}
 .tag.prensa{background:rgba(255,122,89,.16);color:var(--coral)}
 .tag.nuevo-t{background:var(--lima);color:#0b2410}
-.vacio{text-align:center;padding:30px 10px;color:var(--sub)}
-.esq{height:82px;border-radius:18px;background:linear-gradient(90deg,var(--card) 0%,var(--card2) 50%,var(--card) 100%);background-size:200%;animation:brillo 1.4s linear infinite}
+.tag.idi{background:rgba(255,255,255,.08);color:var(--sub)}
+.vacio{text-align:center;padding:30px 10px;color:var(--sub);line-height:1.5}
+.esq{height:128px;border-radius:18px;background:linear-gradient(90deg,var(--card) 0%,var(--card2) 50%,var(--card) 100%);background-size:200%;animation:brillo 1.4s linear infinite}
 
-/* Regiones */
-.region{border-radius:22px;padding:18px;min-height:150px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;border:1px solid var(--line);transition:transform .25s}
+/* Regiones y frentes con foto */
+.region{position:relative;border-radius:22px;min-height:220px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;justify-content:flex-end;transition:transform .25s}
 .region:active{transform:scale(.98)}
-.region .emoji{position:absolute;right:-6px;top:-10px;font-size:84px;opacity:.35;transition:transform .5s}
-.region:hover .emoji{transform:scale(1.15) rotate(-8deg)}
-.region h3{font-size:22px}
-.region p{font-size:13.5px;color:rgba(255,255,255,.85);margin-top:6px;line-height:1.4}
-.region .mas{font-size:12px;font-weight:700;margin-top:10px;opacity:.9}
-.lineas{display:flex;flex-wrap:wrap;gap:8px}
-.linea{display:inline-flex;align-items:center;gap:6px;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;transition:all .2s}
-.linea:hover,.linea:active{background:var(--card2);transform:translateY(-2px)}
+.region>.foto{position:absolute;inset:0}
+.region:hover img.ok{transform:scale(1.07)}
+.region .velo{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 20%,rgba(2,12,8,.92))}
+.region .cont{position:relative;padding:18px}
+.region h3{font-size:24px}
+.region p{font-size:13.5px;color:rgba(255,255,255,.88);margin-top:6px;line-height:1.4}
+.region .mas{display:inline-block;font-size:12px;font-weight:800;margin-top:10px;color:var(--lima)}
+.frentes{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media (max-width:560px){.frentes{grid-template-columns:repeat(2,1fr)}}
+.frente{position:relative;aspect-ratio:1;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+.frente>.foto{position:absolute;inset:0}
+.frente .velo{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(2,12,8,.9))}
+.frente b{position:absolute;left:12px;right:12px;bottom:12px;font-family:var(--disp);font-size:16px;line-height:1.15}
+.frente:hover img.ok{transform:scale(1.08)}
+.frente .cred{display:none}
 
 /* Ayudar */
-.accion{display:flex;gap:14px;align-items:center;padding:16px;border-radius:20px;border:1px solid var(--line);background:var(--card);transition:transform .2s}
+.accion{display:flex;gap:14px;align-items:center;padding:12px;border-radius:20px;border:1px solid var(--line);background:var(--card);transition:transform .2s}
 .accion:active{transform:scale(.98)}
-.accion .ic{width:50px;height:50px;border-radius:16px;display:grid;place-items:center;font-size:26px;flex:none}
+.accion .foto{width:84px;height:84px;border-radius:14px;flex:none}
+.accion .foto .cred{display:none}
 .accion h3{font-family:Inter;font-size:15.5px;font-weight:700;letter-spacing:0}
-.accion p{font-size:13px;color:var(--sub);margin-top:2px;line-height:1.4}
-.accion .fl{margin-left:auto;color:var(--muted);font-size:20px}
+.accion p{font-size:13px;color:var(--sub);margin-top:3px;line-height:1.4}
 .redes{display:flex;gap:10px;flex-wrap:wrap}
 .redes a{padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-weight:600;font-size:14px}
-.compartir{width:100%;margin-top:14px;padding:16px;border-radius:18px;background:linear-gradient(90deg,#25d366,#1ebe5b);color:#05301c;font-weight:800;font-size:16px;display:flex;align-items:center;justify-content:center;gap:10px}
+.compartir{width:100%;margin-top:14px;padding:16px;border-radius:18px;background:linear-gradient(90deg,#25d366,#1ebe5b);color:#05301c;font-weight:800;font-size:16px}
 
 .pie{margin:28px 0 10px;font-size:12px;color:var(--muted);line-height:1.6;text-align:center}
 .pie b{color:var(--sub)}
 
-/* Barra inferior */
-nav{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(4,19,13,.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--line)}
-nav .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
-nav button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:7px 0;border-radius:14px;font-size:11.5px;font-weight:600;color:var(--muted);transition:all .25s;position:relative}
-nav button .e{font-size:21px;transition:transform .3s}
+nav{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:8px 8px calc(8px + env(safe-area-inset-bottom));background:rgba(4,19,13,.88);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--line)}
+nav .wrap{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;padding:0 4px}
+nav button{padding:12px 0;border-radius:14px;font-size:12.5px;font-weight:700;color:var(--muted);transition:all .25s;position:relative}
+nav button::before{content:"";position:absolute;left:30%;right:30%;top:3px;height:3px;border-radius:3px;background:var(--lima);transform:scaleX(0);transition:transform .3s}
 nav button.on{color:var(--txt);background:var(--card2)}
-nav button.on .e{transform:translateY(-2px) scale(1.12)}
-nav button .badge{position:absolute;top:2px;right:calc(50% - 22px);min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:var(--coral);color:#fff;font-size:10.5px;display:none;place-items:center}
+nav button.on::before{transform:scaleX(1)}
+nav button .badge{position:absolute;top:3px;right:6px;min-width:17px;height:17px;padding:0 5px;border-radius:9px;background:var(--coral);color:#fff;font-size:10px;display:none;place-items:center}
 nav button .badge.v{display:grid}
 
-.toast{position:fixed;left:50%;bottom:96px;transform:translateX(-50%) translateY(20px);opacity:0;background:var(--txt);color:var(--bg);padding:11px 18px;border-radius:999px;font-weight:600;font-size:14px;z-index:60;transition:all .35s;pointer-events:none;white-space:nowrap;max-width:92vw;overflow:hidden;text-overflow:ellipsis}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);opacity:0;background:var(--txt);color:var(--bg);padding:11px 18px;border-radius:999px;font-weight:600;font-size:14px;z-index:60;transition:all .35s;pointer-events:none;white-space:nowrap;max-width:92vw;overflow:hidden;text-overflow:ellipsis}
 .toast.v{opacity:1;transform:translateX(-50%)}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -204,84 +238,91 @@ nav button .badge.v{display:grid}
 
 <header>
   <div class="wrap top">
-    <div class="logo"><span>🌎</span></div>
     <div class="marca">
-      <h1>Naturaleza al Día</h1>
-      <small><i class="vivo busca" id="luz"></i><span id="estado">Buscando novedades en vivo…</span></small>
+      <h1>Naturaleza <span data-t="alDia">al Día</span></h1>
+      <small><i class="vivo busca" id="luz"></i><span id="estado"></span></small>
     </div>
-    <button class="btn-act" id="btnAct" aria-label="Actualizar">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>
-      Actualizar
-    </button>
+    <div class="idioma" role="group" aria-label="Idioma / Language">
+      <button data-lang="es">ES</button><button data-lang="en">EN</button>
+    </div>
+    <button class="btn-act" id="btnAct" data-t="actualizar">Actualizar</button>
   </div>
-  <div class="cinta"><div id="cinta"><span>Cargando titulares de WWF Colombia…</span></div></div>
+  <div class="cinta"><div id="cinta"><span data-t="cargando"></span></div></div>
 </header>
 
 <main class="wrap">
   <!-- HOY -->
   <section id="hoy" class="on">
-    <h2 class="saludo" id="saludo">Hola</h2>
-    <div class="fecha-hoy"><span id="fechaHoy"></span><span class="reloj" id="reloj">--:--</span></div>
+    <h2 class="saludo" id="saludo"></h2>
+    <div class="bajada"><span id="fechaHoy"></span><span class="reloj" id="reloj">--:--</span></div>
 
     <div class="stats">
-      <div class="stat"><b data-n="0" id="nWWF">0</b><span>de WWF</span></div>
-      <div class="stat"><b data-n="0" id="nPrensa">0</b><span>en la prensa</span></div>
-      <div class="stat"><b data-n="0" id="nMes">0</b><span>este mes</span></div>
+      <div class="stat"><b data-n="0" id="nWWF">0</b><span data-t="sWWF"></span></div>
+      <div class="stat"><b data-n="0" id="nPrensa">0</b><span data-t="sPrensa"></span></div>
+      <div class="stat"><b data-n="0" id="nVideos">0</b><span data-t="sVideos"></span></div>
+      <div class="stat"><b data-n="0" id="nFotos">0</b><span data-t="sFotos"></span></div>
     </div>
+    <div class="aviso" id="novedades"></div>
 
-    <div class="nuevo" id="novedades" style="display:none"></div>
-
-    <div class="tit"><h2>🔴 Está pasando</h2><small>toca para leer</small></div>
+    <div class="tit"><h2><i class="pulso"></i><span data-t="pasando"></span></h2><small data-t="toca"></small></div>
     <div class="carrusel" id="carrusel"></div>
 
+    <div class="tit"><h2 data-t="videoDia"></h2><small id="vidFecha"></small></div>
+    <div id="videoDia"></div>
+
     <div class="grid g2" style="margin-top:14px">
-      <div class="tarjeta dato"><span class="ico" id="datoIco">🦜</span><h3>Dato del día</h3><p id="dato"></p></div>
-      <div class="tarjeta cuenta"><h3>Próxima fecha verde</h3><div class="ev" id="evNombre"></div>
-        <div class="dig"><div><b id="dD">0</b><span>días</span></div><div><b id="dH">0</b><span>horas</span></div><div><b id="dM">0</b><span>min</span></div></div>
-      </div>
+      <div class="tfoto" id="tDato"><div class="foto"></div><div class="velo"></div><div class="cont"><div class="etq" data-t="dato"></div><p class="grande" id="dato"></p></div></div>
+      <div class="tfoto" id="tCuenta"><div class="foto"></div><div class="velo"></div><div class="cont"><div class="etq" style="color:var(--coral)" data-t="proxFecha"></div><p class="grande" id="evNombre"></p>
+        <div class="dig"><div><b id="dD">0</b><span data-t="dias"></span></div><div><b id="dH">0</b><span data-t="horas"></span></div><div><b id="dM">0</b><span data-t="min"></span></div></div></div></div>
     </div>
 
-    <div class="tit"><h2>🌱 Tu reto verde de hoy</h2></div>
-    <div class="tarjeta reto">
-      <div class="ico" id="retoIco">♻️</div>
-      <div><h3>Reto del día</h3><p id="reto"></p><button id="btnReto">¡Lo hice! 💪</button><span class="racha" id="racha"></span></div>
-    </div>
+    <div class="tfoto reto" id="tReto" style="margin-top:12px"><div class="foto"></div><div class="velo"></div><div class="cont"><div class="etq" data-t="reto"></div><p class="grande" id="reto"></p><button id="btnReto"></button><span class="racha" id="racha"></span></div></div>
 
-    <div class="tit"><h2>⚡ Lo más reciente</h2><small id="revisado"></small></div>
+    <div class="tit"><h2 data-t="recientes"></h2><small id="revisado"></small></div>
     <div class="lista" id="recientes"><div class="esq"></div><div class="esq"></div><div class="esq"></div></div>
+
+    <div class="tit"><h2 data-t="galeria"></h2><small data-t="desliza"></small></div>
+    <div class="galeria" id="galeria"></div>
   </section>
 
   <!-- NOTICIAS -->
   <section id="noticias">
-    <h2 class="saludo">Todas las <em>noticias</em></h2>
-    <p class="fecha-hoy">De wwf.org.co y de la prensa que habla de WWF en Colombia.</p>
-    <div style="margin-top:16px" class="buscador">🔎<input id="q" type="search" placeholder="Buscar: jaguar, Amazonia, COP17…" autocomplete="off"></div>
+    <h2 class="saludo" data-t="hNoticias" data-html></h2>
+    <p class="bajada" data-t="bNoticias"></p>
+    <div style="margin-top:16px" class="buscador"><input id="q" type="search" autocomplete="off"></div>
     <div class="chips" id="filtros">
-      <button class="chip on" data-f="todo">Todo</button>
-      <button class="chip" data-f="wwf">🐼 WWF Colombia</button>
-      <button class="chip" data-f="prensa">📰 Prensa</button>
-      <button class="chip" data-f="nuevo">✨ Nuevas para ti</button>
+      <button class="chip on" data-f="todo" data-t="fTodo"></button>
+      <button class="chip" data-f="wwf">WWF Colombia</button>
+      <button class="chip" data-f="prensa" data-t="fPrensa"></button>
+      <button class="chip" data-f="nuevo" data-t="fNuevo"></button>
     </div>
     <div class="lista" id="todas"></div>
   </section>
 
+  <!-- VIDEOS -->
+  <section id="videos">
+    <h2 class="saludo" data-t="hVideos" data-html></h2>
+    <p class="bajada" data-t="bVideos"></p>
+    <div class="gvid" style="margin-top:16px" id="listaVideos"></div>
+  </section>
+
   <!-- COLOMBIA -->
   <section id="colombia">
-    <h2 class="saludo">Dónde y qué hace <em>WWF</em> en Colombia</h2>
-    <p class="fecha-hoy">Cuatro regiones y doce frentes de trabajo. Toca cualquiera para ver lo que WWF publica.</p>
+    <h2 class="saludo" data-t="hColombia" data-html></h2>
+    <p class="bajada" data-t="bColombia"></p>
     <div class="grid g2" style="margin-top:16px" id="regiones"></div>
-    <div class="tit"><h2>🧭 Frentes de trabajo</h2></div>
-    <div class="lineas" id="lineas"></div>
-    <div class="tit"><h2>🗺️ Expediciones y especiales</h2></div>
+    <div class="tit"><h2 data-t="frentes"></h2></div>
+    <div class="frentes" id="lineas"></div>
+    <div class="tit"><h2 data-t="especiales"></h2></div>
     <div class="grid" id="especiales"></div>
   </section>
 
   <!-- AYUDAR -->
   <section id="ayudar">
-    <h2 class="saludo">Tú también <em>cuentas</em></h2>
-    <p class="fecha-hoy">Formas reales de apoyar a la naturaleza, directo en los canales oficiales de WWF Colombia.</p>
+    <h2 class="saludo" data-t="hAyudar" data-html></h2>
+    <p class="bajada" data-t="bAyudar"></p>
     <div class="grid" style="margin-top:16px" id="acciones"></div>
-    <div class="tit"><h2>📲 Sigue a WWF Colombia</h2></div>
+    <div class="tit"><h2 data-t="siguelos"></h2></div>
     <div class="redes">
       <a href="https://instagram.com/wwf_colombia" target="_blank" rel="noopener">Instagram</a>
       <a href="https://facebook.com/WWFColombia" target="_blank" rel="noopener">Facebook</a>
@@ -289,18 +330,19 @@ nav button .badge.v{display:grid}
       <a href="https://youtube.com/wwfcolombia" target="_blank" rel="noopener">YouTube</a>
       <a href="https://www.linkedin.com/company/wwf---colombia/" target="_blank" rel="noopener">LinkedIn</a>
     </div>
-    <button class="compartir" id="btnComp">💬 Compartir esta app por WhatsApp</button>
+    <button class="compartir" id="btnComp" data-t="compartir"></button>
   </section>
 
-  <p class="pie">App ciudadana <b>no oficial</b> hecha por <b>Vibras Positivas HM</b> para que más gente siga el trabajo de WWF Colombia.<br>Las noticias y enlaces vienen de <a href="https://www.wwf.org.co/" target="_blank" rel="noopener"><b>wwf.org.co</b></a> y de medios de prensa. Hora de Colombia (UTC−5).</p>
+  <p class="pie" data-t="pie" data-html></p>
 </main>
 
 <nav>
   <div class="wrap">
-    <button class="on" data-s="hoy"><span class="e">☀️</span>Hoy</button>
-    <button data-s="noticias"><span class="e">📰</span>Noticias<span class="badge" id="badge"></span></button>
-    <button data-s="colombia"><span class="e">🌿</span>Colombia</button>
-    <button data-s="ayudar"><span class="e">💚</span>Ayudar</button>
+    <button class="on" data-s="hoy" data-t="nHoy"></button>
+    <button data-s="noticias"><span data-t="nNoticias"></span><span class="badge" id="badge"></span></button>
+    <button data-s="videos" data-t="nVideos"></button>
+    <button data-s="colombia" data-t="nColombia"></button>
+    <button data-s="ayudar" data-t="nAyudar"></button>
   </div>
 </nav>
 <div class="toast" id="toast"></div>
@@ -314,124 +356,173 @@ const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } 
 const leer = (k, d) => { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } };
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
 
-// ===== Hora de Colombia =====
+// ===================== Idiomas =====================
+let L = leer('nad_lang', (navigator.language || 'es').toLowerCase().startsWith('es') ? 'es' : 'en');
+const T = {
+  es: {
+    alDia:'al Día', actualizar:'Actualizar', cargando:'Cargando titulares de WWF Colombia…', buscando:'Buscando novedades en vivo…',
+    enVivo:h=>`En vivo · revisado ${h}`, robot:r=>`Al día según el robot · ${r}`, sinCon:'sin conexión', revisado:h=>`revisado ${h}`,
+    buenos:['Buenos días','Buenas tardes','Buenas noches'], naturaleza:'naturaleza',
+    sWWF:'de WWF', sPrensa:'en prensa', sVideos:'videos', sFotos:'fotos',
+    bienvenida:'<b>¡Bienvenido!</b> Desde hoy te aviso qué hay de nuevo cada vez que entres.',
+    nuevas:(n,c)=>`<b>${n===1?'noticia nueva':'noticias nuevas'}</b> desde tu última visita${c}.`, alDiaTxt:c=>`<b>Estás al día.</b> Nada nuevo desde tu última visita${c}.`,
+    pasando:'Está pasando', toca:'toca para leer', videoDia:'Video del día', dato:'Dato del día', proxFecha:'Próxima fecha verde', hoyEs:'¡Es hoy!',
+    dias:'días', horas:'horas', min:'min', reto:'Tu reto verde de hoy', hice:'¡Lo hice!', cumplido:'Cumplido hoy', racha:n=>`Racha: ${n} ${n===1?'día':'días'}`,
+    recientes:'Lo más reciente', galeria:'Galería de WWF Colombia', desliza:'desliza',
+    hNoticias:'Todas las <em>noticias</em>', bNoticias:'Lo que publica wwf.org.co y lo que dice la prensa sobre WWF en Colombia.',
+    buscar:'Buscar: jaguar, Amazonia, COP17…', fTodo:'Todo', fPrensa:'Prensa', fNuevo:'Nuevas para ti',
+    hVideos:'Videos <em>reales</em>', bVideos:'Del canal oficial de WWF Colombia en YouTube. Toca para verlos aquí mismo.',
+    hColombia:'Dónde y qué hace <em>WWF</em> en Colombia', bColombia:'Cuatro regiones y doce frentes de trabajo, con fotos reales de wwf.org.co.',
+    frentes:'Frentes de trabajo', especiales:'Expediciones y especiales', verWWF:'Ver en WWF',
+    hAyudar:'Tú también <em>cuentas</em>', bAyudar:'Formas reales de apoyar a la naturaleza, en los canales oficiales de WWF Colombia.',
+    siguelos:'Sigue a WWF Colombia', compartir:'Compartir esta app por WhatsApp',
+    pie:'App ciudadana <b>no oficial</b> hecha por <b>Vibras Positivas HM</b> para que más gente siga el trabajo de WWF Colombia.<br>Noticias, fotos y videos vienen de <a href="https://www.wwf.org.co/" target="_blank" rel="noopener"><b>wwf.org.co</b></a>, su canal de YouTube y medios de prensa; cada foto lleva su crédito. Hora de Colombia (UTC−5).',
+    nHoy:'Hoy', nNoticias:'Noticias', nVideos:'Videos', nColombia:'Colombia', nAyudar:'Ayudar',
+    nueva:'NUEVA', reciente:'reciente', original:'original en español', vacioLista:'No encontré noticias con eso. Prueba otra palabra.', vacioNuevo:'No hay nada nuevo desde tu última visita.',
+    sinVideos:'Los videos llegan con el robot en la próxima actualización. Mientras tanto, mira el canal:', abrirCanal:'Abrir YouTube de WWF Colombia',
+    sinNoticias:'Aún no hay noticias. Toca Actualizar.', leerWWF:'Toca para leer la nota completa en wwf.org.co',
+    tNuevas:n=>`${n} noticia(s) nueva(s)`, tAlDia:'Todo al día', tOffline:'Sin conexión en vivo: mostrando lo del robot', tReto:'¡Grande! La Tierra te lo agradece', tYaReto:'Ya cumpliste el reto de hoy',
+    shareTxt:u=>`Naturaleza al Día: noticias, fotos y videos de WWF Colombia, actualizados solitos. ${u}`,
+    hace:{min:n=>`hace ${n} min`,h:n=>`hace ${n} h`,ayer:'ayer',d:n=>`hace ${n} días`}
+  },
+  en: {
+    alDia:'Today', actualizar:'Refresh', cargando:'Loading WWF Colombia headlines…', buscando:'Checking for live updates…',
+    enVivo:h=>`Live · checked ${h}`, robot:r=>`Up to date via robot · ${r}`, sinCon:'offline', revisado:h=>`checked ${h}`,
+    buenos:['Good morning','Good afternoon','Good evening'], naturaleza:'nature lovers',
+    sWWF:'from WWF', sPrensa:'in the press', sVideos:'videos', sFotos:'photos',
+    bienvenida:'<b>Welcome!</b> From now on I will show you what is new every time you come back.',
+    nuevas:(n,c)=>`<b>new ${n===1?'story':'stories'}</b> since your last visit${c}.`, alDiaTxt:c=>`<b>You are up to date.</b> Nothing new since your last visit${c}.`,
+    pasando:'Happening now', toca:'tap to read', videoDia:'Video of the day', dato:'Fact of the day', proxFecha:'Next green date', hoyEs:'It is today!',
+    dias:'days', horas:'hours', min:'min', reto:'Your green challenge today', hice:'I did it!', cumplido:'Done today', racha:n=>`Streak: ${n} ${n===1?'day':'days'}`,
+    recientes:'Latest', galeria:'WWF Colombia gallery', desliza:'swipe',
+    hNoticias:'All the <em>news</em>', bNoticias:'What wwf.org.co publishes and what the press says about WWF in Colombia.',
+    buscar:'Search: jaguar, Amazon, COP17…', fTodo:'All', fPrensa:'Press', fNuevo:'New for you',
+    hVideos:'<em>Real</em> videos', bVideos:'From the official WWF Colombia YouTube channel. Tap to watch right here.',
+    hColombia:'Where and how <em>WWF</em> works in Colombia', bColombia:'Four regions and twelve areas of work, with real photos from wwf.org.co.',
+    frentes:'Areas of work', especiales:'Expeditions and specials', verWWF:'See on WWF',
+    hAyudar:'You <em>count</em> too', bAyudar:'Real ways to support nature, through WWF Colombia’s official channels.',
+    siguelos:'Follow WWF Colombia', compartir:'Share this app on WhatsApp',
+    pie:'An <b>unofficial</b> citizen app made by <b>Vibras Positivas HM</b> so more people can follow WWF Colombia’s work.<br>News, photos and videos come from <a href="https://www.wwf.org.co/en/" target="_blank" rel="noopener"><b>wwf.org.co</b></a>, its YouTube channel and the press; every photo keeps its credit. Colombia time (UTC−5).',
+    nHoy:'Today', nNoticias:'News', nVideos:'Videos', nColombia:'Colombia', nAyudar:'Help',
+    nueva:'NEW', reciente:'recent', original:'original in Spanish', vacioLista:'No stories match that. Try another word.', vacioNuevo:'Nothing new since your last visit.',
+    sinVideos:'Videos arrive with the robot on its next update. Meanwhile, visit the channel:', abrirCanal:'Open WWF Colombia on YouTube',
+    sinNoticias:'No stories yet. Tap Refresh.', leerWWF:'Tap to read the full story on wwf.org.co',
+    tNuevas:n=>`${n} new stor${n===1?'y':'ies'}`, tAlDia:'All up to date', tOffline:'No live connection: showing the robot’s data', tReto:'Great! The Earth thanks you', tYaReto:'You already did today’s challenge',
+    shareTxt:u=>`Naturaleza al Día: WWF Colombia news, photos and videos, updated automatically. ${u}`,
+    hace:{min:n=>`${n} min ago`,h:n=>`${n} h ago`,ayer:'yesterday',d:n=>`${n} days ago`}
+  }
+};
+const t = (k, ...a) => { const v = T[L][k]; return typeof v === 'function' ? v(...a) : v; };
+const loc = () => L === 'es' ? 'es-CO' : 'en-US';
+const tx = (it, campo) => (L === 'en' && it[campo + '_en']) ? it[campo + '_en'] : it[campo];
+
+// ===================== Hora de Colombia =====================
 const partes = (d = new Date()) => Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: TZ, year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit', hourCycle:'h23' }).formatToParts(d).map(p => [p.type, p.value]));
 const hoyCO = () => { const p = partes(); return `${p.year}-${p.month}-${p.day}`; };
-const fechaLarga = d => new Intl.DateTimeFormat('es-CO', { timeZone: TZ, weekday:'long', day:'numeric', month:'long', year:'numeric' }).format(d);
-const fechaCorta = iso => iso ? new Intl.DateTimeFormat('es-CO', { timeZone: TZ, day:'numeric', month:'short', year:'numeric' }).format(new Date(iso)) : '';
-const horaCO = d => new Intl.DateTimeFormat('es-CO', { timeZone: TZ, hour:'numeric', minute:'2-digit' }).format(d);
+const fechaCorta = iso => iso ? new Intl.DateTimeFormat(loc(), { timeZone: TZ, day:'numeric', month:'short', year:'numeric' }).format(new Date(iso)) : '';
+const horaCO = d => new Intl.DateTimeFormat(loc(), { timeZone: TZ, hour:'numeric', minute:'2-digit' }).format(d);
 function relativo(iso) {
   if (!iso) return '';
-  const s = (Date.now() - new Date(iso)) / 1000;
+  const s = (Date.now() - new Date(iso)) / 1000, h = T[L].hace;
   if (s < 0) return fechaCorta(iso);
-  if (s < 3600) return `hace ${Math.max(1, Math.round(s / 60))} min`;
-  if (s < 86400) return `hace ${Math.round(s / 3600)} h`;
+  if (s < 3600) return h.min(Math.max(1, Math.round(s / 60)));
+  if (s < 86400) return h.h(Math.round(s / 3600));
   const d = Math.round(s / 86400);
-  if (d === 1) return 'ayer';
-  if (d < 30) return `hace ${d} días`;
-  return fechaCorta(iso);
+  if (d === 1) return h.ayer;
+  return d < 30 ? h.d(d) : fechaCorta(iso);
 }
 
-// ===== Temas → emoji y color (sin fotos) =====
-const TEMAS = [
-  [/jaguar|felino|puma/i, '🐆', '#f59e0b'], [/ballena|delf[ií]n|oc[eé]ano|mar\b|marin|pesca|manglar|coral/i, '🌊', '#0ea5e9'],
-  [/amazon/i, '🌳', '#16a34a'], [/bosque|deforest|[aá]rbol|selva/i, '🌲', '#15803d'], [/agua|r[ií]o|p[aá]ramo|humedal|cuenca/i, '💧', '#0891b2'],
-  [/ni[ñn]o|sequ[ií]a|incendio|calor/i, '🔥', '#ea580c'], [/clima|carbono|emisi|energ/i, '🌡️', '#dc2626'], [/cop1|cumbre|acuerdo|declaraci/i, '🤝', '#7c3aed'],
-  [/planeta vivo|informe|datos|cifras/i, '📊', '#2563eb'], [/joven|estudiant|ni[ñn]os|sabidur/i, '🎓', '#db2777'], [/pl[aá]stic|residuo|basura/i, '♻️', '#65a30d'],
-  [/alimento|ganad|agro|cultivo|caf[eé]|cacao/i, '🌾', '#ca8a04'], [/ave|p[aá]jaro|especie|fauna|silvestre/i, '🦜', '#059669'], [/ciudad|urban|medell|bogot/i, '🏙️', '#475569'],
-  [/congreso|ley|elecci|pol[ií]tic/i, '🏛️', '#9333ea']
-];
-const tema = t => { for (const [re, e, c] of TEMAS) if (re.test(t)) return { e, c }; return { e: '🌎', c: '#10b981' }; };
-
-// ===== Contenido fijo (de wwf.org.co) =====
+// ===================== Contenido fijo (de wwf.org.co) =====================
 const REGIONES = [
-  { n:'Amazonia', e:'🌳', c:'linear-gradient(150deg,#14532d,#16a34a)', t:'El gran bosque que regula el clima y el agua de medio continente. Frenar la deforestación es la prioridad.', u:'https://www.wwf.org.co/_donde_trabajamos_/amazonas/' },
-  { n:'Andes', e:'⛰️', c:'linear-gradient(150deg,#1e3a8a,#0891b2)', t:'Páramos y bosques de niebla: de aquí sale el agua que toman millones de colombianos.', u:'https://www.wwf.org.co/_donde_trabajamos_/andes/' },
-  { n:'Orinoquia', e:'🌾', c:'linear-gradient(150deg,#78350f,#ca8a04)', t:'Sabanas, morichales y llanos donde la producción y la naturaleza tienen que convivir.', u:'https://www.wwf.org.co/_donde_trabajamos_/orinoquia/' },
-  { n:'Pacífico', e:'🐋', c:'linear-gradient(150deg,#0c4a6e,#0d9488)', t:'Selva, manglares y mar: ballenas, tortugas y comunidades que viven de la pesca artesanal.', u:'https://www.wwf.org.co/_donde_trabajamos_/pacifico/' }
+  { k:'amazonia', es:['Amazonia','El gran bosque que regula el clima y el agua de medio continente. Frenar la deforestación es la prioridad.'], en:['Amazon','The great forest that regulates climate and water for half a continent. Stopping deforestation is the priority.'], u:'_donde_trabajamos_/amazonas/' },
+  { k:'andes', es:['Andes','Páramos y bosques de niebla: de aquí sale el agua que toman millones de colombianos.'], en:['Andes','Páramos and cloud forests: the water millions of Colombians drink starts here.'], u:'_donde_trabajamos_/andes/' },
+  { k:'orinoquia', es:['Orinoquia','Sabanas, morichales y llanos, cerca del 22% del país, donde la producción y la naturaleza tienen que convivir.'], en:['Orinoquia','Savannas, palm swamps and plains, about 22% of the country, where farming and nature must coexist.'], u:'_donde_trabajamos_/orinoquia/' },
+  { k:'pacifico', es:['Pacífico','Selva, manglares y mar del Chocó-Darién: ballenas, tortugas y comunidades que viven de la pesca artesanal.'], en:['Pacific','Rainforest, mangroves and sea in the Chocó-Darién: whales, turtles and communities that live from small-scale fishing.'], u:'_donde_trabajamos_/pacifico/' }
 ];
 const LINEAS = [
-  ['🌲','Bosques','bosques/'], ['🦜','Vida silvestre','especies/'], ['🌡️','Clima y energía','cambio_climatico_y_energia/'], ['🌊','Océanos','oceanos/'],
-  ['🌾','Alimentos','alimentos/'], ['💧','Agua','agua/'], ['🤝','Comunidades','comunidades_/'], ['♻️','Plásticos','plasticos/'],
-  ['🎓','Jóvenes','jovenes/'], ['📣','WWF al Clima','wwf_al_clima/'], ['🏢','Corporativo','corporativo/'], ['🏞️','Áreas protegidas','areas_protegidas/']
+  ['bosques','Bosques','Forests','bosques/'], ['especies','Vida silvestre','Wildlife','especies/'], ['clima','Clima y energía','Climate & energy','cambio_climatico_y_energia/'],
+  ['oceanos','Océanos','Oceans','oceanos/'], ['alimentos','Alimentos','Food','alimentos/'], ['agua','Agua','Water','agua/'],
+  ['comunidades','Comunidades','Communities','comunidades_/'], ['plasticos','Plásticos','Plastics','plasticos/'], ['jovenes','Jóvenes','Youth','jovenes/'],
+  ['wwfclima','WWF al Clima','WWF for Climate','wwf_al_clima/'], ['corporativo','Corporativo','Business','corporativo/'], ['areas','Áreas protegidas','Protected areas','areas_protegidas/']
 ];
 const ESPECIALES = [
-  ['🏔️','Expedición Picachos','Una expedición científica a la Cordillera de los Picachos.','https://www.wwf.org.co/expediciones_/expedicion_picachos/','#7c3aed'],
-  ['🛶','Expedición Guaviare','Exploración de la biodiversidad del Guaviare.','https://www.wwf.org.co/expediciones_/expedicion_guaviare/','#0891b2'],
-  ['📊','Informe Planeta Vivo 2026','El gran informe de WWF sobre el estado de la vida silvestre del mundo.','https://livingplanet.panda.org/es-CO/','#2563eb'],
-  ['🏛️','Naturaleza en el Congreso','Balance de lo que hizo el Congreso 2022–2026 por la naturaleza.','https://www.wwf.org.co/de_interes/balance_del_congreso_2022_2026/','#9333ea'],
-  ['🗳️','Y la Naturaleza qué','La naturaleza en las elecciones de Colombia 2026.','https://www.wwf.org.co/de_interes/elecciones-colombia-2026/','#db2777'],
-  ['🏙️','Climate Week Medellín 2026','La primera Semana del Clima de Medellín.','https://www.wwf.org.co/de_interes/climate_week_medellin_2026/','#475569'],
-  ['🌑','La Hora del Planeta','Apagar la luz una hora para encender la conversación.','https://www.wwf.org.co/de_interes/la_hora_del_planeta/','#0f172a'],
-  ['📚','Publicaciones','Informes y resultados de WWF Colombia y sus aliados.','https://www.wwf.org.co/de_interes/publicaciones/','#065f46']
+  ['picachos','Expedición Picachos','Una expedición científica a la Cordillera de los Picachos.','Picachos Expedition','A scientific expedition to the Cordillera de los Picachos.','https://www.wwf.org.co/expediciones_/expedicion_picachos/'],
+  ['guaviare','Expedición Guaviare','Exploración de la biodiversidad del Guaviare.','Guaviare Expedition','Exploring the biodiversity of Guaviare.','https://www.wwf.org.co/expediciones_/expedicion_guaviare/'],
+  ['planetavivo','Informe Planeta Vivo 2026','El gran informe de WWF sobre el estado de la vida silvestre del mundo.','Living Planet Report 2026','WWF’s flagship report on the state of the world’s wildlife.','https://livingplanet.panda.org/es-CO/'],
+  ['congreso','Naturaleza en el Congreso','Balance de lo que hizo el Congreso 2022–2026 por la naturaleza.','Nature in Congress','A review of what Congress 2022–2026 did for nature.','https://www.wwf.org.co/de_interes/balance_del_congreso_2022_2026/'],
+  ['elecciones','Y la Naturaleza qué','La naturaleza en las elecciones de Colombia 2026.','What about Nature?','Nature in Colombia’s 2026 elections.','https://www.wwf.org.co/de_interes/elecciones-colombia-2026/'],
+  ['climateweek','Climate Week Medellín 2026','La primera Semana del Clima de Medellín.','Climate Week Medellín 2026','Medellín’s first Climate Week.','https://www.wwf.org.co/de_interes/climate_week_medellin_2026/'],
+  ['horaplaneta','La Hora del Planeta','Apagar la luz una hora para encender la conversación.','Earth Hour','Switch off for an hour to switch on the conversation.','https://www.wwf.org.co/de_interes/la_hora_del_planeta/'],
+  ['publicaciones','Publicaciones','Informes y resultados de WWF Colombia y sus aliados.','Publications','Reports and results from WWF Colombia and partners.','https://www.wwf.org.co/de_interes/publicaciones/']
 ];
 const ACCIONES = [
-  ['💚','Dona','Tu aporte financia la conservación en Colombia.','https://www.wwf.org.co/_como_ayudar_/dona/','#16a34a'],
-  ['🐆','Adopta un jaguar','Adopción simbólica para proteger al felino más grande de América.','https://donacion.wwf.org.co/especies/jaguar/','#f59e0b'],
-  ['🐢','Adopta una especie','Elige la especie que quieres ayudar a proteger.','https://www.wwf.org.co/_como_ayudar_/adopta_una_especie/','#0d9488'],
-  ['🛍️','Panda Market','Productos con causa: lo que compras apoya a WWF.','https://www.wwf.org.co/_como_ayudar_/panda_market/','#db2777'],
-  ['🎓','Curso gratis: Somos Biodiversidad','Aprende cómo tus decisiones diarias ayudan a la vida.','https://wwfaprende.com/p/somos-biodiversidad','#7c3aed'],
-  ['💧','Custodia del agua','Plataforma para cuidar el agua de tu territorio.','https://plataformadecustodiadelagua.org/','#0891b2'],
-  ['✉️','Suscríbete','Recibe en tu correo las noticias de WWF Colombia.','https://www.wwf.org.co/_como_ayudar_/suscribete/','#475569']
+  ['dona','Dona','Tu aporte financia la conservación en Colombia.','Donate','Your gift funds conservation in Colombia.','https://www.wwf.org.co/_como_ayudar_/dona/'],
+  ['especies','Adopta un jaguar','Adopción simbólica para proteger al felino más grande de América.','Adopt a jaguar','A symbolic adoption to protect the Americas’ largest cat.','https://donacion.wwf.org.co/especies/jaguar/'],
+  ['adopta','Adopta una especie','Elige la especie que quieres ayudar a proteger.','Adopt a species','Choose the species you want to help protect.','https://www.wwf.org.co/_como_ayudar_/adopta_una_especie/'],
+  ['pandamarket','Panda Market','Productos con causa: lo que compras apoya a WWF.','Panda Market','Products with a cause: what you buy supports WWF.','https://www.wwf.org.co/_como_ayudar_/panda_market/'],
+  ['jovenes','Curso gratis: Somos Biodiversidad','Aprende cómo tus decisiones diarias ayudan a la vida.','Free course: We Are Biodiversity','Learn how your daily choices help life on Earth.','https://wwfaprende.com/p/somos-biodiversidad'],
+  ['agua','Custodia del agua','Plataforma para cuidar el agua de tu territorio.','Water stewardship','A platform to care for the water in your territory.','https://plataformadecustodiadelagua.org/'],
+  ['suscribete','Suscríbete','Recibe en tu correo las noticias de WWF Colombia.','Subscribe','Get WWF Colombia news in your inbox.','https://www.wwf.org.co/_como_ayudar_/suscribete/']
 ];
 const DATOS = [
-  ['🦜','Colombia es el país con más especies de aves del mundo: más de 1.900.'],
-  ['🌸','Colombia es primero en el mundo en orquídeas, con más de 4.000 especies.'],
-  ['🦋','Colombia también es primero en mariposas: más de 3.600 especies.'],
-  ['⛰️','Colombia tiene cerca de la mitad de los páramos del planeta. Son esponjas gigantes que guardan y entregan agua.'],
-  ['🌳','La Amazonia ocupa más de un tercio del territorio colombiano.'],
-  ['🐋','Entre julio y octubre, las ballenas jorobadas llegan al Pacífico colombiano a tener sus crías.'],
-  ['🐆','El jaguar es el felino más grande de América y vive en casi todas las regiones de Colombia.'],
-  ['🌊','Colombia tiene costas en dos océanos: el Pacífico y el Atlántico (mar Caribe).'],
-  ['🌿','Los manglares frenan el oleaje, protegen las costas y guardan muchísimo carbono.'],
-  ['🐬','El delfín rosado vive en los ríos de la Amazonia y la Orinoquia.'],
-  ['💧','Buena parte del agua que toma Bogotá nace en el páramo de Chingaza.'],
-  ['🌎','Colombia es uno de los pocos países megadiversos del planeta.'],
-  ['🏞️','El río Cauca, que pasa por Caucasia, es el segundo río más importante de Colombia.'],
-  ['🛍️','Una bolsa plástica se usa minutos y puede tardar cientos de años en desaparecer.']
+  ['especies','Colombia es el país con más especies de aves del mundo: más de 1.900.','Colombia has more bird species than any other country: over 1,900.'],
+  ['bosques','Colombia es primero en el mundo en orquídeas, con más de 4.000 especies.','Colombia ranks first in the world for orchids, with over 4,000 species.'],
+  ['especies','Colombia también es primero en mariposas: más de 3.600 especies.','Colombia also ranks first for butterflies: over 3,600 species.'],
+  ['andes','Colombia tiene cerca de la mitad de los páramos del planeta: esponjas gigantes que guardan y entregan agua.','Colombia holds about half of the world’s páramos: giant sponges that store and release water.'],
+  ['amazonia','La Amazonia ocupa más de un tercio del territorio colombiano.','The Amazon covers more than a third of Colombia.'],
+  ['pacifico','Entre julio y octubre, las ballenas jorobadas llegan al Pacífico colombiano a tener sus crías.','Between July and October, humpback whales reach Colombia’s Pacific coast to give birth.'],
+  ['especies','El jaguar es el felino más grande de América.','The jaguar is the largest cat in the Americas.'],
+  ['oceanos','Colombia tiene costas en dos océanos: el Pacífico y el Atlántico (mar Caribe).','Colombia has coastlines on two oceans: the Pacific and the Atlantic (Caribbean Sea).'],
+  ['oceanos','Los manglares frenan el oleaje, protegen las costas y guardan muchísimo carbono.','Mangroves break waves, protect coasts and store huge amounts of carbon.'],
+  ['orinoquia','El delfín rosado vive en los ríos de la Amazonia y la Orinoquia.','The pink river dolphin lives in the rivers of the Amazon and Orinoquia.'],
+  ['agua','Buena parte del agua que toma Bogotá nace en el páramo de Chingaza.','Much of Bogotá’s drinking water comes from the Chingaza páramo.'],
+  ['areas','Colombia es uno de los pocos países megadiversos del planeta.','Colombia is one of the few megadiverse countries on Earth.'],
+  ['agua','El río Cauca, que pasa por Caucasia, es el segundo río más importante de Colombia.','The Cauca River, which flows through Caucasia, is Colombia’s second most important river.'],
+  ['plasticos','Una bolsa plástica se usa minutos y puede tardar cientos de años en desaparecer.','A plastic bag is used for minutes and can take hundreds of years to break down.']
 ];
 const RETOS = [
-  ['🛍️','Sal hoy con tu bolsa reutilizable y di "no gracias" a la bolsa plástica.'],
-  ['💡','Apaga luces y desconecta cargadores que no estés usando.'],
-  ['🚿','Cierra la llave mientras te enjabonas o te cepillas los dientes.'],
-  ['🦜','Nunca compres animales silvestres: en Colombia es delito y los saca de su casa.'],
-  ['♻️','Separa la basura: aprovechables, orgánicos y no aprovechables.'],
-  ['🚶','Haz caminando o en bici un trayecto corto que harías en moto o carro.'],
-  ['🥭','Compra fruta y comida de productores de tu región.'],
-  ['🏞️','Recoge cinco basuras que encuentres en la calle, el río o la quebrada.'],
-  ['🌱','Averigua qué árbol nativo puedes sembrar en tu barrio o finca.'],
-  ['🔥','No quemes basura ni rastrojo: con El Niño, una chispa es un incendio.'],
-  ['🥤','Lleva tu propio termo o botella y rellénala todo el día.'],
-  ['📲','Comparte esta app con tres personas para que se enteren de la naturaleza.']
+  ['plasticos','Sal hoy con tu bolsa reutilizable y di "no gracias" a la bolsa plástica.','Take your reusable bag today and say "no thanks" to plastic bags.'],
+  ['clima','Apaga luces y desconecta cargadores que no estés usando.','Switch off lights and unplug chargers you are not using.'],
+  ['agua','Cierra la llave mientras te enjabonas o te cepillas los dientes.','Turn off the tap while you lather up or brush your teeth.'],
+  ['especies','Nunca compres animales silvestres: en Colombia es delito y los saca de su casa.','Never buy wild animals: in Colombia it is a crime and it takes them from their home.'],
+  ['plasticos','Separa la basura: aprovechables, orgánicos y no aprovechables.','Sort your waste: recyclables, organics and non-recyclables.'],
+  ['clima','Haz caminando o en bici un trayecto corto que harías en moto o carro.','Walk or bike one short trip you would normally take by motorbike or car.'],
+  ['alimentos','Compra fruta y comida de productores de tu región.','Buy fruit and food from local producers.'],
+  ['agua','Recoge cinco basuras que encuentres en la calle, el río o la quebrada.','Pick up five pieces of litter from the street, river or stream.'],
+  ['bosques','Averigua qué árbol nativo puedes sembrar en tu barrio o finca.','Find out which native tree you could plant in your neighborhood or farm.'],
+  ['bosques','No quemes basura ni rastrojo: con El Niño, una chispa es un incendio.','Do not burn trash or brush: with El Niño, one spark is a wildfire.'],
+  ['oceanos','Lleva tu propio termo o botella y rellénala todo el día.','Carry your own bottle and refill it all day.'],
+  ['comunidades','Comparte esta app con tres personas para que se enteren de la naturaleza.','Share this app with three people so they can follow nature news.']
 ];
 function fechasVerdes(anio) {
-  const d = (m, dia, n) => ({ n, f: new Date(Date.UTC(anio, m, dia, 5)) }); // 00:00 en Bogotá
-  const marzo = new Date(Date.UTC(anio, 2, 31, 5)); while (marzo.getUTCDay() !== 6) marzo.setUTCDate(marzo.getUTCDate() - 1);
+  const d = (m, dia, es, en) => ({ es, en, f: new Date(Date.UTC(anio, m, dia, 5)) }); // 00:00 en Bogotá
+  const hp = new Date(Date.UTC(anio, 2, 31, 5)); while (hp.getUTCDay() !== 6) hp.setUTCDate(hp.getUTCDate() - 1);
   return [
-    d(2,3,'Día Mundial de la Vida Silvestre'), d(2,21,'Día Internacional de los Bosques'), d(2,22,'Día Mundial del Agua'),
-    { n:'La Hora del Planeta', f: marzo }, d(3,22,'Día de la Tierra'), d(4,22,'Día de la Diversidad Biológica'),
-    d(5,5,'Día Mundial del Medio Ambiente'), d(5,8,'Día Mundial de los Océanos'), d(6,3,'Día Internacional Libre de Bolsas Plásticas'),
-    d(6,26,'Día del Manglar'), d(8,16,'Día de la Capa de Ozono'), d(9,24,'Día Internacional contra el Cambio Climático'),
-    d(10,29,'Día Internacional del Jaguar'), d(11,5,'Día Mundial del Suelo'), d(11,11,'Día Internacional de las Montañas')
+    d(2,3,'Día Mundial de la Vida Silvestre','World Wildlife Day'), d(2,21,'Día Internacional de los Bosques','International Day of Forests'), d(2,22,'Día Mundial del Agua','World Water Day'),
+    { es:'La Hora del Planeta', en:'Earth Hour', f: hp }, d(3,22,'Día de la Tierra','Earth Day'), d(4,22,'Día de la Diversidad Biológica','Biodiversity Day'),
+    d(5,5,'Día Mundial del Medio Ambiente','World Environment Day'), d(5,8,'Día Mundial de los Océanos','World Oceans Day'), d(6,3,'Día Internacional Libre de Bolsas Plásticas','Plastic Bag Free Day'),
+    d(6,26,'Día del Manglar','Mangrove Day'), d(8,16,'Día de la Capa de Ozono','Ozone Day'), d(9,24,'Día Internacional contra el Cambio Climático','International Day Against Climate Change'),
+    d(10,29,'Día Internacional del Jaguar','International Jaguar Day'), d(11,5,'Día Mundial del Suelo','World Soil Day'), d(11,11,'Día Internacional de las Montañas','International Mountain Day')
   ];
 }
 
-// ===== Datos =====
-let DATA = { wwf: [], prensa: [] };
-let vivo = { wwf: [], prensa: [] };
-const ULTIMA = leer('nad_ultima', null);           // visita anterior
-const VISTAS = new Set(leer('nad_vistas', []));     // noticias que ya viste (para "Nuevas para ti")
+// ===================== Datos =====================
+let DATA = { wwf: [], prensa: [], videos: [], media: { paginas: {}, galeria: [] } };
+let vivo = { wwf: [], prensa: [], fotos: [] };
+const ULTIMA = leer('nad_ultima', null);
+const VISTAS = new Set(leer('nad_vistas', []));
 setTimeout(() => guardar('nad_ultima', new Date().toISOString()), 8000);
+const clave = s => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim().slice(0, 70);
+const llave = it => it.id || clave(it.titulo);
 let tVistas; const marcarVistas = () => { clearTimeout(tVistas); tVistas = setTimeout(() => guardar('nad_vistas', [...new Set([...todas().map(llave), ...VISTAS])].slice(0, 800)), 6000); };
+const esNueva = it => VISTAS.size > 0 && !VISTAS.has(llave(it));
 
-const clave = t => (t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim().slice(0, 70);
 function unir(...listas) {
   const m = new Map();
   for (const it of listas.flat()) {
     if (!it || !it.titulo) continue;
-    const k = it.id || clave(it.titulo);
-    const p = m.get(k);
-    m.set(k, p ? { ...it, ...p, fecha: p.fecha || it.fecha, resumen: (p.resumen || '').length >= (it.resumen || '').length ? p.resumen : it.resumen, destacada: p.destacada || it.destacada } : it);
+    const k = it.id || clave(it.titulo); const p = m.get(k);
+    m.set(k, p ? { ...it, ...p, fecha: p.fecha || it.fecha, imagen: p.imagen || it.imagen, credito: p.credito || it.credito, resumen: (p.resumen || '').length >= (it.resumen || '').length ? p.resumen : it.resumen, destacada: p.destacada || it.destacada } : it);
   }
   const vistos = new Set(); const out = [];
   for (const it of [...m.values()].sort((a, b) => (b.fecha || b.primeraVez || '').localeCompare(a.fecha || a.primeraVez || ''))) {
@@ -439,20 +530,33 @@ function unir(...listas) {
   }
   return out;
 }
-const todasWWF = () => unir(vivo.wwf, DATA.wwf || []);
-const todasPrensa = () => { const w = new Set(todasWWF().map(i => clave(i.titulo))); return unir(vivo.prensa, DATA.prensa || []).filter(i => !w.has(clave(i.titulo))); };
+const todasWWF = () => unir(DATA.wwf || [], vivo.wwf);
+const todasPrensa = () => { const w = new Set(todasWWF().map(i => clave(i.titulo))); return unir(DATA.prensa || [], vivo.prensa).filter(i => !w.has(clave(i.titulo))); };
 const todas = () => unir(todasWWF(), todasPrensa());
-const llave = it => it.id || clave(it.titulo);
-const esNueva = it => VISTAS.size > 0 && !VISTAS.has(llave(it));
+const pagina = k => ((DATA.media || {}).paginas || {})[k];
+function galeria() {
+  const g = new Map();
+  for (const f of [...((DATA.media || {}).galeria || []), ...vivo.fotos, ...todasWWF().filter(i => i.imagen).map(i => ({ img: i.imagen, credito: i.credito, pagina: i.enlace }))])
+    if (f && f.img && !g.has(f.img)) g.set(f.img, f);
+  return [...g.values()];
+}
+const nHash = s => { let h = 0; for (const c of String(s)) h = (h * 31 + c.charCodeAt(0)) | 0; return Math.abs(h); };
+// foto real para una clave: la de su página en wwf.org.co o, si no hay, una de la galería
+function fotoPara(k, semilla) {
+  const p = pagina(k); if (p && p.img) return p;
+  const g = galeria(); return g.length ? g[nHash(semilla || k) % g.length] : null;
+}
+function fotoHTML(f, letra) {
+  if (!f || !f.img) return `<div class="foto"><span class="sinfoto">${esc(letra || '')}</span></div>`;
+  return `<div class="foto"><img src="${esc(f.img)}" alt="${esc(f.alt || '')}" loading="lazy" referrerpolicy="no-referrer" onload="this.classList.add('ok')" onerror="this.remove()">${f.credito ? `<span class="cred">${esc(f.credito)}</span>` : ''}</div>`;
+}
+function ponerFoto(sel, f, letra) { const el = $(sel + ' > .foto'); if (el) el.outerHTML = fotoHTML(f, letra); }
 
 async function cargarRobot() {
-  try {
-    const r = await fetch('data/noticias.json?t=' + Date.now(), { cache: 'no-store' });
-    if (r.ok) DATA = await r.json();
-  } catch {}
+  try { const r = await fetch('data/noticias.json?t=' + Date.now(), { cache: 'no-store' }); if (r.ok) DATA = { ...DATA, ...(await r.json()) }; } catch {}
 }
 
-// ===== Búsqueda en vivo (a través de proxies públicos) =====
+// ===================== Búsqueda en vivo =====================
 const PROXIES = [
   u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
   u => 'https://corsproxy.io/?url=' + encodeURIComponent(u),
@@ -460,36 +564,35 @@ const PROXIES = [
 ];
 async function traer(url) {
   for (const p of PROXIES) {
-    const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 9000);
-    try {
-      const r = await fetch(p(url), { signal: ctl.signal, cache: 'no-store' });
-      clearTimeout(t);
-      if (r.ok) { const x = await r.text(); if (x && x.length > 200) return x; }
-    } catch { clearTimeout(t); }
+    const ctl = new AbortController(); const tm = setTimeout(() => ctl.abort(), 9000);
+    try { const r = await fetch(p(url), { signal: ctl.signal, cache: 'no-store' }); clearTimeout(tm); if (r.ok) { const x = await r.text(); if (x && x.length > 200) return x; } }
+    catch { clearTimeout(tm); }
   }
   throw new Error('sin respuesta');
 }
 const MESES = { ene:0,jan:0,feb:1,mar:2,abr:3,apr:3,may:4,jun:5,jul:6,ago:7,aug:7,sep:8,set:8,oct:9,nov:10,dic:11,dec:11 };
-const fechaES = t => { const m = String(t).match(/(\d{1,2})\s+([A-Za-zé]{3})[a-zé]*\.?\s+(?:de\s+)?(\d{4})/); if (!m) return null; const mm = MESES[m[2].toLowerCase().slice(0,3)]; return mm == null ? null : new Date(Date.UTC(+m[3], mm, +m[1], 17)).toISOString(); };
+const fechaES = s => { const m = String(s).match(/(\d{1,2})\s+([A-Za-zé]{3})[a-zé]*\.?\s+(?:de\s+)?(\d{4})/); if (!m) return null; const mm = MESES[m[2].toLowerCase().slice(0,3)]; return mm == null ? null : new Date(Date.UTC(+m[3], mm, +m[1], 17)).toISOString(); };
+const FOTO_OK = u => /\.(jpe?g|png|webp)(\?|$)/i.test(u) && !/logo|icon|sprite|ajax-loader|_skins|pixel|blank|avatar|flag/i.test(u);
+const imgDe = el => { const i = el && el.querySelector('img'); if (!i) return ''; const s = i.getAttribute('data-src') || i.getAttribute('src') || ''; const u = s ? new URL(s, 'https://www.wwf.org.co/').href : ''; return FOTO_OK(u) ? u : ''; };
+const credDe = el => { const m = (el && el.textContent || '').match(/©\s*([^\n©]{2,60}?)(?=\s{2}|\s\d{1,2}\s\w{3}\s\d{4}|$)/); return m ? '© ' + m[1].trim() : ''; };
 function parseWWF(html) {
   const doc = new DOMParser().parseFromString(html, 'text/html');
+  for (const i of doc.querySelectorAll('img')) { const s = i.getAttribute('data-src') || i.getAttribute('src') || ''; if (!s) continue; const u = new URL(s, 'https://www.wwf.org.co/').href; if (FOTO_OK(u)) { let n = i.parentElement, c = ''; for (let k = 0; k < 3 && n && !c; k++, n = n.parentElement) c = credDe(n); vivo.fotos.push({ img: u, credito: c || '© WWF', alt: i.getAttribute('alt') || '', pagina: 'https://www.wwf.org.co/' }); } }
   const out = new Map();
   for (const a of doc.querySelectorAll('a[href]')) {
     const href = a.getAttribute('href'); const m = href.match(/\?(\d{5,7})(?:%2F|\/)/); if (!m) continue;
     const id = 'wwf-' + m[1]; const txt = a.textContent.replace(/\s+/g, ' ').trim();
     let titulo = (a.querySelector('strong,b,h1,h2,h3,h4') || {}).textContent?.trim() || '';
     let resumen = titulo ? txt.split(titulo).slice(1).join(' ').trim() : '';
-    let destacada = false;
+    let imagen = imgDe(a), credito = credDe(a), destacada = false;
     if (titulo.length < 15) {
-      destacada = true;
-      let n = a.parentElement, h = null;
+      destacada = true; let n = a.parentElement, h = null;
       for (let i = 0; i < 4 && n && !h; i++, n = n.parentElement) h = n.querySelector('h1,h2,h3,h4');
-      if (h) { titulo = h.textContent.trim(); const p = h.parentElement.querySelector('p'); resumen = p ? p.textContent.trim() : ''; }
+      if (h) { titulo = h.textContent.trim(); const box = h.parentElement; const p = box.querySelector('p'); resumen = p ? p.textContent.trim() : ''; imagen = imagen || imgDe(box) || imgDe(box.parentElement); credito = credito || credDe(box.parentElement); }
     }
     if (!titulo || titulo.length < 12) continue;
-    const u = new URL(href, 'https://www.wwf.org.co/').href;
     const prev = out.get(id) || {};
-    out.set(id, { id, titulo: prev.titulo || titulo, resumen: (prev.resumen || resumen).replace(/^©[^A-ZÁÉÍÓÚ¿¡]*/, '').slice(0, 280), fecha: prev.fecha || fechaES(txt), enlace: prev.enlace || u, fuente: 'WWF Colombia', tipo: 'wwf', destacada: prev.destacada || destacada });
+    out.set(id, { id, titulo: prev.titulo || titulo, resumen: (prev.resumen || resumen).replace(/^©[^A-ZÁÉÍÓÚ¿¡]*/, '').slice(0, 280), fecha: prev.fecha || fechaES(txt), imagen: prev.imagen || imagen, credito: prev.credito || credito || (imagen ? '© WWF' : ''), enlace: prev.enlace || new URL(href, 'https://www.wwf.org.co/').href, fuente: 'WWF Colombia', tipo: 'wwf', destacada: prev.destacada || destacada });
   }
   return [...out.values()];
 }
@@ -499,92 +602,85 @@ function parseRSS(xml) {
     const g = n => it.querySelector(n)?.textContent?.trim() || '';
     const fuente = g('source') || 'Prensa'; let titulo = g('title');
     if (titulo.endsWith(' - ' + fuente)) titulo = titulo.slice(0, -(fuente.length + 3));
-    const pub = g('pubDate'); const enlace = g('link');
-    return { id: 'prensa-' + clave(titulo).slice(0, 40), titulo, resumen: '', fecha: pub ? new Date(pub).toISOString() : null, enlace, fuente, tipo: 'prensa' };
+    const pub = g('pubDate');
+    return { id: 'prensa-' + clave(titulo).slice(0, 40), titulo, resumen: '', fecha: pub ? new Date(pub).toISOString() : null, enlace: g('link'), fuente, tipo: 'prensa' };
   }).filter(i => i.titulo && i.enlace);
 }
 let buscando = false;
 async function enVivo(manual) {
   if (buscando) return; buscando = true;
-  const luz = $('#luz'); luz.className = 'vivo busca'; $('#estado').textContent = 'Buscando novedades en vivo…';
-  $('#btnAct').classList.add('gira');
+  $('#luz').className = 'vivo busca'; $('#estado').textContent = t('buscando'); $('#btnAct').classList.add('gira');
   await cargarRobot(); pintar();
-  const tareas = [
-    traer('https://www.wwf.org.co/').then(h => { vivo.wwf = unir(vivo.wwf, parseWWF(h)); return 1; }),
-    traer('https://news.google.com/rss/search?q=%22WWF%22+Colombia+when:30d&hl=es-419&gl=CO&ceid=CO:es-419').then(x => { vivo.prensa = unir(vivo.prensa, parseRSS(x)); return 1; })
-  ];
-  const res = await Promise.allSettled(tareas);
+  const res = await Promise.allSettled([
+    traer(L === 'en' ? 'https://www.wwf.org.co/en/' : 'https://www.wwf.org.co/').then(h => { vivo.wwf = unir(vivo.wwf, parseWWF(h)); }),
+    traer('https://news.google.com/rss/search?q=%22WWF%22+Colombia+when:30d&hl=es-419&gl=CO&ceid=CO:es-419').then(x => { vivo.prensa = unir(vivo.prensa, parseRSS(x)); })
+  ]);
   const ok = res.filter(r => r.status === 'fulfilled').length;
-  const antes = leer('nad_total', 0); const total = todas().length;
-  guardar('nad_total', total);
-  luz.className = ok ? 'vivo' : 'vivo off';
-  const ahora = new Date();
-  $('#estado').textContent = ok ? `En vivo · revisado ${horaCO(ahora)}` : `Al día según el robot · ${DATA.actualizadoBogota ? 'actualizado ' + relativo(DATA.actualizado) : 'sin conexión'}`;
-  $('#revisado').textContent = `revisado ${horaCO(ahora)}`;
-  $('#btnAct').classList.remove('gira');
-  buscando = false;
-  pintar(); marcarVistas();
-  if (manual) toast(total > antes ? `✨ ${total - antes} noticia(s) nueva(s)` : ok ? '✅ Todo al día' : '📡 Sin conexión en vivo: mostrando lo del robot');
+  const antes = leer('nad_total', 0), total = todas().length; guardar('nad_total', total);
+  ultimoOK = ok ? new Date() : null;
+  $('#btnAct').classList.remove('gira'); buscando = false;
+  pintarEstado(); pintar(); marcarVistas();
+  if (manual) toast(total > antes ? t('tNuevas', total - antes) : ok ? t('tAlDia') : t('tOffline'));
+}
+let ultimoOK = null;
+function pintarEstado() {
+  if (buscando) return;
+  $('#luz').className = ultimoOK ? 'vivo' : 'vivo off';
+  $('#estado').textContent = ultimoOK ? t('enVivo', horaCO(ultimoOK)) : t('robot', DATA.actualizado ? relativo(DATA.actualizado) : t('sinCon'));
+  $('#revisado').textContent = t('revisado', horaCO(ultimoOK || new Date()));
 }
 
-// ===== Pintar =====
+// ===================== Pintar =====================
+const inicial = s => (s || '').trim().charAt(0).toUpperCase();
 function tarjetaNota(it, i = 0) {
-  const t = tema(it.titulo + ' ' + (it.resumen || ''));
   const nueva = esNueva(it);
+  const traducida = L === 'en' && it.titulo_en;
+  const f = it.imagen ? { img: it.imagen, credito: it.credito } : (it.tipo === 'wwf' ? null : null);
   return `<a class="nota" href="${esc(it.enlace)}" target="_blank" rel="noopener" style="animation-delay:${Math.min(i, 12) * 45}ms">
-    <div class="ic" style="background:${t.c}33;box-shadow:inset 0 0 0 1px ${t.c}66">${t.e}</div>
-    <div style="min-width:0"><h3>${esc(it.titulo)}</h3>${it.resumen ? `<p>${esc(it.resumen)}</p>` : ''}
-    <div class="meta">${nueva ? '<span class="tag nuevo-t">NUEVA</span>' : ''}<span class="tag ${it.tipo === 'prensa' ? 'prensa' : 'wwf'}">${esc(it.tipo === 'prensa' ? it.fuente : 'WWF Colombia')}</span><span>${esc(relativo(it.fecha) || 'reciente')}</span></div></div></a>`;
+    ${fotoHTML(f || fotoPara('', it.id), inicial(it.fuente))}
+    <div style="min-width:0"><h3>${esc(tx(it, 'titulo'))}</h3>${tx(it, 'resumen') ? `<p>${esc(tx(it, 'resumen'))}</p>` : ''}
+    <div class="meta">${nueva ? `<span class="tag nuevo-t">${t('nueva')}</span>` : ''}<span class="tag ${it.tipo === 'prensa' ? 'prensa' : 'wwf'}">${esc(it.tipo === 'prensa' ? it.fuente : 'WWF Colombia')}</span>${L === 'en' && !traducida ? `<span class="tag idi">${t('original')}</span>` : ''}<span>${esc(relativo(it.fecha) || t('reciente'))}</span></div></div></a>`;
 }
 function contar(el, n) {
   const desde = +el.dataset.n || 0; el.dataset.n = n; const t0 = performance.now();
-  const paso = t => { const k = Math.min(1, (t - t0) / 900); el.textContent = Math.round(desde + (n - desde) * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(paso); };
+  const paso = tt => { const k = Math.min(1, (tt - t0) / 900); el.textContent = Math.round(desde + (n - desde) * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(paso); };
   requestAnimationFrame(paso);
 }
 let filtro = 'todo';
 function pintar() {
-  const W = todasWWF(), P = todasPrensa(), T = todas();
-  const mes = hoyCO().slice(0, 7);
-  contar($('#nWWF'), W.length); contar($('#nPrensa'), P.length);
-  contar($('#nMes'), T.filter(i => i.fecha && new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year:'numeric', month:'2-digit' }).format(new Date(i.fecha)).slice(0, 7) === mes).length);
+  const W = todasWWF(), P = todasPrensa(), Tt = todas(), V = DATA.videos || [], G = galeria();
+  contar($('#nWWF'), W.length); contar($('#nPrensa'), P.length); contar($('#nVideos'), V.length); contar($('#nFotos'), G.length);
 
-  // Cinta
-  const tit = T.slice(0, 10).map(i => `<span><b>${i.tipo === 'prensa' ? '📰' : '🐼'}</b> ${esc(i.titulo)}</span>`).join('');
+  const tit = Tt.slice(0, 10).map(i => `<span><b>${i.tipo === 'prensa' ? esc(i.fuente) : 'WWF'}</b>${esc(tx(i, 'titulo'))}</span>`).join('');
   if (tit) $('#cinta').innerHTML = tit + tit;
 
-  // Novedades desde la última visita
-  const nuevas = T.filter(esNueva);
-  const nv = $('#novedades');
-  if (!VISTAS.size) { nv.style.display = 'flex'; nv.innerHTML = `<div class="num">👋</div><p><b>¡Bienvenido!</b> Desde hoy te aviso qué hay de nuevo cada vez que entres.</p>`; }
-  else if (nuevas.length) { nv.style.display = 'flex'; nv.innerHTML = `<div class="num">${nuevas.length}</div><p><b>noticia${nuevas.length > 1 ? 's' : ''} nueva${nuevas.length > 1 ? 's' : ''}</b> desde tu última visita${ULTIMA ? ' (' + esc(relativo(ULTIMA)) + ')' : ''}.</p>`; }
-  else { nv.style.display = 'flex'; nv.innerHTML = `<div class="num">✅</div><p><b>Estás al día.</b> Nada nuevo desde tu última visita${ULTIMA ? ' (' + esc(relativo(ULTIMA)) + ')' : ''}.</p>`; }
+  const nuevas = Tt.filter(esNueva);
+  const cuando = ULTIMA ? ' (' + esc(relativo(ULTIMA)) + ')' : '';
+  $('#novedades').innerHTML = !VISTAS.size ? `<p>${t('bienvenida')}</p>` : nuevas.length ? `<div class="num">${nuevas.length}</div><p>${t('nuevas', nuevas.length, cuando)}</p>` : `<p>${t('alDiaTxt', cuando)}</p>`;
   const b = $('#badge'); b.textContent = nuevas.length; b.classList.toggle('v', nuevas.length > 0);
 
-  // Carrusel
-  const dest = [...W.filter(i => i.destacada), ...W.filter(i => !i.destacada)].slice(0, 5);
-  pintarCarrusel(dest);
-
-  // Recientes y lista completa
-  $('#recientes').innerHTML = T.slice(0, 6).map(tarjetaNota).join('') || '<div class="vacio">Aún no hay noticias. Toca Actualizar.</div>';
-  pintarLista();
+  pintarCarrusel([...W.filter(i => i.destacada), ...W.filter(i => !i.destacada)].slice(0, 6));
+  pintarVideos(V);
+  pintarHoyFotos();
+  $('#recientes').innerHTML = Tt.slice(0, 6).map(tarjetaNota).join('') || `<div class="vacio">${t('sinNoticias')}</div>`;
+  $('#galeria').innerHTML = G.slice(0, 24).map(f => `<a href="${esc(f.pagina || 'https://www.wwf.org.co/')}" target="_blank" rel="noopener">${fotoHTML(f)}</a>`).join('');
+  $('#galeria').closest('section').querySelector('#galeria').previousElementSibling.style.display = G.length ? '' : 'none';
+  pintarLista(); pintarColombia(); pintarAyudar();
 }
 function pintarLista() {
   const q = clave($('#q').value);
-  let L = filtro === 'wwf' ? todasWWF() : filtro === 'prensa' ? todasPrensa() : todas();
-  if (filtro === 'nuevo') L = L.filter(esNueva);
-  if (q) L = L.filter(i => clave(i.titulo + ' ' + (i.resumen || '') + ' ' + i.fuente).includes(q));
-  $('#todas').innerHTML = L.map(tarjetaNota).join('') || `<div class="vacio">${filtro === 'nuevo' ? 'No hay nada nuevo desde tu última visita 👌' : 'No encontré noticias con eso. Prueba otra palabra.'}</div>`;
+  let Ls = filtro === 'wwf' ? todasWWF() : filtro === 'prensa' ? todasPrensa() : todas();
+  if (filtro === 'nuevo') Ls = Ls.filter(esNueva);
+  if (q) Ls = Ls.filter(i => clave([i.titulo, i.titulo_en, i.resumen, i.resumen_en, i.fuente].join(' ')).includes(q));
+  $('#todas').innerHTML = Ls.map(tarjetaNota).join('') || `<div class="vacio">${filtro === 'nuevo' ? t('vacioNuevo') : t('vacioLista')}</div>`;
 }
 let idxC = 0, timerC = null, firmaC = '';
 function pintarCarrusel(lista) {
-  const firma = lista.map(i => i.id).join();
+  const firma = L + lista.map(i => i.id + (i.imagen || '')).join() + galeria().length;
   if (firma === firmaC || !lista.length) return; firmaC = firma;
-  const c = $('#carrusel');
-  c.innerHTML = `<div class="puntos">${lista.map(() => '<i><b></b></i>').join('')}</div>` + lista.map((it, i) => {
-    const t = tema(it.titulo + ' ' + (it.resumen || ''));
-    return `<a class="slide" href="${esc(it.enlace)}" target="_blank" rel="noopener"><div class="fondo" style="background:linear-gradient(160deg,${t.c} 0%,${t.c}aa 40%,#04130d 100%)"></div><span class="emoji">${t.e}</span>
-      <span class="pill">${it.fecha ? '🗓️ ' + esc(fechaCorta(it.fecha)) : '🔴 Está pasando'}</span><h3>${esc(it.titulo)}</h3><p>${esc(it.resumen || 'Toca para leer la nota completa en wwf.org.co')}</p></a>`;
-  }).join('');
+  $('#carrusel').innerHTML = `<div class="puntos">${lista.map(() => '<i><b></b></i>').join('')}</div>` + lista.map(it =>
+    `<a class="slide" href="${esc(it.enlace)}" target="_blank" rel="noopener">${fotoHTML(it.imagen ? { img: it.imagen, credito: it.credito } : fotoPara('', it.id))}<div class="velo"></div>
+      <div class="txt"><span class="pill">${it.fecha ? esc(fechaCorta(it.fecha)) : t('pasando')}</span><h3>${esc(tx(it, 'titulo'))}</h3><p>${esc(tx(it, 'resumen') || t('leerWWF'))}</p></div></a>`).join('');
   idxC = 0; mostrarC();
 }
 function mostrarC() {
@@ -594,42 +690,70 @@ function mostrarC() {
   void p[idxC]?.offsetWidth; p[idxC]?.classList.add('on');
   clearTimeout(timerC); timerC = setTimeout(() => { idxC = (idxC + 1) % s.length; mostrarC(); }, 7000);
 }
+// Videos (YouTube con privacidad mejorada; se carga al tocar)
+function tarjetaVideo(v) {
+  const titulo = tx(v, 'titulo') || 'WWF Colombia';
+  return `<div class="video"><div class="marco" data-v="${esc(v.id)}"><img src="https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg" alt="${esc(titulo)}" loading="lazy"><span class="play"></span></div>
+    <div class="info"><h3>${esc(titulo)}</h3><span>${esc(v.canal || 'WWF Colombia')}${v.fecha ? ' · ' + esc(fechaCorta(v.fecha)) : ''}</span></div></div>`;
+}
+let firmaV = '';
+function pintarVideos(V) {
+  const firma = L + V.map(v => v.id).join();
+  if (firma === firmaV) return; firmaV = firma;
+  const sin = `<div class="vacio">${t('sinVideos')}<br><br><a class="chip on" href="https://youtube.com/wwfcolombia" target="_blank" rel="noopener">${t('abrirCanal')}</a></div>`;
+  if (!V.length) { $('#videoDia').innerHTML = sin; $('#listaVideos').innerHTML = sin; $('#vidFecha').textContent = ''; return; }
+  const v = V[diaDelAnio() % Math.min(V.length, 10)];
+  $('#videoDia').innerHTML = tarjetaVideo(v); $('#vidFecha').textContent = v.fecha ? relativo(v.fecha) : '';
+  $('#listaVideos').innerHTML = V.map(tarjetaVideo).join('');
+}
+document.addEventListener('click', e => {
+  const m = e.target.closest('.marco[data-v]'); if (!m || m.querySelector('iframe')) return;
+  m.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(m.dataset.v)}?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="WWF Colombia"></iframe>`;
+});
 
-// ===== Hoy: saludo, reloj, dato, cuenta regresiva, reto =====
+// ===================== Hoy =====================
 const diaDelAnio = () => { const [y, m, d] = hoyCO().split('-').map(Number); return Math.floor((Date.UTC(y, m - 1, d) - Date.UTC(y, 0, 0)) / 864e5); };
 function hoy() {
-  const p = partes(); const h = +p.hour;
-  $('#saludo').innerHTML = (h < 12 ? 'Buenos días' : h < 19 ? 'Buenas tardes' : 'Buenas noches') + ', <em>naturaleza</em> 🌿';
-  const f = fechaLarga(new Date()); $('#fechaHoy').textContent = f.charAt(0).toUpperCase() + f.slice(1);
+  const h = +partes().hour;
+  $('#saludo').innerHTML = esc(t('buenos')[h < 12 ? 0 : h < 19 ? 1 : 2]) + ', <em>' + esc(t('naturaleza')) + '</em>';
+  const f = new Intl.DateTimeFormat(loc(), { timeZone: TZ, weekday:'long', day:'numeric', month:'long', year:'numeric' }).format(new Date());
+  $('#fechaHoy').textContent = f.charAt(0).toUpperCase() + f.slice(1);
   const n = diaDelAnio();
-  const [di, dt] = DATOS[n % DATOS.length]; $('#datoIco').textContent = di; $('#dato').textContent = dt;
-  const [ri, rt] = RETOS[n % RETOS.length]; $('#retoIco').textContent = ri; $('#reto').textContent = rt;
-  pintarReto();
+  const d = DATOS[n % DATOS.length]; $('#dato').textContent = L === 'es' ? d[1] : d[2];
+  const r = RETOS[n % RETOS.length]; $('#reto').textContent = L === 'es' ? r[1] : r[2];
+  pintarReto(); reloj(); pintarHoyFotos(true);
+}
+let firmaHF = '';
+function pintarHoyFotos(forzar) {
+  const n = diaDelAnio(); const g = galeria().length + Object.keys((DATA.media || {}).paginas || {}).length;
+  const firma = n + '|' + g; if (firma === firmaHF && !forzar) return; firmaHF = firma;
+  ponerFoto('#tDato', fotoPara(DATOS[n % DATOS.length][0], 'dato' + n));
+  ponerFoto('#tReto', fotoPara(RETOS[n % RETOS.length][0], 'reto' + n));
+  ponerFoto('#tCuenta', fotoPara('horaplaneta', 'cuenta' + n));
 }
 function reloj() {
-  $('#reloj').textContent = new Intl.DateTimeFormat('es-CO', { timeZone: TZ, hour:'numeric', minute:'2-digit', second:'2-digit' }).format(new Date());
+  $('#reloj').textContent = new Intl.DateTimeFormat(loc(), { timeZone: TZ, hour:'numeric', minute:'2-digit', second:'2-digit' }).format(new Date());
   const ahora = new Date(); const y = +partes().year;
   const prox = [...fechasVerdes(y), ...fechasVerdes(y + 1)].filter(e => e.f.getTime() + 864e5 > ahora).sort((a, b) => a.f - b.f)[0];
-  const hoyEs = prox.f <= ahora;
-  $('#evNombre').textContent = (hoyEs ? '¡Es hoy! ' : '') + prox.n + (hoyEs ? '' : ' · ' + new Intl.DateTimeFormat('es-CO', { timeZone: TZ, day:'numeric', month:'long' }).format(prox.f));
+  const esHoy = prox.f <= ahora;
+  $('#evNombre').textContent = (esHoy ? t('hoyEs') + ' ' : '') + prox[L] + (esHoy ? '' : ' · ' + new Intl.DateTimeFormat(loc(), { timeZone: TZ, day:'numeric', month:'long' }).format(prox.f));
   const ms = Math.max(0, prox.f - ahora);
   $('#dD').textContent = Math.floor(ms / 864e5); $('#dH').textContent = Math.floor(ms / 36e5) % 24; $('#dM').textContent = Math.floor(ms / 6e4) % 60;
 }
 function pintarReto() {
-  const r = leer('nad_reto', { dias: [], racha: 0 }); const hoyD = hoyCO();
-  const hecho = r.dias.includes(hoyD);
-  const btn = $('#btnReto'); btn.textContent = hecho ? '✔ Cumplido hoy' : '¡Lo hice! 💪'; btn.classList.toggle('hecho', hecho);
-  $('#racha').textContent = r.racha ? `🔥 Racha: ${r.racha} día${r.racha > 1 ? 's' : ''}` : '';
+  const r = leer('nad_reto', { dias: [], racha: 0 }); const hecho = r.dias.includes(hoyCO());
+  const btn = $('#btnReto'); btn.textContent = hecho ? t('cumplido') : t('hice'); btn.classList.toggle('hecho', hecho);
+  $('#racha').textContent = r.racha ? t('racha', r.racha) : '';
 }
 $('#btnReto').onclick = e => {
   const r = leer('nad_reto', { dias: [], racha: 0 }); const hoyD = hoyCO();
-  if (r.dias.includes(hoyD)) return toast('Ya cumpliste el reto de hoy 🌱');
+  if (r.dias.includes(hoyD)) return toast(t('tYaReto'));
   const ayer = new Date(Date.parse(hoyD + 'T12:00:00Z') - 864e5).toISOString().slice(0, 10);
   r.racha = r.dias.includes(ayer) ? r.racha + 1 : 1; r.dias = [...r.dias.slice(-60), hoyD];
-  guardar('nad_reto', r); pintarReto(); chispas(e.clientX, e.clientY); toast('¡Grande! La Tierra te lo agradece 💚');
+  guardar('nad_reto', r); pintarReto(); chispas(e.clientX, e.clientY); toast(t('tReto'));
 };
 function chispas(x, y) {
-  const cols = ['#c6f432', '#3df5a7', '#22d3ee', '#ffd23f', '#ff7a59', '#b69cff'];
+  const cols = ['#c6f432', '#3df5a7', '#22d3ee', '#ffd23f', '#ff7a59'];
   for (let i = 0; i < 28; i++) {
     const s = document.createElement('i'); s.className = 'chispa';
     s.style.left = x + 'px'; s.style.top = y + 'px'; s.style.background = cols[i % cols.length];
@@ -639,42 +763,53 @@ function chispas(x, y) {
   }
 }
 
-// ===== Colombia y Ayudar =====
-$('#regiones').innerHTML = REGIONES.map(r => `<a class="region" href="${r.u}" target="_blank" rel="noopener" style="background:${r.c}"><span class="emoji">${r.e}</span><h3>${r.n}</h3><p>${r.t}</p><span class="mas">Ver en WWF →</span></a>`).join('');
-$('#lineas').innerHTML = LINEAS.map(([e, n, u]) => `<a class="linea" href="https://www.wwf.org.co/que_hacemos/${u}" target="_blank" rel="noopener">${e} ${n}</a>`).join('');
-const fila = ([e, n, t, u, c]) => `<a class="accion" href="${u}" target="_blank" rel="noopener"><div class="ic" style="background:${c}33;box-shadow:inset 0 0 0 1px ${c}77">${e}</div><div><h3>${n}</h3><p>${t}</p></div><span class="fl">›</span></a>`;
-$('#especiales').innerHTML = ESPECIALES.map(fila).join('');
-$('#acciones').innerHTML = ACCIONES.map(fila).join('');
+// ===================== Colombia y Ayudar =====================
+let firmaCol = '';
+function pintarColombia() {
+  const firma = L + galeria().length + Object.keys((DATA.media || {}).paginas || {}).length; if (firma === firmaCol) return; firmaCol = firma;
+  $('#regiones').innerHTML = REGIONES.map(r => `<a class="region" href="https://www.wwf.org.co/${r.u}" target="_blank" rel="noopener">${fotoHTML(fotoPara(r.k, r.k), r[L][0])}<div class="velo"></div><div class="cont"><h3>${r[L][0]}</h3><p>${r[L][1]}</p><span class="mas">${t('verWWF')}</span></div></a>`).join('');
+  $('#lineas').innerHTML = LINEAS.map(([k, es, en, u]) => `<a class="frente" href="https://www.wwf.org.co/que_hacemos/${u}" target="_blank" rel="noopener">${fotoHTML(fotoPara(k, k), (L === 'es' ? es : en).charAt(0))}<div class="velo"></div><b>${L === 'es' ? es : en}</b></a>`).join('');
+  $('#especiales').innerHTML = ESPECIALES.map(([k, es, des, en, den, u]) => fila(k, L === 'es' ? es : en, L === 'es' ? des : den, u)).join('');
+}
+const fila = (k, n, d, u) => `<a class="accion" href="${u}" target="_blank" rel="noopener">${fotoHTML(fotoPara(k, k + n), n.charAt(0))}<div><h3>${esc(n)}</h3><p>${esc(d)}</p></div></a>`;
+let firmaAy = '';
+function pintarAyudar() {
+  const firma = L + galeria().length + Object.keys((DATA.media || {}).paginas || {}).length; if (firma === firmaAy) return; firmaAy = firma;
+  $('#acciones').innerHTML = ACCIONES.map(([k, es, des, en, den, u]) => fila(k, L === 'es' ? es : en, L === 'es' ? des : den, u)).join('');
+}
 $('#btnComp').onclick = () => {
-  const txt = `🌎 Naturaleza al Día: todo lo que publica WWF Colombia, actualizado solito. Noticias, retos verdes y cómo ayudar 👉 ${location.href.split('#')[0]}`;
+  const txt = t('shareTxt', location.href.split('#')[0]);
   if (navigator.share) navigator.share({ title: 'Naturaleza al Día', text: txt }).catch(() => {});
   else window.open('https://wa.me/?text=' + encodeURIComponent(txt), '_blank');
 };
 
-// ===== Navegación =====
+// ===================== Idioma, navegación =====================
+function aplicarIdioma() {
+  document.documentElement.lang = L;
+  $$('[data-t]').forEach(el => { const v = t(el.dataset.t); if (el.hasAttribute('data-html')) el.innerHTML = v; else el.textContent = v; });
+  $('#q').placeholder = t('buscar');
+  $$('.idioma button').forEach(b => b.classList.toggle('on', b.dataset.lang === L));
+  firmaC = firmaV = firmaCol = firmaAy = '';
+  hoy(); pintarEstado(); pintar();
+}
+$$('.idioma button').forEach(b => b.onclick = () => { if (L === b.dataset.lang) return; L = b.dataset.lang; guardar('nad_lang', L); aplicarIdioma(); });
 function ir(s) {
   $$('section').forEach(x => x.classList.toggle('on', x.id === s));
   $$('nav button').forEach(b => b.classList.toggle('on', b.dataset.s === s));
   window.scrollTo({ top: 0, behavior: 'smooth' });
-  if (s === 'noticias') pintarLista();
 }
 $$('nav button').forEach(b => b.onclick = () => ir(b.dataset.s));
 $$('#filtros .chip').forEach(c => c.onclick = () => { $$('#filtros .chip').forEach(x => x.classList.remove('on')); c.classList.add('on'); filtro = c.dataset.f; pintarLista(); });
 $('#q').oninput = pintarLista;
 $('#btnAct').onclick = () => { hoy(); enVivo(true); };
+let tt; function toast(m) { const el = $('#toast'); el.textContent = m; el.classList.add('v'); clearTimeout(tt); tt = setTimeout(() => el.classList.remove('v'), 2600); }
 
-let tt; function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('v'); clearTimeout(tt); tt = setTimeout(() => t.classList.remove('v'), 2600); }
-
-// ===== Arranque: Hoy se recalcula cada vez que entras =====
-hoy(); reloj(); setInterval(reloj, 1000);
+// ===================== Arranque: "Hoy" se recalcula cada vez que entras =====================
+aplicarIdioma(); setInterval(reloj, 1000);
 enVivo(false);
 setInterval(() => enVivo(false), 10 * 60 * 1000);
 let oculto = 0;
-document.addEventListener('visibilitychange', () => {
-  if (document.hidden) oculto = Date.now();
-  else if (Date.now() - oculto > 60 * 1000) { hoy(); enVivo(false); }
-});
-
+document.addEventListener('visibilitychange', () => { if (document.hidden) oculto = Date.now(); else if (Date.now() - oculto > 60 * 1000) { hoy(); enVivo(false); } });
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
 </script>
