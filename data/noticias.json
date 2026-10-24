@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-24T02:10:58.673Z",
- "actualizadoBogota": "23 de octubre de 2026 a las 9:10 p. m.",
+ "actualizado": "2026-10-24T02:14:57.293Z",
+ "actualizadoBogota": "23 de octubre de 2026 a las 9:14 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -9,17 +9,18 @@
   "prensaBing": 12,
   "prensaAmbiente": 20,
   "notasAbiertas": 0,
+  "fotosPrensa": 9,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
-  "videosCanal": "error: HTTP 404",
-  "traducciones": 40,
+  "videosCanal": 15,
+  "traducciones": 32,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 90
+  "segundos": 133
  },
  "wwf": [
   {
@@ -163,6 +164,21 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "The worrying landscape of wildlife in the world: are we running out of animals?"
+  },
+  {
+   "id": "prensa-127hs91",
+   "titulo": "En video quedó registrada la visita de un de oso andino joven en los Farallones de Cali",
+   "resumen": "",
+   "fecha": "2026-10-17T09:39:47.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.msn.com/es-co/noticias/nacional/en-video-qued%C3%B3-registrada-la-visita-de-un-de-oso-andino-joven-en-los-farallones-de-cali/ar-AA2erOOZ",
+   "fuente": "El Espectador on MSN",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:14:57.293Z",
+   "fotoRevisada": true,
+   "titulo_en": "The visit of a young Andean bear in the Farallones of Cali was recorded on video"
   },
   {
    "id": "prensa-uegiv1",
@@ -557,6 +573,20 @@
    "titulo_en": "Last chance to see humpback whales: Colombian Pacific destinations to visit in October"
   },
   {
+   "id": "prensa-5c9w94",
+   "titulo": "El Tuparro cumple 46 años: un territorio donde la conservación se escribe entre ríos, sabanas y biodiversidad",
+   "resumen": "",
+   "fecha": "2026-09-25T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUWVVQmNsMDQwVV9yU2QyRUR2djNmN1NETVhYWjhrMkdZdFpTZ1FuMjFHTFhjNVlpbDd4d1V6bk13MGxSTnF0ZTU3NjhURXV1VlNWZlVIMmFMSndjQkFPcXJTaVpzeVZGTjlCNnBYX1RWTnRDdVNUZ3V1Ti00aXZULUZ2R2E4U3pFR0RidHk2VEFSWnRoWThlMlN6UGFEdDFPenc1RDRsY1RLbnhrVTJRbHNBMA?oc=5",
+   "fuente": "Parques Nacionales Naturales de Colombia",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:14:57.293Z",
+   "titulo_en": "El Tuparro turns 46: a territory where conservation is written between rivers, savannas and biodiversity"
+  },
+  {
    "id": "prensa-198dwen",
    "titulo": "Santander busca una hoja de ruta común para el agua, la energía y el territorio",
    "resumen": "",
@@ -575,28 +605,30 @@
    "titulo": "Inter Bogotá y WWF Colombia se unen para promover la protección ambiental",
    "resumen": "",
    "fecha": "2026-04-30T22:01:00.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://img.lalr.co/cms/2026/04/30231940/old-parr-1.jpg?size=xl&ratio=r40_21&f=jpg",
+   "credito": "© larepublica",
    "enlace": "https://www.larepublica.co/ocio/inter-bogota-y-wwf-colombia-se-unen-para-promover-la-proteccion-ambiental-4383752",
    "fuente": "larepublica",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "Inter Bogotá and WWF Colombia join forces to promote environmental protection"
+   "titulo_en": "Inter Bogotá and WWF Colombia join forces to promote environmental protection",
+   "fotoRevisada": true
   },
   {
    "id": "prensa-8pkoj2",
    "titulo": "WWF Colombia anuncia quiénes son los jóvenes que más saben de biodiversidad en el país, a través de la iniciativa Sabiduría Salvaje",
    "resumen": "",
    "fecha": "2024-10-24T09:12:00.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/10/24/671ab63f58e81.jpeg",
+   "credito": "© El Tiempo",
    "enlace": "https://www.eltiempo.com/vida/medio-ambiente/wwf-colombia-anuncia-quienes-son-los-jovenes-que-mas-saben-de-biodiversidad-en-el-pais-a-traves-de-la-iniciativa-sabiduria-salvaje-3393456",
    "fuente": "El Tiempo",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "WWF Colombia announces who are the young people who know the most about biodiversity in the country, through the Wild Wisdom initiative"
+   "titulo_en": "WWF Colombia announces who are the young people who know the most about biodiversity in the country, through the Wild Wisdom initiative",
+   "fotoRevisada": true
   },
   {
    "id": "prensa-pyp7h3",
@@ -610,21 +642,23 @@
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "WWF welcomes the designation of Colombia as the host country of the 2024 Biodiversity COP"
+   "titulo_en": "WWF welcomes the designation of Colombia as the host country of the 2024 Biodiversity COP",
+   "fotoRevisada": true
   },
   {
    "id": "prensa-1g0vr90",
    "titulo": "WWF se une al ‘Pacto Nacional por la protección con el jaguar’",
    "resumen": "",
    "fecha": "2023-06-21T17:00:00.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://www.elnuevosiglo.com.co/sites/default/files/2023-06/04bjfoto%20ambiente%2002%20junio%2022.jpg",
+   "credito": "© El Nuevo Siglo",
    "enlace": "https://www.elnuevosiglo.com.co/ambiente-y-ciencia/wwf-se-une-al-pacto-nacional-por-la-proteccion-con-el-jaguar",
    "fuente": "El Nuevo Siglo",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "WWF joins the ‘National Pact for Jaguar Protection’"
+   "titulo_en": "WWF joins the ‘National Pact for Jaguar Protection’",
+   "fotoRevisada": true
   },
   {
    "id": "prensa-7zpp20",
@@ -638,86 +672,93 @@
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "WWF Celebrates Historic Approval of $43 Million for Protected Areas Conservation in Colombia"
+   "titulo_en": "WWF Celebrates Historic Approval of $43 Million for Protected Areas Conservation in Colombia",
+   "fotoRevisada": true
   },
   {
    "id": "wwf-377671",
    "titulo": "Colombia, WWF y sus socios anuncian un acuerdo de 245 millones de dólares para proteger de forma permanente el Sistema Nacional de Áreas Protegidas (SINAP)",
    "resumen": "",
    "fecha": "2022-06-22T17:00:00.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://wwflac.awsassets.panda.org/img/pacifico_utria_ww239290__day_s_edge_productions_1_768787.jpg",
+   "credito": "© wwf",
    "enlace": "https://www.wwf.org.pe/en/?377671/Colombia-WWF-y-sus-socios-anuncian-un-acuerdo-de-245-millones-de-dolares-para-proteger-de-forma-permanente-el-Sistema-Nacional-de-reas-Protegidas--SINAP",
    "fuente": "wwf",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "Colombia, WWF and its partners announce a $245 million agreement to permanently protect the National System of Protected Areas (SINAP)"
+   "titulo_en": "Colombia, WWF and its partners announce a $245 million agreement to permanently protect the National System of Protected Areas (SINAP)",
+   "fotoRevisada": true
   },
   {
    "id": "wwf-375855",
    "titulo": "Colombia Azul: acuicultura creciente y pesca sostenible",
    "resumen": "",
    "fecha": "2022-03-22T17:00:00.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://wwflac.awsassets.panda.org/img/wwf_colombia_azul_765779.jpg",
+   "credito": "© wwf",
    "enlace": "https://www.wwf.org.pe/pacifico/?375855/Colombia-Azul-acuicultura-creciente-y-pesca-sostenible",
    "fuente": "wwf",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z"
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "fotoRevisada": true
   },
   {
    "id": "prensa-1d1nl5d",
    "titulo": "Empoderamiento de la mujer y sostenibilidad: Concepto de la WWF Colombia",
    "resumen": "",
    "fecha": "2022-03-04T16:00:00.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://caracol.com.co/resizer/v2/VDAY5XFJTJMQHCUWIZ4WKFWGUM.jpg?auth=8b57ad9bb8abd5a43fa8e7b3bc3f0d5a2b96737879ed93f14183579d13b9a526&quality=70&width=1200&height=675&smart=true",
+   "credito": "© Caracol Radio",
    "enlace": "https://caracol.com.co/programa/2022/03/05/el_sabor_de_colombia/1646498436_222310.html",
    "fuente": "Caracol Radio",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z"
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "fotoRevisada": true
   },
   {
    "id": "prensa-1b20ahm",
    "titulo": "Después de casi 30 años, WWF Colombia tendrá nueva directora",
    "resumen": "",
    "fecha": "2021-07-08T07:30:00.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://www.elespectador.com/wp-content/uploads/elespectador/UGB4SSK52FF3DBNKXWYR33NLBU.png?resize=1200,630",
+   "credito": "© El Espectador",
    "enlace": "https://www.elespectador.com/ambiente/bibo/despues-de-casi-30-anos-wwf-colombia-tendra-nueva-directora/",
    "fuente": "El Espectador",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z"
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "fotoRevisada": true
   },
   {
    "id": "prensa-5psbi9",
    "titulo": "Colombates y WWF Colombia se unieron para promover la conservación de ecosistemas",
    "resumen": "",
    "fecha": "2020-09-03T14:26:00.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://img.lalr.co/cms/2020/09/03162544/Victor-Valery.png?size=xl&ratio=r40_21&f=jpg",
+   "credito": "© larepublica",
    "enlace": "https://www.larepublica.co/responsabilidad-social/colombates-y-wwf-colombia-se-unieron-para-promover-la-conservacion-de-bosques-y-ecosistemas-3055081",
    "fuente": "larepublica",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z"
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "fotoRevisada": true
   },
   {
    "id": "prensa-swzw1d",
    "titulo": "WWF Colombia hace llamado para evitar la extinción del cóndor andino",
    "resumen": "",
    "fecha": "2019-06-04T17:00:00.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://web-cdnprod.aa.com.tr/uploads/Contents/2021/06/12/thumbs_b_c_e2bbf5b941d5beaa8d21590851046c09.jpg?v=045529",
+   "credito": "© aa.com.tr",
    "enlace": "https://www.aa.com.tr/es/mundo/wwf-colombia-hace-llamado-para-evitar-la-extinci%C3%B3n-del-c%C3%B3ndor-andino/2271138",
    "fuente": "aa.com.tr",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z"
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "fotoRevisada": true
   },
   {
    "id": "wwf-320297",
@@ -730,17 +771,154 @@
    "fuente": "Panda",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z"
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "fotoRevisada": true
   }
  ],
  "videos": [
+  {
+   "id": "GpIZihwW7kE",
+   "titulo": "Después de ser saqueadas, las tortugas vuelven a sus nidos",
+   "resumen": "Durante años, los nidos de tortuga verde fueron saqueados y las crías quedaron desprotegidas. Pero la esperanza tiene su propia forma de paciencia. Las comunidades protegieron y restauraron playas de anidación, mientras ",
+   "fecha": "2026-10-16T17:31:41+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "After being looted, the turtles return to their nests",
+   "resumen_en": "For years, the green turtle nests were looted and the hatchlings were left unprotected. But hope has its own form of patience. Communities protected and restored nesting beaches, while"
+  },
+  {
+   "id": "ax4XzEjgk7w",
+   "titulo": "Escucha a la naturaleza. Nos está diciendo algo difícil:",
+   "resumen": "El tamaño promedio de las poblaciones de fauna silvestre monitoreadas ha disminuido un 73 % desde 1970. 🔴 Lee los últimos datos del #InformePlanetaVIVO2026: https://livingplanet.panda.org/es-CO/ Voz: Claudia Bahamón",
+   "fecha": "2026-10-09T18:02:11+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Listen to nature. He's telling us something difficult:",
+   "resumen_en": "The average size of monitored wildlife populations has decreased by 73% since 1970. 🔴 Read the latest data from the #InformePlanetaVIVO2026: https://livingplanet.panda.org/es-CO/ Voice: Claudia Bahamón"
+  },
+  {
+   "id": "MFCq8v1-pWU",
+   "titulo": "INFORME PLANETA VIVO 2026",
+   "resumen": "Conoce las cifras más recientes sobre el estado de la naturaleza en Latinoamérica y el mundo, de la mano de WWF y BIBO, El Espectador.",
+   "fecha": "2026-10-08T21:29:07+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "LIVING PLANET REPORT 2026",
+   "resumen_en": "Get the latest figures on the state of nature in Latin America and the world, from WWF and BIBO, El Espectador."
+  },
+  {
+   "id": "dRoRViHOsnY",
+   "titulo": "Escucha a la naturaleza: INFORME PLANETA VIVO 2026",
+   "resumen": "La naturaleza nos está diciendo algo difícil: el tamaño promedio de las poblaciones de fauna silvestre monitoreadas ha disminuido un 73 % desde 1970. Pero también nos cuenta otra verdad: lo que cae puede volver a levanta",
+   "fecha": "2026-10-08T21:05:26+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Listen to Nature: LIVING PLANET REPORT 2026",
+   "resumen_en": "Nature is telling us something difficult: the average size of monitored wildlife populations has decreased by 73% since 1970. But it also tells us another truth: what falls can rise again"
+  },
+  {
+   "id": "oOhCht7oSBw",
+   "titulo": "¿Por qué está lloviendo tanto y tan fuerte? ⛈️",
+   "resumen": "¿Por qué está lloviendo tanto y tan fuerte en pleno Fenómeno del Niño?🔥⛈️🏜️🌡️ ¿Y qué debemos esperar en lo que resta del año? Nuestro director de Conservación y Gobernanza, Carlos Mauricio Herrera, lo explica.",
+   "fecha": "2026-10-07T23:24:49+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Why is it raining so much and so hard? ⛈️",
+   "resumen_en": "Why is it raining so much and so hard in the middle of the El Niño Phenomenon?🔥⛈️🏜️🌡️ And what should we expect in the remainder of the year? Our Director of Conservation and Governance, Carlos Mauricio Herrera, explains it."
+  },
+  {
+   "id": "m1g-T1h5cLs",
+   "titulo": "¡Conectar para conocer, conocer para cuidar! 🌱💚🐼",
+   "resumen": "Un mensaje que nos deja el TeamPanda de WWF Colombia para que todos tomemos acción en el cuidado del planeta 🌎 @anasofiahenaoe @josesotoval @toyamontoya @thechefisback",
+   "fecha": "2026-10-05T19:01:46+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Connect to know, know to care! 🌱💚🐼",
+   "resumen_en": "A message left by TeamPanda of WWF Colombia so that we all take action in the care of the planet 🌎 @anasofiahenaoe @josesotoval @toyamontoya @thechefisback"
+  },
+  {
+   "id": "7mNUuA5x6B4",
+   "titulo": "¡Medellín invoca y vive la naturaleza! 🌱🌎 #ClimateWeek",
+   "resumen": "Desde el #ClimateWeekMedellín, nuestro líder global de Clima y Energía, Manuel Pulgar-Vidal, hace un balance de la primera jornada de conversaciones entre WWF Colombia, líderes, academia, empresas y comunidades para enco",
+   "fecha": "2026-10-01T23:44:58+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Medellín invokes and lives nature! 🌱🌎 #ClimateWeek",
+   "resumen_en": "From the #ClimateWeekMedellín, our global Climate and Energy leader, Manuel Pulgar-Vidal, takes stock of the first day of talks between WWF Colombia, leaders, academia, companies and communities to meet"
+  },
+  {
+   "id": "3QIv0o9FmVE",
+   "titulo": "Sabiduría Salvaje - Final 2026",
+   "resumen": "Johan Jojoa, de 13 años, y Carlos Guerrero, de 14 años, ganaron la gran final nacional de Sabiduría Salvaje que se realizó en la primera Semana del Clima de Medellín, y participarán, como representantes de Colombia, en l",
+   "fecha": "2026-09-30T21:22:08+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Wild Wisdom - Final 2026",
+   "resumen_en": "Johan Jojoa, 13, and Carlos Guerrero, 14, won the great national Wild Wisdom final held at the first Medellin Climate Week, and will participate, as representatives of Colombia, in the"
+  },
+  {
+   "id": "wXwofBHr8bc",
+   "titulo": "El turismo que necesita la selva 🚣‍♀️",
+   "resumen": "🚣‍♀️ Los viajes no se piensan solamente como una manera de conocer la selva, sino como una oportunidad para compartir la cultura, fortalecer el liderazgo y cuidar el territorio: https://www.wwf.org.co/?401530/Turismo-en",
+   "fecha": "2026-09-14T18:32:56+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "The tourism that the jungle needs 🚣‍♀️",
+   "resumen_en": "🚣‍♀️ Travel is not only thought of as a way to get to know the jungle, but as an opportunity to share culture, strengthen leadership and take care of the territory: https://www.wwf.org.co/?401530/Tourism-en"
+  },
+  {
+   "id": "qSu9U6gyn7s",
+   "titulo": "Vinimos hasta aquí para ver monos rescatados 🐒🐒🐒🐒",
+   "resumen": "¡Un gran ejemplo de cuidado y recuperación de nuestra biodiversidad! 🐒🐒🐒🐒 La Fundación Maikuchiga, en la Amazonía, lleva 20 años rescatando especies del tráfico ilegal y la deforestación, así como promoviendo el turi",
+   "fecha": "2026-09-12T18:45:37+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "We came all the way here to see rescued monkeys 🐒🐒🐒🐒",
+   "resumen_en": "A great example of care and recovery of our biodiversity! 🐒🐒🐒🐒 The Maikuchiga Foundation, in the Amazon, has been rescuing species from illegal trafficking and deforestation for 20 years, as well as promoting tourism"
+  },
+  {
+   "id": "6J9AbJ1LmwU",
+   "titulo": "Ellas defienden uno de los ecosistemas más importantes del mundo",
+   "resumen": "Son capitanas, monitoras, pescadoras y guardianas de un conocimiento invaluable. Ellas toman decisiones para proteger uno de los lugares más importantes de toda Colombia: la Amazonía ⛰️💧🌱🤲🏽 Lee más de su trabajo en: ",
+   "fecha": "2026-09-05T13:15:04+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "They defend one of the most important ecosystems in the world",
+   "resumen_en": "They are captains, monitors, fisherwomen and guardians of invaluable knowledge. They make decisions to protect one of the most important places in all of Colombia: the Amazon. ⛰️💧🌱🤲🏽 Read more about their work in:"
+  },
+  {
+   "id": "vZN3wvyrJ4U",
+   "titulo": "ALSEC: un caso de éxito que refleja la inversión de impacto de WWF Colombia",
+   "resumen": "¿Cómo puede la inversión de impacto contribuir a transformar las cadenas de valor hacia modelos más sostenibles? Este video presenta la experiencia de ALSEC, desarrollada en el marco del Dutch Fund for Climate and Develo",
+   "fecha": "2026-09-02T16:08:30+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "ALSEC: a success story that reflects WWF Colombia's impact investment",
+   "resumen_en": "How can impact investing help transform value chains towards more sustainable models? This video presents the ALSEC experience, developed within the framework of the Dutch Fund for Climate and Develo"
+  },
+  {
+   "id": "cfXKetJ4bv4",
+   "titulo": "ALSEC: a success story that reflects WWF Colombia's impact investing",
+   "resumen": "How can impact investing help transform value chains toward more sustainable models? This video presents the experience of ALSEC, developed within the framework of the Dutch Fund for Climate and Development (DFCD), as on",
+   "fecha": "2026-08-26T14:54:18+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "ALSEC: a success story that reflects WWF Colombia's impact investing",
+   "resumen_en": "How can impact investing help transform value chains towards more sustainable models? This video presents the experience of ALSEC, developed within the framework of the Dutch Fund for Climate and Development (DFCD), as on"
+  },
+  {
+   "id": "rusxgL1tZz0",
+   "titulo": "Alerta roja por incendios en Colombia 🌡️🔥🚨",
+   "resumen": "En medio de un fenómeno de El Niño, es necesario que aprendamos a identificar el riesgo y a prevenir estos eventos: https://www.wwf.org.co/?386272/incendios-forestales-en-Colombia #DíaDePrevenciónDeIncendiosForestales",
+   "fecha": "2026-08-18T16:07:31+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Colombia Fire Red Alert 🌡️🔥🚨",
+   "resumen_en": "In the midst of an El Niño phenomenon, it is necessary that we learn to identify the risk and prevent these events: https://www.wwf.org.co/?386272/forest-fires-in-Colombia #ForestFirePreventionDay"
+  },
+  {
+   "id": "xqjwmOTIYLw",
+   "titulo": "¿Quiénes están detrás de los Parques de Colombia? ¡Más de 50 millones de colombianos!",
+   "resumen": "Resaltamos la labor de @ParquesNaturales y de todos aquellos que contribuyen en la conservación y defensa nuestras áreas protegidas para el bienestar de todo el país. ¡Gracias por ser guardianes de la naturaleza!",
+   "fecha": "2026-08-03T16:13:25+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Who is behind the Parks of Colombia? More than 50 million Colombians!",
+   "resumen_en": "We highlight the work of @ ParquesNaturales and all those who contribute to the conservation and defense of our protected areas for the well-being of the entire country. Thank you for being a guardian of nature!"
+  },
   {
    "id": "GbnDdGvFLts",
    "titulo": "¿Qué hace WWF Colombia para cuidar la naturaleza?",
    "titulo_en": "What does WWF Colombia do to protect nature?",
    "resumen": "",
    "fecha": null,
-   "canal": "WWF Colombia"
+   "canal": "WWF Colombia",
+   "resumen_en": ""
   },
   {
    "id": "j7sIHGd4B_g",
@@ -748,7 +926,8 @@
    "titulo_en": "WWF Colombia live stream",
    "resumen": "",
    "fecha": null,
-   "canal": "WWF Colombia"
+   "canal": "WWF Colombia",
+   "resumen_en": ""
   }
  ],
  "media": {
