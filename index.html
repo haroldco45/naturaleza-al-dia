@@ -538,21 +538,38 @@ const todasWWF = () => unir(DATA.wwf || [], vivo.wwf);
 const todasPrensa = () => { const w = new Set(todasWWF().map(i => clave(i.titulo))); return unir(DATA.prensa || [], vivo.prensa).filter(i => !w.has(clave(i.titulo))); };
 const todas = () => unir(todasWWF(), todasPrensa());
 const pagina = k => ((DATA.media || {}).paginas || {})[k];
+const fotoVideo = v => ({ img: `https://i.ytimg.com/vi/${v.id}/maxresdefault.jpg`, alt2: `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`, credito: '© WWF Colombia · YouTube', alt: tx(v, 'titulo') || '', pagina: 'https://www.youtube.com/watch?v=' + v.id, texto: [v.titulo, v.titulo_en, v.resumen].join(' ') });
 function galeria() {
   const g = new Map();
-  for (const f of [...((DATA.media || {}).galeria || []), ...vivo.fotos, ...todasWWF().filter(i => i.imagen).map(i => ({ img: i.imagen, credito: i.credito, pagina: i.enlace }))])
+  for (const f of [...(DATA.videos || []).map(fotoVideo), ...((DATA.media || {}).galeria || []), ...vivo.fotos, ...todasWWF().filter(i => i.imagen).map(i => ({ img: i.imagen, credito: i.credito, pagina: i.enlace }))])
     if (f && f.img && !g.has(f.img)) g.set(f.img, f);
   return [...g.values()];
 }
 const nHash = s => { let h = 0; for (const c of String(s)) h = (h * 31 + c.charCodeAt(0)) | 0; return Math.abs(h); };
-// foto real para una clave: la de su página en wwf.org.co o, si no hay, una de la galería
-function fotoPara(k, semilla) {
+// foto real para una clave: la de su página en wwf.org.co, o una foto de WWF del mismo tema, o una de la galería
+const TEMA = {
+  amazonia:/amazon/i, andes:/andes|p[aá]ramo|monta[ñn]/i, orinoquia:/orinoqu|llanos|sabana|delf[ií]n/i, pacifico:/pac[ií]fico|ballena|manglar|choc[oó]/i,
+  bosques:/bosque|forest|deforest|[aá]rbol|tree/i, especies:/jaguar|especie|species|fauna|wildlife|tortuga|turtle|vida silvestre/i, clima:/clima|climate|carbono|energ/i,
+  oceanos:/oc[eé]ano|ocean|mar\b|sea\b|tortuga|turtle|ballena|whale|coral|pesca/i, alimentos:/alimento|food|agro|ganad|cultivo/i, agua:/agua|water|r[ií]o\b|river|humedal/i,
+  comunidades:/comunidad|communit|ind[ií]gena|campesin/i, plasticos:/pl[aá]stic/i, jovenes:/joven|youth|ni[ñn]|estudiant|educa/i, wwfclima:/clima|climate/i,
+  areas:/parque|protegid|protected|reserva/i, planetavivo:/planeta vivo|living planet/i, horaplaneta:/hora del planeta|earth hour/i, picachos:/picachos/i, guaviare:/guaviare/i,
+  dona:/naturaleza|nature/i, adopta:/especie|species|jaguar/i
+};
+function fotoPara(k, semilla, texto) {
   const p = pagina(k); if (p && p.img) return p;
-  const g = galeria(); return g.length ? g[nHash(semilla || k) % g.length] : null;
+  const g = galeria(); if (!g.length) return null;
+  const re = TEMA[k];
+  let cands = re ? g.filter(f => re.test((f.texto || '') + ' ' + (f.alt || ''))) : [];
+  if (!cands.length && texto) {
+    const pal = clave(texto).split(' ').filter(w => w.length > 5);
+    cands = g.filter(f => { const t2 = clave((f.texto || '') + ' ' + (f.alt || '')); return pal.some(w => t2.includes(w)); });
+  }
+  const lista = cands.length ? cands : g;
+  return lista[nHash(semilla || k) % lista.length];
 }
 function fotoHTML(f, letra) {
   if (!f || !f.img) return `<div class="foto"><span class="sinfoto">${esc(letra || '')}</span></div>`;
-  return `<div class="foto"><img src="${esc(f.img)}" alt="${esc(f.alt || '')}" loading="lazy" referrerpolicy="no-referrer" onload="this.classList.add('ok')" onerror="this.remove()">${f.credito ? `<span class="cred">${esc(f.credito)}</span>` : ''}</div>`;
+  return `<div class="foto"><img src="${esc(f.img)}"${f.alt2 ? ` data-alt="${esc(f.alt2)}"` : ''} alt="${esc(f.alt || '')}" loading="lazy" referrerpolicy="no-referrer" onload="if(this.naturalWidth<200&&this.dataset.alt){this.src=this.dataset.alt;this.dataset.alt='';return}this.classList.add('ok')" onerror="if(this.dataset.alt){this.src=this.dataset.alt;this.dataset.alt=''}else this.remove()">${f.credito ? `<span class="cred">${esc(f.credito)}</span>` : ''}</div>`;
 }
 function ponerFoto(sel, f, letra) { const el = $(sel + ' > .foto'); if (el) el.outerHTML = fotoHTML(f, letra); }
 
@@ -644,7 +661,7 @@ const inicial = s => (s || '').trim().charAt(0).toUpperCase();
 function tarjetaNota(it, i = 0) {
   const nueva = esNueva(it);
   const traducida = L === 'en' && it.titulo_en;
-  const f = it.imagen ? { img: it.imagen, credito: it.credito } : it.tipo === 'wwf' ? fotoPara('', it.id) : null;
+  const f = it.imagen ? { img: it.imagen, credito: it.credito } : it.tipo === 'wwf' ? fotoPara('', it.id, it.titulo + ' ' + (it.resumen || '')) : null;
   return `<a class="nota" href="${esc(it.enlace)}" target="_blank" rel="noopener" style="animation-delay:${Math.min(i, 12) * 45}ms">
     ${fotoHTML(f, inicial(it.fuente))}
     <div style="min-width:0"><h3>${esc(tx(it, 'titulo'))}</h3>${tx(it, 'resumen') ? `<p>${esc(tx(it, 'resumen'))}</p>` : ''}
@@ -702,7 +719,7 @@ function pintarCarrusel(lista) {
   const firma = L + lista.map(i => i.id + (i.imagen || '')).join() + galeria().length;
   if (firma === firmaC || !lista.length) return; firmaC = firma;
   $('#carrusel').innerHTML = `<div class="puntos">${lista.map(() => '<i><b></b></i>').join('')}</div>` + lista.map(it =>
-    `<a class="slide" href="${esc(it.enlace)}" target="_blank" rel="noopener">${fotoHTML(it.imagen ? { img: it.imagen, credito: it.credito } : fotoPara('', it.id))}<div class="velo"></div>
+    `<a class="slide" href="${esc(it.enlace)}" target="_blank" rel="noopener">${fotoHTML(it.imagen ? { img: it.imagen, credito: it.credito } : fotoPara('', it.id, it.titulo + ' ' + (it.resumen || '')))}<div class="velo"></div>
       <div class="txt"><span class="pill">${it.fecha ? esc(fechaCorta(it.fecha)) : t('pasando')}</span><h3>${esc(tx(it, 'titulo'))}</h3><p>${esc(tx(it, 'resumen') || t('leerWWF'))}</p></div></a>`).join('');
   idxC = 0; mostrarC();
 }
