@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-24T16:10:53.979Z",
- "actualizadoBogota": "24 de octubre de 2026 a las 11:10 a. m.",
+ "actualizado": "2026-10-24T18:55:48.260Z",
+ "actualizadoBogota": "24 de octubre de 2026 a las 1:55 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -9,17 +9,18 @@
   "prensaBing": 12,
   "prensaAmbiente": 19,
   "notasAbiertas": 0,
-  "fotosPrensa": 9,
+  "fotosPrensa": 10,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 1,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 35
+  "segundos": 55
  },
  "wwf": [
   {
@@ -598,6 +599,21 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Santander seeks a common roadmap for water, energy and territory"
+  },
+  {
+   "id": "wwf-400698",
+   "titulo": "Descarga ya el BIOtiquín urbano de WWF Colombia",
+   "resumen": "",
+   "fecha": "2026-05-07T17:00:00.000Z",
+   "imagen": "https://wwflac.awsassets.panda.org/img/original/fotos-notas--44-.png",
+   "credito": "© wwf",
+   "enlace": "https://www.wwf.org.pe/?400698/Biotiquin-verde-urbano-WWF-Colombia",
+   "fuente": "wwf",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T18:55:48.260Z",
+   "fotoRevisada": true,
+   "titulo_en": "Download the WWF Colombia urban BIOtikine now"
   },
   {
    "id": "prensa-u8fhtj",
