@@ -3,7 +3,13 @@
 import fs from 'node:fs/promises';
 
 const OUT = 'data/noticias.json';
-const UA = { 'User-Agent': 'Mozilla/5.0 (compatible; NaturalezaAlDiaBot/2.0; +https://github.com/haroldco45/naturaleza-al-dia)', 'Accept-Language': 'es-CO,es;q=0.9,en;q=0.8' };
+const UA = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+  'Accept-Language': 'es-CO,es;q=0.9,en;q=0.8',
+  'Cache-Control': 'no-cache', 'Upgrade-Insecure-Requests': '1',
+  'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'
+};
 const BASE = 'https://www.wwf.org.co';
 const AHORA = new Date();
 
@@ -26,13 +32,33 @@ function fechaES(t) {
   const mm = MESES[m[2].toLowerCase().slice(0, 3)];
   return mm == null ? null : new Date(Date.UTC(+m[3], mm, +m[1], 17)).toISOString(); // mediodía en Bogotá
 }
-async function traer(url, ms = 20000) {
+async function directo(url, ms = 20000, extra = {}) {
   const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), ms);
   try {
-    const r = await fetch(url, { headers: UA, signal: ctl.signal, redirect: 'follow' });
+    const r = await fetch(url, { headers: { ...UA, ...extra }, signal: ctl.signal, redirect: 'follow' });
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return await r.text();
   } finally { clearTimeout(t); }
+}
+// Si el sitio bloquea a GitHub, se intenta por rutas de respaldo
+const RESPALDOS = [
+  u => ['https://api.allorigins.win/raw?url=' + encodeURIComponent(u), {}],
+  u => ['https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u), {}],
+  u => ['https://r.jina.ai/' + u, { 'X-Return-Format': 'html', 'Accept': 'text/html' }]
+];
+const via = {};
+async function traer(url, ms = 20000) {
+  try { const x = await directo(url, ms); via[new URL(url).host] = 'directo'; return x; }
+  catch (e1) {
+    if (!/wwf\.org\.co|youtube\.com/.test(url)) throw e1;
+    for (const r of RESPALDOS) {
+      try {
+        const [u2, h] = r(url); const x = await directo(u2, 30000, h);
+        if (x && x.length > 500 && !/Just a moment|Access denied|403 Forbidden/i.test(x.slice(0, 3000))) { via[new URL(url).host] = new URL(u2).host; return x; }
+      } catch {}
+    }
+    throw e1;
+  }
 }
 const absoluto = href => {
   href = deco(href).trim().split(/\s+/)[0];
@@ -136,23 +162,30 @@ export function parseRSS(xml, tipo) {
   for (const it of xml.match(/<item\b[\s\S]*?<\/item>/gi) || []) {
     const tag = n => { const x = it.match(new RegExp(`<${n}\\b[^>]*>([\\s\\S]*?)<\\/${n}>`, 'i')); return x ? x[1] : ''; };
     let titulo = strip(tag('title'));
-    const enlace = strip(tag('link')) || (it.match(/<link[^>]*href="([^"]+)"/i) || [])[1] || '';
+    let enlace = strip(tag('link')) || (it.match(/<link[^>]*href="([^"]+)"/i) || [])[1] || '';
+    const real = enlace.match(/[?&]url=([^&]+)/); if (/bing\.com/.test(enlace) && real) enlace = decodeURIComponent(real[1]);
     const pub = strip(tag('pubDate'));
-    const fuente = strip(tag('source')) || (tipo === 'wwf' ? 'WWF Colombia' : 'Prensa');
+    const bingFuente = strip((it.match(/<News:Source>([\s\S]*?)<\/News:Source>/i) || [])[1] || '');
+    const fuente = strip(tag('source')) || bingFuente || (tipo === 'wwf' ? 'WWF Colombia' : 'Prensa');
     if (tipo === 'prensa' && titulo.endsWith(' - ' + fuente)) titulo = titulo.slice(0, -(fuente.length + 3));
     let resumen = tipo === 'prensa' ? '' : strip(tag('description'));
     if (resumen.length > 280) resumen = resumen.slice(0, 277) + '…';
     const fecha = pub && !isNaN(Date.parse(pub)) ? new Date(pub).toISOString() : null;
-    const img = (it.match(/<(?:enclosure|media:content|media:thumbnail)[^>]+url="([^"]+)"/i) || [])[1] || '';
+    let img = (it.match(/<(?:enclosure|media:content|media:thumbnail)[^>]+url="([^"]+)"/i) || [])[1] || '';
+    const bingImg = it.match(/<News:Image>([^<]+)<\/News:Image>/i);
+    if (!img && bingImg) img = deco(bingImg[1]).replace(/^http:/, 'https:');
     if (!titulo || !enlace) continue;
     const idm = enlace.match(/\?(\d{5,7})(?:%2F|\/)/);
-    out.push({ id: idm ? 'wwf-' + idm[1] : tipo + '-' + hash(enlace), titulo, resumen, fecha, imagen: img, credito: img ? '© WWF' : '', enlace, fuente, tipo, destacada: false });
+    out.push({ id: idm ? 'wwf-' + idm[1] : tipo + '-' + hash(enlace), titulo, resumen, fecha, imagen: img, credito: img ? '© ' + fuente : '', enlace, fuente, tipo, destacada: false });
   }
   return out;
 }
 
 // ---------- 3) YouTube de WWF Colombia (enlazado desde wwf.org.co) ----------
 async function videosCanal() {
+  for (const f of ['https://www.youtube.com/feeds/videos.xml?user=wwfcolombia', 'https://www.youtube.com/feeds/videos.xml?user=WWFColombia']) {
+    try { const xml = await traer(f); const v = leerFeed(xml); if (v.length) return v; } catch {}
+  }
   let canal = '';
   for (const u of ['https://www.youtube.com/wwfcolombia', 'https://www.youtube.com/@WWFColombia', 'https://www.youtube.com/user/wwfcolombia']) {
     try {
@@ -162,7 +195,9 @@ async function videosCanal() {
     } catch {}
   }
   if (!canal) throw new Error('no encontré el canal');
-  const xml = await traer('https://www.youtube.com/feeds/videos.xml?channel_id=' + canal);
+  return leerFeed(await traer('https://www.youtube.com/feeds/videos.xml?channel_id=' + canal));
+}
+function leerFeed(xml) {
   return (xml.match(/<entry>[\s\S]*?<\/entry>/g) || []).map(e => ({
     id: (e.match(/<yt:videoId>([^<]+)/) || [])[1],
     titulo: strip((e.match(/<title>([\s\S]*?)<\/title>/) || [])[1]),
@@ -173,11 +208,20 @@ async function videosCanal() {
 }
 
 // ---------- 4) Traducción automática al inglés (con memoria) ----------
+let errorTraduccion = '';
 async function aIngles(texto) {
   if (!texto) return '';
-  const u = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=es&tl=en&dt=t&q=' + encodeURIComponent(texto.slice(0, 1500));
-  const j = JSON.parse(await traer(u, 12000));
-  return (j[0] || []).map(p => p[0]).join('').trim();
+  try {
+    const u = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=es&tl=en&dt=t&q=' + encodeURIComponent(texto.slice(0, 1500));
+    const j = JSON.parse(await directo(u, 12000, { Accept: 'application/json' }));
+    const out = (j[0] || []).map(p => p[0]).join('').trim();
+    if (out) return out;
+  } catch (e) { errorTraduccion = 'google: ' + e.message; }
+  const u2 = 'https://api.mymemory.translated.net/get?langpair=es|en&q=' + encodeURIComponent(texto.slice(0, 480));
+  const j2 = JSON.parse(await directo(u2, 12000, { Accept: 'application/json' }));
+  const out2 = (j2.responseData || {}).translatedText || '';
+  if (!out2 || /MYMEMORY WARNING/i.test(out2)) throw new Error('sin traducción');
+  return out2;
 }
 let traducciones = 0;
 async function traducir(obj, campos, previo) {
@@ -186,7 +230,7 @@ async function traducir(obj, campos, previo) {
     if (!obj[c]) { obj[en] = ''; continue; }
     if (previo && previo[c] === obj[c] && previo[en]) { obj[en] = previo[en]; continue; }
     if (traducciones >= 120) continue;
-    try { obj[en] = await aIngles(obj[c]); traducciones++; await espera(250); } catch {}
+    try { obj[en] = await aIngles(obj[c]); traducciones++; await espera(250); } catch (e) { errorTraduccion = errorTraduccion || e.message; }
   }
 }
 
@@ -215,6 +259,7 @@ async function main() {
     ['wwfNoticias', BASE + '/de_interes/noticias/', 'wwf', parseWWF],
     ['wwfRSS', BASE + '/_template/_international/article/rss-feed.cfm?rss_xnav_id=203732&rss_obj_id=1632248&rss_lang_id=4&rss_xsite_id=1015&rss_language=es&rss_adminMode=false&rss_ArchiveMode=false', 'wwf', x => parseRSS(x, 'wwf')],
     ['prensa', 'https://news.google.com/rss/search?q=%22WWF%22+Colombia+when:30d&hl=es-419&gl=CO&ceid=CO:es-419', 'prensa', x => parseRSS(x, 'prensa')],
+    ['prensaBing', 'https://www.bing.com/news/search?q=%22WWF%22+Colombia&format=rss&setlang=es-CO&cc=CO', 'prensa', x => parseRSS(x, 'prensa')],
     ['prensaAmbiente', 'https://news.google.com/rss/search?q=%22WWF+Colombia%22+OR+%22WWF%22+biodiversidad+Colombia+when:30d&hl=es-419&gl=CO&ceid=CO:es-419', 'prensa', x => parseRSS(x, 'prensa')]
   ];
   var galeria = []; var videosSueltos = [];
@@ -241,6 +286,13 @@ async function main() {
   const wwf = unir(previo.wwf, nuevos.wwf, 80);
   const idsWWF = new Set(wwf.map(i => clave(i.titulo)));
   const prensa = unir(previo.prensa, nuevos.prensa, 80).filter(i => !idsWWF.has(clave(i.titulo)));
+  // Las notas de Google Noticias no traen foto: se la presta la misma nota si llegó por Bing
+  const conFoto = nuevos.prensa.filter(i => i.imagen);
+  for (const it of prensa) if (!it.imagen) {
+    const k = clave(it.titulo).slice(0, 40);
+    const par = conFoto.find(b => clave(b.titulo).slice(0, 40) === k);
+    if (par) { it.imagen = par.imagen; it.credito = par.credito; }
+  }
 
   // Foto, crédito y video de cada nota de WWF (abre la nota)
   let abiertas = 0;
@@ -306,7 +358,8 @@ async function main() {
   for (const it of wwf) await traducir(it, ['titulo', 'resumen'], prevPorId.get(it.id));
   for (const it of prensa.slice(0, 40)) await traducir(it, ['titulo'], prevPorId.get(it.id));
   for (const v of videos) await traducir(v, ['titulo', 'resumen'], prevPorId.get(v.id));
-  estado.traducciones = traducciones;
+  estado.traducciones = traducciones; if (errorTraduccion) estado.errorTraduccion = errorTraduccion;
+  estado.rutas = via;
 
   // ¿Cambió algo?
   const firma = o => JSON.stringify([o.wwf, o.prensa, o.videos, o.media && o.media.galeria && o.media.galeria.length, o.media && o.media.paginas && Object.keys(o.media.paginas).length].map(x => JSON.stringify(x)));

@@ -175,6 +175,8 @@ section.on{display:block}
 .nota .foto{width:104px;height:104px;flex:none;border-radius:14px}
 .nota .foto .cred{font-size:8.5px;right:4px;bottom:4px;padding:1px 5px}
 .nota .sinfoto{font-size:22px}
+.vmini .play{width:40px;height:40px;margin:-20px 0 0 -20px}
+.vmini .play::after{left:16px;top:12px;border-left-width:12px;border-top-width:8px;border-bottom-width:8px}
 .nota h3{font-family:Inter;font-size:15px;font-weight:600;line-height:1.35;letter-spacing:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .nota p{font-size:13px;color:var(--sub);line-height:1.4;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .meta{display:flex;gap:8px;align-items:center;margin-top:8px;font-size:12px;color:var(--muted);flex-wrap:wrap}
@@ -522,11 +524,13 @@ function unir(...listas) {
   for (const it of listas.flat()) {
     if (!it || !it.titulo) continue;
     const k = it.id || clave(it.titulo); const p = m.get(k);
-    m.set(k, p ? { ...it, ...p, fecha: p.fecha || it.fecha, imagen: p.imagen || it.imagen, credito: p.credito || it.credito, resumen: (p.resumen || '').length >= (it.resumen || '').length ? p.resumen : it.resumen, destacada: p.destacada || it.destacada } : it);
+    m.set(k, p ? { ...it, ...p, imagen: p.imagen || it.imagen, credito: p.imagen ? p.credito : it.credito, fecha: p.fecha || it.fecha, imagen: p.imagen || it.imagen, credito: p.credito || it.credito, resumen: (p.resumen || '').length >= (it.resumen || '').length ? p.resumen : it.resumen, destacada: p.destacada || it.destacada } : it);
   }
   const vistos = new Set(); const out = [];
   for (const it of [...m.values()].sort((a, b) => (b.fecha || b.primeraVez || '').localeCompare(a.fecha || a.primeraVez || ''))) {
-    const k = clave(it.titulo); if (vistos.has(k)) continue; vistos.add(k); out.push(it);
+    const k = clave(it.titulo);
+    if (vistos.has(k)) { const ya = out.find(o => clave(o.titulo) === k); if (ya && !ya.imagen && it.imagen) { ya.imagen = it.imagen; ya.credito = it.credito; } continue; }
+    vistos.add(k); out.push({ ...it });
   }
   return out;
 }
@@ -602,8 +606,12 @@ function parseRSS(xml) {
     const g = n => it.querySelector(n)?.textContent?.trim() || '';
     const fuente = g('source') || 'Prensa'; let titulo = g('title');
     if (titulo.endsWith(' - ' + fuente)) titulo = titulo.slice(0, -(fuente.length + 3));
-    const pub = g('pubDate');
-    return { id: 'prensa-' + clave(titulo).slice(0, 40), titulo, resumen: '', fecha: pub ? new Date(pub).toISOString() : null, enlace: g('link'), fuente, tipo: 'prensa' };
+    const pub = g('pubDate'); const crudo = new XMLSerializer().serializeToString(it);
+    const bi = crudo.match(/<News:Image[^>]*>([^<]+)</i), bf = crudo.match(/<News:Source[^>]*>([^<]+)</i);
+    let enlace = g('link'); const real = enlace.match(/[?&]url=([^&]+)/); if (/bing\.com/.test(enlace) && real) enlace = decodeURIComponent(real[1]);
+    const f2 = fuente === 'Prensa' && bf ? bf[1].trim() : fuente;
+    const imagen = bi ? bi[1].replace(/&amp;/g, '&').replace(/^http:/, 'https:') : '';
+    return { id: 'prensa-' + clave(titulo).slice(0, 40), titulo, resumen: '', fecha: pub ? new Date(pub).toISOString() : null, enlace, fuente: f2, tipo: 'prensa', imagen, credito: imagen ? '© ' + f2 : '' };
   }).filter(i => i.titulo && i.enlace);
 }
 let buscando = false;
@@ -613,6 +621,7 @@ async function enVivo(manual) {
   await cargarRobot(); pintar();
   const res = await Promise.allSettled([
     traer(L === 'en' ? 'https://www.wwf.org.co/en/' : 'https://www.wwf.org.co/').then(h => { vivo.wwf = unir(vivo.wwf, parseWWF(h)); }),
+    traer('https://www.bing.com/news/search?q=%22WWF%22+Colombia&format=rss&setlang=es-CO&cc=CO').then(x => { vivo.prensa = unir(vivo.prensa, parseRSS(x)); }),
     traer('https://news.google.com/rss/search?q=%22WWF%22+Colombia+when:30d&hl=es-419&gl=CO&ceid=CO:es-419').then(x => { vivo.prensa = unir(vivo.prensa, parseRSS(x)); })
   ]);
   const ok = res.filter(r => r.status === 'fulfilled').length;
@@ -635,12 +644,23 @@ const inicial = s => (s || '').trim().charAt(0).toUpperCase();
 function tarjetaNota(it, i = 0) {
   const nueva = esNueva(it);
   const traducida = L === 'en' && it.titulo_en;
-  const f = it.imagen ? { img: it.imagen, credito: it.credito } : (it.tipo === 'wwf' ? null : null);
+  const f = it.imagen ? { img: it.imagen, credito: it.credito } : it.tipo === 'wwf' ? fotoPara('', it.id) : null;
   return `<a class="nota" href="${esc(it.enlace)}" target="_blank" rel="noopener" style="animation-delay:${Math.min(i, 12) * 45}ms">
-    ${fotoHTML(f || fotoPara('', it.id), inicial(it.fuente))}
+    ${fotoHTML(f, inicial(it.fuente))}
     <div style="min-width:0"><h3>${esc(tx(it, 'titulo'))}</h3>${tx(it, 'resumen') ? `<p>${esc(tx(it, 'resumen'))}</p>` : ''}
     <div class="meta">${nueva ? `<span class="tag nuevo-t">${t('nueva')}</span>` : ''}<span class="tag ${it.tipo === 'prensa' ? 'prensa' : 'wwf'}">${esc(it.tipo === 'prensa' ? it.fuente : 'WWF Colombia')}</span>${L === 'en' && !traducida ? `<span class="tag idi">${t('original')}</span>` : ''}<span>${esc(relativo(it.fecha) || t('reciente'))}</span></div></div></a>`;
 }
+function tarjetaVideoMini(v, i = 0) {
+  const titulo = tx(v, 'titulo') || 'WWF Colombia';
+  return `<a class="nota" href="#" data-ir-video="${esc(v.id)}" style="animation-delay:${Math.min(i, 12) * 45}ms">
+    <div class="foto vmini"><img src="https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg" alt="" loading="lazy" onload="this.classList.add('ok')"><span class="play"></span></div>
+    <div style="min-width:0"><h3>${esc(titulo)}</h3><div class="meta"><span class="tag prensa">${t('nVideos')} · YouTube</span><span>${esc(relativo(v.fecha) || t('reciente'))}</span></div></div></a>`;
+}
+document.addEventListener('click', e => {
+  const a = e.target.closest('[data-ir-video]'); if (!a) return; e.preventDefault();
+  ir('videos');
+  setTimeout(() => { const m = document.querySelector(`#listaVideos .marco[data-v="${CSS.escape(a.dataset.irVideo)}"]`); if (m) { m.scrollIntoView({ behavior: 'smooth', block: 'center' }); m.click(); } }, 350);
+});
 function contar(el, n) {
   const desde = +el.dataset.n || 0; el.dataset.n = n; const t0 = performance.now();
   const paso = tt => { const k = Math.min(1, (tt - t0) / 900); el.textContent = Math.round(desde + (n - desde) * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(paso); };
@@ -662,7 +682,10 @@ function pintar() {
   pintarCarrusel([...W.filter(i => i.destacada), ...W.filter(i => !i.destacada)].slice(0, 6));
   pintarVideos(V);
   pintarHoyFotos();
-  $('#recientes').innerHTML = Tt.slice(0, 6).map(tarjetaNota).join('') || `<div class="vacio">${t('sinNoticias')}</div>`;
+  const mezcla = []; const nts = Tt.slice(0, 6), vds = V.slice(0, 2);
+  nts.forEach((n, i) => { mezcla.push(tarjetaNota(n, mezcla.length)); if ((i === 1 || i === 4) && vds.length) mezcla.push(tarjetaVideoMini(vds.shift(), mezcla.length)); });
+  vds.forEach(v => mezcla.push(tarjetaVideoMini(v, mezcla.length)));
+  $('#recientes').innerHTML = mezcla.join('') || `<div class="vacio">${t('sinNoticias')}</div>`;
   $('#galeria').innerHTML = G.slice(0, 24).map(f => `<a href="${esc(f.pagina || 'https://www.wwf.org.co/')}" target="_blank" rel="noopener">${fotoHTML(f)}</a>`).join('');
   $('#galeria').closest('section').querySelector('#galeria').previousElementSibling.style.display = G.length ? '' : 'none';
   pintarLista(); pintarColombia(); pintarAyudar();
