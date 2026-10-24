@@ -1,0 +1,14 @@
+{
+  "name": "Naturaleza al Día · WWF Colombia",
+  "short_name": "Naturaleza al Día",
+  "description": "Noticias de WWF Colombia que se actualizan solas, retos verdes diarios y cómo ayudar.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#04130d",
+  "theme_color": "#04130d",
+  "lang": "es-CO",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

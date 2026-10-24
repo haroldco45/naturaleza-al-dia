@@ -1,0 +1,68 @@
+{
+ "actualizado": "2026-10-24T01:30:00.000Z",
+ "actualizadoBogota": "23 de octubre de 2026, 8:30 p. m.",
+ "fuentes": { "semilla": "datos iniciales tomados de wwf.org.co" },
+ "wwf": [
+  {
+   "id": "wwf-401950",
+   "titulo": "COP17: WWF llama a convertir los compromisos globales de biodiversidad en acciones concretas",
+   "resumen": "En Armenia arranca la COP17 de biodiversidad, donde Colombia entregará la presidencia. La meta: detener y revertir la pérdida de biodiversidad hacia 2030.",
+   "fecha": "2026-10-19T17:00:00.000Z",
+   "imagen": "",
+   "enlace": "https://www.wwf.org.co/de_interes/noticias/?401950%2FCOP17-armenia-apertura-y-expectativas",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": true,
+   "primeraVez": "2026-10-24T01:30:00.000Z"
+  },
+  {
+   "id": "wwf-401810",
+   "titulo": "Informe Planeta Vivo 2026: datos que nos impulsan a revertir la pérdida de biodiversidad",
+   "resumen": "América Latina y el Caribe registran las mayores caídas en el tamaño promedio de las poblaciones de fauna silvestre monitoreadas. El informe también trae motivos para el optimismo.",
+   "fecha": "2026-10-08T17:00:00.000Z",
+   "imagen": "",
+   "enlace": "https://www.wwf.org.co/de_interes/noticias/?401810%2FInforme-Planeta-Vivo-2026-resultados-y-hallazgos",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": true,
+   "primeraVez": "2026-10-24T01:30:00.000Z"
+  },
+  {
+   "id": "wwf-401730",
+   "titulo": "Climate Week Medellín: firman declaración para proteger áreas naturales urbanas y periurbanas",
+   "resumen": "Autoridades de Medellín, Bogotá y Miami trabajarán juntas para generar evidencia técnica que proteja la naturaleza dentro y alrededor de las ciudades.",
+   "fecha": "2026-10-01T17:00:00.000Z",
+   "imagen": "",
+   "enlace": "https://www.wwf.org.co/de_interes/noticias/?401730%2FClimate-Week-Medellin-2026-firma-declaracion-areas-naturales-urbanas",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": false,
+   "primeraVez": "2026-10-24T01:30:00.000Z"
+  },
+  {
+   "id": "wwf-401718",
+   "titulo": "Ellos son los jóvenes que más conocen de biodiversidad en Colombia",
+   "resumen": "Johan Jojoa (Amazonía) y Carlos Guerrero (Caribe) ganaron la final nacional de Sabiduría Salvaje, en la primera Semana del Clima de Medellín.",
+   "fecha": null,
+   "imagen": "",
+   "enlace": "https://www.wwf.org.co/?401718%2Fganadores-Sabiduria-Salvaje-2026",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": true,
+   "primeraVez": "2026-10-24T01:30:00.000Z"
+  },
+  {
+   "id": "wwf-401410",
+   "titulo": "Así impacta el fenómeno de 'El Niño' a las regiones de Colombia",
+   "resumen": "Sequías, incendios forestales y afectaciones a la fauna y la vegetación: las consecuencias cambian según la región.",
+   "fecha": null,
+   "imagen": "",
+   "enlace": "https://www.wwf.org.co/de_interes/noticias/?401410%2FFenomeno-de-El-Nino-impactos-regiones-Colombia",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": true,
+   "primeraVez": "2026-10-24T01:30:00.000Z"
+  }
+ ],
+ "prensa": []
+}
