@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-10-24T02:14:57.293Z",
- "actualizadoBogota": "23 de octubre de 2026 a las 9:14 p. m.",
+ "actualizado": "2026-10-24T07:05:08.082Z",
+ "actualizadoBogota": "24 de octubre de 2026 a las 2:05 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 32,
+  "prensa": 30,
   "prensaBing": 12,
   "prensaAmbiente": 20,
   "notasAbiertas": 0,
   "fotosPrensa": 9,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
-  "videosCanal": 15,
-  "traducciones": 32,
+  "videosCanal": 24,
+  "traducciones": 18,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 133
+  "segundos": 72
  },
  "wwf": [
   {
@@ -202,7 +202,7 @@
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPekFJb3lTYlpUT3U4ZXcwdVdaaEZTNGlwa29fM05DOFN3Z2YzTk1fZ1p3V3RGaDVaTHlKNWdubTlaUU1PWlRGNTlnakI4VHJOZzVmNnJnRDFFbEN4UkRQbTNhTkctM2w0RU8yN3VZNkIwUVV1eGh4VVlCV3ZQdkNaMWhNMWxDQ3Nmay1fdVpwLVFHYTN1TjA3V2ZCbEN6d2F5dVRvN0FJT1BlMFQzNTh4aUpwRTBQMThna0ItVG1KeUMtaS1tdkE?oc=5",
-   "fuente": "LAUD Estéreo",
+   "fuente": "Universidad Distrital Francisco José de Caldas",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
@@ -910,6 +910,87 @@
    "canal": "WWF Colombia",
    "titulo_en": "Who is behind the Parks of Colombia? More than 50 million Colombians!",
    "resumen_en": "We highlight the work of @ ParquesNaturales and all those who contribute to the conservation and defense of our protected areas for the well-being of the entire country. Thank you for being a guardian of nature!"
+  },
+  {
+   "id": "7zvc4cSSRX4",
+   "titulo": "WHALES, THE SINGERS OF THE PACIFIC",
+   "resumen": "Whales, like us, sing in ways more complex than we imagine. We share a tradition: ancient songs of the oceans that bring communities together. All the whales within the same group sing the same song. At some point, one o",
+   "fecha": "2025-01-28T17:45:50+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "WHALES, THE SINGERS OF THE PACIFIC",
+   "resumen_en": "Whales, like us, sing in more complex ways than we imagine. We share a tradition: ancient songs of the oceans that bring communities together. All the whales within the same group sing the same song. At some point, one or"
+  },
+  {
+   "id": "gyDHODT_jAk",
+   "titulo": "A Peace-Building Experience With Nature in the Amazon Forest",
+   "resumen": "The Protected Areas & Peace program is a determined and joint commitment to this recovery of the territory with the help of rural communities and their economic development. Thanks to this process, families have changed ",
+   "fecha": "2024-06-17T11:26:11+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "A Peace-Building Experience With Nature in the Amazon Forest",
+   "resumen_en": "The Protected Areas & Peace program is a determined and joint commitment to this recovery of the territory with the help of rural communities and their economic development. Thanks to this process, families have changed"
+  },
+  {
+   "id": "Y_fdynBIm2k",
+   "titulo": "Promoting Open Innovation: #HeCoInvest, a sustainable business model",
+   "resumen": "#HeCoInvest is a technological platform that promotes open innovation, integrating environmental conservation and social inclusion into a business model aimed at generating investments with a positive impact in a nature-",
+   "fecha": "2023-11-10T16:37:51+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Promoting Open Innovation: #HeCoInvest, a sustainable business model",
+   "resumen_en": "#HeCoInvest is a technological platform that promotes open innovation, integrating environmental conservation and social inclusion into a business model aimed at generating investments with a positive impact in a nature-"
+  },
+  {
+   "id": "G8TJL-qlZ0c",
+   "titulo": "The Story of Elsy | Before and After Conservation | WWF Colombia",
+   "resumen": "For over 30 years, Elsy Alvear has dedicated herself to bringing a once barren mountain back to life. Her motivation has been to repair the damage caused by extractive activities that she and her family were responsible ",
+   "fecha": "2023-10-12T19:52:57+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "The Story of Elsy | Before and After Conservation | WWF Colombia",
+   "resumen_en": "For over 30 years, Elsy Alvear has dedicated herself to bringing a once barren mountain back to life. Her motivation has been to repair the damage caused by extractive activities that she and her family were responsible for"
+  },
+  {
+   "id": "hKe4LPgTUww",
+   "titulo": "The Story of Jenny | Before and After Conservation | WWF Colombia",
+   "resumen": "Jenny Espitia is a resident of the PNN Farallones de Cali with an initiative dedicated to the restoration of native forests, as well as local recognition for her contributions to the preservation of species and ecosystem",
+   "fecha": "2023-10-12T19:41:22+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "The Story of Jenny | Before and After Conservation | WWF Colombia",
+   "resumen_en": "Jenny Espitia is a resident of the PNN Farallones de Cali with an initiative dedicated to the restoration of native forests, as well as local recognition for her contributions to the preservation of species and ecosystem"
+  },
+  {
+   "id": "hMc49QcSZTc",
+   "titulo": "The Story of Ovidio | Before and After Conservation | WWF Colombia",
+   "resumen": "Ovidio Ledesma, who after years of dedicating himself to hunting and logging, ended up becoming a forest ranger in Planes de San Rafael for over 20 years. Today, he is the caretaker of a private reserve, from where he pr",
+   "fecha": "2023-10-12T19:21:57+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "The Story of Ovid | Before and After Conservation | WWF Colombia",
+   "resumen_en": "Ovidio Ledesma, who after years of dedicating himself to hunting and logging, ended up becoming a forest ranger in Planes de San Rafael for over 20 years. Today, he is the caretaker of a private reserve, from where he pr"
+  },
+  {
+   "id": "Q7zyvD7feSM",
+   "titulo": "Jairo's Story | Before and After Conservation | WWF Colombia",
+   "resumen": "Jairo Sedano Santamaría was destined to be a cattle rancher until the day when nature conservation arrived \"at his doorstep.\" This is the story of how he decided to transform over 40 hectares of grasslands into a natural",
+   "fecha": "2023-10-09T15:15:18+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Jairo's Story | Before and After Conservation | WWF Colombia",
+   "resumen_en": "Jairo Sedano Santamaría was destined to be a cattle rancher until the day when nature conservation arrived \"at his doorstep.\" This is the story of how I decided to transform over 40 hectares of grasslands into a natural"
+  },
+  {
+   "id": "NWb2vi4KhJ8",
+   "titulo": "Saida's Story | Before and After Conservation | WWF Colombia",
+   "resumen": "If we don't protect the biodiversity of our territory, who else will take care of it? This is our commitment to the community and future generations.\" This is the main reflection of Saida, legal representative of the Exa",
+   "fecha": "2023-10-09T15:03:54+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Saida's Story | Before and After Conservation | WWF Colombia",
+   "resumen_en": "If we don't protect the biodiversity of our territory, who else will take care of it? This is our commitment to the community and future generations.\" This is the main reflection of Saida, legal representative of the Exa"
+  },
+  {
+   "id": "OySR4SxgHBI",
+   "titulo": "Discover The Mangrove Narrators of Nuquí, Chocó, Colombia",
+   "resumen": "Meet this amazing group of people that works every day for the conservation of mangroves in Nuquí, Chocó, as part of Los Riscales Community Council. Each of their actions contribute with the balance between their culture",
+   "fecha": "2023-10-04T21:43:02+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Discover The Mangrove Narrators of Nuquí, Chocó, Colombia",
+   "resumen_en": "Meet this amazing group of people that works every day for the conservation of mangroves in Nuquí, Chocó, as part of Los Riscales Community Council. Each of their actions contribute with the balance between their culture"
   },
   {
    "id": "GbnDdGvFLts",
