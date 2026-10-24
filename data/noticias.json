@@ -1,17 +1,25 @@
 {
- "actualizado": "2026-10-24T01:44:27.869Z",
- "actualizadoBogota": "23 de octubre de 2026 a las 8:44 p. m.",
+ "actualizado": "2026-10-24T02:10:58.673Z",
+ "actualizadoBogota": "23 de octubre de 2026 a las 9:10 p. m.",
  "fuentes": {
-  "wwfInicio": "error: HTTP 403",
-  "wwfNoticias": "error: HTTP 403",
-  "wwfRSS": "error: HTTP 403",
-  "prensa": 31,
+  "wwfInicio": "error: bloqueado y sin respaldo",
+  "wwfNoticias": "error: sitio no disponible en esta corrida",
+  "wwfRSS": "error: sitio no disponible en esta corrida",
+  "prensa": 32,
+  "prensaBing": 12,
   "prensaAmbiente": 20,
   "notasAbiertas": 0,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
-  "videosCanal": "error: HTTP 500",
-  "traducciones": 0
+  "videosCanal": "error: HTTP 404",
+  "traducciones": 40,
+  "errorTraduccion": "google: HTTP 429",
+  "rutas": {
+   "news.google.com": "directo",
+   "www.bing.com": "directo",
+   "www.youtube.com": "directo"
+  },
+  "segundos": 90
  },
  "wwf": [
   {
@@ -97,7 +105,8 @@
    "fuente": "Infobae",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "WWF Spain calls on the Government to accelerate measures to halt the loss of biodiversity by 2030"
   },
   {
    "id": "prensa-42cv5s",
@@ -110,7 +119,8 @@
    "fuente": "La Red Cultural del Banco de la República",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Living Landscapes: Communities, Memory and Conservation"
   },
   {
    "id": "prensa-1b3iium",
@@ -123,7 +133,8 @@
    "fuente": "WWF Colombia",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "‘Biodiversity COP17 must accelerate implementation and deliver results rather than promises’"
   },
   {
    "id": "prensa-185graa",
@@ -136,7 +147,8 @@
    "fuente": "Noticias RCN",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Wildlife populations decreased by 73% in 52 years, according to WWF report"
   },
   {
    "id": "prensa-lpveq7",
@@ -149,7 +161,8 @@
    "fuente": "Revista Semana",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "The worrying landscape of wildlife in the world: are we running out of animals?"
   },
   {
    "id": "prensa-uegiv1",
@@ -162,7 +175,8 @@
    "fuente": "El Expreso",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "More than 30 people successfully completed the course \"Finance for nature\" supported by the carder"
   },
   {
    "id": "prensa-zk9of4",
@@ -175,7 +189,8 @@
    "fuente": "LAUD Estéreo",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "What's going on with the wildlife? WWF warns of critical decline in America"
   },
   {
    "id": "prensa-1bb5bq0",
@@ -188,7 +203,8 @@
    "fuente": "Caracol Radio",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "WWF warns of loss of 95% of wildlife in Latin America: what is at risk?"
   },
   {
    "id": "prensa-1w7z7h7",
@@ -201,7 +217,22 @@
    "fuente": "Diario del Sur",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Biodiversity loss threatens global economy"
+  },
+  {
+   "id": "prensa-nk00fa",
+   "titulo": "Entre la alerta y la esperanza: Lo que nos deja el Informe Planeta Vivo 2026",
+   "resumen": "",
+   "fecha": "2026-10-14T17:24:19.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVUR4N0o5UnlydWdMWjRiOVdIN2lVd2NCWlI0WWZIazlOTHRPc3JWbDJIbnRySWJPV3FwVmlDaG5iNm5IaUo0UXJKOEh4anVXS2lpRUZWSjZhRVpuZUZod2xSV3R2MkZ3M1UyUmtHcm5feE5ZMWY2cEZEel9UaldvMHZyZmFTS3V4Y1VlNWtneGI0MmJkS2RxY1R3WUcxTXM1eFpBbGRfWTUtMEpwQjZv?oc=5",
+   "fuente": "UNIMINUTO Radio",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "titulo_en": "Between alertness and hope: What the 2026 Living Planet Report leaves us"
   },
   {
    "id": "prensa-198sh87",
@@ -214,7 +245,8 @@
    "fuente": "LaRepublica.co",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "\"Colombia must evaluate whether it needs a law or decree for compensation\""
   },
   {
    "id": "prensa-ei3lrx",
@@ -227,7 +259,8 @@
    "fuente": "Panda.org",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "What we experienced at Climate Week Medellín: cities that are already changing history"
   },
   {
    "id": "prensa-10cm42g",
@@ -240,7 +273,8 @@
    "fuente": "Forbes Colombia",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Biodiversity loss threatens the global economy: half of GDP depends on nature, according to WWF"
   },
   {
    "id": "prensa-1gcvsp7",
@@ -253,7 +287,8 @@
    "fuente": "Señal Colombia",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Biodiversity in Latin America: Wildlife populations decreased by 95% | Signal Colombia"
   },
   {
    "id": "prensa-bhebhz",
@@ -266,7 +301,8 @@
    "fuente": "La Patria",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Wildlife fell 73% between 1970 and 2022: WWF points to causes and recovery pathways"
   },
   {
    "id": "prensa-lyw64b",
@@ -279,7 +315,8 @@
    "fuente": "Marandua",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Amazon Marathon 2026 joins the conservation of Guaviare with the planting of 2,800 trees"
   },
   {
    "id": "prensa-15axfgz",
@@ -292,7 +329,8 @@
    "fuente": "Radio Nacional de Colombia",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Latin America records a 95% drop in wildlife populations, warns WWF"
   },
   {
    "id": "prensa-n36lnv",
@@ -305,7 +343,8 @@
    "fuente": "El Tiempo",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Biodiversity loss is closely related to how food is produced, energy is generated and financial resources are directed"
   },
   {
    "id": "prensa-5akb0g",
@@ -318,7 +357,8 @@
    "fuente": "El País",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Wildlife populations fell 73% in 52 years, according to WWF"
   },
   {
    "id": "prensa-zpx2pr",
@@ -331,7 +371,8 @@
    "fuente": "El Espectador",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "The new picture of global biodiversity revealed by the Living Planet report"
   },
   {
    "id": "prensa-1sb98kn",
@@ -344,7 +385,8 @@
    "fuente": "Blu Radio",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "WWF warns that wildlife populations have decreased by 73% worldwide"
   },
   {
    "id": "prensa-fhijns",
@@ -357,7 +399,8 @@
    "fuente": "DW.com",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Latin America takes a step to legally combat ecocide"
   },
   {
    "id": "prensa-1n2wdk5",
@@ -370,7 +413,8 @@
    "fuente": "EL PAÍS",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Wildlife populations continue to fall and Latin America bears the brunt"
   },
   {
    "id": "prensa-xomhm8",
@@ -383,7 +427,8 @@
    "fuente": "Alcaldía de Medellín",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Johan, from Putumayo, won the Wild Wisdom final in Medellín: the country's most pilot adolescent in biodiversity"
   },
   {
    "id": "prensa-8yppt8",
@@ -396,7 +441,8 @@
    "fuente": "Revista Semana",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Colombia puts nature at the center of the conversation about its future"
   },
   {
    "id": "prensa-g1pgbi",
@@ -409,7 +455,8 @@
    "fuente": "WWF Colombia",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Application of the Water Risk Filter (WRF) in the financial sector: Finagro case"
   },
   {
    "id": "prensa-m864tu",
@@ -422,7 +469,8 @@
    "fuente": "WWF Colombia",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Amazon and Caribbean, the Colombian regions winning in Savage Wisdom 2026"
   },
   {
    "id": "prensa-4iz49s",
@@ -435,7 +483,8 @@
    "fuente": "WWF Perú",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Nature: a financial risk that cannot be ignored"
   },
   {
    "id": "prensa-w4tsju",
@@ -448,7 +497,8 @@
    "fuente": "Telemedellín",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Medellín Climate Week highlights the power of social media to care for the planet"
   },
   {
    "id": "prensa-tqen13",
@@ -461,7 +511,8 @@
    "fuente": "PRENSA LIBRE CASANARE",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Sustainable and Regenerative Orinoquia Connection. Today, our region's great Interclusters Meeting at the Chamber of Commerce"
   },
   {
    "id": "prensa-1ujuhhk",
@@ -474,7 +525,8 @@
    "fuente": "Caracol Radio",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "WWF calls for actions to protect water from the El Niño phenomenon"
   },
   {
    "id": "prensa-17yurzt",
@@ -487,7 +539,8 @@
    "fuente": "WWF Colombia",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "PNN El Tuparro: 46 years of a giant of hope in the Colombian Orinoquia"
   },
   {
    "id": "prensa-yso7mv",
@@ -500,7 +553,8 @@
    "fuente": "Infobae",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Last chance to see humpback whales: Colombian Pacific destinations to visit in October"
   },
   {
    "id": "prensa-198dwen",
@@ -513,7 +567,170 @@
    "fuente": "El Espectador",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z"
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Santander seeks a common roadmap for water, energy and territory"
+  },
+  {
+   "id": "prensa-u8fhtj",
+   "titulo": "Inter Bogotá y WWF Colombia se unen para promover la protección ambiental",
+   "resumen": "",
+   "fecha": "2026-04-30T22:01:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.larepublica.co/ocio/inter-bogota-y-wwf-colombia-se-unen-para-promover-la-proteccion-ambiental-4383752",
+   "fuente": "larepublica",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "titulo_en": "Inter Bogotá and WWF Colombia join forces to promote environmental protection"
+  },
+  {
+   "id": "prensa-8pkoj2",
+   "titulo": "WWF Colombia anuncia quiénes son los jóvenes que más saben de biodiversidad en el país, a través de la iniciativa Sabiduría Salvaje",
+   "resumen": "",
+   "fecha": "2024-10-24T09:12:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.eltiempo.com/vida/medio-ambiente/wwf-colombia-anuncia-quienes-son-los-jovenes-que-mas-saben-de-biodiversidad-en-el-pais-a-traves-de-la-iniciativa-sabiduria-salvaje-3393456",
+   "fuente": "El Tiempo",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "titulo_en": "WWF Colombia announces who are the young people who know the most about biodiversity in the country, through the Wild Wisdom initiative"
+  },
+  {
+   "id": "prensa-pyp7h3",
+   "titulo": "WWF celebra la designación de Colombia como país sede de la COP de Biodiversidad 2024",
+   "resumen": "",
+   "fecha": "2023-12-17T16:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://wwf.panda.org/es/?10452366/COPCBDColombia",
+   "fuente": "Panda",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "titulo_en": "WWF welcomes the designation of Colombia as the host country of the 2024 Biodiversity COP"
+  },
+  {
+   "id": "prensa-1g0vr90",
+   "titulo": "WWF se une al ‘Pacto Nacional por la protección con el jaguar’",
+   "resumen": "",
+   "fecha": "2023-06-21T17:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.elnuevosiglo.com.co/ambiente-y-ciencia/wwf-se-une-al-pacto-nacional-por-la-proteccion-con-el-jaguar",
+   "fuente": "El Nuevo Siglo",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "titulo_en": "WWF joins the ‘National Pact for Jaguar Protection’"
+  },
+  {
+   "id": "prensa-7zpp20",
+   "titulo": "WWF celebra la aprobación histórica de 43 millones de dólares para la conservación de áreas protegidas en Colombia",
+   "resumen": "",
+   "fecha": "2023-03-17T07:48:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://miputumayo.com.co/2023/03/17/wwf-celebra-la-aprobacion-historica-de-43-millones-de-dolares-para-la-conservacion-de-areas-protegidas-en-colombia/",
+   "fuente": "miputumayo.com.co",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "titulo_en": "WWF Celebrates Historic Approval of $43 Million for Protected Areas Conservation in Colombia"
+  },
+  {
+   "id": "wwf-377671",
+   "titulo": "Colombia, WWF y sus socios anuncian un acuerdo de 245 millones de dólares para proteger de forma permanente el Sistema Nacional de Áreas Protegidas (SINAP)",
+   "resumen": "",
+   "fecha": "2022-06-22T17:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.wwf.org.pe/en/?377671/Colombia-WWF-y-sus-socios-anuncian-un-acuerdo-de-245-millones-de-dolares-para-proteger-de-forma-permanente-el-Sistema-Nacional-de-reas-Protegidas--SINAP",
+   "fuente": "wwf",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "titulo_en": "Colombia, WWF and its partners announce a $245 million agreement to permanently protect the National System of Protected Areas (SINAP)"
+  },
+  {
+   "id": "wwf-375855",
+   "titulo": "Colombia Azul: acuicultura creciente y pesca sostenible",
+   "resumen": "",
+   "fecha": "2022-03-22T17:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.wwf.org.pe/pacifico/?375855/Colombia-Azul-acuicultura-creciente-y-pesca-sostenible",
+   "fuente": "wwf",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z"
+  },
+  {
+   "id": "prensa-1d1nl5d",
+   "titulo": "Empoderamiento de la mujer y sostenibilidad: Concepto de la WWF Colombia",
+   "resumen": "",
+   "fecha": "2022-03-04T16:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://caracol.com.co/programa/2022/03/05/el_sabor_de_colombia/1646498436_222310.html",
+   "fuente": "Caracol Radio",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z"
+  },
+  {
+   "id": "prensa-1b20ahm",
+   "titulo": "Después de casi 30 años, WWF Colombia tendrá nueva directora",
+   "resumen": "",
+   "fecha": "2021-07-08T07:30:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.elespectador.com/ambiente/bibo/despues-de-casi-30-anos-wwf-colombia-tendra-nueva-directora/",
+   "fuente": "El Espectador",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z"
+  },
+  {
+   "id": "prensa-5psbi9",
+   "titulo": "Colombates y WWF Colombia se unieron para promover la conservación de ecosistemas",
+   "resumen": "",
+   "fecha": "2020-09-03T14:26:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.larepublica.co/responsabilidad-social/colombates-y-wwf-colombia-se-unieron-para-promover-la-conservacion-de-bosques-y-ecosistemas-3055081",
+   "fuente": "larepublica",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z"
+  },
+  {
+   "id": "prensa-swzw1d",
+   "titulo": "WWF Colombia hace llamado para evitar la extinción del cóndor andino",
+   "resumen": "",
+   "fecha": "2019-06-04T17:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.aa.com.tr/es/mundo/wwf-colombia-hace-llamado-para-evitar-la-extinci%C3%B3n-del-c%C3%B3ndor-andino/2271138",
+   "fuente": "aa.com.tr",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z"
+  },
+  {
+   "id": "wwf-320297",
+   "titulo": "La revista WWF Colombia, un privilegio para la Comunidad Panda",
+   "resumen": "",
+   "fecha": "2018-01-08T16:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://wwf.panda.org/es/?320297/Revista-WWF-Colombia",
+   "fuente": "Panda",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z"
   }
  ],
  "videos": [],
