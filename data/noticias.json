@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-10-24T21:28:45.578Z",
- "actualizadoBogota": "24 de octubre de 2026 a las 4:28 p. m.",
+ "actualizado": "2026-10-25T09:19:17.985Z",
+ "actualizadoBogota": "25 de octubre de 2026 a las 4:19 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 32,
+  "prensa": 31,
   "prensaBing": 12,
-  "prensaAmbiente": 19,
+  "prensaAmbiente": 18,
   "notasAbiertas": 0,
   "fotosPrensa": 10,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
   "videosCanal": 24,
-  "traducciones": 1,
-  "errorTraduccion": "google: HTTP 429",
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 54
+  "segundos": 53
  },
  "wwf": [
   {
@@ -211,7 +210,7 @@
    "id": "prensa-1bb5bq0",
    "titulo": "WWF alerta por pérdida del 95 % de fauna silvestre en América Latina: ¿qué está en riesgo?",
    "resumen": "",
-   "fecha": "2026-10-15T13:20:23.000Z",
+   "fecha": "2026-10-15T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbWRvZE9RUEJoM3VRTThiNVhQT09YSVhxc1lTMzBjTUxjWURVT2xLUDZQT1hPS0JzUGxyQUlRa1JxcENlNXRKanVDMmpGdFpnOURqd1Y1SlQzRmVpdWN4MjFMOVU0dWVlcGpmV3lPWGpqUC1uS0I5Nlo0TjIzRGg5aHdaa3pwQTNIYjNWY3BSYWdWZHhKRnhsQlRBWW1VTVZkNWtWYXQ5c2NpU1VMa2hWb0xLUlUwUDhQMkxWWtIB0AFBVV95cUxNTWpsN04tcTZPbHVhbVVQS05XZEF1VDhBaTE5eG5DODNsd1h2UW5xbUc4XzRneG1tVEJFSW1BamFkVlhxajROUlhmU1YzT2JXUnQ5TnpfX3hfc1FGNXJsMkZKSzZZZGp0dXZUOThBNl9scldlVm14YjdQUktDcGxOMF9aT1NxRVBicUpyTXZlWDFCa29uRTVlZlRibkNXZ0otVkVmUTRVTHQzcDN0R1VIRElSMjJxaUo0alExMmtxRm9fdUJPczhEZ1JRWkM5YUVj?oc=5",
