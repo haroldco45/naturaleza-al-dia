@@ -1,25 +1,26 @@
 {
- "actualizado": "2026-10-25T09:19:17.985Z",
- "actualizadoBogota": "25 de octubre de 2026 a las 4:19 a. m.",
+ "actualizado": "2026-10-26T07:38:51.850Z",
+ "actualizadoBogota": "26 de octubre de 2026 a las 2:38 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 31,
+  "prensa": 30,
   "prensaBing": 12,
-  "prensaAmbiente": 18,
+  "prensaAmbiente": 5,
   "notasAbiertas": 0,
   "fotosPrensa": 10,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 1,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 53
+  "segundos": 54
  },
  "wwf": [
   {
@@ -94,6 +95,20 @@
   }
  ],
  "prensa": [
+  {
+   "id": "prensa-lil35f",
+   "titulo": "Agricultura regenerativa: una apuesta por recuperar los suelos y transformar el desarrollo rural en Colombia",
+   "resumen": "",
+   "fecha": "2026-10-22T18:42:54.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMnpFNm0td003Y2cxYXRjd3AyTXFUTldDc1k3b0pFTUpuR01FZklGejE2bV9QVzJKZF8xcTFaVmVySDFkQ0c4eVYwOUdiM1k3MEN4MVNQSjFTWTVOcy1OdVhqd3FXeFk2ZjgwX01JTUNnd0xBVFRZelZ0UC1pdlZ3QUtNVkR3WlJKSjNzeU91clI2VS1hRmhySTBUVVJSaDFVR3EwQTZGNmFlMnNOUzk0N2VRU2FrRnZ1WkJ0b1RwTVBLaEZORlJQdjJBNmkzZGpHdGVvVWNQbE9LQndwclpzZUMtazRMTDMyX3N4UA?oc=5",
+   "fuente": "Food and Agriculture Organization",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-26T07:38:51.850Z",
+   "titulo_en": "Regenerative agriculture: a commitment to recovering soils and transforming rural development in Colombia"
+  },
   {
    "id": "prensa-11ejexk",
    "titulo": "WWF España pide al Gobierno acelerar las medidas para frenar la pérdida de biodiversidad de cara a 2030",
@@ -813,6 +828,20 @@
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T12:10:16.692Z",
+   "fotoRevisada": true
+  },
+  {
+   "id": "prensa-4cxzce",
+   "titulo": "WWF pide a Colombia integrarse en la Comisión Ballenera Internacional",
+   "resumen": "",
+   "fecha": "2009-07-17T08:48:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://www.ecoticias.com/naturaleza/15531_wwf-pide-a-colombia-integrarse-en-la-comision-ballenera-internacional-agua-oceano-ballenas",
+   "fuente": "ECOticias.com",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-26T07:38:51.850Z",
    "fotoRevisada": true
   }
  ],
