@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-26T15:03:06.932Z",
- "actualizadoBogota": "26 de octubre de 2026 a las 10:03 a. m.",
+ "actualizado": "2026-10-26T20:41:40.602Z",
+ "actualizadoBogota": "26 de octubre de 2026 a las 3:41 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -9,17 +9,18 @@
   "prensaBing": 12,
   "prensaAmbiente": 19,
   "notasAbiertas": 0,
-  "fotosPrensa": 10,
+  "fotosPrensa": 11,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 1,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 52
+  "segundos": 56
  },
  "wwf": [
   {
@@ -95,6 +96,20 @@
  ],
  "prensa": [
   {
+   "id": "prensa-ws3nu0",
+   "titulo": "Incendios forestales en Colombia: restaurar los ecosistemas va más allá de sembrar árboles",
+   "resumen": "",
+   "fecha": "2026-10-26T18:12:43.000Z",
+   "imagen": "https://www.bing.com/th?id=ONUT.XVtzBxTRrTqTDRXMM22hNw&pid=News",
+   "credito": "© NTN24",
+   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNkViV2ZCMHlLY2ZUY0h5YVN1TTRUM285T211Nno1LUNKaUg2bFZ5czJPUmg4Z0RFZ3F1RnRzbHcyaFZZNHA5Tl9IMVNqSG9mTjlwUU13NmVoNkRKMnFqVmI4dGxfN3c4cG83UVl0TnE5TUV3NEhEN0ZFVklsbmV5UjQwTWVrczdFbFlaR2dQTmQzTUMwRDQ5SlJqeWxOU19SbTVRMjg3OVo1QVAxTmtLcmxOTFppZ2hIbHRObXp4eDE3ZFM1Vlc5NlZKd2cyR2l4Rk9sctIB1AFBVV95cUxNNkViV2ZCMHlLY2ZUY0h5YVN1TTRUM285T211Nno1LUNKaUg2bFZ5czJPUmg4Z0RFZ3F1RnRzbHcyaFZZNHA5Tl9IMVNqSG9mTjlwUU13NmVoNkRKMnFqVmI4dGxfN3c4cG83UVl0TnE5TUV3NEhEN0ZFVklsbmV5UjQwTWVrczdFbFlaR2dQTmQzTUMwRDQ5SlJqeWxOU19SbTVRMjg3OVo1QVAxTmtLcmxOTFppZ2hIbHRObXp4eDE3ZFM1Vlc5NlZKd2cyR2l4Rk9scg?oc=5",
+   "fuente": "NTN24",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-26T20:41:40.602Z",
+   "titulo_en": "Colombia Wildfires: Restoring Ecosystems Goes Beyond Planting Trees"
+  },
+  {
    "id": "prensa-lil35f",
    "titulo": "Agricultura regenerativa: una apuesta por recuperar los suelos y transformar el desarrollo rural en Colombia",
    "resumen": "",
@@ -168,7 +183,7 @@
    "id": "prensa-lpveq7",
    "titulo": "El preocupante panorama de la fauna silvestre en el mundo: ¿nos estamos quedando sin animales?",
    "resumen": "",
-   "fecha": "2026-10-17T12:07:31.000Z",
+   "fecha": "2026-10-17T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVVc5WUQ3dEFIcTJwXzNvUGZvSmNqNXdWWUdDVUhObE1POFFrb2xsMTZwb3AzdDFRN09qdzF3S0JodmFlbThUSTFkWXBFZVhVVmQtQXktNGc3eGNaOXc5dUlTLU9acFZVZ0FDZTM5eEszcXpZcG1heUdHeHEyX0Y1ZzlrMEp2ZEF1RURvRmhTa0F6VVRGMEpOaEV5LVNkcl9OZ0lnM2tlaUhTbDBMMFdtQnhyUl9WRWZTNDJKQlBJRXZmWXBUVldfTG9IV1E0ZDIxaFQ0enp3UGxld9IB3wFBVV95cUxPWjY0b0RDYU12Y000djEyT003a0dyaHhWclJYWTExb2hlNWRvYWNkbmFTXzZxbWdSbkowbDdEcUdxbURFWTVtdW1GNjc1ZG9KdHRXbVdoQVZYS0FWSWRoUG5mU0o2NWs3ZU9WQ20zbi0wcTlpZDZBWUYzVnNTQU5PUmg1VU9BeXJMTlh1WHZfWVJ4OVZlcDdTS1Q3ekRtQmVLUkZSSFZyY1EtWlNTcVpNaVNlTU5VUTBVMEp1SU9ka1EyYk5sbnA3ZE56SzBIWGEtelV3dm1PSVk4Tk5jWjVF?oc=5",
@@ -308,7 +323,7 @@
    "id": "prensa-1gcvsp7",
    "titulo": "Biodiversidad en América Latina: las poblaciones de vida silvestre disminuyeron un 95 % | Señal Colombia",
    "resumen": "",
-   "fecha": "2026-10-10T21:31:19.000Z",
+   "fecha": "2026-10-10T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVFpPNFdXV056aGh2eW1UYV9wRjVfOVJja1pza01aaUwzc3RHWlRuNE1iMFBFUWlEdUNtN2xDWjdnTmRQeGhvRGtjeVdPMnJrbzRCeC1VVFVYZEdHeExsMEdHWVctTmJ1aWFsV082N3FMWkhUSzdXUXlVNDFNVV9PY1lVUFo4T3ZobVZ1NFJDU083SGZOalJVRXpwaUU2dTk3OUMwdjk2S0p1eWVqenFYa3Q1cWdCUdIBugFBVV95cUxOc01faU51RWNITWxNTlRlN2I5ZE55OWR2WUp4anNqQ0h3T25tNERGVUt5RXZ4S0NKanpIcDIydFNzaGJZUjZWR05ZSXpMSExzMjZiTnUwUDNlbzhBc0RVSGNzWnRqUXYwTkRlWlpFZGhyb0p4LXhBZzhZaHNITFdCZm8tVXFtTUdOTGE1WmNYUEQ0NGx5TnJnZjV5TXUtQWpsdnU5WHV0bnhzbzRlX3JxQUd2Ym5KemxtMWc?oc=5",
