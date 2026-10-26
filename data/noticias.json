@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-10-26T07:38:51.850Z",
- "actualizadoBogota": "26 de octubre de 2026 a las 2:38 a. m.",
+ "actualizado": "2026-10-26T15:03:06.932Z",
+ "actualizadoBogota": "26 de octubre de 2026 a las 10:03 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
   "prensa": 30,
   "prensaBing": 12,
-  "prensaAmbiente": 5,
+  "prensaAmbiente": 19,
   "notasAbiertas": 0,
   "fotosPrensa": 10,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
   "videosCanal": 24,
-  "traducciones": 1,
-  "errorTraduccion": "google: HTTP 429",
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 54
+  "segundos": 52
  },
  "wwf": [
   {
@@ -166,20 +165,6 @@
    "titulo_en": "Wildlife populations decreased by 73% in 52 years, according to WWF report"
   },
   {
-   "id": "prensa-7r9y2n",
-   "titulo": "En video quedó registrada la visita de un de oso andino joven en los Farallones de Cali",
-   "resumen": "",
-   "fecha": "2026-10-17T16:39:52.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTZablBYbi1ZdzFFeGlZalFiYnFQMDEwd0pURFFHVnRiSVlGZ3ZWQkRvejZTTXlSTGRrREoyMVZyeUxaQ2VvVGwtdUZQQWpnLXp2N3NMUXNDZzNrMEc4VFhyY1NIZk1vZlN2UEhCVkVhUFczcFNlZTdaQTI2QXpzMTdsUjI5YXhBR0EzSDhGb0hydmxKdDBkRkZyYVlhOXNuMGNOZHJ6WTNpWmotalp6bnduaHRCbEE5SkFLUnZ1MkdPTWJlRmlCQXJGQdIB3wFBVV95cUxQYzVnUlNuYUJqclROcnJpMEdaZGRZRWRkUTJBZXVya2EyZmdDSllSU0dLaDZDYW1YMmFfLTEzRGlyLUNkcXZfSG9rMThJZ0diR0lBcEE4ZVhZVmtXby1HVjBEWlFVX3FqejcyYU1NQ2pLcGxhaXBnRUIyMUs0ZnlSRUhraEIyazhXd0VLeUhoQ0VoRHFFRTdNbmtpUlA1alRPbUxOSFlHSU9BMWlRbkJQcU9hVEZieGJNcGdoMldvQlVCc2lIcnpxenFhTGpheU9XRUlDRExnZEdQMV91eGVn?oc=5",
-   "fuente": "El Espectador",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T21:28:45.578Z",
-   "titulo_en": "The visit of a young Andean bear in the Farallones of Cali was recorded on video"
-  },
-  {
    "id": "prensa-lpveq7",
    "titulo": "El preocupante panorama de la fauna silvestre en el mundo: ¿nos estamos quedando sin animales?",
    "resumen": "",
@@ -192,6 +177,20 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "The worrying landscape of wildlife in the world: are we running out of animals?"
+  },
+  {
+   "id": "prensa-7r9y2n",
+   "titulo": "En video quedó registrada la visita de un de oso andino joven en los Farallones de Cali",
+   "resumen": "",
+   "fecha": "2026-10-17T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTZablBYbi1ZdzFFeGlZalFiYnFQMDEwd0pURFFHVnRiSVlGZ3ZWQkRvejZTTXlSTGRrREoyMVZyeUxaQ2VvVGwtdUZQQWpnLXp2N3NMUXNDZzNrMEc4VFhyY1NIZk1vZlN2UEhCVkVhUFczcFNlZTdaQTI2QXpzMTdsUjI5YXhBR0EzSDhGb0hydmxKdDBkRkZyYVlhOXNuMGNOZHJ6WTNpWmotalp6bnduaHRCbEE5SkFLUnZ1MkdPTWJlRmlCQXJGQdIB3wFBVV95cUxQYzVnUlNuYUJqclROcnJpMEdaZGRZRWRkUTJBZXVya2EyZmdDSllSU0dLaDZDYW1YMmFfLTEzRGlyLUNkcXZfSG9rMThJZ0diR0lBcEE4ZVhZVmtXby1HVjBEWlFVX3FqejcyYU1NQ2pLcGxhaXBnRUIyMUs0ZnlSRUhraEIyazhXd0VLeUhoQ0VoRHFFRTdNbmtpUlA1alRPbUxOSFlHSU9BMWlRbkJQcU9hVEZieGJNcGdoMldvQlVCc2lIcnpxenFhTGpheU9XRUlDRExnZEdQMV91eGVn?oc=5",
+   "fuente": "El Espectador",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T21:28:45.578Z",
+   "titulo_en": "The visit of a young Andean bear in the Farallones of Cali was recorded on video"
   },
   {
    "id": "prensa-uegiv1",
