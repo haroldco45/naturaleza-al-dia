@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-10-27T05:27:51.722Z",
- "actualizadoBogota": "27 de octubre de 2026 a las 12:27 a. m.",
+ "actualizado": "2026-10-27T10:52:42.588Z",
+ "actualizadoBogota": "27 de octubre de 2026 a las 5:52 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 30,
+  "prensa": 29,
   "prensaBing": 12,
   "prensaAmbiente": 19,
   "notasAbiertas": 0,
   "fotosPrensa": 11,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
-  "videosCanal": 0,
+  "videosCanal": 24,
   "traducciones": 1,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 75
+  "segundos": 56
  },
  "wwf": [
   {
@@ -262,6 +262,20 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "WWF warns of loss of 95% of wildlife in Latin America: what is at risk?"
+  },
+  {
+   "id": "prensa-144zz0s",
+   "titulo": "Autoridades ambientales nacionales plantean reformar las compensaciones",
+   "resumen": "",
+   "fecha": "2026-10-15T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdmFsT1Nna1lXUHBFMmxBb09yWUxmRmw2M1dVMWY2TG1NMFZoa3V0Z1ljYUQ5VE9WTExkcmp1cjJ1c19qQTBmVnFhZ292a0ZreWZWTHo3a09pZWFoQXVpSWpORmUxazJReEgtbHYxV1RqdzNEdFhzNXVSQmpCM2J5WlQ4Szh6d25HOEZ0dHBaWWZRQ3FXZUR0bDRQYXR0NkxpRU05YWduYWN1SUkzUkNSLXlWUdIBswFBVV95cUxNUXp6aDR4bWEyZlBKUHp5R0c2S1M3enFIU19VdW95a05xeVJtV2hTWWFtOFFvd2NoR3U5S3lBcGZRRjI1U3NiUk9TSFhLOThvYXMySFhjNy1sZHZOMWNMT3k0NWxxdnIwNU9tbGlwcE1FcERPeGJTWlZ6ajk2RWdxczZjVHdFN2s0VUJsR2pFb25NTmhDUXEwS29GeFBaLU45MlRJRFFyYkRWeDdXUno1bnJUOA?oc=5",
+   "fuente": "LaRepublica.co",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-27T10:52:42.588Z",
+   "titulo_en": "National environmental authorities consider reforming compensation"
   },
   {
    "id": "prensa-1w7z7h7",
