@@ -1,11 +1,11 @@
 {
- "actualizado": "2026-10-27T16:19:54.820Z",
- "actualizadoBogota": "27 de octubre de 2026 a las 11:19 a. m.",
+ "actualizado": "2026-10-27T20:53:43.335Z",
+ "actualizadoBogota": "27 de octubre de 2026 a las 3:53 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 12,
+  "prensa": 30,
   "prensaBing": 12,
   "prensaAmbiente": 19,
   "notasAbiertas": 0,
@@ -13,14 +13,13 @@
   "paginasConFoto": 0,
   "fotosGaleria": 0,
   "videosCanal": 24,
-  "traducciones": 4,
-  "errorTraduccion": "google: HTTP 429",
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 60
+  "segundos": 53
  },
  "wwf": [
   {
@@ -197,7 +196,7 @@
    "id": "prensa-7r9y2n",
    "titulo": "En video quedó registrada la visita de un de oso andino joven en los Farallones de Cali",
    "resumen": "",
-   "fecha": "2026-10-17T16:39:52.000Z",
+   "fecha": "2026-10-17T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTZablBYbi1ZdzFFeGlZalFiYnFQMDEwd0pURFFHVnRiSVlGZ3ZWQkRvejZTTXlSTGRrREoyMVZyeUxaQ2VvVGwtdUZQQWpnLXp2N3NMUXNDZzNrMEc4VFhyY1NIZk1vZlN2UEhCVkVhUFczcFNlZTdaQTI2QXpzMTdsUjI5YXhBR0EzSDhGb0hydmxKdDBkRkZyYVlhOXNuMGNOZHJ6WTNpWmotalp6bnduaHRCbEE5SkFLUnZ1MkdPTWJlRmlCQXJGQdIB3wFBVV95cUxQYzVnUlNuYUJqclROcnJpMEdaZGRZRWRkUTJBZXVya2EyZmdDSllSU0dLaDZDYW1YMmFfLTEzRGlyLUNkcXZfSG9rMThJZ0diR0lBcEE4ZVhZVmtXby1HVjBEWlFVX3FqejcyYU1NQ2pLcGxhaXBnRUIyMUs0ZnlSRUhraEIyazhXd0VLeUhoQ0VoRHFFRTdNbmtpUlA1alRPbUxOSFlHSU9BMWlRbkJQcU9hVEZieGJNcGdoMldvQlVCc2lIcnpxenFhTGpheU9XRUlDRExnZEdQMV91eGVn?oc=5",
