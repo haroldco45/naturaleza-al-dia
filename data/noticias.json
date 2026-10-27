@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-10-27T10:52:42.588Z",
- "actualizadoBogota": "27 de octubre de 2026 a las 5:52 a. m.",
+ "actualizado": "2026-10-27T16:19:54.820Z",
+ "actualizadoBogota": "27 de octubre de 2026 a las 11:19 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 29,
+  "prensa": 12,
   "prensaBing": 12,
   "prensaAmbiente": 19,
   "notasAbiertas": 0,
-  "fotosPrensa": 11,
+  "fotosPrensa": 12,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
   "videosCanal": 24,
-  "traducciones": 1,
+  "traducciones": 4,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 56
+  "segundos": 60
  },
  "wwf": [
   {
@@ -686,6 +686,20 @@
    "fotoRevisada": true
   },
   {
+   "id": "prensa-zl678f",
+   "titulo": "Itaú Colombia y WWF Colombia lanzan la segunda fase de “Páramos para el Futuro” para proteger las fábricas de agua del país",
+   "resumen": "",
+   "fecha": "2026-04-24T08:00:00.000Z",
+   "imagen": "https://i.revistapym.com.co/cms/2026/04/24143745/3-10.png?w=1280",
+   "credito": "© revistapym.com.co",
+   "enlace": "https://www.revistapym.com.co/articulos/marcas-sostenibles/97131/itau-colombia-y-wwf-colombia-lanzan-la-segunda-fase-de-paramos-para-el-futuro-para-proteger-las-fabricas-de-agua-del-pais",
+   "fuente": "revistapym.com.co",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-27T16:19:54.820Z",
+   "fotoRevisada": true
+  },
+  {
    "id": "prensa-8pkoj2",
    "titulo": "WWF Colombia anuncia quiénes son los jóvenes que más saben de biodiversidad en el país, a través de la iniciativa Sabiduría Salvaje",
    "resumen": "",
@@ -888,6 +902,24 @@
   }
  ],
  "videos": [
+  {
+   "id": "-Ms4cI3jRHY",
+   "titulo": "Delfines de río en altas temperaturas",
+   "resumen": "El aumento de temperaturas en los ríos, agravado por el Fenómeno de El Niño, afecta especialmente a las especies que viven en ellos, como nuestros emblemáticos delfines 🐬💧 Eventos pasados en la Amazonía nos ha dejado l",
+   "fecha": "2026-10-27T15:36:08+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "River dolphins in high temperatures",
+   "resumen_en": "The increase in temperatures in rivers, aggravated by the El Niño phenomenon, especially affects the species that live in them, such as our emblematic dolphins. Past 🐬💧 events in the Amazon have left us"
+  },
+  {
+   "id": "OvD8A1zdTCI",
+   "titulo": "El sistema alimentario, uno de los grandes impulsores de la pérdida de naturaleza",
+   "resumen": "También es una de las mayores oportunidades para el cambio. Menos desperdicio, una producción más sostenible y decisiones de consumo más inteligentes pueden inclinar la balanza hacia la recuperación. La ciencia demuestra",
+   "fecha": "2026-10-27T15:27:23+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "The food system, one of the big drivers of nature loss",
+   "resumen_en": "It is also one of the greatest opportunities for change. Less waste, more sustainable production, and smarter consumption decisions can tip the scales toward recovery. Science shows"
+  },
   {
    "id": "GpIZihwW7kE",
    "titulo": "Después de ser saqueadas, las tortugas vuelven a sus nidos",
