@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-26T20:41:40.602Z",
- "actualizadoBogota": "26 de octubre de 2026 a las 3:41 p. m.",
+ "actualizado": "2026-10-27T05:27:51.722Z",
+ "actualizadoBogota": "27 de octubre de 2026 a las 12:27 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -12,15 +12,15 @@
   "fotosPrensa": 11,
   "paginasConFoto": 0,
   "fotosGaleria": 0,
-  "videosCanal": 24,
+  "videosCanal": 0,
   "traducciones": 1,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 56
+  "segundos": 75
  },
  "wwf": [
   {
@@ -110,6 +110,20 @@
    "titulo_en": "Colombia Wildfires: Restoring Ecosystems Goes Beyond Planting Trees"
   },
   {
+   "id": "prensa-138n5fp",
+   "titulo": "Colombia albergará cumbre internacional sobre transición energética",
+   "resumen": "",
+   "fecha": "2026-10-26T13:13:42.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRHN5Ykt3TGkwTm5kdnFpTmRFdjhKU3pUQlNmQUUxN3VCd0ZWeUVtN0l5OVhQOWZ2cV9RYzlTRUNKdXFrYkwtb2loWmhJMzFka285LVEwQ29hN1UzTEFOVm16T2RseGRkeVdUZnNUVlNrSmZmaXA4SjVGaFlNRGJuRFpxMzNUaUJxVVNUam9iaWtrU1Y2czlkUE8yaHRqOGJ1TDZFdnhPMm50OVFL?oc=5",
+   "fuente": "Diario del Sur",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-27T05:27:51.722Z",
+   "titulo_en": "Colombia to host international summit on energy transition"
+  },
+  {
    "id": "prensa-lil35f",
    "titulo": "Agricultura regenerativa: una apuesta por recuperar los suelos y transformar el desarrollo rural en Colombia",
    "resumen": "",
@@ -180,6 +194,20 @@
    "titulo_en": "Wildlife populations decreased by 73% in 52 years, according to WWF report"
   },
   {
+   "id": "prensa-7r9y2n",
+   "titulo": "En video quedó registrada la visita de un de oso andino joven en los Farallones de Cali",
+   "resumen": "",
+   "fecha": "2026-10-17T16:39:52.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTZablBYbi1ZdzFFeGlZalFiYnFQMDEwd0pURFFHVnRiSVlGZ3ZWQkRvejZTTXlSTGRrREoyMVZyeUxaQ2VvVGwtdUZQQWpnLXp2N3NMUXNDZzNrMEc4VFhyY1NIZk1vZlN2UEhCVkVhUFczcFNlZTdaQTI2QXpzMTdsUjI5YXhBR0EzSDhGb0hydmxKdDBkRkZyYVlhOXNuMGNOZHJ6WTNpWmotalp6bnduaHRCbEE5SkFLUnZ1MkdPTWJlRmlCQXJGQdIB3wFBVV95cUxQYzVnUlNuYUJqclROcnJpMEdaZGRZRWRkUTJBZXVya2EyZmdDSllSU0dLaDZDYW1YMmFfLTEzRGlyLUNkcXZfSG9rMThJZ0diR0lBcEE4ZVhZVmtXby1HVjBEWlFVX3FqejcyYU1NQ2pLcGxhaXBnRUIyMUs0ZnlSRUhraEIyazhXd0VLeUhoQ0VoRHFFRTdNbmtpUlA1alRPbUxOSFlHSU9BMWlRbkJQcU9hVEZieGJNcGdoMldvQlVCc2lIcnpxenFhTGpheU9XRUlDRExnZEdQMV91eGVn?oc=5",
+   "fuente": "El Espectador",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T21:28:45.578Z",
+   "titulo_en": "The visit of a young Andean bear in the Farallones of Cali was recorded on video"
+  },
+  {
    "id": "prensa-lpveq7",
    "titulo": "El preocupante panorama de la fauna silvestre en el mundo: ¿nos estamos quedando sin animales?",
    "resumen": "",
@@ -192,20 +220,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "The worrying landscape of wildlife in the world: are we running out of animals?"
-  },
-  {
-   "id": "prensa-7r9y2n",
-   "titulo": "En video quedó registrada la visita de un de oso andino joven en los Farallones de Cali",
-   "resumen": "",
-   "fecha": "2026-10-17T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTZablBYbi1ZdzFFeGlZalFiYnFQMDEwd0pURFFHVnRiSVlGZ3ZWQkRvejZTTXlSTGRrREoyMVZyeUxaQ2VvVGwtdUZQQWpnLXp2N3NMUXNDZzNrMEc4VFhyY1NIZk1vZlN2UEhCVkVhUFczcFNlZTdaQTI2QXpzMTdsUjI5YXhBR0EzSDhGb0hydmxKdDBkRkZyYVlhOXNuMGNOZHJ6WTNpWmotalp6bnduaHRCbEE5SkFLUnZ1MkdPTWJlRmlCQXJGQdIB3wFBVV95cUxQYzVnUlNuYUJqclROcnJpMEdaZGRZRWRkUTJBZXVya2EyZmdDSllSU0dLaDZDYW1YMmFfLTEzRGlyLUNkcXZfSG9rMThJZ0diR0lBcEE4ZVhZVmtXby1HVjBEWlFVX3FqejcyYU1NQ2pLcGxhaXBnRUIyMUs0ZnlSRUhraEIyazhXd0VLeUhoQ0VoRHFFRTdNbmtpUlA1alRPbUxOSFlHSU9BMWlRbkJQcU9hVEZieGJNcGdoMldvQlVCc2lIcnpxenFhTGpheU9XRUlDRExnZEdQMV91eGVn?oc=5",
-   "fuente": "El Espectador",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T21:28:45.578Z",
-   "titulo_en": "The visit of a young Andean bear in the Farallones of Cali was recorded on video"
   },
   {
    "id": "prensa-uegiv1",
