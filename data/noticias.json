@@ -1,28 +1,25 @@
 {
- "actualizado": "2026-10-28T00:22:27.903Z",
- "actualizadoBogota": "27 de octubre de 2026 a las 7:22 p. m.",
+ "actualizado": "2026-10-28T19:02:32.976Z",
+ "actualizadoBogota": "28 de octubre de 2026 a las 2:02 p. m.",
  "fuentes": {
-  "fotosInicio": 5,
-  "wwfInicio": 3,
-  "wwfNoticias": 3,
-  "wwfRSS": 20,
+  "wwfInicio": "error: bloqueado y sin respaldo",
+  "wwfNoticias": "error: sitio no disponible en esta corrida",
+  "wwfRSS": "error: sitio no disponible en esta corrida",
   "prensa": 12,
   "prensaBing": 12,
-  "prensaAmbiente": 20,
-  "notasAbiertas": 3,
+  "prensaAmbiente": 18,
+  "notasAbiertas": 0,
   "fotosPrensa": 12,
-  "paginasConFoto": 27,
   "fotosGaleria": 80,
-  "videosCanal": "error: no encontré el canal",
-  "traducciones": 43,
+  "videosCanal": 24,
+  "traducciones": 2,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
-   "www.wwf.org.co": "api.allorigins.win",
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "api.allorigins.win"
+   "www.youtube.com": "directo"
   },
-  "segundos": 250
+  "segundos": 51
  },
  "wwf": [
   {
@@ -449,7 +446,7 @@
    "id": "prensa-11ejexk",
    "titulo": "WWF España pide al Gobierno acelerar las medidas para frenar la pérdida de biodiversidad de cara a 2030",
    "resumen": "",
-   "fecha": "2026-10-21T13:25:10.000Z",
+   "fecha": "2026-10-21T14:16:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcjUzeHNqLV9PbzNjS0VWdC1VU3VwTWFOR3IzMkZ0LTc5WDNTV3B3R3RpVG5EZ18yWHl6WGdzYTlGNGRsUnp5b1ktWU15LUFHeC1ZYmVMMlFSNkNxbGdYNGtOcXdFWTRDOWlFSGpyOFpXTFNYUlo3UHE5Y3BOV1llTDd6TjJVV2s2Q2h3N3l3M2xONUx3b1FFeHZ2c3RPd2VycGVHQjA5a2Fkd3hJXzZUNzJ0QzNSLTZOMnMxeU45NDJFM2hHckU4bXRRemNJSjZmZ3pHQWtrR3RwTUlFc25EMDRnMUNxRTJELTFzVNIBhwJBVV95cUxPblBxenJqTFFIb1hvdlBZQWxLVXk1M1FYMVF6MXJzS0VmNE9vdm9BXy1Hb0xqQlotTGd5RVNIV2hrY01wM0lLSHY0RmdHR3ZGTFpBMDYwQmg5YWRZQXZHV1BsbGw0UHhXazZLcGFuQWthSmVzWmhEV0NYYlN1Z3FzRUd3aF9QNUZ4UktSUGgyblFKb3dWd1ZBWWxzTWtlWElVdXNZcGpvaDNTNkN4cjByQk9nVlFMbUJ2MTg5QXNYVTlZYmJEcERRNFl3WHNxSkdfUWpGT3ZkUEFDUDRvQ2RUX3hFaEw0eklOcDg0TG5nWm9iaDRtSU1WZENYU2VoRGIwZVF4ZVRQZw?oc=5",
@@ -551,7 +548,7 @@
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPekFJb3lTYlpUT3U4ZXcwdVdaaEZTNGlwa29fM05DOFN3Z2YzTk1fZ1p3V3RGaDVaTHlKNWdubTlaUU1PWlRGNTlnakI4VHJOZzVmNnJnRDFFbEN4UkRQbTNhTkctM2w0RU8yN3VZNkIwUVV1eGh4VVlCV3ZQdkNaMWhNMWxDQ3Nmay1fdVpwLVFHYTN1TjA3V2ZCbEN6d2F5dVRvN0FJT1BlMFQzNTh4aUpwRTBQMThna0ItVG1KeUMtaS1tdkE?oc=5",
-   "fuente": "Universidad Distrital Francisco José de Caldas",
+   "fuente": "LAUD 90.4 FM",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
@@ -1210,6 +1207,15 @@
   }
  ],
  "videos": [
+  {
+   "id": "wbUzrxW8HtQ",
+   "titulo": "¿CÓMO HACER CARRETERAS SOSTENIBLES? - Lineamientos de Infraestructura verde vial",
+   "resumen": "Más información en: https://www.worldwildlife.org/publications/los-lineamientos-de-infraestructura-verde-vial-para-colombia/",
+   "fecha": "2026-10-28T16:32:56+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "HOW TO MAKE SUSTAINABLE ROADS? - Green Road Infrastructure Guidelines",
+   "resumen_en": "More information at: https://www.worldwildlife.org/publications/los-lineamientos-de-infraestructura-verde-vial-para-colombia/"
+  },
   {
    "id": "-Ms4cI3jRHY",
    "titulo": "Delfines de río en altas temperaturas",
