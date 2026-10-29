@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-10-28T23:27:27.054Z",
- "actualizadoBogota": "28 de octubre de 2026 a las 6:27 p. m.",
+ "actualizado": "2026-10-29T02:45:07.319Z",
+ "actualizadoBogota": "28 de octubre de 2026 a las 9:45 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 32,
+  "prensa": 12,
   "prensaBing": 12,
-  "prensaAmbiente": 19,
+  "prensaAmbiente": 6,
   "notasAbiertas": 0,
   "fotosPrensa": 12,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 0,
-  "traducciones": 1,
-  "errorTraduccion": "google: HTTP 429",
+  "videosCanal": "error: no encontré el canal",
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "api.allorigins.win"
   },
-  "segundos": 97
+  "segundos": 102
  },
  "wwf": [
   {
@@ -563,7 +562,7 @@
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPekFJb3lTYlpUT3U4ZXcwdVdaaEZTNGlwa29fM05DOFN3Z2YzTk1fZ1p3V3RGaDVaTHlKNWdubTlaUU1PWlRGNTlnakI4VHJOZzVmNnJnRDFFbEN4UkRQbTNhTkctM2w0RU8yN3VZNkIwUVV1eGh4VVlCV3ZQdkNaMWhNMWxDQ3Nmay1fdVpwLVFHYTN1TjA3V2ZCbEN6d2F5dVRvN0FJT1BlMFQzNTh4aUpwRTBQMThna0ItVG1KeUMtaS1tdkE?oc=5",
-   "fuente": "LAUD 90.4 FM",
+   "fuente": "Universidad Distrital Francisco José de Caldas",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
