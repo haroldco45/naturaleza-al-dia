@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-10-29T09:42:58.565Z",
- "actualizadoBogota": "29 de octubre de 2026 a las 4:42 a. m.",
+ "actualizado": "2026-10-29T16:48:26.500Z",
+ "actualizadoBogota": "29 de octubre de 2026 a las 11:48 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 11,
+  "prensa": 29,
   "prensaBing": 11,
-  "prensaAmbiente": 17,
+  "prensaAmbiente": 18,
   "notasAbiertas": 0,
   "fotosPrensa": 12,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 1,
-  "errorTraduccion": "google: HTTP 429",
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 57
+  "segundos": 52
  },
  "wwf": [
   {
@@ -517,7 +516,7 @@
    "id": "prensa-185graa",
    "titulo": "Las poblaciones de fauna silvestre disminuyeron un 73 % en 52 años, según informe de WWF",
    "resumen": "",
-   "fecha": "2026-10-18T07:00:00.000Z",
+   "fecha": "2026-10-18T20:01:33.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTjVGQlRwbEZGLXVQVEpCODBWUlZqU0xWV3BBeE9rM1VuYmtPaTc4WEVNVEQ0c2d3QnNUMVYwYVBSczRjRGlRRU5idUM0SkNSbWFlcjFHd3NyVlJ4R2hDeWZBeHBLWmpyVWNzMENWaEpDb3NXLWxoeVZ3WFJnT3lSYjBERUhHR3NITE5RRDNpTUFYa2o2SHRFb3hfZ0E0SmcyZ1c4RVdiZGw4bUdTZWp1NVlDVWFvTXVEZ080NTAzQlNSdWZ1UlhpWEJB0gHKAUFVX3lxTFBvVW51clFqVTNiT0tvelNMTmtkTnBqNk1iNUhfNTlnNXlyR0Z3TkcwcUxyM09scWNYNHczTVhwTVUzb29PZWtPZU8xV2ExX3BDWXJJbEE4TGhNaHU1MGtGQWZreDNOQmdibFBkVmlpR0d0dHhzSnJmZENpejVNb21ody1WbFp5aWJQdmgwb3lMeFp4MDlDTEtDbEN5LWhOYXZyT19td0dwRUwyQnVSekQ5SnRoRjdibWRDa053ZXA4blFINXdxcFktZXc?oc=5",
@@ -573,11 +572,11 @@
    "id": "prensa-zk9of4",
    "titulo": "¿Qué está pasando con la fauna silvestre? WWF advierte crítico declive en América",
    "resumen": "",
-   "fecha": "2026-10-16T21:23:45.000Z",
+   "fecha": "2026-10-16T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPekFJb3lTYlpUT3U4ZXcwdVdaaEZTNGlwa29fM05DOFN3Z2YzTk1fZ1p3V3RGaDVaTHlKNWdubTlaUU1PWlRGNTlnakI4VHJOZzVmNnJnRDFFbEN4UkRQbTNhTkctM2w0RU8yN3VZNkIwUVV1eGh4VVlCV3ZQdkNaMWhNMWxDQ3Nmay1fdVpwLVFHYTN1TjA3V2ZCbEN6d2F5dVRvN0FJT1BlMFQzNTh4aUpwRTBQMThna0ItVG1KeUMtaS1tdkE?oc=5",
-   "fuente": "LAUD 90.4 FM",
+   "fuente": "Universidad Distrital Francisco José de Caldas",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
