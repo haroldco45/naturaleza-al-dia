@@ -1,25 +1,26 @@
 {
- "actualizado": "2026-10-29T02:45:07.319Z",
- "actualizadoBogota": "28 de octubre de 2026 a las 9:45 p. m.",
+ "actualizado": "2026-10-29T09:42:58.565Z",
+ "actualizadoBogota": "29 de octubre de 2026 a las 4:42 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 12,
-  "prensaBing": 12,
-  "prensaAmbiente": 6,
+  "prensa": 11,
+  "prensaBing": 11,
+  "prensaAmbiente": 17,
   "notasAbiertas": 0,
   "fotosPrensa": 12,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": "error: no encontré el canal",
-  "traducciones": 0,
+  "videosCanal": 24,
+  "traducciones": 1,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "api.allorigins.win"
+   "www.youtube.com": "directo"
   },
-  "segundos": 102
+  "segundos": 57
  },
  "wwf": [
   {
@@ -387,6 +388,20 @@
  ],
  "prensa": [
   {
+   "id": "prensa-1yw9na1",
+   "titulo": "CHV-001-C836 - Realizar estudio de factibilidad para proyecto Bengo Cacao Amazonico II",
+   "resumen": "",
+   "fecha": "2026-10-28T21:07:11.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaXFsTlEwZW44RTgxRnM4OUl5Nm5JNVlaNUJjZ3hIdWkyOGZPQzQxaFMzc0FDSnVYcHI1S1J6S0JFOUFTTlBmTU1GZUlsdElaTHAtd0JNc1JsdGNuS0pZa3VpdGl4a2VyaHlQNi1pUnFQekpLMFZfb1JldEF6OHJ6NnQ0d29sVEM5OEhiU2RFMmRRU1V4Smd4MnROQ1hidF9ueU1XbkUxUlpYQUR5VGl5RUln?oc=5",
+   "fuente": "WWF Perú",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-29T09:42:58.565Z",
+   "titulo_en": "CHV-001-C836 - Conduct feasibility study for Bengo Cacao Amazonico II project"
+  },
+  {
    "id": "prensa-u42umt",
    "titulo": "Colombia revoca protección que frenaba nuevos proyectos mineros en la Amazonía",
    "resumen": "",
@@ -562,7 +577,7 @@
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPekFJb3lTYlpUT3U4ZXcwdVdaaEZTNGlwa29fM05DOFN3Z2YzTk1fZ1p3V3RGaDVaTHlKNWdubTlaUU1PWlRGNTlnakI4VHJOZzVmNnJnRDFFbEN4UkRQbTNhTkctM2w0RU8yN3VZNkIwUVV1eGh4VVlCV3ZQdkNaMWhNMWxDQ3Nmay1fdVpwLVFHYTN1TjA3V2ZCbEN6d2F5dVRvN0FJT1BlMFQzNTh4aUpwRTBQMThna0ItVG1KeUMtaS1tdkE?oc=5",
-   "fuente": "Universidad Distrital Francisco José de Caldas",
+   "fuente": "LAUD 90.4 FM",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
