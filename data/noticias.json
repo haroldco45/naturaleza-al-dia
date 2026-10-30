@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-30T08:24:48.446Z",
- "actualizadoBogota": "30 de octubre de 2026 a las 3:24 a. m.",
+ "actualizado": "2026-10-30T15:14:44.459Z",
+ "actualizadoBogota": "30 de octubre de 2026 a las 10:14 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 30,
+  "prensa": 28,
   "prensaBing": 11,
-  "prensaAmbiente": 17,
+  "prensaAmbiente": 5,
   "notasAbiertas": 0,
   "fotosPrensa": 13,
   "paginasConFoto": 0,
@@ -19,7 +19,7 @@
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 38
+  "segundos": 37
  },
  "wwf": [
   {
@@ -653,20 +653,6 @@
    "titulo_en": "Biodiversity loss threatens global economy"
   },
   {
-   "id": "prensa-nk00fa",
-   "titulo": "Entre la alerta y la esperanza: Lo que nos deja el Informe Planeta Vivo 2026",
-   "resumen": "",
-   "fecha": "2026-10-14T17:24:19.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVUR4N0o5UnlydWdMWjRiOVdIN2lVd2NCWlI0WWZIazlOTHRPc3JWbDJIbnRySWJPV3FwVmlDaG5iNm5IaUo0UXJKOEh4anVXS2lpRUZWSjZhRVpuZUZod2xSV3R2MkZ3M1UyUmtHcm5feE5ZMWY2cEZEel9UaldvMHZyZmFTS3V4Y1VlNWtneGI0MmJkS2RxY1R3WUcxTXM1eFpBbGRfWTUtMEpwQjZv?oc=5",
-   "fuente": "UNIMINUTO Radio",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "Between alertness and hope: What the 2026 Living Planet Report leaves us"
-  },
-  {
    "id": "prensa-198sh87",
    "titulo": "\"Colombia debe evaluar si necesita una ley o un decreto para las compensaciones\"",
    "resumen": "",
@@ -679,6 +665,20 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "\"Colombia must evaluate whether it needs a law or decree for compensation\""
+  },
+  {
+   "id": "prensa-nk00fa",
+   "titulo": "Entre la alerta y la esperanza: Lo que nos deja el Informe Planeta Vivo 2026",
+   "resumen": "",
+   "fecha": "2026-10-14T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVUR4N0o5UnlydWdMWjRiOVdIN2lVd2NCWlI0WWZIazlOTHRPc3JWbDJIbnRySWJPV3FwVmlDaG5iNm5IaUo0UXJKOEh4anVXS2lpRUZWSjZhRVpuZUZod2xSV3R2MkZ3M1UyUmtHcm5feE5ZMWY2cEZEel9UaldvMHZyZmFTS3V4Y1VlNWtneGI0MmJkS2RxY1R3WUcxTXM1eFpBbGRfWTUtMEpwQjZv?oc=5",
+   "fuente": "UNIMINUTO Radio",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T02:10:58.673Z",
+   "titulo_en": "Between alertness and hope: What the 2026 Living Planet Report leaves us"
   },
   {
    "id": "prensa-ei3lrx",
