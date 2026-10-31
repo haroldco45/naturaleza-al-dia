@@ -1,25 +1,25 @@
 {
- "actualizado": "2026-10-30T15:14:44.459Z",
- "actualizadoBogota": "30 de octubre de 2026 a las 10:14 a. m.",
+ "actualizado": "2026-10-30T23:59:04.994Z",
+ "actualizadoBogota": "30 de octubre de 2026 a las 6:59 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 28,
-  "prensaBing": 11,
-  "prensaAmbiente": 5,
+  "prensa": 30,
+  "prensaBing": 10,
+  "prensaAmbiente": 18,
   "notasAbiertas": 0,
   "fotosPrensa": 13,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 24,
-  "traducciones": 0,
+  "videosCanal": 15,
+  "traducciones": 3,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 37
+  "segundos": 100
  },
  "wwf": [
   {
@@ -386,6 +386,20 @@
   }
  ],
  "prensa": [
+  {
+   "id": "prensa-1o5h8uy",
+   "titulo": "El corredor de vida marina que une los polos del planeta fue presentado en la COP17",
+   "resumen": "",
+   "fecha": "2026-10-30T19:18:25.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnlFdVJXdV9PcnFkUUJuOTVCZUdMMkd3NVdpUm4yV3VuNVR1U2F6OFZ0aVl3WGVOX19kRWZzZ0p3OHlpOEFWQ09UNi1LTmdXYjFRWUtLaWIzSjFyOWlMU1FWaG0yQ3hlR3p2NW9MaEYyVm15bjZrY2pTLTdFT3NnS29LMUZVMVlaSjg3cTlYSnpKXzRqTzJMQ1NYQmhjX3lSMWM2MW9iSDU2WkVUb1k5bXdZUFTSAbQBQVVfeXFMTVp5RXVSV3VfT3JxZFFCbjk1QmVHTDJHdzVXaVJuMld1bjVUdVNhejhWdGlZd1hlTl9fZEVmc2dKdzh5aThBVkNPVDYtS05nV2IxUVlLS2liM0oxcjlpTFNRVmhtMkN4ZUd6djVvTGhGMlZteW42a2NqUy03RU9zZ0tvSzFGVTFZWko4N3E5WEp6Sl80ak8yTENTWEJoY195UjFjNjFvYkg1NlpFVG9ZOW13WVBU?oc=5",
+   "fuente": "PressLatam",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-30T23:59:04.994Z",
+   "titulo_en": "The marine life corridor that connects the poles of the planet was presented at COP17"
+  },
   {
    "id": "prensa-1db562e",
    "titulo": "¿Por qué el buen estado de los suelos es clave para tener alimentos saludables en casa?",
@@ -1277,6 +1291,15 @@
   }
  ],
  "videos": [
+  {
+   "id": "C4uqCJfpV9o",
+   "titulo": "¿Qué es más aterrador?",
+   "resumen": "Ya estamos viviendo el silencio en los bosques... ¡Pero no todas las historias tienen que terminar en terror! El Informe Planeta Vivo 2026 de WWF nos ayuda a entender mejor: livingplanet.panda.org/es-CO/",
+   "fecha": "2026-10-30T23:45:17+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "What is more terrifying?",
+   "resumen_en": "We are already experiencing silence in the forests... But not all stories have to end in terror! WWF's Living Planet Report 2026 helps us understand better: livingplanet.panda.org/es-CO/"
+  },
   {
    "id": "wbUzrxW8HtQ",
    "titulo": "¿CÓMO HACER CARRETERAS SOSTENIBLES? - Lineamientos de Infraestructura verde vial",
