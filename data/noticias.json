@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-10-31T20:13:31.834Z",
- "actualizadoBogota": "31 de octubre de 2026 a las 3:13 p. m.",
+ "actualizado": "2026-11-01T05:31:36.848Z",
+ "actualizadoBogota": "1 de noviembre de 2026 a las 12:31 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 28,
-  "prensaBing": 11,
+  "prensa": 11,
+  "prensaBing": 0,
   "prensaAmbiente": 17,
   "notasAbiertas": 0,
   "fotosPrensa": 13,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 24,
-  "traducciones": 1,
-  "errorTraduccion": "google: HTTP 429",
+  "videosCanal": 0,
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 39
+  "segundos": 95
  },
  "wwf": [
   {
@@ -517,7 +516,7 @@
    "id": "prensa-11ejexk",
    "titulo": "WWF España pide al Gobierno acelerar las medidas para frenar la pérdida de biodiversidad de cara a 2030",
    "resumen": "",
-   "fecha": "2026-10-21T14:16:00.000Z",
+   "fecha": "2026-10-21T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcjUzeHNqLV9PbzNjS0VWdC1VU3VwTWFOR3IzMkZ0LTc5WDNTV3B3R3RpVG5EZ18yWHl6WGdzYTlGNGRsUnp5b1ktWU15LUFHeC1ZYmVMMlFSNkNxbGdYNGtOcXdFWTRDOWlFSGpyOFpXTFNYUlo3UHE5Y3BOV1llTDd6TjJVV2s2Q2h3N3l3M2xONUx3b1FFeHZ2c3RPd2VycGVHQjA5a2Fkd3hJXzZUNzJ0QzNSLTZOMnMxeU45NDJFM2hHckU4bXRRemNJSjZmZ3pHQWtrR3RwTUlFc25EMDRnMUNxRTJELTFzVNIBhwJBVV95cUxPblBxenJqTFFIb1hvdlBZQWxLVXk1M1FYMVF6MXJzS0VmNE9vdm9BXy1Hb0xqQlotTGd5RVNIV2hrY01wM0lLSHY0RmdHR3ZGTFpBMDYwQmg5YWRZQXZHV1BsbGw0UHhXazZLcGFuQWthSmVzWmhEV0NYYlN1Z3FzRUd3aF9QNUZ4UktSUGgyblFKb3dWd1ZBWWxzTWtlWElVdXNZcGpvaDNTNkN4cjByQk9nVlFMbUJ2MTg5QXNYVTlZYmJEcERRNFl3WHNxSkdfUWpGT3ZkUEFDUDRvQ2RUX3hFaEw0eklOcDg0TG5nWm9iaDRtSU1WZENYU2VoRGIwZVF4ZVRQZw?oc=5",
