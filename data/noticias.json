@@ -1,11 +1,11 @@
 {
- "actualizado": "2026-11-01T13:00:21.002Z",
- "actualizadoBogota": "1 de noviembre de 2026 a las 8:00 a. m.",
+ "actualizado": "2026-11-01T18:29:50.233Z",
+ "actualizadoBogota": "1 de noviembre de 2026 a las 1:29 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 25,
+  "prensa": 24,
   "prensaBing": 11,
   "prensaAmbiente": 6,
   "notasAbiertas": 0,
@@ -13,14 +13,13 @@
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 1,
-  "errorTraduccion": "google: HTTP 429",
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 56
+  "segundos": 55
  },
  "wwf": [
   {
@@ -685,7 +684,7 @@
    "id": "prensa-198sh87",
    "titulo": "\"Colombia debe evaluar si necesita una ley o un decreto para las compensaciones\"",
    "resumen": "",
-   "fecha": "2026-10-14T17:01:51.000Z",
+   "fecha": "2026-10-14T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT0FNSnhJRmxxYXhNaUlLblhoWENMT3FZOVFINk1Dd2lPVllncE5iWHNwTDF4MEd1c3lTTi15bi1lalpERHVxQ1ZybFJhS1EweXVvNEdGVm9TcDkxcHNkNVU5bVdSUm9lNVVNZDZvcmVnWmRzMWtMVVZTOHlteVBUTmltWjZ0RzJzcE9zWWVwRktCVzdGcVdVZDh2WUJwWWdjdV9qTWx5dDVrNjNBaTNQTE1LU1FvRzNMMjloSXZTUdIBvwFBVV95cUxOR1pJT0FwaGcxQnpnM2tYYjlrWEI4VE5JRGhCUUtrU1h1VTdVdHFnYkhEWENIU1FCYnppMzhPV2RnZDFDR1o1SXlKV1YzOTBSRzFJNGIydUNRc3JJOTZWa21YR3BXV1FXVzhITDFGSV9LbzFlemdsbkNHR3lZLXpyQXhjZmJmNVl2NTdhY1JsRDhJRDNJRGVQYzJvTFB0SUY0bmdXSldselFfa2RmTUVjTmtSbDhXRFhvVFBGU3QxYw?oc=5",
@@ -752,20 +751,6 @@
    "titulo_en": "Biodiversity in Latin America: Wildlife populations decreased by 95% | Signal Colombia"
   },
   {
-   "id": "prensa-bhebhz",
-   "titulo": "La fauna silvestre cayó 73% entre 1970 y el 2022: WWF señala causas y vías de recuperación",
-   "resumen": "",
-   "fecha": "2026-10-09T01:41:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVgxdUhlY2ZXRTRMRHlBOExNc1EtNzlQRW5Pdkg2T1pkMS1WeW9oMjBnU0JZbHJpZmczMVJ4dTk1T1d2Q01qc1M1ZjV1N2R3dlk1Z0daSFZWQXRqaTZmX3dPQnd0bWRxQjJiLVBUdC04a0gtRVpRaEJiQ1VqSWRXdC1adnVySmQ3RTlfZk9Kb3luVGptSWF6RzlINlVtb05PVUlXTUpQVVZjM1l6ZVZyMjlCRkw?oc=5",
-   "fuente": "La Patria",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Wildlife fell 73% between 1970 and 2022: WWF points to causes and recovery pathways"
-  },
-  {
    "id": "prensa-lyw64b",
    "titulo": "Maratón de la Amazonía 2026 se une a la conservación del Guaviare con la siembra de 2.800 árboles",
    "resumen": "",
@@ -778,6 +763,20 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Amazon Marathon 2026 joins the conservation of Guaviare with the planting of 2,800 trees"
+  },
+  {
+   "id": "prensa-bhebhz",
+   "titulo": "La fauna silvestre cayó 73% entre 1970 y el 2022: WWF señala causas y vías de recuperación",
+   "resumen": "",
+   "fecha": "2026-10-08T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVgxdUhlY2ZXRTRMRHlBOExNc1EtNzlQRW5Pdkg2T1pkMS1WeW9oMjBnU0JZbHJpZmczMVJ4dTk1T1d2Q01qc1M1ZjV1N2R3dlk1Z0daSFZWQXRqaTZmX3dPQnd0bWRxQjJiLVBUdC04a0gtRVpRaEJiQ1VqSWRXdC1adnVySmQ3RTlfZk9Kb3luVGptSWF6RzlINlVtb05PVUlXTUpQVVZjM1l6ZVZyMjlCRkw?oc=5",
+   "fuente": "La Patria",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-10-24T01:44:27.869Z",
+   "titulo_en": "Wildlife fell 73% between 1970 and 2022: WWF points to causes and recovery pathways"
   },
   {
    "id": "prensa-15axfgz",
