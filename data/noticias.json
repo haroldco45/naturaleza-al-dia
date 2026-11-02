@@ -1,25 +1,25 @@
 {
- "actualizado": "2026-11-01T22:20:52.355Z",
- "actualizadoBogota": "1 de noviembre de 2026 a las 5:20 p. m.",
+ "actualizado": "2026-11-02T01:43:26.366Z",
+ "actualizadoBogota": "1 de noviembre de 2026 a las 8:43 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
   "prensa": 12,
   "prensaBing": 11,
-  "prensaAmbiente": 17,
+  "prensaAmbiente": 6,
   "notasAbiertas": 0,
   "fotosPrensa": 14,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 24,
-  "traducciones": 1,
+  "videosCanal": 0,
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 52
+  "segundos": 96
  },
  "wwf": [
   {
@@ -586,7 +586,7 @@
    "id": "prensa-185graa",
    "titulo": "Las poblaciones de fauna silvestre disminuyeron un 73 % en 52 años, según informe de WWF",
    "resumen": "",
-   "fecha": "2026-10-18T20:01:33.000Z",
+   "fecha": "2026-10-18T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTjVGQlRwbEZGLXVQVEpCODBWUlZqU0xWV3BBeE9rM1VuYmtPaTc4WEVNVEQ0c2d3QnNUMVYwYVBSczRjRGlRRU5idUM0SkNSbWFlcjFHd3NyVlJ4R2hDeWZBeHBLWmpyVWNzMENWaEpDb3NXLWxoeVZ3WFJnT3lSYjBERUhHR3NITE5RRDNpTUFYa2o2SHRFb3hfZ0E0SmcyZ1c4RVdiZGw4bUdTZWp1NVlDVWFvTXVEZ080NTAzQlNSdWZ1UlhpWEJB0gHKAUFVX3lxTFBvVW51clFqVTNiT0tvelNMTmtkTnBqNk1iNUhfNTlnNXlyR0Z3TkcwcUxyM09scWNYNHczTVhwTVUzb29PZWtPZU8xV2ExX3BDWXJJbEE4TGhNaHU1MGtGQWZreDNOQmdibFBkVmlpR0d0dHhzSnJmZENpejVNb21ody1WbFp5aWJQdmgwb3lMeFp4MDlDTEtDbEN5LWhOYXZyT19td0dwRUwyQnVSekQ5SnRoRjdibWRDa053ZXA4blFINXdxcFktZXc?oc=5",
