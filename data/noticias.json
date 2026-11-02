@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-11-02T09:11:25.290Z",
- "actualizadoBogota": "2 de noviembre de 2026 a las 4:11 a. m.",
+ "actualizado": "2026-11-02T19:41:43.681Z",
+ "actualizadoBogota": "2 de noviembre de 2026 a las 2:41 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 22,
+  "prensa": 24,
   "prensaBing": 11,
-  "prensaAmbiente": 6,
+  "prensaAmbiente": 5,
   "notasAbiertas": 0,
   "fotosPrensa": 14,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
   "traducciones": 1,
-  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 57
+  "segundos": 54
  },
  "wwf": [
   {
@@ -587,7 +586,7 @@
    "id": "prensa-185graa",
    "titulo": "Las poblaciones de fauna silvestre disminuyeron un 73 % en 52 años, según informe de WWF",
    "resumen": "",
-   "fecha": "2026-10-18T20:01:33.000Z",
+   "fecha": "2026-10-18T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTjVGQlRwbEZGLXVQVEpCODBWUlZqU0xWV3BBeE9rM1VuYmtPaTc4WEVNVEQ0c2d3QnNUMVYwYVBSczRjRGlRRU5idUM0SkNSbWFlcjFHd3NyVlJ4R2hDeWZBeHBLWmpyVWNzMENWaEpDb3NXLWxoeVZ3WFJnT3lSYjBERUhHR3NITE5RRDNpTUFYa2o2SHRFb3hfZ0E0SmcyZ1c4RVdiZGw4bUdTZWp1NVlDVWFvTXVEZ080NTAzQlNSdWZ1UlhpWEJB0gHKAUFVX3lxTFBvVW51clFqVTNiT0tvelNMTmtkTnBqNk1iNUhfNTlnNXlyR0Z3TkcwcUxyM09scWNYNHczTVhwTVUzb29PZWtPZU8xV2ExX3BDWXJJbEE4TGhNaHU1MGtGQWZreDNOQmdibFBkVmlpR0d0dHhzSnJmZENpejVNb21ody1WbFp5aWJQdmgwb3lMeFp4MDlDTEtDbEN5LWhOYXZyT19td0dwRUwyQnVSekQ5SnRoRjdibWRDa053ZXA4blFINXdxcFktZXc?oc=5",
@@ -750,6 +749,20 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Biodiversity loss threatens the global economy: half of GDP depends on nature, according to WWF"
+  },
+  {
+   "id": "prensa-1qdyzh1",
+   "titulo": "La WWF advierte por la pérdida de biodiversidad y su vinculo con la producción de alimentos, energía y la economía",
+   "resumen": "",
+   "fecha": "2026-10-11T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYzhyMGRLbHZ0N1o2TW41VEVNaUI1RlBqUnhRcWZfa0RhN1ZqQUFiUE84eTFta0oxbHdOcVY1cGUtcnFMVF9kdnM4ZFliMHc5aVZqejRpQ0lvcmh2M0VFQWJqYU41SERfUFdUeG9lX2ZaTEoxU0V2NGpnRmZQbXZBbjZqN0lpNVlUUGlWR2FILWZ1cmZRekdRSkdDV2hlMWNoaF9UMDMyRTVJczNsQ2N6SFFIT3VCMDhFZ3BUeE8zQXQ2LU9TYkUxa21jeVZEYXN0ZmVaWlM4UXd4d21fcGFlRV9ycWtCRWF4R0Q3eVpRRl9jeDTSAfgBQVVfeXFMTnY3bGhTdlltUC1ZZkxqbUVEckQxNFVHNEV5QWNSaUtqNUFibUxPSkhIdU5MM2hNS1lBV1owOWZJamNJQlIzRkV0bURkeV9nZ2UyME9HbHQ0d0R5Z05IVkFYcnhBb215TXM4c3drdGdBWjh1Z0NkQUY2c1k4alVXYWlQZnJnSndhYU1FSlVQUmVQNFZQME1LYWI3cHdzdDZhQi02Z3hlV01tT054V0JoOWwtelpwa2pRLXBOZVBjdXp5OGd5SW5jNHh5MGdFamtJOTY0U1c0dEZqaGxWY1dzMzdrUk9KYWhOWkJsaHhpT3M5a0tCUjN5aEE?oc=5",
+   "fuente": "Noticias Ambientales",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-02T19:41:43.681Z",
+   "titulo_en": "The WWF warns about the loss of biodiversity and its link with food production, energy and the economy"
   },
   {
    "id": "prensa-1gcvsp7",
@@ -1213,7 +1226,7 @@
    "fecha": "2022-03-22T17:00:00.000Z",
    "imagen": "https://wwflac.awsassets.panda.org/img/wwf_colombia_azul_765779.jpg",
    "credito": "© wwf",
-   "enlace": "https://www.wwf.org.pe/?375855/Colombia-Azul-acuicultura-creciente-y-pesca-sostenible",
+   "enlace": "https://www.wwf.org.pe/pacifico/?375855/Colombia-Azul-acuicultura-creciente-y-pesca-sostenible",
    "fuente": "wwf",
    "tipo": "prensa",
    "destacada": false,
