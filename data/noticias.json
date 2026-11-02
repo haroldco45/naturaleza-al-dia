@@ -1,25 +1,26 @@
 {
- "actualizado": "2026-11-02T01:43:26.366Z",
- "actualizadoBogota": "1 de noviembre de 2026 a las 8:43 p. m.",
+ "actualizado": "2026-11-02T09:11:25.290Z",
+ "actualizadoBogota": "2 de noviembre de 2026 a las 4:11 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 12,
+  "prensa": 22,
   "prensaBing": 11,
   "prensaAmbiente": 6,
   "notasAbiertas": 0,
   "fotosPrensa": 14,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 0,
-  "traducciones": 0,
+  "videosCanal": 24,
+  "traducciones": 1,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 96
+  "segundos": 57
  },
  "wwf": [
   {
@@ -586,7 +587,7 @@
    "id": "prensa-185graa",
    "titulo": "Las poblaciones de fauna silvestre disminuyeron un 73 % en 52 años, según informe de WWF",
    "resumen": "",
-   "fecha": "2026-10-18T07:00:00.000Z",
+   "fecha": "2026-10-18T20:01:33.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTjVGQlRwbEZGLXVQVEpCODBWUlZqU0xWV3BBeE9rM1VuYmtPaTc4WEVNVEQ0c2d3QnNUMVYwYVBSczRjRGlRRU5idUM0SkNSbWFlcjFHd3NyVlJ4R2hDeWZBeHBLWmpyVWNzMENWaEpDb3NXLWxoeVZ3WFJnT3lSYjBERUhHR3NITE5RRDNpTUFYa2o2SHRFb3hfZ0E0SmcyZ1c4RVdiZGw4bUdTZWp1NVlDVWFvTXVEZ080NTAzQlNSdWZ1UlhpWEJB0gHKAUFVX3lxTFBvVW51clFqVTNiT0tvelNMTmtkTnBqNk1iNUhfNTlnNXlyR0Z3TkcwcUxyM09scWNYNHczTVhwTVUzb29PZWtPZU8xV2ExX3BDWXJJbEE4TGhNaHU1MGtGQWZreDNOQmdibFBkVmlpR0d0dHhzSnJmZENpejVNb21ody1WbFp5aWJQdmgwb3lMeFp4MDlDTEtDbEN5LWhOYXZyT19td0dwRUwyQnVSekQ5SnRoRjdibWRDa053ZXA4blFINXdxcFktZXc?oc=5",
@@ -861,6 +862,20 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "WWF warns that wildlife populations have decreased by 73% worldwide"
+  },
+  {
+   "id": "prensa-1bzj5ix",
+   "titulo": "Científicos insisten en la importancia de la transformación de sistemas clave",
+   "resumen": "",
+   "fecha": "2026-10-08T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWmZhdUJqc3E3SWE3dG83RG9ySkRZSUhMbzUycm9Nemc5NUctYWpkTnpoQ1J2S1NFZXI5c0w3eEJBSENRWTB5WGYtLUlsSEZueVI3enlObTAtc3hRSk9hcHFSeVVIdEdycUdneXMxVDhMcTcxUDRDbi1BRWV1VGFDZWFOUGdSWmhUbXpodmthZ1BQN2ljUlFrWEZJLUFCd2VUS2UtdnV3ZV9KeU9HTkVnTUdORQ?oc=5",
+   "fuente": "Diario del Sur",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-02T09:11:25.290Z",
+   "titulo_en": "Scientists emphasize the importance of transforming key systems"
   },
   {
    "id": "prensa-fhijns",
