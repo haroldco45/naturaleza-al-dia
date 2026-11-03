@@ -1,11 +1,11 @@
 {
- "actualizado": "2026-11-02T19:41:43.681Z",
- "actualizadoBogota": "2 de noviembre de 2026 a las 2:41 p. m.",
+ "actualizado": "2026-11-03T17:40:33.583Z",
+ "actualizadoBogota": "3 de noviembre de 2026 a las 12:40 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 24,
+  "prensa": 25,
   "prensaBing": 11,
   "prensaAmbiente": 5,
   "notasAbiertas": 0,
@@ -13,13 +13,14 @@
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 1,
+  "traducciones": 2,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 54
+  "segundos": 56
  },
  "wwf": [
   {
@@ -786,7 +787,7 @@
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR1I4NmY3OG4ybHpmUG1fVzAycWJsSW8xLWl2MnFTVnFLMnJQZUszZHdSOUJZT2ZBM05zTjFoUWZTOUJBd21qSDA3c3NGclBWYzRVdkZSdzZqajZIcm02MVJfRk1NRXBwQWc4bWtuVXhyVmJEb3FoMlYxZF8wdFVNZmstNmhZWUNuY1lTbkFWYWdjSzl0TEdvd2Q0cG96cFc0NDBCVjhZWDBFeHRqWmcyTUxPYk4zdVJFVHZIbUVYOA?oc=5",
-   "fuente": "Marandua",
+   "fuente": "Marandua Stereo 100.7 FM",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
@@ -1362,6 +1363,15 @@
  ],
  "videos": [
   {
+   "id": "5mbb1-PIZ_w",
+   "titulo": "Buenos suelos para buenos alimentos 🌱🥭🌶️🌽",
+   "resumen": "Trabajamos junto a pueblos indígenas en el Putumayo que ya aplican varios conocimientos para conservar mejor sus suelos, y así, cultivar una comida nutritiva y de calidad que llegue a las mesas de muchas personas de la r",
+   "fecha": "2026-11-03T14:15:13+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Good soils for good food 🌱🥭🌶️🌽",
+   "resumen_en": "We work together with indigenous peoples in Putumayo who already apply various knowledge to better conserve their soils, and thus, grow a nutritious and quality food that reaches the tables of many people in the"
+  },
+  {
    "id": "C4uqCJfpV9o",
    "titulo": "¿Qué es más aterrador?",
    "resumen": "Ya estamos viviendo el silencio en los bosques... ¡Pero no todas las historias tienen que terminar en terror! El Informe Planeta Vivo 2026 de WWF nos ayuda a entender mejor: livingplanet.panda.org/es-CO/",
@@ -1617,15 +1627,6 @@
    "id": "GbnDdGvFLts",
    "titulo": "¿Qué hace WWF Colombia para cuidar la naturaleza?",
    "titulo_en": "What does WWF Colombia do to protect nature?",
-   "resumen": "",
-   "fecha": null,
-   "canal": "WWF Colombia",
-   "resumen_en": ""
-  },
-  {
-   "id": "j7sIHGd4B_g",
-   "titulo": "Transmisión en vivo de WWF Colombia",
-   "titulo_en": "WWF Colombia live stream",
    "resumen": "",
    "fecha": null,
    "canal": "WWF Colombia",
