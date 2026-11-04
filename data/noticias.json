@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-11-04T03:08:16.317Z",
- "actualizadoBogota": "3 de noviembre de 2026 a las 10:08 p. m.",
+ "actualizado": "2026-11-04T11:27:16.327Z",
+ "actualizadoBogota": "4 de noviembre de 2026 a las 6:27 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 13,
-  "prensaBing": 12,
-  "prensaAmbiente": 18,
+  "prensa": 11,
+  "prensaBing": 11,
+  "prensaAmbiente": 17,
   "notasAbiertas": 0,
-  "fotosPrensa": 15,
+  "fotosPrensa": 16,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 0,
-  "traducciones": 1,
+  "videosCanal": 24,
+  "traducciones": 2,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 93
+  "segundos": 57
  },
  "wwf": [
   {
@@ -388,6 +388,20 @@
  ],
  "prensa": [
   {
+   "id": "prensa-eudoyx",
+   "titulo": "WWF alerta que poblaciones de especies silvestres han perdido 73% de su tamaño desde 1970",
+   "resumen": "",
+   "fecha": "2026-11-03T21:01:41.000Z",
+   "imagen": "https://www.bing.com/th?id=ONUT.BacZy_0L3VMC2tzLAdDSrw&pid=News",
+   "credito": "© La República on MSN",
+   "enlace": "https://www.msn.com/es-co/noticias/otras/wwf-alerta-que-poblaciones-de-especies-silvestres-han-perdido-73-de-su-tama%C3%B1o-desde-1970/ar-AA2gHLX7",
+   "fuente": "La República on MSN",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-04T11:27:16.327Z",
+   "titulo_en": "WWF warns that wildlife populations have lost 73% of their size since 1970"
+  },
+  {
    "id": "prensa-2x04cc",
    "titulo": "Bogotá participa en ‘We Love Cities’: así busca destacar en reconocimiento internacional a ciudades sostenibles y de calidad de vida",
    "resumen": "",
@@ -430,17 +444,17 @@
    "titulo_en": "The marine life corridor that connects the poles of the planet was presented at COP17"
   },
   {
-   "id": "prensa-1db562e",
+   "id": "prensa-pl5ys1",
    "titulo": "¿Por qué el buen estado de los suelos es clave para tener alimentos saludables en casa?",
    "resumen": "",
-   "fecha": "2026-10-29T18:05:36.000Z",
+   "fecha": "2026-10-30T06:00:36.000Z",
    "imagen": "",
    "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMkVCZlp3dm0tNlZWLXVTcS00dWNDVmQxeWpjdm44cGlXTkNfYzFWM21BbjJtM3g1RFozY0p6VXJ3NVNlLW5FNUJudmZTN2puVndZRHhyRXdLdjJHNHVMTDFnVkpyRjRreGhhZWQzS2VTdjctVEdJaUxmcy04SFRVZXFvRQ?oc=5",
-   "fuente": "WWF Colombia",
+   "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdkdPSGZpVGlhUHgxdV91Wk9WTlp2M2VndFNzY3JFa3RXXy1VNVVyNFh2anh1ZUMzWm1oYVlyaEV4dnFNR3BLbUtLWnY5U2RGazVIeEVXN0phNnZsLXUtWHM5WTZqbHZxZ3hjV2JpVG1EOUNlVDVXTVEzZC03VEo4dVdXS1BFZzQ?oc=5",
+   "fuente": "WWF Perú",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-10-29T21:42:20.403Z",
+   "primeraVez": "2026-11-04T11:27:16.327Z",
    "titulo_en": "Why is good soil condition key to having healthy food at home?"
   },
   {
@@ -517,7 +531,7 @@
    "id": "prensa-1b5wtyl",
    "titulo": "COP17: la pausa del liderazgo de América Latina y el Caribe en las negociaciones de biodiversidad",
    "resumen": "",
-   "fecha": "2026-10-25T04:00:00.000Z",
+   "fecha": "2026-10-25T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdjE0MlE1WjItS3QxUnZUcU5qeV81YzNIX0pkVXhja2REWGJMbHRMblZORG42NTI0Umd5ejBxVkk0YnVLejljWHR2RndOaktvaURqd1h5S2hEemdzZXFTWXB2eXR6N09ta3NfMFlPRVAxWUZZMlpCU0ZrYklablE1VVlEbGh3LWY0YlRjbGxLaDVPYzU5UUpwZ0prNmozN0U0U0xaRnR3aHBOTXRSV0N4MWUwUmZ6aGFrSmxFQ0s0cEdRTnRVYUdtRG8wVlluM0JNLUlabEZIMExfa0FjY3E40gHzAUFVX3lxTFBCdmF0b0hUa0I3d0xZamVwY2NOZHZmM1ZaWVRVUWpmQnJyOVpTbW5VNTdTbEZwQmxIZTZJN2xRa1B3ck9USmhraV84eC1WT09KZFd1ZVU3aWpkYVp4cVpRa1lLZmJyS3NRUUZoWkltQjkxQWNpZDl3UGotXzNXb01zRlRXZ201eEUtblVPa09wMk11cXVIYklrVDJhbkxZZ0ZSWE5aUi1fWkxFTTdCQ05XZmNrYUQ1a0hReDdqTFltVm5nNW1JTkZmeHR5ckpqTHhCdTFPYkxXN3BsRWllSDdRYkU4S3J1andTWU1PSFVfZno4NA?oc=5",
