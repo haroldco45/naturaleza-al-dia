@@ -1,312 +1,345 @@
 {
- "actualizado": "2026-11-04T11:27:16.327Z",
- "actualizadoBogota": "4 de noviembre de 2026 a las 6:27 a. m.",
+ "actualizado": "2026-11-05T00:15:56.829Z",
+ "actualizadoBogota": "4 de noviembre de 2026 a las 7:15 p. m.",
  "fuentes": {
-  "wwfInicio": "error: bloqueado y sin respaldo",
-  "wwfNoticias": "error: sitio no disponible en esta corrida",
-  "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 11,
-  "prensaBing": 11,
-  "prensaAmbiente": 17,
-  "notasAbiertas": 0,
+  "fotosInicio": 5,
+  "wwfInicio": 3,
+  "wwfNoticias": 3,
+  "wwfRSS": 20,
+  "prensa": 13,
+  "prensaBing": 12,
+  "prensaAmbiente": 6,
+  "notasAbiertas": 1,
   "fotosPrensa": 16,
-  "paginasConFoto": 0,
+  "paginasConFoto": 27,
   "fotosGaleria": 80,
-  "videosCanal": 24,
-  "traducciones": 2,
+  "videosCanal": "error: no encontré el canal",
+  "traducciones": 44,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
+   "www.wwf.org.co": "api.allorigins.win",
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "api.allorigins.win"
   },
-  "segundos": 57
+  "segundos": 247
  },
  "wwf": [
   {
-   "id": "wwf-173ta8m",
+   "id": "wwf-7njv6w",
+   "titulo": "&#191;Por qu&#233; el buen estado de los suelos es clave para tener alimentos saludables en casa?",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=402090\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cacaodiauno_811475.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>&#191;Por qu&#233; el buen estado d…",
+   "fecha": null,
+   "imagen": "",
+   "credito": "",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=402090",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": false,
+   "primeraVez": "2026-11-05T00:15:56.829Z",
+   "titulo_en": "Why is good soil condition key to having healthy food at home?",
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=402090\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cacaodiauno_811475.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Why is the good condition of..."
+  },
+  {
+   "id": "wwf-7njes6",
    "titulo": "COP17: WWF llama a convertir los compromisos globales de biodiversidad en acciones concretas",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401950\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop17armeniaplenaria_811222.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>COP17: WWF llama a co…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401950\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop17armeniaplenaria_811222.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>COP17: WWF llama a convert…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401950",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401950",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "COP17: WWF calls for turning global biodiversity commitments into concrete actions",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401950\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop17armeniaplenaria_811222.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>COP17: WWF calls co..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401950\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop17armeniaplenaria_811222.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>COP17: WWF calls to convert..."
   },
   {
-   "id": "wwf-173t9eh",
+   "id": "wwf-7njdy1",
    "titulo": "Informe Planeta Vivo 2026: datos que nos impulsan a revertir la p&#233;rdida de biodiversidad",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401810\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/ipv-portada_1_811035.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Informe Planeta Vivo 2026: d…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401810\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/ipv-portada_1_811035.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Informe Planeta Vivo 2026: datos …",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401810",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401810",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Living Planet Report 2026: Data Driving Us to Reverse Biodiversity Loss",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401810\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/ipv-portada_1_811035.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Living Planet Report 2026: d..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401810\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/ipv-portada_1_811035.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Living Planet Report 2026: data ..."
   },
   {
-   "id": "wwf-173t8pi",
+   "id": "wwf-7njd92",
    "titulo": "Climate Week Medell&#237;n: firman declaraci&#243;n para proteger &#225;reas naturales urbanas y periurbanas",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401730\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/declaracionareasi_810905.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Climate Week Medell&#237…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401730\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/declaracionareasi_810905.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Climate Week Medell&#237;n: f…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401730",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401730",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Climate Week Medellín: Declaration signed to protect urban and peri-urban natural areas",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401730\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/declaracionareasi_810905.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Climate Week Medell&#237…"
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401730\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/declaracionareasi_810905.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Climate Week Medellín: f…"
   },
   {
-   "id": "wwf-16ru7yq",
+   "id": "wwf-7bkcia",
    "titulo": "Sostenibilidad en Nari&#241;o: mujeres en el centro de la conservaci&#243;n del territorio",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=398690\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/22_1_762694.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Sostenibilidad en Nari&#241;o: mujeres…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=398690\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/22_1_762694.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Sostenibilidad en Nari&#241;o: mujeres en e…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=398690",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=398690",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Sustainability in Nariño: women at the center of the conservation of the territory",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=398690\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/22_1_762694.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Sustainability in Nariño: women..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=398690\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/22_1_762694.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Sustainability in Nariño: women in e..."
   },
   {
-   "id": "wwf-16rtmd5",
+   "id": "wwf-7bjqwp",
    "titulo": "Las 40 recetas de las comunidades de Nari&#241;o que t&#250; puedes hacer en casa",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=397850\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/recetas-de-narin-o_804033.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Las 40 recetas de las c…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=397850\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/recetas-de-narin-o_804033.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Las 40 recetas de las comuni…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=397850",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=397850",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "The 40 recipes from the communities of Nariño that you can make at home",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=397850\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/recetas-de-narin-o_804033.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>The 40 recipes of the c..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=397850\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/recetas-de-narin-o_804033.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>The 40 recipes of the communes..."
   },
   {
-   "id": "wwf-173t8o0",
+   "id": "wwf-7njd7k",
    "titulo": "Amazon&#237;a y Caribe, las regiones colombianas ganadoras en Sabidur&#237;a Salvaje 2026",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401718\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/sabiduriasalvajefinal2026i_810903.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Amazon&#237;a y…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401718\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/sabiduriasalvajefinal2026i_810903.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Amazon&#237;a y Cari…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401718",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401718",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Amazon and Caribbean, the Colombian regions winning in Savage Wisdom 2026",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401718\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/sabiduriasalvajefinal2026i_810903.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Amazon and..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401718\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/sabiduriasalvajefinal2026i_810903.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Amazonia and Cari..."
   },
   {
-   "id": "wwf-173t8nt",
+   "id": "wwf-7njd7d",
    "titulo": "PNN El Tuparro: 46 a&#241;os de un gigante de la esperanza en la Orinoquia colombiana",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401711\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/eltuparrouno_810862.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>PNN El Tuparro: 46 a&#241;os …",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401711\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/eltuparrouno_810862.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>PNN El Tuparro: 46 a&#241;os de un…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401711",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401711",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "PNN El Tuparro: 46 years of a giant of hope in the Colombian Orinoquia",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401711\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/eltuparrouno_810862.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>PNN El Tuparro: 46 years old ..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401711\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/eltuparrouno_810862.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>PNN El Tuparro: 46 years of a..."
   },
   {
-   "id": "wwf-173t80l",
+   "id": "wwf-7njck5",
    "titulo": "Conectar, aprender, cocrear y hacer accesible la ciencia: camino al intercambio de conocimiento",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401652\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/plataforma-uicn_810736.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Conectar, aprender, cocrea…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401652\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/plataforma-uicn_810736.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Conectar, aprender, cocrear y h…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401652",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401652",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Connecting, learning, co-creating and making science accessible: the path to knowledge sharing",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401652\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/plataforma-uicn_810736.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Connect, learn, co-create..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401652\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/plataforma-uicn_810736.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Connect, learn, co-create and h..."
   },
   {
-   "id": "wwf-173t7aq",
+   "id": "wwf-7njbua",
    "titulo": "'Una Colombia biodiversa no puede ser letal para quienes la conservan'",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401561\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/comunidadesescazu_810668.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>'Una Colombia biodiversa…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401561\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/comunidadesescazu_810668.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>'Una Colombia biodiversa no p…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401561",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401561",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "'A biodiverse Colombia cannot be lethal to those who conserve it'",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401561\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/comunidadesescazu_810668.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>'A biodiverse Colombia..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401561\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/comunidadesescazu_810668.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>'A biodiverse Colombia does not p..."
   },
   {
-   "id": "wwf-173t5p9",
+   "id": "wwf-7nja8t",
    "titulo": "Los retos ambientales para el Congreso en los pr&#243;ximos cuatro a&#241;os",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401319\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/legislativo2026_810383.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Los retos ambientales para…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401319\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/legislativo2026_810383.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Los retos ambientales para el C…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401319",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401319",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Environmental Challenges for Congress in the Next Four Years",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401319\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/legislativo2026_810383.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>The environmental challenges for..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401319\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/legislativo2026_810383.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>The environmental challenges for the C..."
   },
   {
-   "id": "wwf-173t784",
+   "id": "wwf-7njbro",
    "titulo": "Una Amazon&#237;a para conocer: el turismo que nace en las comunidades",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401530\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/turismoamazonasi_810634.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Una Amazon&#237;a para co…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401530\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/turismoamazonasi_810634.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Una Amazon&#237;a para conocer…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401530",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401530",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "An Amazon to know: the tourism that is born in the communities",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401530\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/turismoamazonasi_810634.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>An Amazon for co..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401530\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/turismoamazonasi_810634.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>An Amazon to get to know..."
   },
   {
-   "id": "wwf-173t6hi",
+   "id": "wwf-7njb12",
    "titulo": "Siguiendo el rastro de los animales que habitan en el bosque",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401433\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/monitoreo-especies-iii_810553.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Siguiendo el rastro…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401433\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/monitoreo-especies-iii_810553.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Siguiendo el rastro de l…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401433",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401433",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Following the trail of the animals that inhabit the forest",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401433\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/monitoreo-especies-iii_810553.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Following the trail..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401433\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/monitoreo-especies-iii_810553.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Following the trail of l..."
   },
   {
-   "id": "wwf-173t5p0",
+   "id": "wwf-7nja8k",
    "titulo": "Las mujeres gobiernan y sostienen el futuro de sus territorios en la Estrella Fluvial In&#237;rida",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401310\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/mujeresindigenaslideresas_810334.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Las mujeres gobi…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401310\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/mujeresindigenaslideresas_810334.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Las mujeres gobiernan…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401310",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401310",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Women rule and sustain the future of their territories in the Inirid River Star",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401310\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/mujeresindigenaslideresas_810334.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>The Gobi women..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401310\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/mujeresindigenaslideresas_810334.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Women rule..."
   },
   {
-   "id": "wwf-173t6fp",
+   "id": "wwf-7njaz9",
    "titulo": "&#191;C&#243;mo impacta el fen&#243;meno de 'El Ni&#241;o' a las regiones de Colombia?",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401410\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/andes_810494.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>&#191;C&#243;mo impacta el fen&#243;…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401410\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/andes_810494.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>&#191;C&#243;mo impacta el fen&#243;meno …",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401410",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401410",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "How does the phenomenon of 'El Niño' impact the regions of Colombia?",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401410\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/andes_810494.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>How does the phenomenon impact..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401410\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/andes_810494.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>How does the phenomenon impact..."
   },
   {
-   "id": "wwf-173t5si",
+   "id": "wwf-7njac2",
    "titulo": "Del residuo a la oportunidad: cadena lactea y la reducci&#243;n del impacto en las cuencas h&#237;dricas",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401352\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/productividadcuencas_810397.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Del residuo a la opor…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401352\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/productividadcuencas_810397.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Del residuo a la oportunid…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401352",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401352",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "From waste to opportunity: dairy chain and the reduction of the impact on water basins",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401352\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/productividadcuencas_810397.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>From waste to opor..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401352\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/productividadcuencas_810397.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>From waste to opportunity..."
   },
   {
-   "id": "wwf-173t53k",
+   "id": "wwf-7nj9n4",
    "titulo": "&#191;C&#243;mo podemos adaptarnos al fen&#243;meno de El Ni&#241;o en Colombia?",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401273\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/calorfenomenonino_810275.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>&#191;C&#243;mo podemos …",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401273\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/calorfenomenonino_810275.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>&#191;C&#243;mo podemos adapt…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401273",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401273",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "How can we adapt to the El Niño phenomenon in Colombia?",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401273\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/calorfenomenonino_810275.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>How can we ..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401273\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/calorfenomenonino_810275.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>How can we adapt..."
   },
   {
-   "id": "wwf-173t53h",
+   "id": "wwf-7nj9n1",
    "titulo": "&#191;Por qu&#233; es importante la cumbre de la ONU contra la desertificaci&#243;n de tierras?",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401270\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop17desertificacion_810274.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>&#191;Por qu&#233; es…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401270\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop17desertificacion_810274.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>&#191;Por qu&#233; es impo…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401270",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401270",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Why is the UN Summit against Land Desertification important?",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401270\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop17desertificacion_810274.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Why is..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401270\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop17desertificacion_810274.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Why is it impo..."
   },
   {
-   "id": "wwf-16r92dv",
+   "id": "wwf-7az6xf",
    "titulo": "Incendios forestales: est&#225; en nuestras manos prevenir y actuar",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=386272\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/wwf_sachacalamar_765077.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Incendios forestales: est&…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=386272\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/wwf_sachacalamar_765077.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Incendios forestales: est&#225;…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=386272",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=386272",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "Wildfires: it is in our hands to prevent and act",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=386272\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/wwf_sachacalamar_765077.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Wildfires: est&…"
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=386272\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/wwf_sachacalamar_765077.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Wildfires: it's..."
   },
   {
-   "id": "wwf-173t4cw",
+   "id": "wwf-7nj8wg",
    "titulo": "'Hagamos que Colombia supere las metas ambientales a 2030': WWF",
-   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401174\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/tortugademar_790116.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>'Hagamos que Colombia supere l…",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401174\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/tortugademar_790116.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>'Hagamos que Colombia supere las me…",
    "fecha": null,
    "imagen": "",
    "credito": "",
-   "enlace": "http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401174",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401174",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-10-28T00:22:27.903Z",
+   "primeraVez": "2026-11-05T00:15:56.829Z",
    "titulo_en": "'Let's make Colombia exceed environmental goals by 2030': WWF",
-   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org:8301/de_interes/noticias/?uNewsID=401174\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/tortugademar_790116.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>'Let's make Colombia surpass the..."
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=401174\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/tortugademar_790116.jpg\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>'Let's make Colombia overcome the my..."
+  },
+  {
+   "id": "wwf-402090",
+   "titulo": "¿Por qué el buen estado de los suelos es clave para tener alimentos saludables en casa?",
+   "resumen": "Los pueblos indígenas, en el Putumayo, ya aplican varios conocimientos para conservar mejor sus ...",
+   "fecha": "2026-10-29T17:00:00.000Z",
+   "imagen": "https://wwflac.awsassets.panda.org/img/original/cacaodiauno.png",
+   "credito": "© WWF",
+   "enlace": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": false,
+   "primeraVez": "2026-11-05T00:15:56.829Z",
+   "fotoRevisada": true,
+   "titulo_en": "Why is good soil condition key to having healthy food at home?",
+   "resumen_en": "Indigenous peoples, in Putumayo, already apply various knowledge to better conserve their ..."
   },
   {
    "id": "wwf-173t47r",
@@ -388,6 +421,20 @@
  ],
  "prensa": [
   {
+   "id": "prensa-9gzyud",
+   "titulo": "CHV 003-C364 - Estrategia de fortalecimiento de capacidades para restauración ecológica",
+   "resumen": "",
+   "fecha": "2026-11-04T20:19:19.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVlp5Wks4NVc4SkJUNUdabHlDN0w0ZW5HQ0xMSHFyTk05bng2cnJTZVAwWWtINmk2YnFScFdOcEdTLUlDMnFwTTZxSEwyRTZiVlZTTWhQWTZWZldGSlBJYWVrSTNzbnFXMmQ3VlJVZ2l6QjJoMzdrUFJsZEJfaGI5MC1qRTBxYUZoaDYwbnc5NWI0UGI0SU5Hd1FvUmNhWHpmNldSUEdMTE02Zw?oc=5",
+   "fuente": "WWF Perú",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-05T00:15:56.829Z",
+   "titulo_en": "CHV 003-C364 - Capacity Building Strategy for Ecological Restoration"
+  },
+  {
    "id": "prensa-eudoyx",
    "titulo": "WWF alerta que poblaciones de especies silvestres han perdido 73% de su tamaño desde 1970",
    "resumen": "",
@@ -442,20 +489,6 @@
    "destacada": false,
    "primeraVez": "2026-10-30T23:59:04.994Z",
    "titulo_en": "The marine life corridor that connects the poles of the planet was presented at COP17"
-  },
-  {
-   "id": "prensa-pl5ys1",
-   "titulo": "¿Por qué el buen estado de los suelos es clave para tener alimentos saludables en casa?",
-   "resumen": "",
-   "fecha": "2026-10-30T06:00:36.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdkdPSGZpVGlhUHgxdV91Wk9WTlp2M2VndFNzY3JFa3RXXy1VNVVyNFh2anh1ZUMzWm1oYVlyaEV4dnFNR3BLbUtLWnY5U2RGazVIeEVXN0phNnZsLXUtWHM5WTZqbHZxZ3hjV2JpVG1EOUNlVDVXTVEzZC03VEo4dVdXS1BFZzQ?oc=5",
-   "fuente": "WWF Perú",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-04T11:27:16.327Z",
-   "titulo_en": "Why is good soil condition key to having healthy food at home?"
   },
   {
    "id": "prensa-1yw9na1",
@@ -918,6 +951,20 @@
    "destacada": false,
    "primeraVez": "2026-11-02T09:11:25.290Z",
    "titulo_en": "Scientists emphasize the importance of transforming key systems"
+  },
+  {
+   "id": "prensa-rce6sl",
+   "titulo": "Informe Planeta Vivo 2026",
+   "resumen": "",
+   "fecha": "2026-10-08T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2YnIyQnlZWVphRGtFZ0V2M3lTNUlScWhEWjVwcGpwd0pnX2xkQWJWVEFJcWNkODNfVk5ZU1FEMGtybVVrMVNZek1SNkJHZlVFaE5nZ1l1V2NSVXQ3UDc5VVNydHlLeGc?oc=5",
+   "fuente": "WWF Colombia",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-05T00:15:56.829Z",
+   "titulo_en": "Living Planet Report 2026"
   },
   {
    "id": "prensa-fhijns",
@@ -2645,19 +2692,9 @@
       "alt": "imagen Protege al jaguar"
      },
      {
-      "img": "https://www.wwf.org.co/sites/default/files/2025-10/oso-anteojos_1.jpg",
-      "credito": "© WWF",
-      "alt": "imagen Protege al Oso de Anteojos"
-     },
-     {
       "img": "https://www.wwf.org.co/sites/default/files/2025-12/Medium_WW1448867_1.jpg",
       "credito": "© WWF",
       "alt": "imagen Protege a la abeja"
-     },
-     {
-      "img": "https://www.wwf.org.co/sites/default/files/2025-10/Medium_WW1119368.jpg",
-      "credito": "© WWF",
-      "alt": "imagen Protege a la Tortuga Marina"
      },
      {
       "img": "https://www.wwf.org.co/sites/default/files/2025-12/Medium_WW287919_1.jpg",
@@ -2665,14 +2702,24 @@
       "alt": "imagen Protege a la nutria"
      },
      {
+      "img": "https://www.wwf.org.co/sites/default/files/2025-10/Medium_WW1119368.jpg",
+      "credito": "© WWF",
+      "alt": "imagen Protege a la Tortuga Marina"
+     },
+     {
+      "img": "https://www.wwf.org.co/sites/default/files/2025-10/oso-anteojos_1.jpg",
+      "credito": "© WWF",
+      "alt": "imagen Protege al Oso de Anteojos"
+     },
+     {
+      "img": "https://www.wwf.org.co/sites/default/files/2025-12/Medium_WW239156_1.jpg",
+      "credito": "© WWF",
+      "alt": "imagen Protege al chigüiro"
+     },
+     {
       "img": "https://www.wwf.org.co/sites/default/files/2025-12/Medium_WW1124149_1.jpg",
       "credito": "© WWF",
       "alt": "imagen Protege a la ballena"
-     },
-     {
-      "img": "https://www.wwf.org.co/sites/default/files/2025-10/delfin-rosado_1.jpg",
-      "credito": "© WWF",
-      "alt": "imagen Protege al Delfín Rosado"
      }
     ],
     "pagina": "https://www.wwf.org.co/_como_ayudar_/adopta_una_especie/"
@@ -2769,52 +2816,28 @@
     "pagina": "https://www.wwf.org.co/"
    },
    {
-    "img": "https://wwflac.awsassets.panda.org/img/original/sabiduriasalvajefinal2026i.png",
+    "img": "https://wwflac.awsassets.panda.org/img/original/cacaodiauno.png",
     "credito": "© WWF",
     "alt": "",
-    "pagina": "https://www.wwf.org.co/?401718%2Fganadores-Sabiduria-Salvaje-2026"
+    "pagina": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo"
    },
    {
-    "img": "https://wwflac.awsassets.panda.org/img/original/sabiduriasalvajefinal2026ii.png",
+    "img": "https://wwflac.awsassets.panda.org/img/original/analisiscroma.png",
     "credito": "© WWF",
     "alt": "",
-    "pagina": "https://www.wwf.org.co/?401718%2Fganadores-Sabiduria-Salvaje-2026"
+    "pagina": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo"
    },
    {
-    "img": "https://wwflac.awsassets.panda.org/img/original/sabiduriasalvaje2026iii.png",
+    "img": "https://wwflac.awsassets.panda.org/img/original/cromatografia.png",
     "credito": "© WWF",
     "alt": "",
-    "pagina": "https://www.wwf.org.co/?401718%2Fganadores-Sabiduria-Salvaje-2026"
+    "pagina": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo"
    },
    {
-    "img": "https://wwflac.awsassets.panda.org/img/original/ipv-thumb.png",
+    "img": "https://wwflac.awsassets.panda.org/img/original/comunidadcacao.png",
     "credito": "© WWF",
     "alt": "",
-    "pagina": "https://www.wwf.org.co/?401810/Informe-Planeta-Vivo-2026-resultados-y-hallazgos"
-   },
-   {
-    "img": "https://wwflac.awsassets.panda.org/img/original/declaracionareasi.png",
-    "credito": "© WWF",
-    "alt": "",
-    "pagina": "https://www.wwf.org.co/?401730/Climate-Week-Medellin-2026-firma-declaracion-areas-naturales-urbanas"
-   },
-   {
-    "img": "https://wwflac.awsassets.panda.org/img/original/declaracionareasii.png",
-    "credito": "© WWF",
-    "alt": "",
-    "pagina": "https://www.wwf.org.co/?401730/Climate-Week-Medellin-2026-firma-declaracion-areas-naturales-urbanas"
-   },
-   {
-    "img": "https://wwflac.awsassets.panda.org/img/original/firmasareasdeclaracioni.png",
-    "credito": "© WWF",
-    "alt": "",
-    "pagina": "https://www.wwf.org.co/?401730/Climate-Week-Medellin-2026-firma-declaracion-areas-naturales-urbanas"
-   },
-   {
-    "img": "https://wwflac.awsassets.panda.org/img/original/firmasareasdeclaracionii.png",
-    "credito": "© WWF",
-    "alt": "",
-    "pagina": "https://www.wwf.org.co/?401730/Climate-Week-Medellin-2026-firma-declaracion-areas-naturales-urbanas"
+    "pagina": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo"
    },
    {
     "img": "https://wwflac.awsassets.panda.org/img/fotografi-a-aerea-rio-igara-parana-en-la-chorrera--1---1-_796957.webp",
@@ -3217,8 +3240,32 @@
     "credito": "© WWF / David Estrada Larraneta",
     "alt": "gallery1",
     "pagina": "https://www.wwf.org.co/que_hacemos/plasticos/"
+   },
+   {
+    "img": "https://wwflac.awsassets.panda.org/img/shutterstock_81466396_744421.jpg",
+    "credito": "© Shutterstock",
+    "alt": "gallery1",
+    "pagina": "https://www.wwf.org.co/que_hacemos/plasticos/"
+   },
+   {
+    "img": "https://wwflac.awsassets.panda.org/img/large_ww2122298_1_744422.jpg",
+    "credito": "© WWF / Vincent Kneefel",
+    "alt": "gallery1",
+    "pagina": "https://www.wwf.org.co/que_hacemos/plasticos/"
+   },
+   {
+    "img": "https://wwflac.awsassets.panda.org/img/fork_dice_744467.png",
+    "credito": "© WWF",
+    "alt": "WWF",
+    "pagina": "https://www.wwf.org.co/que_hacemos/plasticos/"
+   },
+   {
+    "img": "https://wwflac.awsassets.panda.org/img/we4theplanet_745191.jpg",
+    "credito": "© We4ThePlanet",
+    "alt": "slider",
+    "pagina": "https://www.wwf.org.co/que_hacemos/jovenes/"
    }
   ],
-  "actualizado": "2026-10-28T00:22:27.903Z"
+  "actualizado": "2026-11-05T00:15:56.829Z"
  }
 }
