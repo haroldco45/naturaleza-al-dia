@@ -1,25 +1,26 @@
 {
- "actualizado": "2026-11-07T12:06:24.966Z",
- "actualizadoBogota": "7 de noviembre de 2026 a las 7:06 a. m.",
+ "actualizado": "2026-11-07T15:51:56.519Z",
+ "actualizadoBogota": "7 de noviembre de 2026 a las 10:51 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 8,
+  "prensa": 7,
   "prensaBing": 12,
-  "prensaAmbiente": 7,
+  "prensaAmbiente": 8,
   "notasAbiertas": 0,
   "fotosPrensa": 16,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 1,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 53
+  "segundos": 39
  },
  "wwf": [
   {
@@ -435,7 +436,7 @@
    "id": "prensa-h2gksn",
    "titulo": "WWF: La COP17 acelera la acción por la naturaleza y deja a América Latina con la tarea de proyectar más avances en conectar, restaurar y financiar",
    "resumen": "",
-   "fecha": "2026-11-06T20:18:01.000Z",
+   "fecha": "2026-11-06T20:32:05.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdkRXV1ZiY0hKczNLUkVpdkZYd3FZYU1STldlLXoydTdIY3VyTWlna2dRNXdSbkIwYUNlU19HM2R0TmhQaFpXUkxNRnQ4M2pWc2pDc0FiamhiVEVWb1BDTHkxM2FRYTBESVB0RGNNUGJnTjRGOXV3X21nekZtbllNbS0yYlItcVR4bkF4eFp0SThGaklKWlJiR0ZJc1pONkVMQlN3bG9JNVd4SHlYdlJsVlRsVEVNdFEwWmhESklMUmZsS3BNOHQ0NGNBQmVMaUVadjhOcXpKRnlCeVNHQ1doRFFmek02MUJtNG95eFlXMjZ1X0JlRGZRYmczbWUtWEo3TmxKUVd30gGGAkFVX3lxTE52RFdXVmJjSEpzM0tSRWl2Rlh3cVlhTVJOV2UtejJ1N0hjdXJNaWdrZ1E1d1JuQjBhQ2VTX0czZHROaFBoWldSTE1GdDgzalZzakNzQWJqaGJURVZvUENMeTEzYVFhMERJUHREY01QYmdONEY5dXdfbWd6Rm1uWU1tLTJiUi1xVHhuQXh4WnRJOEZqSUpaUmJHRklzWk42RUxCU3dsb0k1V3hIeVh2UmxWVGxURU10UTBaaERKSUxSZmxLcE04dDQ0Y0FCZUxpRVp2OE5xekpGeUJ5U0dDV2hEUWZ6TTYxQm00b3l4WVcyNnVfQmVEZlFiZzNtZS1YSjdObEpRV3c?oc=5",
@@ -673,7 +674,7 @@
    "id": "prensa-1b3iium",
    "titulo": "‘COP17 de biodiversidad debe acelerar implementación y ofrecer resultados en lugar de promesas’",
    "resumen": "",
-   "fecha": "2026-10-19T16:15:52.000Z",
+   "fecha": "2026-10-19T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE14Rk1WbThDSGg2WWdiZ1hjbnFqLWJKTXJqTWVxT0VxLV9VcDhHb0NTM2Z0ZlM2MXVCTTBNb1NoR0txWENiOGczQTA4S2d4Q0JIV29KS19pLUh6SHY2c3JiQlRPRDdiUHVfSHJoUnFZV2JLMm55ZDlF?oc=5",
@@ -892,6 +893,20 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Biodiversity in Latin America: Wildlife populations decreased by 95% | Signal Colombia"
+  },
+  {
+   "id": "prensa-yqvoi1",
+   "titulo": "WWF: biodiversidad de fauna silvestre cae 73% en 50 años",
+   "resumen": "",
+   "fecha": "2026-10-09T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pM29nT19wUHZQaEpFUllHSXQxV29Qb3FFbkhQM2gzdGtwZ016eF81b0RkdDFVODRaQzh6amh1V09lWmZNbzJwd0xFTkhnNGFYcmtBYy1YaE5ycG5oeWhIWFMxaW5lTjdXWGt3cEpCSQ?oc=5",
+   "fuente": "Fábrica de Periodismo",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-07T15:51:56.519Z",
+   "titulo_en": "WWF: wildlife biodiversity drops 73% in 50 years"
   },
   {
    "id": "prensa-lyw64b",
