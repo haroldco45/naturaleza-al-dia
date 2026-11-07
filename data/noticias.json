@@ -1,25 +1,25 @@
 {
- "actualizado": "2026-11-07T20:04:12.003Z",
- "actualizadoBogota": "7 de noviembre de 2026 a las 3:04 p. m.",
+ "actualizado": "2026-11-07T23:51:00.247Z",
+ "actualizadoBogota": "7 de noviembre de 2026 a las 6:51 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
   "prensa": 8,
-  "prensaBing": 12,
+  "prensaBing": 10,
   "prensaAmbiente": 7,
   "notasAbiertas": 0,
   "fotosPrensa": 16,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 24,
+  "videosCanal": 0,
   "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 49
+  "segundos": 76
  },
  "wwf": [
   {
@@ -673,7 +673,7 @@
    "id": "prensa-1b3iium",
    "titulo": "‘COP17 de biodiversidad debe acelerar implementación y ofrecer resultados en lugar de promesas’",
    "resumen": "",
-   "fecha": "2026-10-19T16:15:52.000Z",
+   "fecha": "2026-10-19T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE14Rk1WbThDSGg2WWdiZ1hjbnFqLWJKTXJqTWVxT0VxLV9VcDhHb0NTM2Z0ZlM2MXVCTTBNb1NoR0txWENiOGczQTA4S2d4Q0JIV29KS19pLUh6SHY2c3JiQlRPRDdiUHVfSHJoUnFZV2JLMm55ZDlF?oc=5",
@@ -1292,7 +1292,7 @@
    "titulo": "La Hora del Planeta 2026: así puede participar del gran apagón mundial",
    "resumen": "",
    "fecha": "2026-03-20T18:33:00.000Z",
-   "imagen": "https://www.bing.com/th?id=ONUT.mbVkllyO0MCr58qcKAJ_kg&pid=News",
+   "imagen": "https://www.bing.com/th?id=ONUT.POHFsSjfySaxy5ZiUJqDdg&pid=News",
    "credito": "© El Espectador",
    "enlace": "https://www.elespectador.com/ambiente/bibo/la-hora-del-planeta-2026-asi-puede-participar-del-gran-apagon-mundial/",
    "fuente": "El Espectador",
