@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-07T09:07:25.686Z",
- "actualizadoBogota": "7 de noviembre de 2026 a las 4:07 a. m.",
+ "actualizado": "2026-11-07T12:06:24.966Z",
+ "actualizadoBogota": "7 de noviembre de 2026 a las 7:06 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -13,14 +13,13 @@
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 5,
-  "errorTraduccion": "google: HTTP 429",
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 40
+  "segundos": 53
  },
  "wwf": [
   {
@@ -674,7 +673,7 @@
    "id": "prensa-1b3iium",
    "titulo": "‘COP17 de biodiversidad debe acelerar implementación y ofrecer resultados en lugar de promesas’",
    "resumen": "",
-   "fecha": "2026-10-19T07:00:00.000Z",
+   "fecha": "2026-10-19T16:15:52.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE14Rk1WbThDSGg2WWdiZ1hjbnFqLWJKTXJqTWVxT0VxLV9VcDhHb0NTM2Z0ZlM2MXVCTTBNb1NoR0txWENiOGczQTA4S2d4Q0JIV29KS19pLUh6SHY2c3JiQlRPRDdiUHVfSHJoUnFZV2JLMm55ZDlF?oc=5",
