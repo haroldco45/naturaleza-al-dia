@@ -1,25 +1,26 @@
 {
- "actualizado": "2026-11-06T02:08:37.525Z",
- "actualizadoBogota": "5 de noviembre de 2026 a las 9:08 p. m.",
+ "actualizado": "2026-11-07T09:07:25.686Z",
+ "actualizadoBogota": "7 de noviembre de 2026 a las 4:07 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 11,
+  "prensa": 8,
   "prensaBing": 12,
-  "prensaAmbiente": 6,
+  "prensaAmbiente": 7,
   "notasAbiertas": 0,
-  "fotosPrensa": 17,
+  "fotosPrensa": 16,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 0,
-  "traducciones": 0,
+  "videosCanal": 24,
+  "traducciones": 5,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 94
+  "segundos": 40
  },
  "wwf": [
   {
@@ -418,6 +419,48 @@
  ],
  "prensa": [
   {
+   "id": "prensa-wj9031",
+   "titulo": "Seguimos perdiendo biodiversidad en el mundo",
+   "resumen": "",
+   "fecha": "2026-11-07T00:23:05.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZEVaSmhTRFAwMkJ3Nmp5WWduVUFYNFFjS1p0TmsybklVcHptd09kSHhuWFRfMkM0YjhwNGx6RE5leE5LTGRCRUxWbjlzSUkyVV81c3l2NklYX0pxZEFqcWhEX0FiLThBREZ0WU84bTJOdGhNTkZzVDkydDRVWWIySmo3TXAyS0NTSGIxZ1ZlSlpLU1prMVF0ekg1OTAxNDVHYVFiTmN30gGmAUFVX3lxTE1kRVpKaFNEUDAyQnc2anlZZ25VQVg0UWNLWnROazJuSVVwem13T2RIeG5YVF8yQzRiOHA0bHpETmV4TktMZEJFTFZuOXNJSTJVXzVzeXY2SVhfSnFkQWpxaERfQWItOEFERnRZTzhtMk50aE1ORnNUOTJ0NFVZYjJKajdNcDJLQ1NIYjFnVmVKWktTWmsxUXR6SDU5MDE0NUdhUWJOY3c?oc=5",
+   "fuente": "El Espectador",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-07T09:07:25.686Z",
+   "titulo_en": "We continue to lose biodiversity in the world"
+  },
+  {
+   "id": "prensa-h2gksn",
+   "titulo": "WWF: La COP17 acelera la acción por la naturaleza y deja a América Latina con la tarea de proyectar más avances en conectar, restaurar y financiar",
+   "resumen": "",
+   "fecha": "2026-11-06T20:18:01.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdkRXV1ZiY0hKczNLUkVpdkZYd3FZYU1STldlLXoydTdIY3VyTWlna2dRNXdSbkIwYUNlU19HM2R0TmhQaFpXUkxNRnQ4M2pWc2pDc0FiamhiVEVWb1BDTHkxM2FRYTBESVB0RGNNUGJnTjRGOXV3X21nekZtbllNbS0yYlItcVR4bkF4eFp0SThGaklKWlJiR0ZJc1pONkVMQlN3bG9JNVd4SHlYdlJsVlRsVEVNdFEwWmhESklMUmZsS3BNOHQ0NGNBQmVMaUVadjhOcXpKRnlCeVNHQ1doRFFmek02MUJtNG95eFlXMjZ1X0JlRGZRYmczbWUtWEo3TmxKUVd30gGGAkFVX3lxTE52RFdXVmJjSEpzM0tSRWl2Rlh3cVlhTVJOV2UtejJ1N0hjdXJNaWdrZ1E1d1JuQjBhQ2VTX0czZHROaFBoWldSTE1GdDgzalZzakNzQWJqaGJURVZvUENMeTEzYVFhMERJUHREY01QYmdONEY5dXdfbWd6Rm1uWU1tLTJiUi1xVHhuQXh4WnRJOEZqSUpaUmJHRklzWk42RUxCU3dsb0k1V3hIeVh2UmxWVGxURU10UTBaaERKSUxSZmxLcE04dDQ0Y0FCZUxpRVp2OE5xekpGeUJ5U0dDV2hEUWZ6TTYxQm00b3l4WVcyNnVfQmVEZlFiZzNtZS1YSjdObEpRV3c?oc=5",
+   "fuente": "PressLatam",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-07T09:07:25.686Z",
+   "titulo_en": "WWF: COP17 accelerates action for nature and leaves Latin America with the task of projecting more progress in connecting, restoring and financing"
+  },
+  {
+   "id": "prensa-ko5yj9",
+   "titulo": "Mesa de gobernanza de la laguna de San Diego reúne a comunidad y entidades para protegerla: jóvenes participan",
+   "resumen": "",
+   "fecha": "2026-11-06T01:15:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZG9jNXRCekdaM0toYjlJNHZRS3FUMzc0ZHBBTUpsMXRmNmJKcDJBNDh6UEVXelhJVGZMd2lzMUI2Y2lGZTBBQmdzTnpKVEZuRThWbVlaN18tWHV0VV9PVzY4UFY3Y0NGWmhFUmNrRm1PX2k5cGlEOWZ3R3g5ZE9CLWxCbFBsRXhrUVRzVXlZVk5uYTVoLXdwRTB5aHhKOGZIcWZ1eXZycXZWUDY2TDJWRUpVX0Z6Q1JJVHFFazNrWC0?oc=5",
+   "fuente": "La Patria",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-07T09:07:25.686Z",
+   "titulo_en": "San Diego Lagoon Governance Board Brings Community and Entities Together to Protect the San Diego Lagoon: Youth Participate"
+  },
+  {
    "id": "prensa-9gzyud",
    "titulo": "CHV 003-C364 - Estrategia de fortalecimiento de capacidades para restauración ecológica",
    "resumen": "",
@@ -432,18 +475,32 @@
    "titulo_en": "CHV 003-C364 - Capacity Building Strategy for Ecological Restoration"
   },
   {
-   "id": "prensa-eudoyx",
+   "id": "prensa-su7vv9",
    "titulo": "WWF alerta que poblaciones de especies silvestres han perdido 73% de su tamaño desde 1970",
    "resumen": "",
-   "fecha": "2026-11-03T21:01:41.000Z",
-   "imagen": "https://www.bing.com/th?id=ONUT.BacZy_0L3VMC2tzLAdDSrw&pid=News",
-   "credito": "© La República on MSN",
-   "enlace": "https://www.msn.com/es-co/noticias/otras/wwf-alerta-que-poblaciones-de-especies-silvestres-han-perdido-73-de-su-tama%C3%B1o-desde-1970/ar-AA2gHLX7",
-   "fuente": "La República on MSN",
+   "fecha": "2026-11-04T05:01:41.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRDlKOGpqdF9sMjJ4b2lQYjA2M2FnMzMtOFVuTFdhZ0dHUFVpQ0lxLXI0VzRzell4d1B3NjhRUHlnOWNBZl9oWXV6UmRqMGJBNkQ4VG5neFVURXBNNWxhLW5TU1NKN1p6MUg3R1puc0VhWkY5Nl93c3pweHhDOUMtQVBOYmZNTUd3aWlEYzV3czVxdWhJRDZWb21KZk9SLUQ0dXVBaXVnVUkzRVo4UzFrcnAyczRBSTA5dGk0eXd3M2w5V2h6cFpoQUZXWW5MZlFYM0gtLUktUHhhMDRFTWlfX3hOWGjSAeQBQVVfeXFMTjFvOWlUc25uNkRuV0JRWXlEVkhYM0ZENXRtNzI4UXl4bkN6STdHRlYzR0czTzZ2T3Y2aGduTWlSeUFOTVljaklJTEE4T3NjbjcxTWpzNEFNZWVxTERMT29WVUNuSy1xcGFkczhlT1lyd0tSenNGWk9rWjJYQWw5Uy1wLUxCR1FYUHdYeDhyM2dDY05Cbkk1NWxNdHA1VDhzOWtrVnpaWVZZM1J2VlJjbWxRdHNOS2Vqd3Q4MjJDOTRMRHNVcmZWTGV1YlFoRWhmeUFCTTBKX3YxcW5yVXJHOHJ6ZUFY?oc=5",
+   "fuente": "LaRepublica.co",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-11-04T11:27:16.327Z",
+   "primeraVez": "2026-11-07T09:07:25.686Z",
    "titulo_en": "WWF warns that wildlife populations have lost 73% of their size since 1970"
+  },
+  {
+   "id": "prensa-1x2akm",
+   "titulo": "Joven del Cesar se destaca en concurso nacional de biodiversidad",
+   "resumen": "",
+   "fecha": "2026-11-04T00:09:46.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb2hGQmNiWm0ydlNHMXV2cXNITHlMdmRINmd4T0p0dEJ1cGJYRmhqM0NiMFVmZXY1Yk1HZVhwZ1JNdVkzNkUtR0ZhWXFHSjI2SXRib3ZYaF9JUU5jZ08tbHNLMDVIQTVZRi1XRlpfYnpvaXJ0dDVLTHBvRmljWDBzOGI0eDBDcWJ6MTByNXRfTUNpb21TNDdQbmRFYXB4UElCcE5LZzUwRzY?oc=5",
+   "fuente": "Diario La Libertad",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-07T09:07:25.686Z",
+   "titulo_en": "Joven del Cesar stands out in national biodiversity competition"
   },
   {
    "id": "prensa-2x04cc",
@@ -617,7 +674,7 @@
    "id": "prensa-1b3iium",
    "titulo": "‘COP17 de biodiversidad debe acelerar implementación y ofrecer resultados en lugar de promesas’",
    "resumen": "",
-   "fecha": "2026-10-19T16:15:52.000Z",
+   "fecha": "2026-10-19T07:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE14Rk1WbThDSGg2WWdiZ1hjbnFqLWJKTXJqTWVxT0VxLV9VcDhHb0NTM2Z0ZlM2MXVCTTBNb1NoR0txWENiOGczQTA4S2d4Q0JIV29KS19pLUh6SHY2c3JiQlRPRDdiUHVfSHJoUnFZV2JLMm55ZDlF?oc=5",
