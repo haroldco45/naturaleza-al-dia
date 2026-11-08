@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-07T23:51:00.247Z",
- "actualizadoBogota": "7 de noviembre de 2026 a las 6:51 p. m.",
+ "actualizado": "2026-11-08T05:33:50.094Z",
+ "actualizadoBogota": "8 de noviembre de 2026 a las 12:33 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -19,7 +19,7 @@
    "www.bing.com": "directo",
    "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 76
+  "segundos": 81
  },
  "wwf": [
   {
@@ -1330,6 +1330,20 @@
    "fotoRevisada": true
   },
   {
+   "id": "prensa-127gr64",
+   "titulo": "WWF busca a los jóvenes que más saben de Biodiversidad en Colombia",
+   "resumen": "",
+   "fecha": "2024-08-01T13:05:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://miputumayo.com.co/2024/08/01/wwf-busca-a-los-jovenes-que-mas-saben-de-biodiversidad-en-colombia/",
+   "fuente": "miputumayo.com.co",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-08T05:33:50.094Z",
+   "fotoRevisada": true
+  },
+  {
    "id": "prensa-pyp7h3",
    "titulo": "WWF celebra la designación de Colombia como país sede de la COP de Biodiversidad 2024",
    "resumen": "",
@@ -1513,20 +1527,6 @@
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T12:10:16.692Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-4cxzce",
-   "titulo": "WWF pide a Colombia integrarse en la Comisión Ballenera Internacional",
-   "resumen": "",
-   "fecha": "2009-07-17T08:48:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://www.ecoticias.com/naturaleza/15531_wwf-pide-a-colombia-integrarse-en-la-comision-ballenera-internacional-agua-oceano-ballenas",
-   "fuente": "ECOticias.com",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-26T07:38:51.850Z",
    "fotoRevisada": true
   }
  ],
