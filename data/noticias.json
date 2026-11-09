@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-09T01:52:21.018Z",
- "actualizadoBogota": "8 de noviembre de 2026 a las 8:52 p. m.",
+ "actualizado": "2026-11-09T09:31:04.856Z",
+ "actualizadoBogota": "9 de noviembre de 2026 a las 4:31 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -12,15 +12,15 @@
   "fotosPrensa": 15,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 0,
-  "traducciones": 0,
+  "videosCanal": 24,
+  "traducciones": 2,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 83
+  "segundos": 53
  },
  "wwf": [
   {
@@ -457,7 +457,8 @@
    "fuente": "WWF Colombia",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-11-09T01:52:21.018Z"
+   "primeraVez": "2026-11-09T01:52:21.018Z",
+   "titulo_en": "WWF: COP31 must generate results that go beyond negotiation"
   },
   {
    "id": "prensa-ko5yj9",
@@ -568,7 +569,8 @@
    "fuente": "WWF Perú",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-11-09T01:52:21.018Z"
+   "primeraVez": "2026-11-09T01:52:21.018Z",
+   "titulo_en": "WWF at the close of COP17: ambition in biodiversity must be accompanied by action"
   },
   {
    "id": "prensa-1yw9na1",
