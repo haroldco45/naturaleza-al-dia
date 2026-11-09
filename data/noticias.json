@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-11-08T13:05:26.995Z",
- "actualizadoBogota": "8 de noviembre de 2026 a las 8:05 a. m.",
+ "actualizado": "2026-11-09T01:52:21.018Z",
+ "actualizadoBogota": "8 de noviembre de 2026 a las 8:52 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 8,
-  "prensaBing": 11,
+  "prensa": 9,
+  "prensaBing": 12,
   "prensaAmbiente": 7,
   "notasAbiertas": 0,
-  "fotosPrensa": 16,
+  "fotosPrensa": 15,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 24,
-  "traducciones": 1,
+  "videosCanal": 0,
+  "traducciones": 0,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 56
+  "segundos": 83
  },
  "wwf": [
   {
@@ -447,6 +447,19 @@
    "titulo_en": "WWF: COP17 accelerates action for nature and leaves Latin America with the task of projecting more progress in connecting, restoring and financing"
   },
   {
+   "id": "prensa-s52y5k",
+   "titulo": "WWF: COP31 debe generar resultados que vayan más allá de la negociación",
+   "resumen": "",
+   "fecha": "2026-11-06T08:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3RTI2TlNRcGhoLTN2Z2xaOXlrMjRpVkZqMWV3RU5jN0taZGpMd1drelZwcmJTSm5tOGp0T0UxcTF0VFhZdDJjdENUY29GdHc5YXVfenFRWU8yYXZZSlRJNEJoYzlqTW9Tc01TcGNacE51LTN5TkcwY28ySXY?oc=5",
+   "fuente": "WWF Colombia",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-09T01:52:21.018Z"
+  },
+  {
    "id": "prensa-ko5yj9",
    "titulo": "Mesa de gobernanza de la laguna de San Diego reúne a comunidad y entidades para protegerla: jóvenes participan",
    "resumen": "",
@@ -543,6 +556,19 @@
    "destacada": false,
    "primeraVez": "2026-11-08T13:05:26.995Z",
    "titulo_en": "The marine life corridor linking the planet's poles was presented at COP17"
+  },
+  {
+   "id": "prensa-1gyhf6g",
+   "titulo": "WWF ante el cierre de la COP17: la ambición en biodiversidad debe ir acompañada de acción",
+   "resumen": "",
+   "fecha": "2026-10-30T16:07:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQk9jZlVkWno5TDRxT2dlTm52a281MDc5ajNIdXdWQURfS083c0lGY3RVdUJSdjBTTWNWRU9yQ2NOekh6TkFHbEFoejM1MmlweGdsa245ZVVWbWZTRVpVV1RkYXNEd09jR01YQjFzV3JDUkE5NF9JNXdhOEg1Mm5jbjNSZndTUHdnbE9HSF8wcDBpWVJwMDJaNmwzYkhOVEdEaHA1TjhLbU91UnJ6QXJiQm1WVzk4bjNfbEZ5aDZXWQ?oc=5",
+   "fuente": "WWF Perú",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-09T01:52:21.018Z"
   },
   {
    "id": "prensa-1yw9na1",
@@ -1500,34 +1526,6 @@
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-sq8pci",
-   "titulo": "WWF promueve en Colombia comercio de productos certificados para cuidar bosques",
-   "resumen": "",
-   "fecha": "2016-12-06T13:42:00.000Z",
-   "imagen": "https://caracoltv.brightspotcdn.com/dims4/default/25b701a/2147483647/strip/true/crop/510x287+0+26/resize/1280x720!/format/webp/quality/75/?url=https%3A%2F%2Fcaracol-brightspot.s3-us-west-2.amazonaws.com%2Fassets%2Fbluradio%2Fimagenes_bluradio%2F123709-arboles_-selva_afp.jpg",
-   "credito": "© BLU Radio",
-   "enlace": "https://www.bluradio.com/medio-ambiente/wwf-promueve-en-colombia-comercio-de-productos-certificados-para-cuidar-bosques",
-   "fuente": "BLU Radio",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-30T08:24:48.446Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "wwf-253392",
-   "titulo": "WWF Colombia, comprometida con los bosques durante el posconflicto",
-   "resumen": "",
-   "fecha": "2015-09-24T16:59:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://wwf.panda.org/es/?253392/WWF-Colombia-comprometida-con-los-bosques-durante-el-posconflicto",
-   "fuente": "Panda",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T12:10:16.692Z",
    "fotoRevisada": true
   }
  ],
