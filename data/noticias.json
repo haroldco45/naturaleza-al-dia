@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-09T09:31:04.856Z",
- "actualizadoBogota": "9 de noviembre de 2026 a las 4:31 a. m.",
+ "actualizado": "2026-11-09T20:35:31.710Z",
+ "actualizadoBogota": "9 de noviembre de 2026 a las 3:35 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -13,14 +13,14 @@
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 2,
+  "traducciones": 1,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 53
+  "segundos": 49
  },
  "wwf": [
   {
@@ -418,6 +418,20 @@
   }
  ],
  "prensa": [
+  {
+   "id": "prensa-o8pkb",
+   "titulo": "Alto declive de biodiversidad alcanza ritmo sin precedentes",
+   "resumen": "",
+   "fecha": "2026-11-09T15:28:39.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUGxmZ0J2VWNJcmJBYjhIeHhOQURTRWNvSms5SUVHU0ltSHBnZXoxQmoyTXBJLURyRG0ta185aHQ4TTdLM3Y5RDFqc05rVm1MRGZiM3MzSEJfQ0JCaHdwU2Z5bVJCMHpucmFvaWtrdFQ1YlNhaDQ1REJvUzhCcE1pYmphcG51SDJfYVZKWHVpbnVzMXFmbVNnZ3JRSDdRbjFjTW5CYlZ4ekZzMmJaTTJOdlJfbm9hOVd6eHfSAboBQVVfeXFMUFpsXy14cmJRcENLTVlvbFpiM2FuWkdiOGxKYlJ6SE11R2FpakVYcUVmOWhNWWUtZFVwVXA4cDlGaXU2ekJ0M2E4Z3BtN2QxT2Fxc242MUhBaVBGaTZSOG03cGRmb2xsdHBkU2lDNTROTk50S0dLM2dWWUN0MF8xcHFoU0JrSnd6Si0wb05uWmdVSUEyU1ZnVWZIQVRnTk5tOC1TbXM0Nm9ZS3VrN1ZmYUNJbXFQUHNFdFFn?oc=5",
+   "fuente": "NTN24",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-09T20:35:31.710Z",
+   "titulo_en": "High Biodiversity Decline Reaches Unprecedented Pace"
+  },
   {
    "id": "prensa-wj9031",
    "titulo": "Seguimos perdiendo biodiversidad en el mundo",
@@ -1514,20 +1528,6 @@
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T16:10:53.979Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "wwf-320297",
-   "titulo": "La revista WWF Colombia, un privilegio para la Comunidad Panda",
-   "resumen": "",
-   "fecha": "2018-01-08T16:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://wwf.panda.org/es/?320297/Revista-WWF-Colombia",
-   "fuente": "Panda",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
    "fotoRevisada": true
   }
  ],
