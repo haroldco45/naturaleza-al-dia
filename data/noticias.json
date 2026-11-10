@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-11-09T20:35:31.710Z",
- "actualizadoBogota": "9 de noviembre de 2026 a las 3:35 p. m.",
+ "actualizado": "2026-11-10T03:21:21.942Z",
+ "actualizadoBogota": "9 de noviembre de 2026 a las 10:21 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 9,
-  "prensaBing": 12,
-  "prensaAmbiente": 7,
+  "prensa": 8,
+  "prensaBing": 0,
+  "prensaAmbiente": 6,
   "notasAbiertas": 0,
   "fotosPrensa": 15,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 24,
+  "videosCanal": 0,
   "traducciones": 1,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 49
+  "segundos": 83
  },
  "wwf": [
   {
@@ -418,6 +418,20 @@
   }
  ],
  "prensa": [
+  {
+   "id": "prensa-l21450",
+   "titulo": "Colombia tiene el 5 % del agua dulce renovable del mundo, pero el 40 % de sus grandes cuencas presenta riesgos de deterioro",
+   "resumen": "",
+   "fecha": "2026-11-09T20:45:36.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNTHNnbkRWZUhseUpNSjNtLVlKNzVPOC1qei1tdkNfUTNfakVEMlJVZjU2UFZteHNJTlQ3OUppbktXMGg3NWd4S3VxUmVMN0s4LS1jeU9acnlCNUprV0hBVTVuOVFWRDY5ZGE1X1pCY0JmT3Y4aXp0RWVUUmxhMjBZUm9WcVhjOU80S0pHd0FlYzFTcEJSRGVXNUVHMkRWclZhbzVUQWFfWklnckU4cGhuc2ZCeEs1OVdvM2VpaHNwa2JNQ1dpbjZHYkctYWNoUzRQSEVCb2J3MW1NY3ktZkhyXzhoUU8xcG1kTF95UUhVdFgxb21wVFVFc1VfOFVFZTQ5OUFF0gGDAkFVX3lxTE1Mc2duRFZlSGx5Sk1KM20tWUo3NU84LWp6LW12Q19RM19qRUQyUlVmNTZQVm14c0lOVDc5SmluS1cwaDc1Z3hLdXFSZUw3SzgtLWN5T1pyeUI1SmtXSEFVNW45UVZENjlkYTVfWkJjQmZPdjhpenRFZVRSbGEyMFlSb1ZxWGM5TzRLSkd3QWVjMVNwQlJEZVc1RUcyRFZyVmFvNVRBYV9aSWdyRThwaG5zZkJ4SzU5V28zZWloc3BrYk1DV2luNkdiRy1hY2hTNFBIRUJvYncxbU1jeS1mSHJfOGhRTzFwbWRMX3lRSFV0WDFvbXBUVUVzVV84VUVlNDk5QUU?oc=5",
+   "fuente": "Revista Semana",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-10T03:21:21.942Z",
+   "titulo_en": "Colombia has 5% of the world's renewable fresh water, but 40% of its large basins present risks of deterioration"
+  },
   {
    "id": "prensa-o8pkb",
    "titulo": "Alto declive de biodiversidad alcanza ritmo sin precedentes",
@@ -1514,20 +1528,6 @@
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "wwf-335551",
-   "titulo": "Plan estratégico WWF-Colombia 2017 - 2025",
-   "resumen": "",
-   "fecha": "2018-09-25T17:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://wwf.panda.org/es/?335551/Plan-estrategico-WWF-Colombia-2017---2025",
-   "fuente": "Panda",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T16:10:53.979Z",
    "fotoRevisada": true
   }
  ],
