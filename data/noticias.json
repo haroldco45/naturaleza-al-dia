@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-11-10T03:21:21.942Z",
- "actualizadoBogota": "9 de noviembre de 2026 a las 10:21 p. m.",
+ "actualizado": "2026-11-10T11:37:44.012Z",
+ "actualizadoBogota": "10 de noviembre de 2026 a las 6:37 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
   "prensa": 8,
-  "prensaBing": 0,
-  "prensaAmbiente": 6,
+  "prensaBing": 12,
+  "prensaAmbiente": 7,
   "notasAbiertas": 0,
-  "fotosPrensa": 15,
+  "fotosPrensa": 16,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 0,
-  "traducciones": 1,
+  "videosCanal": 24,
+  "traducciones": 2,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 83
+  "segundos": 57
  },
  "wwf": [
   {
@@ -423,8 +423,8 @@
    "titulo": "Colombia tiene el 5 % del agua dulce renovable del mundo, pero el 40 % de sus grandes cuencas presenta riesgos de deterioro",
    "resumen": "",
    "fecha": "2026-11-09T20:45:36.000Z",
-   "imagen": "",
-   "credito": "",
+   "imagen": "https://www.bing.com/th?id=ONUT.Yia3ObTRTN3dgC4UyhE-rQ&pid=News",
+   "credito": "© Semana on MSN",
    "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNTHNnbkRWZUhseUpNSjNtLVlKNzVPOC1qei1tdkNfUTNfakVEMlJVZjU2UFZteHNJTlQ3OUppbktXMGg3NWd4S3VxUmVMN0s4LS1jeU9acnlCNUprV0hBVTVuOVFWRDY5ZGE1X1pCY0JmT3Y4aXp0RWVUUmxhMjBZUm9WcVhjOU80S0pHd0FlYzFTcEJSRGVXNUVHMkRWclZhbzVUQWFfWklnckU4cGhuc2ZCeEs1OVdvM2VpaHNwa2JNQ1dpbjZHYkctYWNoUzRQSEVCb2J3MW1NY3ktZkhyXzhoUU8xcG1kTF95UUhVdFgxb21wVFVFc1VfOFVFZTQ5OUFF0gGDAkFVX3lxTE1Mc2duRFZlSGx5Sk1KM20tWUo3NU84LWp6LW12Q19RM19qRUQyUlVmNTZQVm14c0lOVDc5SmluS1cwaDc1Z3hLdXFSZUw3SzgtLWN5T1pyeUI1SmtXSEFVNW45UVZENjlkYTVfWkJjQmZPdjhpenRFZVRSbGEyMFlSb1ZxWGM5TzRLSkd3QWVjMVNwQlJEZVc1RUcyRFZyVmFvNVRBYV9aSWdyRThwaG5zZkJ4SzU5V28zZWloc3BrYk1DV2luNkdiRy1hY2hTNFBIRUJvYncxbU1jeS1mSHJfOGhRTzFwbWRMX3lRSFV0WDFvbXBUVUVzVV84VUVlNDk5QUU?oc=5",
    "fuente": "Revista Semana",
    "tipo": "prensa",
@@ -1533,6 +1533,15 @@
  ],
  "videos": [
   {
+   "id": "HPv0EqnVO9o",
+   "titulo": "¡66 años de nuestros 66 Parques Nacionales Naturales! 🌱🏔️🌄🏜️🌊",
+   "resumen": "Estas áreas protegidas son nuestro patrimonio natural más valioso: son páramos, bosques, humedales, costas, selvas y mares que sostienen la biodiversidad y el bienestar de millones de personas. ¿Cuáles de ellos conoces?",
+   "fecha": "2026-11-09T22:14:17+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "66 years of our 66 National Natural Parks! 🌱🏔️🌄🏜️🌊",
+   "resumen_en": "These protected areas are our most valuable natural heritage: they are moors, forests, wetlands, coasts, jungles and seas that sustain the biodiversity and well-being of millions of people. Which of them do you know?"
+  },
+  {
    "id": "5mbb1-PIZ_w",
    "titulo": "Buenos suelos para buenos alimentos 🌱🥭🌶️🌽",
    "resumen": "Trabajamos junto a pueblos indígenas en el Putumayo que ya aplican varios conocimientos para conservar mejor sus suelos, y así, cultivar una comida nutritiva y de calidad que llegue a las mesas de muchas personas de la r",
@@ -1792,15 +1801,6 @@
    "canal": "WWF Colombia",
    "titulo_en": "Discover The Mangrove Narrators of Nuquí, Chocó, Colombia",
    "resumen_en": "Meet this amazing group of people that works every day for the conservation of mangroves in Nuquí, Chocó, as part of Los Riscales Community Council. Each of their actions contribute with the balance between their culture"
-  },
-  {
-   "id": "GbnDdGvFLts",
-   "titulo": "¿Qué hace WWF Colombia para cuidar la naturaleza?",
-   "titulo_en": "What does WWF Colombia do to protect nature?",
-   "resumen": "",
-   "fecha": null,
-   "canal": "WWF Colombia",
-   "resumen_en": ""
   }
  ],
  "media": {
