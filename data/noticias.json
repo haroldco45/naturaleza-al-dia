@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-11T15:59:08.450Z",
- "actualizadoBogota": "11 de noviembre de 2026 a las 10:59 a. m.",
+ "actualizado": "2026-11-11T22:37:32.211Z",
+ "actualizadoBogota": "11 de noviembre de 2026 a las 5:37 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -13,14 +13,14 @@
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 1,
+  "traducciones": 2,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 51
+  "segundos": 56
  },
  "wwf": [
   {
@@ -418,6 +418,34 @@
   }
  ],
  "prensa": [
+  {
+   "id": "prensa-1y9d4vi",
+   "titulo": "Colombia tiene el 5 % del agua dulce renovable del mundo",
+   "resumen": "",
+   "fecha": "2026-11-11T12:10:00.000Z",
+   "imagen": "https://www.bing.com/th?id=ONUT.Yz8rkyVdFd-cCzRl85cTzQ&pid=News",
+   "credito": "© Diario del Sur",
+   "enlace": "https://www.diariodelsur.com.co/noticias/colombia-tiene-el-5-del-agua-dulce-renovable-del-mundo",
+   "fuente": "Diario del Sur",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-11T22:37:32.211Z",
+   "titulo_en": "Colombia has 5% of the world's renewable freshwater"
+  },
+  {
+   "id": "prensa-17bv4uv",
+   "titulo": "Fenómeno de El Niño: Colombia busca asegurar meta de los embalses para evitar riesgos en la energía",
+   "resumen": "",
+   "fecha": "2026-11-11T11:11:00.000Z",
+   "imagen": "https://www.bing.com/th?id=ONUT.TgQfUXFYmHuSAqyLmUi-ZA&pid=News",
+   "credito": "© Blu Radio",
+   "enlace": "https://www.bluradio.com/nacion/fenomeno-de-el-nino-colombia-busca-asegurar-meta-de-los-embalses-para-evitar-riesgos-en-la-energia-rg10",
+   "fuente": "Blu Radio",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-11T22:37:32.211Z",
+   "titulo_en": "El Niño Phenomenon: Colombia Seeks to Ensure Reservoir Targets to Avoid Energy Risks"
+  },
   {
    "id": "prensa-l21450",
    "titulo": "Colombia tiene el 5 % del agua dulce renovable del mundo, pero el 40 % de sus grandes cuencas presenta riesgos de deterioro",
@@ -1497,34 +1525,6 @@
    "credito": "© El Espectador",
    "enlace": "https://www.elespectador.com/ambiente/bibo/despues-de-casi-30-anos-wwf-colombia-tendra-nueva-directora/",
    "fuente": "El Espectador",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-5psbi9",
-   "titulo": "Colombates y WWF Colombia se unieron para promover la conservación de ecosistemas",
-   "resumen": "",
-   "fecha": "2020-09-03T14:26:00.000Z",
-   "imagen": "https://img.lalr.co/cms/2020/09/03162544/Victor-Valery.png?size=xl&ratio=r40_21&f=jpg",
-   "credito": "© larepublica",
-   "enlace": "https://www.larepublica.co/responsabilidad-social/colombates-y-wwf-colombia-se-unieron-para-promover-la-conservacion-de-bosques-y-ecosistemas-3055081",
-   "fuente": "larepublica",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-swzw1d",
-   "titulo": "WWF Colombia hace llamado para evitar la extinción del cóndor andino",
-   "resumen": "",
-   "fecha": "2019-06-04T17:00:00.000Z",
-   "imagen": "https://web-cdnprod.aa.com.tr/uploads/Contents/2021/06/12/thumbs_b_c_e2bbf5b941d5beaa8d21590851046c09.jpg?v=045529",
-   "credito": "© aa.com.tr",
-   "enlace": "https://www.aa.com.tr/es/mundo/wwf-colombia-hace-llamado-para-evitar-la-extinci%C3%B3n-del-c%C3%B3ndor-andino/2271138",
-   "fuente": "aa.com.tr",
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
