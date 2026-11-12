@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-11-12T03:42:44.283Z",
- "actualizadoBogota": "11 de noviembre de 2026 a las 10:42 p. m.",
+ "actualizado": "2026-11-12T12:26:06.674Z",
+ "actualizadoBogota": "12 de noviembre de 2026 a las 7:26 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 10,
+  "prensa": 9,
   "prensaBing": 12,
-  "prensaAmbiente": 7,
+  "prensaAmbiente": 8,
   "notasAbiertas": 0,
   "fotosPrensa": 15,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 0,
-  "traducciones": 1,
-  "errorTraduccion": "google: HTTP 429",
+  "videosCanal": 24,
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 98
+  "segundos": 52
  },
  "wwf": [
   {
@@ -422,7 +421,7 @@
    "id": "prensa-1wg413f",
    "titulo": "Bogotá y Medellín, las ciudades colombianas participantes en We Love Cities",
    "resumen": "",
-   "fecha": "2026-11-11T22:30:09.000Z",
+   "fecha": "2026-11-12T01:21:35.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45aFNObUtXcTVkNDA5SmQ1ZjBfanpWOXF2U3hjLVRFVHZUSTJuUkxkRTFnSkdGSUdNQWhmY1FDd0t3Q090a2tvdzRTeU9nbWdHY2FBQVQtaHE5Q0FlVjBoemZQZXRCRXFUU1JZaFY4dk1XV0g4Umh3VWN2MmVRcE0?oc=5",
