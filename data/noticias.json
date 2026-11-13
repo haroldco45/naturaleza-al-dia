@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-12T12:26:06.674Z",
- "actualizadoBogota": "12 de noviembre de 2026 a las 7:26 a. m.",
+ "actualizado": "2026-11-13T17:04:00.547Z",
+ "actualizadoBogota": "13 de noviembre de 2026 a las 12:04 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -9,11 +9,12 @@
   "prensaBing": 12,
   "prensaAmbiente": 8,
   "notasAbiertas": 0,
-  "fotosPrensa": 15,
+  "fotosPrensa": 14,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 1,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
@@ -654,6 +655,20 @@
    "destacada": false,
    "primeraVez": "2026-10-29T09:42:58.565Z",
    "titulo_en": "CHV-001-C836 - Conduct feasibility study for Bengo Cacao Amazonico II project"
+  },
+  {
+   "id": "prensa-1yroils",
+   "titulo": "COP17: WWF junto a otras organizaciones de la sociedad civil advierte que no deben diluirse los",
+   "resumen": "",
+   "fecha": "2026-10-28T16:20:55.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPc1VBMVEwZDRad0k3OEVEaTJ3N184N1hsMWVLY2d4ZzVnN0dKb3JxYld2NWpLNUpveTZNT19zUUN6ME1WVVYzemNZenpkbmU1Z0JLbEFkVEZmS0JhMHBQV1F2WmVEQWM5azBWaDJqdVpZYUZjcFlDU2ZqR1UyeWtsdlVicmljSEg0czdQbHZ6M2tDSWFsQUZFOC1yRUg5QkhVUTN1ZDlrOEdSdHZHRGtqQ2s1REx3QlQ2bU4xZzFab0tDTTI2Mk16cVBhSXdqaUo3cU1tY3FWbVdWelFJckowM0E2Q2tBTDN4c050d01kUGFmR3R1WFVsUFJZVFhxazNqM0E?oc=5",
+   "fuente": "WWF Perú",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-13T17:04:00.547Z",
+   "titulo_en": "COP17: WWF, together with other civil society organizations, warns against diluting the"
   },
   {
    "id": "prensa-uo5jig",
@@ -1442,6 +1457,20 @@
    "fotoRevisada": true
   },
   {
+   "id": "prensa-19tqvyj",
+   "titulo": "Lo que debes saber sobre La Hora del Planeta, según WWF Colombia",
+   "resumen": "",
+   "fecha": "2024-03-23T15:59:00.000Z",
+   "imagen": "https://melodiaenlinea.com/TtNkIeTCeS/wp-content/uploads/2024/03/IMG-20240323-WA0034-jpg.webp",
+   "credito": "© melodiaenlinea",
+   "enlace": "https://melodiaenlinea.com/noticias/lo-que-debes-saber-sobre-la-hora-del-planeta-segun-wwf-colombia/",
+   "fuente": "melodiaenlinea",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-13T17:04:00.547Z",
+   "fotoRevisada": true
+  },
+  {
    "id": "prensa-pyp7h3",
    "titulo": "WWF celebra la designación de Colombia como país sede de la COP de Biodiversidad 2024",
    "resumen": "",
@@ -1499,34 +1528,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
    "titulo_en": "Colombia, WWF and its partners announce a $245 million agreement to permanently protect the National System of Protected Areas (SINAP)",
-   "fotoRevisada": true
-  },
-  {
-   "id": "wwf-375855",
-   "titulo": "Colombia Azul: acuicultura creciente y pesca sostenible",
-   "resumen": "",
-   "fecha": "2022-03-22T17:00:00.000Z",
-   "imagen": "https://wwflac.awsassets.panda.org/img/wwf_colombia_azul_765779.jpg",
-   "credito": "© wwf",
-   "enlace": "https://www.wwf.org.pe/?375855/Colombia-Azul-acuicultura-creciente-y-pesca-sostenible",
-   "fuente": "wwf",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-1d1nl5d",
-   "titulo": "Empoderamiento de la mujer y sostenibilidad: Concepto de la WWF Colombia",
-   "resumen": "",
-   "fecha": "2022-03-04T16:00:00.000Z",
-   "imagen": "https://caracol.com.co/resizer/v2/VDAY5XFJTJMQHCUWIZ4WKFWGUM.jpg?auth=8b57ad9bb8abd5a43fa8e7b3bc3f0d5a2b96737879ed93f14183579d13b9a526&quality=70&width=1200&height=675&smart=true",
-   "credito": "© Caracol Radio",
-   "enlace": "https://caracol.com.co/programa/2022/03/05/el_sabor_de_colombia/1646498436_222310.html",
-   "fuente": "Caracol Radio",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
    "fotoRevisada": true
   }
  ],
