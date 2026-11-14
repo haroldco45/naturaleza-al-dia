@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-13T17:04:00.547Z",
- "actualizadoBogota": "13 de noviembre de 2026 a las 12:04 p. m.",
+ "actualizado": "2026-11-14T10:07:14.616Z",
+ "actualizadoBogota": "14 de noviembre de 2026 a las 5:07 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -9,7 +9,7 @@
   "prensaBing": 12,
   "prensaAmbiente": 8,
   "notasAbiertas": 0,
-  "fotosPrensa": 14,
+  "fotosPrensa": 13,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
@@ -20,7 +20,7 @@
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 52
+  "segundos": 54
  },
  "wwf": [
   {
@@ -433,6 +433,20 @@
    "titulo_en": "Bogotá and Medellín, the Colombian cities participating in We Love Cities"
   },
   {
+   "id": "prensa-uj0eol",
+   "titulo": "Fenómeno de El Niño: Colombia busca asegurar meta de los embalses para evitar riesgos en la energía",
+   "resumen": "",
+   "fecha": "2026-11-11T19:11:03.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMmxETm5wODFGUWZlVW1rR0t4MEJxUGZudXBJcUhhSGFOVkNPTWhBSUJqVlhPdkoxUDViSEFnalI3VDRDY3pfRFZOdl8tWmFZMVh3TXE4bjc0QUEtN3d5UUxtNEZMcUlYTXp6ODY2NHYzbHlBTzZubXRFVkNsR3ZjUzU2MWlFdko4LWZnajY4aWpfMTVoOGJDdEJCZ3BmcWhsQUpSYjBtdThESG1SbjY5eDNlVFIyWndTSjRTN1d6aVBhZk5ldk55NlMySGdYMWV20gHeAUFVX3lxTE5kNWNONlhBalpSMWtNQ0dFUXBIRmZxYU5TTVBlRkhmTnhNMVhyR2FQYU5RZUlDT1lkSGpQSEFMVVEtaFR1d0I3M3hkWTFjRi1yYlFYQmVUa0doenNrTnJ4ZzB1dUxYVk1aeHFYU1dLOVlNbnV2UlhBbDctZjJBYzIwYTU2QnBoM3JPVExpSjBJemZseXVPTnNZT0xVSTktSlVKUm1KVFk0RnJOdndjQjlYNF9OdGotRlp6anlkUi1yM2xGOEl1amdMaEw1YUxJazZrXy1MU21vNW5QTElPUQ?oc=5",
+   "fuente": "Blu Radio",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-14T10:07:14.616Z",
+   "titulo_en": "El Niño phenomenon: Colombia seeks to ensure reservoir targets to avoid energy risks"
+  },
+  {
    "id": "prensa-1y9d4vi",
    "titulo": "Colombia tiene el 5 % del agua dulce renovable del mundo",
    "resumen": "",
@@ -445,20 +459,6 @@
    "destacada": false,
    "primeraVez": "2026-11-11T22:37:32.211Z",
    "titulo_en": "Colombia has 5% of the world's renewable freshwater"
-  },
-  {
-   "id": "prensa-17bv4uv",
-   "titulo": "Fenómeno de El Niño: Colombia busca asegurar meta de los embalses para evitar riesgos en la energía",
-   "resumen": "",
-   "fecha": "2026-11-11T11:11:00.000Z",
-   "imagen": "https://www.bing.com/th?id=ONUT.TgQfUXFYmHuSAqyLmUi-ZA&pid=News",
-   "credito": "© Blu Radio",
-   "enlace": "https://www.bluradio.com/nacion/fenomeno-de-el-nino-colombia-busca-asegurar-meta-de-los-embalses-para-evitar-riesgos-en-la-energia-rg10",
-   "fuente": "Blu Radio",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-11T22:37:32.211Z",
-   "titulo_en": "El Niño Phenomenon: Colombia Seeks to Ensure Reservoir Targets to Avoid Energy Risks"
   },
   {
    "id": "prensa-l21450",
