@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-11-14T10:07:14.616Z",
- "actualizadoBogota": "14 de noviembre de 2026 a las 5:07 a. m.",
+ "actualizado": "2026-11-14T21:14:45.328Z",
+ "actualizadoBogota": "14 de noviembre de 2026 a las 4:14 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
   "prensa": 9,
   "prensaBing": 12,
-  "prensaAmbiente": 8,
+  "prensaAmbiente": 7,
   "notasAbiertas": 0,
-  "fotosPrensa": 13,
+  "fotosPrensa": 12,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 24,
-  "traducciones": 1,
+  "videosCanal": 0,
+  "traducciones": 2,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 54
+  "segundos": 64
  },
  "wwf": [
   {
@@ -419,6 +419,20 @@
  ],
  "prensa": [
   {
+   "id": "prensa-1ltzywx",
+   "titulo": "Colombia gestiona financiamiento para impulsar mercados de carbono y proteger la biodiversidad",
+   "resumen": "",
+   "fecha": "2026-11-14T18:43:44.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMVFsb05wYnQ0eDBzSTNfSFk5TERIbzdGUHo0VTlPQnVjZVd2VHdtWktEUzJENlRuS2N4QXNxRGRZeXlnbl83UnJfaEhEU1kwMm8tVVBYdmhNNTZWQ3A1ZHRkQUpBX25iQ3RLaTRjdFhfN2JPN3NSeU56aU9tYVV1b2ZtbDBOaTJqWllKVHVVNkFQOWpJR3UxbC1qVjhFRGR5eFdyRGF0VFZnTjlORVN2WlNySXZWZGlhMDBRV20xbnJDZE14bzJ0M2xMaEEyd2cwb3NoZXJtSTFrNHNLSEhrel9vUWYzekFZSlZrX3ZaM3JoUktUNXNZ?oc=5",
+   "fuente": "Ministerio de Ambiente y Desarrollo Sostenible",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-14T21:14:45.328Z",
+   "titulo_en": "Colombia secures funding to boost carbon markets and protect biodiversity"
+  },
+  {
    "id": "prensa-1wg413f",
    "titulo": "Bogotá y Medellín, las ciudades colombianas participantes en We Love Cities",
    "resumen": "",
@@ -585,6 +599,20 @@
    "destacada": false,
    "primeraVez": "2026-11-07T09:07:25.686Z",
    "titulo_en": "Joven del Cesar stands out in national biodiversity competition"
+  },
+  {
+   "id": "prensa-15wh74b",
+   "titulo": "COP17 cierra con casi US$ 2000 millones para biodiversidad, pero advierte que el mundo sigue lejos de cumplir las metas fijadas para 2030",
+   "resumen": "",
+   "fecha": "2026-11-02T21:39:43.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQW9zTE9TcVlJMjdVTlZtbzdxYzZFdWRqeVI0OU5aYXFtbGhwOXgyeGFoVkdIQWtqdHc2ZGJYTFVCeXcxRlFrNmVmZWplM0hDS2dmVGhadXE0NmlzNFNDczRPY3o2bVpGcFA4SE1GSmp6QkU3VE9RR0dPZHVkQ2hYcHExNnpDTE5CcVNPQ01LMmUwZGQ1aElFbTlfZUNiRmJCUFZsU3pZQzVSa3FSdHNTY0ZuLVFBM0ZrTFNwSThPalhpZ0lrdUJZZ0hJbXk4U1AzM3JaZHNncHpzRXNjSWk2V1lkc1NfMElQMFE3Q0lrSXY?oc=5",
+   "fuente": "INFOREGION",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-14T21:14:45.328Z",
+   "titulo_en": "COP17 closes with nearly $2 billion for biodiversity, but warns that the world is still far from meeting the targets set for 2030"
   },
   {
    "id": "prensa-2x04cc",
@@ -1405,7 +1433,7 @@
    "titulo": "La Hora del Planeta 2026: así puede participar del gran apagón mundial",
    "resumen": "",
    "fecha": "2026-03-20T18:33:00.000Z",
-   "imagen": "https://www.bing.com/th?id=ONUT.POHFsSjfySaxy5ZiUJqDdg&pid=News",
+   "imagen": "https://www.bing.com/th?id=ONUT.mbVkllyO0MCr58qcKAJ_kg&pid=News",
    "credito": "© El Espectador",
    "enlace": "https://www.elespectador.com/ambiente/bibo/la-hora-del-planeta-2026-asi-puede-participar-del-gran-apagon-mundial/",
    "fuente": "El Espectador",
@@ -1498,36 +1526,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
    "titulo_en": "WWF joins the ‘National Pact for Jaguar Protection’",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-7zpp20",
-   "titulo": "WWF celebra la aprobación histórica de 43 millones de dólares para la conservación de áreas protegidas en Colombia",
-   "resumen": "",
-   "fecha": "2023-03-17T07:48:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://miputumayo.com.co/2023/03/17/wwf-celebra-la-aprobacion-historica-de-43-millones-de-dolares-para-la-conservacion-de-areas-protegidas-en-colombia/",
-   "fuente": "miputumayo.com.co",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "WWF Celebrates Historic Approval of $43 Million for Protected Areas Conservation in Colombia",
-   "fotoRevisada": true
-  },
-  {
-   "id": "wwf-377671",
-   "titulo": "Colombia, WWF y sus socios anuncian un acuerdo de 245 millones de dólares para proteger de forma permanente el Sistema Nacional de Áreas Protegidas (SINAP)",
-   "resumen": "",
-   "fecha": "2022-06-22T17:00:00.000Z",
-   "imagen": "https://wwflac.awsassets.panda.org/img/pacifico_utria_ww239290__day_s_edge_productions_1_768787.jpg",
-   "credito": "© wwf",
-   "enlace": "https://www.wwf.org.pe/en/?377671/Colombia-WWF-y-sus-socios-anuncian-un-acuerdo-de-245-millones-de-dolares-para-proteger-de-forma-permanente-el-Sistema-Nacional-de-reas-Protegidas--SINAP",
-   "fuente": "wwf",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "Colombia, WWF and its partners announce a $245 million agreement to permanently protect the National System of Protected Areas (SINAP)",
    "fotoRevisada": true
   }
  ],
