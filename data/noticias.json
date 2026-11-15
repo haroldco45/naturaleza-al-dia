@@ -1,27 +1,25 @@
 {
- "actualizado": "2026-11-15T15:48:38.508Z",
- "actualizadoBogota": "15 de noviembre de 2026 a las 10:48 a. m.",
+ "actualizado": "2026-11-15T20:56:18.049Z",
+ "actualizadoBogota": "15 de noviembre de 2026 a las 3:56 p. m.",
  "fuentes": {
-  "fotosInicio": 5,
-  "wwfInicio": 3,
-  "wwfNoticias": 3,
-  "wwfRSS": 20,
-  "prensa": "error: HTTP 503",
+  "wwfInicio": "error: bloqueado y sin respaldo",
+  "wwfNoticias": "error: sitio no disponible en esta corrida",
+  "wwfRSS": "error: sitio no disponible en esta corrida",
+  "prensa": 9,
   "prensaBing": 12,
-  "prensaAmbiente": "error: HTTP 503",
-  "notasAbiertas": 3,
-  "fotosPrensa": 13,
-  "paginasConFoto": 28,
+  "prensaAmbiente": 8,
+  "notasAbiertas": 0,
+  "fotosPrensa": 10,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 11,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
-   "www.wwf.org.co": "directo",
+   "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 44
+  "segundos": 60
  },
  "wwf": [
   {
@@ -35,7 +33,9 @@
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-11-15T15:48:38.508Z"
+   "primeraVez": "2026-11-15T15:48:38.508Z",
+   "titulo_en": "Bogotá and Medellín, the Colombian cities participating in We Love Cities",
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=402252\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/welovecitiesint_811695.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Bogotá and Medellín, the…"
   },
   {
    "id": "wwf-7njvxn",
@@ -48,7 +48,9 @@
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": false,
-   "primeraVez": "2026-11-15T15:48:38.508Z"
+   "primeraVez": "2026-11-15T15:48:38.508Z",
+   "titulo_en": "WWF: COP31 must deliver results that go beyond negotiation",
+   "resumen_en": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=402192\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop31previo_811624.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>WWF: COP31 must deliver results …"
   },
   {
    "id": "wwf-402252",
@@ -62,7 +64,9 @@
    "tipo": "wwf",
    "destacada": false,
    "primeraVez": "2026-11-15T15:48:38.508Z",
-   "fotoRevisada": true
+   "fotoRevisada": true,
+   "titulo_en": "Bogotá and Medellín, the Colombian cities participating in We Love Cities",
+   "resumen_en": "WWF's We Love Cities campaign once again opens a space for citizens to express what ..."
   },
   {
    "id": "wwf-402192",
@@ -76,7 +80,9 @@
    "tipo": "wwf",
    "destacada": false,
    "primeraVez": "2026-11-15T15:48:38.508Z",
-   "fotoRevisada": true
+   "fotoRevisada": true,
+   "titulo_en": "WWF: COP31 must deliver results that go beyond negotiation",
+   "resumen_en": "The Conference of the Parties to be held in Turkey must bring about visible changes for the ..."
   },
   {
    "id": "wwf-7njv6w",
@@ -476,6 +482,20 @@
  ],
  "prensa": [
   {
+   "id": "prensa-1pj5mza",
+   "titulo": "Día de las Áreas Protegidas: la oportunidad que ofrecen las OMEC para ampliar el alcance de la conservación",
+   "resumen": "",
+   "fecha": "2026-11-15T14:00:27.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLXN2V0hIc3dwN2tIWVNZWlAzaDBXY1N0eEtUdU1HSDY0Ml9lbE1WZGdNUDVRLWR3bEM3ZlFucFdtenlhVXZjSTdXZktkRUoxMEdNYlc3NW9WTkpGSkxCXzlwZjJKZktiNnMzUHVCb1QwdTBkcEktWHlmRGdnNzVvaDgzX2VheG84dTVlbzBQc0xUU2V5SjBQRFc3VHd0QmJLTGYtS2l5VWNZUk1BMmJjdW05Qk5ZZlRTSlU4S1dGbDZmWFFxWkdnaVUzZEpmWGdSMXBn0gHTAUFVX3lxTE4tc3ZXSEhzd3A3a0hZU1laUDNoMFdjU3R4S1R1TUdINjQyX2VsTVZkZ01QNVEtZHdsQzdmUW5wV216eWFVdmNJN1dmS2RFSjEwR01iVzc1b1ZOSkZKTEJfOXBmMkpmS2I2czNQdUJvVDB1MGRwSS1YeWZEZ2c3NW9oODNfZWF4bzh1NWVvMFBzTFRTZXlKMFBEVzdUd3RCYktMZi1LaXlVY1lSTUEyYmN1bTlCTllmVFNKVThLV0ZsNmZYUXFaR2dpVTNkSmZYZ1IxcGc?oc=5",
+   "fuente": "PressLatam",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-15T20:56:18.049Z",
+   "titulo_en": "Protected Areas Day: The Opportunity Offered by OECMs to Expand the Reach of Conservation"
+  },
+  {
    "id": "prensa-1ltzywx",
    "titulo": "Colombia gestiona financiamiento para impulsar mercados de carbono y proteger la biodiversidad",
    "resumen": "",
@@ -490,6 +510,20 @@
    "titulo_en": "Colombia secures funding to boost carbon markets and protect biodiversity"
   },
   {
+   "id": "prensa-ilrm70",
+   "titulo": "El Niño enciende las alertas por el agua y la energía en Colombia",
+   "resumen": "",
+   "fecha": "2026-11-11T21:13:08.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR2d3cHNQZTUwRFItamMzbFJ0MFFhRi1jdXVpTVN6TFNPZF9UejN1czZEVU5jLUFYbjVJeE0yOF9rZzEtTVVsb0gwVDlKNDJVTF9mS2pYYXJFbHBTZTVnTVZGU3ZKc3dVUWlmX0tuOXJBX3RoMzNCNEIxaktEV1ZXNHl6SEZuSGE3WnVnLWtQTlpRei1CNDNwN0o4czU?oc=5",
+   "fuente": "Opanoticias",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-15T20:56:18.049Z",
+   "titulo_en": "El Niño triggers water and energy alerts in Colombia"
+  },
+  {
    "id": "prensa-uj0eol",
    "titulo": "Fenómeno de El Niño: Colombia busca asegurar meta de los embalses para evitar riesgos en la energía",
    "resumen": "",
@@ -502,6 +536,20 @@
    "destacada": false,
    "primeraVez": "2026-11-14T10:07:14.616Z",
    "titulo_en": "El Niño phenomenon: Colombia seeks to ensure reservoir targets to avoid energy risks"
+  },
+  {
+   "id": "prensa-155bxii",
+   "titulo": "Fenómeno de El Niño aumenta la preocupación por el futuro del agua y los embalses en Colombia",
+   "resumen": "",
+   "fecha": "2026-11-11T17:38:27.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMHdBV3prVk84N1lBTDIwaWU5M3JXQ3FFdTFrQnMtZG5rTHhpYlpHWmhnaGR5cXI1Q1lXNXUwT3dkT042VkJfeHE5ODlwQXVxS1FmeUtxWU1uTlBGbVhQYVdDZWVqbDhmV0tscGdzdXBjb0RSb1Z2MHVRbjdHckI2aUkwQlJEc3B1azgtVWxaOVdHWDBCaXNhOVdFbWVBZkQ4TEMwTENVRUFyRGPSAasBQVVfeXFMUFZNcXVkWG1FbVBaX1QwMm9ocXVJci1uaFZnWkZGNXVPOVZ0SlRjOTRZUHpyTWVUY2FySmlDemY2OFFPVHdfSnRDUWEzcTVMNkI3N2psUkJGanZIMUt5N0Nkem52RHo2b1NWSkdxZmNRaGhCbnk5VzFXelAxR3lNS3Fqd0Y4TmotSE9RbEYtOUVVU05qd2d3T0trYjVYYXIyUmtRR2tRcTFNeXJN?oc=5",
+   "fuente": "La FM",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-15T20:56:18.049Z",
+   "titulo_en": "The El Niño phenomenon increases concerns about the future of water and reservoirs in Colombia"
   },
   {
    "id": "prensa-1y9d4vi",
@@ -1511,64 +1559,6 @@
    "tipo": "prensa",
    "destacada": false,
    "primeraVez": "2026-11-08T05:33:50.094Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-19tqvyj",
-   "titulo": "Lo que debes saber sobre La Hora del Planeta, según WWF Colombia",
-   "resumen": "",
-   "fecha": "2024-03-23T15:59:00.000Z",
-   "imagen": "https://melodiaenlinea.com/TtNkIeTCeS/wp-content/uploads/2024/03/IMG-20240323-WA0034-jpg.webp",
-   "credito": "© melodiaenlinea",
-   "enlace": "https://melodiaenlinea.com/noticias/lo-que-debes-saber-sobre-la-hora-del-planeta-segun-wwf-colombia/",
-   "fuente": "melodiaenlinea",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-13T17:04:00.547Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-pyp7h3",
-   "titulo": "WWF celebra la designación de Colombia como país sede de la COP de Biodiversidad 2024",
-   "resumen": "",
-   "fecha": "2023-12-17T16:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://wwf.panda.org/es/?10452366/COPCBDColombia",
-   "fuente": "Panda",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "WWF welcomes the designation of Colombia as the host country of the 2024 Biodiversity COP",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-1g0vr90",
-   "titulo": "WWF se une al ‘Pacto Nacional por la protección con el jaguar’",
-   "resumen": "",
-   "fecha": "2023-06-21T17:00:00.000Z",
-   "imagen": "https://www.elnuevosiglo.com.co/sites/default/files/2023-06/04bjfoto%20ambiente%2002%20junio%2022.jpg",
-   "credito": "© El Nuevo Siglo",
-   "enlace": "https://www.elnuevosiglo.com.co/ambiente-y-ciencia/wwf-se-une-al-pacto-nacional-por-la-proteccion-con-el-jaguar",
-   "fuente": "El Nuevo Siglo",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T02:10:58.673Z",
-   "titulo_en": "WWF joins the ‘National Pact for Jaguar Protection’",
-   "fotoRevisada": true
-  },
-  {
-   "id": "wwf-375855",
-   "titulo": "Colombia Azul: acuicultura creciente y pesca sostenible",
-   "resumen": "",
-   "fecha": "2022-03-22T17:00:00.000Z",
-   "imagen": "https://wwflac.awsassets.panda.org/img/wwf_colombia_azul_765779.jpg",
-   "credito": "© wwf",
-   "enlace": "https://www.wwf.org.pe/?375855/Colombia-Azul-acuicultura-creciente-y-pesca-sostenible",
-   "fuente": "wwf",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-15T15:48:38.508Z",
    "fotoRevisada": true
   }
  ],
