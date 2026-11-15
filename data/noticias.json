@@ -1,28 +1,83 @@
 {
- "actualizado": "2026-11-14T21:14:45.328Z",
- "actualizadoBogota": "14 de noviembre de 2026 a las 4:14 p. m.",
+ "actualizado": "2026-11-15T15:48:38.508Z",
+ "actualizadoBogota": "15 de noviembre de 2026 a las 10:48 a. m.",
  "fuentes": {
-  "wwfInicio": "error: bloqueado y sin respaldo",
-  "wwfNoticias": "error: sitio no disponible en esta corrida",
-  "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 9,
+  "fotosInicio": 5,
+  "wwfInicio": 3,
+  "wwfNoticias": 3,
+  "wwfRSS": 20,
+  "prensa": "error: HTTP 503",
   "prensaBing": 12,
-  "prensaAmbiente": 7,
-  "notasAbiertas": 0,
-  "fotosPrensa": 12,
-  "paginasConFoto": 0,
+  "prensaAmbiente": "error: HTTP 503",
+  "notasAbiertas": 3,
+  "fotosPrensa": 13,
+  "paginasConFoto": 28,
   "fotosGaleria": 80,
-  "videosCanal": 0,
-  "traducciones": 2,
+  "videosCanal": 24,
+  "traducciones": 0,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
-   "news.google.com": "directo",
+   "www.wwf.org.co": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 64
+  "segundos": 44
  },
  "wwf": [
+  {
+   "id": "wwf-7njwkw",
+   "titulo": "Bogot&#225; y Medell&#237;n, las ciudades colombianas participantes en We Love Cities",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=402252\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/welovecitiesint_811695.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>Bogot&#225; y Medell&#237;n, la…",
+   "fecha": null,
+   "imagen": "",
+   "credito": "",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=402252",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": false,
+   "primeraVez": "2026-11-15T15:48:38.508Z"
+  },
+  {
+   "id": "wwf-7njvxn",
+   "titulo": "WWF: COP31 debe generar resultados que vayan m&#225;s all&#225; de la negociaci&#243;n",
+   "resumen": "<a href=\"http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=402192\" target=\"_blank\"><img src=\"//wwflac.awsassets.panda.org/img/cop31previo_811624.webp\" width=\"10%\" height=\"auto\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"2\"/><h1>WWF: COP31 debe generar resultados …",
+   "fecha": null,
+   "imagen": "",
+   "credito": "",
+   "enlace": "http://originlaccms1.wwf-sites.org/de_interes/noticias/?uNewsID=402192",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": false,
+   "primeraVez": "2026-11-15T15:48:38.508Z"
+  },
+  {
+   "id": "wwf-402252",
+   "titulo": "Bogotá y Medellín, las ciudades colombianas participantes en We Love Cities",
+   "resumen": "La campaña We Love Cities de WWF nuevamente abre un espacio para que las ciudadanía exprese qué ...",
+   "fecha": "2026-11-11T17:00:00.000Z",
+   "imagen": "https://wwflac.awsassets.panda.org/img/original/welovecitiesint.png",
+   "credito": "© WWF",
+   "enlace": "https://www.wwf.org.co/?402252/We-Love-Cities-WWF-Colombia-Bogota-Medellin",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": false,
+   "primeraVez": "2026-11-15T15:48:38.508Z",
+   "fotoRevisada": true
+  },
+  {
+   "id": "wwf-402192",
+   "titulo": "WWF: COP31 debe generar resultados que vayan más allá de la negociación",
+   "resumen": "La Conferencia de las Partes que se realizará en Turquía, debe generar cambios visibles para las ...",
+   "fecha": "2026-11-06T17:00:00.000Z",
+   "imagen": "https://wwflac.awsassets.panda.org/img/original/cop31previo.png",
+   "credito": "© WWF",
+   "enlace": "https://www.wwf.org.co/?402192/COP31-de-Cambio-Climatico-en-Turquia-2026",
+   "fuente": "WWF Colombia",
+   "tipo": "wwf",
+   "destacada": false,
+   "primeraVez": "2026-11-15T15:48:38.508Z",
+   "fotoRevisada": true
+  },
   {
    "id": "wwf-7njv6w",
    "titulo": "&#191;Por qu&#233; el buen estado de los suelos es clave para tener alimentos saludables en casa?",
@@ -329,7 +384,7 @@
    "resumen": "Los pueblos indígenas, en el Putumayo, ya aplican varios conocimientos para conservar mejor sus ...",
    "fecha": "2026-10-29T17:00:00.000Z",
    "imagen": "https://wwflac.awsassets.panda.org/img/original/cacaodiauno.png",
-   "credito": "© WWF",
+   "credito": "© Camilo Castaño / WWF Colombia",
    "enlace": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
@@ -375,14 +430,16 @@
    "titulo": "Así impacta el fenómeno de 'El Niño' a las regiones de Colombia",
    "resumen": "Sequías, incendios forestales y afectaciones a la fauna y la vegetación: las consecuencias cambian según la región.",
    "fecha": null,
-   "imagen": "",
+   "imagen": "https://wwflac.awsassets.panda.org/img/original/banner_amazonas.png",
    "enlace": "https://www.wwf.org.co/de_interes/noticias/?401410%2FFenomeno-de-El-Nino-impactos-regiones-Colombia",
    "fuente": "WWF Colombia",
    "tipo": "wwf",
    "destacada": true,
    "primeraVez": "2026-10-24T01:30:00.000Z",
    "titulo_en": "How 'El Niño' affects Colombia's regions",
-   "resumen_en": "Droughts, wildfires and impacts on wildlife and vegetation: the consequences differ from region to region."
+   "resumen_en": "Droughts, wildfires and impacts on wildlife and vegetation: the consequences differ from region to region.",
+   "credito": "© WWF",
+   "fotoRevisada": true
   },
   {
    "id": "wwf-401810",
@@ -431,20 +488,6 @@
    "destacada": false,
    "primeraVez": "2026-11-14T21:14:45.328Z",
    "titulo_en": "Colombia secures funding to boost carbon markets and protect biodiversity"
-  },
-  {
-   "id": "prensa-1wg413f",
-   "titulo": "Bogotá y Medellín, las ciudades colombianas participantes en We Love Cities",
-   "resumen": "",
-   "fecha": "2026-11-12T01:21:35.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45aFNObUtXcTVkNDA5SmQ1ZjBfanpWOXF2U3hjLVRFVHZUSTJuUkxkRTFnSkdGSUdNQWhmY1FDd0t3Q090a2tvdzRTeU9nbWdHY2FBQVQtaHE5Q0FlVjBoemZQZXRCRXFUU1JZaFY4dk1XV0g4Umh3VWN2MmVRcE0?oc=5",
-   "fuente": "WWF Colombia",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-12T03:42:44.283Z",
-   "titulo_en": "Bogotá and Medellín, the Colombian cities participating in We Love Cities"
   },
   {
    "id": "prensa-uj0eol",
@@ -529,20 +572,6 @@
    "destacada": false,
    "primeraVez": "2026-11-07T09:07:25.686Z",
    "titulo_en": "WWF: COP17 accelerates action for nature and leaves Latin America with the task of projecting more progress in connecting, restoring and financing"
-  },
-  {
-   "id": "prensa-s52y5k",
-   "titulo": "WWF: COP31 debe generar resultados que vayan más allá de la negociación",
-   "resumen": "",
-   "fecha": "2026-11-06T08:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3RTI2TlNRcGhoLTN2Z2xaOXlrMjRpVkZqMWV3RU5jN0taZGpMd1drelZwcmJTSm5tOGp0T0UxcTF0VFhZdDJjdENUY29GdHc5YXVfenFRWU8yYXZZSlRJNEJoYzlqTW9Tc01TcGNacE51LTN5TkcwY28ySXY?oc=5",
-   "fuente": "WWF Colombia",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-09T01:52:21.018Z",
-   "titulo_en": "WWF: COP31 must generate results that go beyond negotiation"
   },
   {
    "id": "prensa-ko5yj9",
@@ -1526,6 +1555,20 @@
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
    "titulo_en": "WWF joins the ‘National Pact for Jaguar Protection’",
+   "fotoRevisada": true
+  },
+  {
+   "id": "wwf-375855",
+   "titulo": "Colombia Azul: acuicultura creciente y pesca sostenible",
+   "resumen": "",
+   "fecha": "2022-03-22T17:00:00.000Z",
+   "imagen": "https://wwflac.awsassets.panda.org/img/wwf_colombia_azul_765779.jpg",
+   "credito": "© wwf",
+   "enlace": "https://www.wwf.org.pe/?375855/Colombia-Azul-acuicultura-creciente-y-pesca-sostenible",
+   "fuente": "wwf",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-15T15:48:38.508Z",
    "fotoRevisada": true
   }
  ],
@@ -2861,6 +2904,12 @@
      }
     ],
     "pagina": "https://www.wwf.org.co/_como_ayudar_/suscribete/"
+   },
+   "elecciones": {
+    "img": "https://wwflac.awsassets.panda.org/img/original/elecciones2026.png",
+    "credito": "© WWF",
+    "fotos": [],
+    "pagina": "https://www.wwf.org.co/de_interes/elecciones-colombia-2026/"
    }
   },
   "galeria": [
@@ -2895,28 +2944,34 @@
     "pagina": "https://www.wwf.org.co/"
    },
    {
-    "img": "https://wwflac.awsassets.panda.org/img/original/cacaodiauno.png",
+    "img": "https://wwflac.awsassets.panda.org/img/original/welovecitiesint.png",
     "credito": "© WWF",
     "alt": "",
-    "pagina": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo"
+    "pagina": "https://www.wwf.org.co/?402252/We-Love-Cities-WWF-Colombia-Bogota-Medellin"
    },
    {
-    "img": "https://wwflac.awsassets.panda.org/img/original/analisiscroma.png",
+    "img": "https://wwflac.awsassets.panda.org/img/original/welovecitiescol.png",
     "credito": "© WWF",
     "alt": "",
-    "pagina": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo"
+    "pagina": "https://www.wwf.org.co/?402252/We-Love-Cities-WWF-Colombia-Bogota-Medellin"
    },
    {
-    "img": "https://wwflac.awsassets.panda.org/img/original/cromatografia.png",
+    "img": "https://wwflac.awsassets.panda.org/img/original/cop31previo.png",
     "credito": "© WWF",
     "alt": "",
-    "pagina": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo"
+    "pagina": "https://www.wwf.org.co/?402192/COP31-de-Cambio-Climatico-en-Turquia-2026"
    },
    {
-    "img": "https://wwflac.awsassets.panda.org/img/original/comunidadcacao.png",
+    "img": "https://wwflac.awsassets.panda.org/img/original/conferencia-cop31.png",
     "credito": "© WWF",
     "alt": "",
-    "pagina": "https://www.wwf.org.co/?402090/cromatografia-salud-de-los-suelos-para-cultivo"
+    "pagina": "https://www.wwf.org.co/?402192/COP31-de-Cambio-Climatico-en-Turquia-2026"
+   },
+   {
+    "img": "https://wwflac.awsassets.panda.org/img/original/cop31solutions.png",
+    "credito": "© WWF",
+    "alt": "",
+    "pagina": "https://www.wwf.org.co/?402192/COP31-de-Cambio-Climatico-en-Turquia-2026"
    },
    {
     "img": "https://wwflac.awsassets.panda.org/img/fotografi-a-aerea-rio-igara-parana-en-la-chorrera--1---1-_796957.webp",
@@ -3337,14 +3392,8 @@
     "credito": "© WWF",
     "alt": "WWF",
     "pagina": "https://www.wwf.org.co/que_hacemos/plasticos/"
-   },
-   {
-    "img": "https://wwflac.awsassets.panda.org/img/we4theplanet_745191.jpg",
-    "credito": "© We4ThePlanet",
-    "alt": "slider",
-    "pagina": "https://www.wwf.org.co/que_hacemos/jovenes/"
    }
   ],
-  "actualizado": "2026-11-05T00:15:56.829Z"
+  "actualizado": "2026-11-15T15:48:38.508Z"
  }
 }
