@@ -1,25 +1,25 @@
 {
- "actualizado": "2026-11-15T20:56:18.049Z",
- "actualizadoBogota": "15 de noviembre de 2026 a las 3:56 p. m.",
+ "actualizado": "2026-11-16T07:48:17.319Z",
+ "actualizadoBogota": "16 de noviembre de 2026 a las 2:48 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
   "prensa": 9,
   "prensaBing": 12,
-  "prensaAmbiente": 8,
+  "prensaAmbiente": 7,
   "notasAbiertas": 0,
   "fotosPrensa": 10,
   "fotosGaleria": 80,
-  "videosCanal": 24,
-  "traducciones": 11,
+  "videosCanal": 0,
+  "traducciones": 1,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "directo"
+   "www.youtube.com": "r.jina.ai"
   },
-  "segundos": 60
+  "segundos": 82
  },
  "wwf": [
   {
@@ -481,6 +481,20 @@
   }
  ],
  "prensa": [
+  {
+   "id": "prensa-1mtwej8",
+   "titulo": "Colombia presenta propuestas sobre carbono en COP31",
+   "resumen": "",
+   "fecha": "2026-11-16T03:37:11.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZW4tSlpGajZQS2x4QWlOUHFBbmpOMUtjbGlOQ051X0ROSklyUHUtM3I3MEpSUFlYc1NMMWtfdFJIcDdFdGRTMkFscUFmS3FaZGpsVFJSNXlmd0ZBNDZ6b21sak1PRE1JWWF0QW54c2Fsd2puQ19Jb18yNllJTlpKeE1aWVU5V3BPN2pOQjh0STZ2RWdKMWRuZQ?oc=5",
+   "fuente": "El Nuevo Siglo",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-16T07:48:17.319Z",
+   "titulo_en": "Colombia presents carbon proposals at COP31"
+  },
   {
    "id": "prensa-1pj5mza",
    "titulo": "Día de las Áreas Protegidas: la oportunidad que ofrecen las OMEC para ampliar el alcance de la conservación",
