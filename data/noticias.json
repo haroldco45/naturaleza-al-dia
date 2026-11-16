@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-16T07:48:17.319Z",
- "actualizadoBogota": "16 de noviembre de 2026 a las 2:48 a. m.",
+ "actualizado": "2026-11-16T18:14:32.253Z",
+ "actualizadoBogota": "16 de noviembre de 2026 a las 1:14 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
@@ -10,16 +10,17 @@
   "prensaAmbiente": 7,
   "notasAbiertas": 0,
   "fotosPrensa": 10,
+  "paginasConFoto": 0,
   "fotosGaleria": 80,
-  "videosCanal": 0,
+  "videosCanal": 24,
   "traducciones": 1,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
-   "www.youtube.com": "r.jina.ai"
+   "www.youtube.com": "directo"
   },
-  "segundos": 82
+  "segundos": 56
  },
  "wwf": [
   {
@@ -481,6 +482,20 @@
   }
  ],
  "prensa": [
+  {
+   "id": "prensa-snrmyw",
+   "titulo": "Colombia busca respaldo financiero y técnico en la COP31 para proteger su biodiversidad",
+   "resumen": "",
+   "fecha": "2026-11-16T16:51:18.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNDRNUENTNHc5aEJjRTN1OXFuTkxyMlltVmFaWTdQb2xZLWpmWVlOZ3NxWmNSazBkVmlCbGg1SkMtLXcxZXFLNUJvNzhzblRMRDZNQmhxamFnOFBOMEJQNUhTR2FTNjJ0WGFUS3R5Nk5JMjdaUmQ0NGswM25qMG1sY1h2YlBFTnhJeG50Y0RJeE9PRFRocWxhNmJ3NlFXeE83bDc2cW1pZGU5WFYzUmpROUw4TWo3clFsbXNCVW4xd9IB0wFBVV95cUxPSWo3SGhmZDJLc0VucnRCVDlScTFkTkc5M0JBZi1sMkJvMXFpSzJJcW1vN21JMUl6UXZYS2VyQzhWcmtLQ3J1anpnMnJPbDAwSWJkZkw2RC16Z05pS3dXM0pBRU5BR2tsZVNaX1JZb3N2UUwxN0tCdFpYeG9pUlFTN0pwanFmOXZGMC1Nb2ZyOWJrVXIwaEhHWnVqUHo5Q3pQdWFudy10dXZJTzRrUTRlMzV1MGVJYXNnbllPclE2TUJqeG9OOS1vT2VYZzFMRC1CcWJ3?oc=5",
+   "fuente": "Caracol Radio",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-16T18:14:32.253Z",
+   "titulo_en": "Colombia seeks financial and technical support at COP31 to protect its biodiversity"
+  },
   {
    "id": "prensa-1mtwej8",
    "titulo": "Colombia presenta propuestas sobre carbono en COP31",
@@ -1559,20 +1574,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T02:10:58.673Z",
    "titulo_en": "WWF Colombia announces who are the young people who know the most about biodiversity in the country, through the Wild Wisdom initiative",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-127gr64",
-   "titulo": "WWF busca a los jóvenes que más saben de Biodiversidad en Colombia",
-   "resumen": "",
-   "fecha": "2024-08-01T13:05:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://miputumayo.com.co/2024/08/01/wwf-busca-a-los-jovenes-que-mas-saben-de-biodiversidad-en-colombia/",
-   "fuente": "miputumayo.com.co",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-08T05:33:50.094Z",
    "fotoRevisada": true
   }
  ],
