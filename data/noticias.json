@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-11-16T18:14:32.253Z",
- "actualizadoBogota": "16 de noviembre de 2026 a las 1:14 p. m.",
+ "actualizado": "2026-11-17T01:59:11.253Z",
+ "actualizadoBogota": "16 de noviembre de 2026 a las 8:59 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 9,
-  "prensaBing": 12,
+  "prensa": "error: HTTP 429",
+  "prensaBing": 0,
   "prensaAmbiente": 7,
   "notasAbiertas": 0,
   "fotosPrensa": 10,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 1,
+  "traducciones": 2,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
-   "news.google.com": "directo",
    "www.bing.com": "directo",
+   "news.google.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 56
+  "segundos": 58
  },
  "wwf": [
   {
@@ -497,6 +497,20 @@
    "titulo_en": "Colombia seeks financial and technical support at COP31 to protect its biodiversity"
   },
   {
+   "id": "prensa-1xc14h7",
+   "titulo": "Día de las Áreas Protegidas: la oportunidad que ofrecen las OMEC para ampliar el alcance de la conservación",
+   "resumen": "",
+   "fecha": "2026-11-16T13:05:53.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNamN4bnhETXJadUJTS0FlVVpETVhadWhYTnZ1Mks5VkczbTVqUUhSVThINk45RW5SQWdWZUJ1aGJEZ0hNV1ctOU5KcllIUDlUQmN5UXpSN05YVldva1RtUm1XcTNPSW5MeHhwM3FFcV9mbVFXeUhrSldJMUQtZHBOeE9mNFY1RkdWMl9zdktQV0hlY2NuU05uUHVicVc5cVFjLXY0MXFwd0pVU2FXb0J5SUc0Y2JFT0pRbmlncVlNNGZHR19GSnI4Tw?oc=5",
+   "fuente": "El MorroCotudo",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-17T01:59:11.253Z",
+   "titulo_en": "Protected Areas Day: The Opportunity Offered by OECMs to Expand the Reach of Conservation"
+  },
+  {
    "id": "prensa-1mtwej8",
    "titulo": "Colombia presenta propuestas sobre carbono en COP31",
    "resumen": "",
@@ -509,20 +523,6 @@
    "destacada": false,
    "primeraVez": "2026-11-16T07:48:17.319Z",
    "titulo_en": "Colombia presents carbon proposals at COP31"
-  },
-  {
-   "id": "prensa-1pj5mza",
-   "titulo": "Día de las Áreas Protegidas: la oportunidad que ofrecen las OMEC para ampliar el alcance de la conservación",
-   "resumen": "",
-   "fecha": "2026-11-15T14:00:27.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLXN2V0hIc3dwN2tIWVNZWlAzaDBXY1N0eEtUdU1HSDY0Ml9lbE1WZGdNUDVRLWR3bEM3ZlFucFdtenlhVXZjSTdXZktkRUoxMEdNYlc3NW9WTkpGSkxCXzlwZjJKZktiNnMzUHVCb1QwdTBkcEktWHlmRGdnNzVvaDgzX2VheG84dTVlbzBQc0xUU2V5SjBQRFc3VHd0QmJLTGYtS2l5VWNZUk1BMmJjdW05Qk5ZZlRTSlU4S1dGbDZmWFFxWkdnaVUzZEpmWGdSMXBn0gHTAUFVX3lxTE4tc3ZXSEhzd3A3a0hZU1laUDNoMFdjU3R4S1R1TUdINjQyX2VsTVZkZ01QNVEtZHdsQzdmUW5wV216eWFVdmNJN1dmS2RFSjEwR01iVzc1b1ZOSkZKTEJfOXBmMkpmS2I2czNQdUJvVDB1MGRwSS1YeWZEZ2c3NW9oODNfZWF4bzh1NWVvMFBzTFRTZXlKMFBEVzdUd3RCYktMZi1LaXlVY1lSTUEyYmN1bTlCTllmVFNKVThLV0ZsNmZYUXFaR2dpVTNkSmZYZ1IxcGc?oc=5",
-   "fuente": "PressLatam",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-15T20:56:18.049Z",
-   "titulo_en": "Protected Areas Day: The Opportunity Offered by OECMs to Expand the Reach of Conservation"
   },
   {
    "id": "prensa-1ltzywx",
@@ -637,18 +637,18 @@
    "titulo_en": "We continue to lose biodiversity in the world"
   },
   {
-   "id": "prensa-h2gksn",
+   "id": "prensa-ugjjzv",
    "titulo": "WWF: La COP17 acelera la acción por la naturaleza y deja a América Latina con la tarea de proyectar más avances en conectar, restaurar y financiar",
    "resumen": "",
-   "fecha": "2026-11-06T20:32:05.000Z",
+   "fecha": "2026-11-06T20:51:57.000Z",
    "imagen": "",
    "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdkRXV1ZiY0hKczNLUkVpdkZYd3FZYU1STldlLXoydTdIY3VyTWlna2dRNXdSbkIwYUNlU19HM2R0TmhQaFpXUkxNRnQ4M2pWc2pDc0FiamhiVEVWb1BDTHkxM2FRYTBESVB0RGNNUGJnTjRGOXV3X21nekZtbllNbS0yYlItcVR4bkF4eFp0SThGaklKWlJiR0ZJc1pONkVMQlN3bG9JNVd4SHlYdlJsVlRsVEVNdFEwWmhESklMUmZsS3BNOHQ0NGNBQmVMaUVadjhOcXpKRnlCeVNHQ1doRFFmek02MUJtNG95eFlXMjZ1X0JlRGZRYmczbWUtWEo3TmxKUVd30gGGAkFVX3lxTE52RFdXVmJjSEpzM0tSRWl2Rlh3cVlhTVJOV2UtejJ1N0hjdXJNaWdrZ1E1d1JuQjBhQ2VTX0czZHROaFBoWldSTE1GdDgzalZzakNzQWJqaGJURVZvUENMeTEzYVFhMERJUHREY01QYmdONEY5dXdfbWd6Rm1uWU1tLTJiUi1xVHhuQXh4WnRJOEZqSUpaUmJHRklzWk42RUxCU3dsb0k1V3hIeVh2UmxWVGxURU10UTBaaERKSUxSZmxLcE04dDQ0Y0FCZUxpRVp2OE5xekpGeUJ5U0dDV2hEUWZ6TTYxQm00b3l4WVcyNnVfQmVEZlFiZzNtZS1YSjdObEpRV3c?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdkRXV1ZiY0hKczNLUkVpdkZYd3FZYU1STldlLXoydTdIY3VyTWlna2dRNXdSbkIwYUNlU19HM2R0TmhQaFpXUkxNRnQ4M2pWc2pDc0FiamhiVEVWb1BDTHkxM2FRYTBESVB0RGNNUGJnTjRGOXV3X21nekZtbllNbS0yYlItcVR4bkF4eFp0SThGaklKWlJiR0ZJc1pONkVMQlN3bG9JNVd4SHlYdlJsVlRsVEVNdFEwWmhESklMUmZsS3BNOHQ0NGNBQmVMaUVadjhOcXpKRnlCeVNHQ1doRFFmek02MUJtNG95eFlXMjZ1X0JlRGZRYmczbWUtWEo3TmxKUVd30gGLAkFVX3lxTE4wZ2xyU1N2M1hiNlE5bUxKdEdVZ2lXOTluelk2ZXE3OVdNS1ZaanN6cnV6enlUZTdWR3FFSHZpQWVLempkenVFM2dmWWdQXy1HeVRMN3FMUU9kR3F2cVpnWHdVLVV5SWpiN1B6eTE0c2NCaUpHTFBsWDJ4WThuN0VFSkFJQk00SGxqWlhGR1FLckJfM0JPVG5weEFfWmRpTWtjbDI0dEg5VTQ3dWxLbW0wWmlUcWZRRG55SEkzbGpLWXFmbWd3d3VtQUFrNjV0bjJ3TG5BZDlYOTdJc2o5MUZ4elR5N2xCaFBPTUU3b2p4NWw2SHdZVzBRTEU0WEdJMHpPWFBqRzFONnJHVQ?oc=5",
    "fuente": "PressLatam",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-11-07T09:07:25.686Z",
-   "titulo_en": "WWF: COP17 accelerates action for nature and leaves Latin America with the task of projecting more progress in connecting, restoring and financing"
+   "primeraVez": "2026-11-17T01:59:11.253Z",
+   "titulo_en": "WWF: COP17 accelerates action for nature and leaves Latin America with the task of planning further progress in connecting, restoring, and financing"
   },
   {
    "id": "prensa-ko5yj9",
