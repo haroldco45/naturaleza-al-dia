@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-11-17T01:59:11.253Z",
- "actualizadoBogota": "16 de noviembre de 2026 a las 8:59 p. m.",
+ "actualizado": "2026-11-17T19:42:39.188Z",
+ "actualizadoBogota": "17 de noviembre de 2026 a las 2:42 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": "error: HTTP 429",
-  "prensaBing": 0,
-  "prensaAmbiente": 7,
+  "prensa": 9,
+  "prensaBing": 12,
+  "prensaAmbiente": 5,
   "notasAbiertas": 0,
   "fotosPrensa": 10,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 2,
-  "errorTraduccion": "google: HTTP 429",
+  "traducciones": 0,
   "rutas": {
-   "www.bing.com": "directo",
    "news.google.com": "directo",
+   "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 58
+  "segundos": 55
  },
  "wwf": [
   {
@@ -612,7 +611,7 @@
    "id": "prensa-o8pkb",
    "titulo": "Alto declive de biodiversidad alcanza ritmo sin precedentes",
    "resumen": "",
-   "fecha": "2026-11-09T15:28:39.000Z",
+   "fecha": "2026-11-09T08:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUGxmZ0J2VWNJcmJBYjhIeHhOQURTRWNvSms5SUVHU0ltSHBnZXoxQmoyTXBJLURyRG0ta185aHQ4TTdLM3Y5RDFqc05rVm1MRGZiM3MzSEJfQ0JCaHdwU2Z5bVJCMHpucmFvaWtrdFQ1YlNhaDQ1REJvUzhCcE1pYmphcG51SDJfYVZKWHVpbnVzMXFmbVNnZ3JRSDdRbjFjTW5CYlZ4ekZzMmJaTTJOdlJfbm9hOVd6eHfSAboBQVVfeXFMUFpsXy14cmJRcENLTVlvbFpiM2FuWkdiOGxKYlJ6SE11R2FpakVYcUVmOWhNWWUtZFVwVXA4cDlGaXU2ekJ0M2E4Z3BtN2QxT2Fxc242MUhBaVBGaTZSOG03cGRmb2xsdHBkU2lDNTROTk50S0dLM2dWWUN0MF8xcHFoU0JrSnd6Si0wb05uWmdVSUEyU1ZnVWZIQVRnTk5tOC1TbXM0Nm9ZS3VrN1ZmYUNJbXFQUHNFdFFn?oc=5",
