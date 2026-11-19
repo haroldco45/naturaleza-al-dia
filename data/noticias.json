@@ -1,25 +1,26 @@
 {
- "actualizado": "2026-11-18T19:19:03.472Z",
- "actualizadoBogota": "18 de noviembre de 2026 a las 2:19 p. m.",
+ "actualizado": "2026-11-19T18:33:20.838Z",
+ "actualizadoBogota": "19 de noviembre de 2026 a las 1:33 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 29,
+  "prensa": 8,
   "prensaBing": 12,
-  "prensaAmbiente": 5,
+  "prensaAmbiente": 7,
   "notasAbiertas": 0,
-  "fotosPrensa": 4,
+  "fotosPrensa": 5,
+  "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 13,
+  "traducciones": 3,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 65
+  "segundos": 45
  },
  "wwf": [
   {
@@ -482,6 +483,20 @@
  ],
  "prensa": [
   {
+   "id": "prensa-1om0pxp",
+   "titulo": "Asegurar agua y energía, los desafíos de Colombia más allá de El Niño",
+   "resumen": "",
+   "fecha": "2026-11-19T06:00:00.000Z",
+   "imagen": "https://www.bing.com/th?id=ONUT.qrDamxm2e5MS45haAXLyVA&pid=News",
+   "credito": "© El Espectador on MSN",
+   "enlace": "https://www.msn.com/es-co/el-tiempo/cambio-clim%C3%A1tico/asegurar-agua-y-energ%C3%ADa-los-desaf%C3%ADos-de-colombia-m%C3%A1s-all%C3%A1-de-el-ni%C3%B1o/ar-AA2hMmd1",
+   "fuente": "El Espectador on MSN",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-19T18:33:20.838Z",
+   "titulo_en": "Securing water and energy: Colombia's challenges beyond El Niño"
+  },
+  {
    "id": "prensa-souker",
    "titulo": "Producir sin tumbar monte: el Pacto Caquetá se luce en Perú",
    "resumen": "",
@@ -765,7 +780,7 @@
    "id": "prensa-su7vv9",
    "titulo": "WWF alerta que poblaciones de especies silvestres han perdido 73% de su tamaño desde 1970",
    "resumen": "",
-   "fecha": "2026-11-04T05:01:41.000Z",
+   "fecha": "2026-11-04T08:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRDlKOGpqdF9sMjJ4b2lQYjA2M2FnMzMtOFVuTFdhZ0dHUFVpQ0lxLXI0VzRzell4d1B3NjhRUHlnOWNBZl9oWXV6UmRqMGJBNkQ4VG5neFVURXBNNWxhLW5TU1NKN1p6MUg3R1puc0VhWkY5Nl93c3pweHhDOUMtQVBOYmZNTUd3aWlEYzV3czVxdWhJRDZWb21KZk9SLUQ0dXVBaXVnVUkzRVo4UzFrcnAyczRBSTA5dGk0eXd3M2w5V2h6cFpoQUZXWW5MZlFYM0gtLUktUHhhMDRFTWlfX3hOWGjSAeQBQVVfeXFMTjFvOWlUc25uNkRuV0JRWXlEVkhYM0ZENXRtNzI4UXl4bkN6STdHRlYzR0czTzZ2T3Y2aGduTWlSeUFOTVljaklJTEE4T3NjbjcxTWpzNEFNZWVxTERMT29WVUNuSy1xcGFkczhlT1lyd0tSenNGWk9rWjJYQWw5Uy1wLUxCR1FYUHdYeDhyM2dDY05Cbkk1NWxNdHA1VDhzOWtrVnpaWVZZM1J2VlJjbWxRdHNOS2Vqd3Q4MjJDOTRMRHNVcmZWTGV1YlFoRWhmeUFCTTBKX3YxcW5yVXJHOHJ6ZUFY?oc=5",
@@ -1558,23 +1573,18 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Amazon and Caribbean, the Colombian regions winning in Savage Wisdom 2026"
-  },
-  {
-   "id": "prensa-4iz49s",
-   "titulo": "La naturaleza: un riesgo financiero que no se puede ignorar",
-   "resumen": "",
-   "fecha": "2026-09-30T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYzV0VGVXZXVZbFVTZmw3Y1I2S2ZpUGdDbHZCdDVMRnRMaUhYMVVwX0Y0Unk2dEZ5QUh2NFFBNFVqeWpwMVRjMVdjOU5tQjV4NjBITnVfWVpfcDl6dFRMYXlhbkt4ZzFkdWlMcjZrZ3lEUjhqNmhEd3gwbmdMQnp5c1pFY3hvWV8wdk9VUWVhTmxWZVEzUUU0?oc=5",
-   "fuente": "WWF Perú",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Nature: a financial risk that cannot be ignored"
   }
  ],
  "videos": [
+  {
+   "id": "VOPvOjlYrgc",
+   "titulo": "¿Has probado el cacao antes de que se convierta en chocolate? 🍫🌱",
+   "resumen": "En la #Amazonía colombiana algunas familias están aprendiendo y mejorando para producir el mejor cacao del país. Conoce más en: https://www.wwf.org.co/_donde_trabajamos_/amazonas/cacao_amazonico_y_paz/",
+   "fecha": "2026-11-19T16:35:17+00:00",
+   "canal": "WWF Colombia",
+   "titulo_en": "Have you ever tried cacao before it becomes chocolate? 🍫🌱",
+   "resumen_en": "In the Colombian #Amazon, some families are learning and improving to produce the country's best cocoa. Learn more at: https://www.wwf.org.co/_donde_trabajamos_/amazonas/cacao_amazonico_y_paz/"
+  },
   {
    "id": "Zq4727HtwAg",
    "titulo": "Únete a WWF para luchar contra la pérdida de naturaleza",
@@ -1835,15 +1845,6 @@
    "canal": "WWF Colombia",
    "titulo_en": "Jairo's Story | Before and After Conservation | WWF Colombia",
    "resumen_en": "Jairo Sedano Santamaría was destined to be a cattle rancher until the day when nature conservation arrived \"at his doorstep.\" This is the story of how I decided to transform over 40 hectares of grasslands into a natural"
-  },
-  {
-   "id": "NWb2vi4KhJ8",
-   "titulo": "Saida's Story | Before and After Conservation | WWF Colombia",
-   "resumen": "If we don't protect the biodiversity of our territory, who else will take care of it? This is our commitment to the community and future generations.\" This is the main reflection of Saida, legal representative of the Exa",
-   "fecha": "2023-10-09T15:03:54+00:00",
-   "canal": "WWF Colombia",
-   "titulo_en": "Saida's Story | Before and After Conservation | WWF Colombia",
-   "resumen_en": "If we don't protect the biodiversity of our territory, who else will take care of it? This is our commitment to the community and future generations.\" This is the main reflection of Saida, legal representative of the Exa"
   }
  ],
  "media": {
