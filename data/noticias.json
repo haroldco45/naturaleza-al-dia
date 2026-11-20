@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-11-20T09:01:54.734Z",
- "actualizadoBogota": "20 de noviembre de 2026 a las 4:01 a. m.",
+ "actualizado": "2026-11-20T17:57:00.714Z",
+ "actualizadoBogota": "20 de noviembre de 2026 a las 12:57 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 8,
-  "prensaBing": 12,
-  "prensaAmbiente": 6,
+  "prensa": 6,
+  "prensaBing": 11,
+  "prensaAmbiente": 7,
   "notasAbiertas": 0,
   "fotosPrensa": 5,
   "fotosGaleria": 80,
@@ -18,7 +18,7 @@
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 53
+  "segundos": 39
  },
  "wwf": [
   {
@@ -621,20 +621,6 @@
    "titulo_en": "El Niño triggers water and energy alerts in Colombia"
   },
   {
-   "id": "prensa-uj0eol",
-   "titulo": "Fenómeno de El Niño: Colombia busca asegurar meta de los embalses para evitar riesgos en la energía",
-   "resumen": "",
-   "fecha": "2026-11-11T19:11:03.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMmxETm5wODFGUWZlVW1rR0t4MEJxUGZudXBJcUhhSGFOVkNPTWhBSUJqVlhPdkoxUDViSEFnalI3VDRDY3pfRFZOdl8tWmFZMVh3TXE4bjc0QUEtN3d5UUxtNEZMcUlYTXp6ODY2NHYzbHlBTzZubXRFVkNsR3ZjUzU2MWlFdko4LWZnajY4aWpfMTVoOGJDdEJCZ3BmcWhsQUpSYjBtdThESG1SbjY5eDNlVFIyWndTSjRTN1d6aVBhZk5ldk55NlMySGdYMWV20gHeAUFVX3lxTE5kNWNONlhBalpSMWtNQ0dFUXBIRmZxYU5TTVBlRkhmTnhNMVhyR2FQYU5RZUlDT1lkSGpQSEFMVVEtaFR1d0I3M3hkWTFjRi1yYlFYQmVUa0doenNrTnJ4ZzB1dUxYVk1aeHFYU1dLOVlNbnV2UlhBbDctZjJBYzIwYTU2QnBoM3JPVExpSjBJemZseXVPTnNZT0xVSTktSlVKUm1KVFk0RnJOdndjQjlYNF9OdGotRlp6anlkUi1yM2xGOEl1amdMaEw1YUxJazZrXy1MU21vNW5QTElPUQ?oc=5",
-   "fuente": "Blu Radio",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-14T10:07:14.616Z",
-   "titulo_en": "El Niño phenomenon: Colombia seeks to ensure reservoir targets to avoid energy risks"
-  },
-  {
    "id": "prensa-155bxii",
    "titulo": "Fenómeno de El Niño aumenta la preocupación por el futuro del agua y los embalses en Colombia",
    "resumen": "",
@@ -661,6 +647,20 @@
    "destacada": false,
    "primeraVez": "2026-11-11T22:37:32.211Z",
    "titulo_en": "Colombia has 5% of the world's renewable freshwater"
+  },
+  {
+   "id": "prensa-uj0eol",
+   "titulo": "Fenómeno de El Niño: Colombia busca asegurar meta de los embalses para evitar riesgos en la energía",
+   "resumen": "",
+   "fecha": "2026-11-11T08:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMmxETm5wODFGUWZlVW1rR0t4MEJxUGZudXBJcUhhSGFOVkNPTWhBSUJqVlhPdkoxUDViSEFnalI3VDRDY3pfRFZOdl8tWmFZMVh3TXE4bjc0QUEtN3d5UUxtNEZMcUlYTXp6ODY2NHYzbHlBTzZubXRFVkNsR3ZjUzU2MWlFdko4LWZnajY4aWpfMTVoOGJDdEJCZ3BmcWhsQUpSYjBtdThESG1SbjY5eDNlVFIyWndTSjRTN1d6aVBhZk5ldk55NlMySGdYMWV20gHeAUFVX3lxTE5kNWNONlhBalpSMWtNQ0dFUXBIRmZxYU5TTVBlRkhmTnhNMVhyR2FQYU5RZUlDT1lkSGpQSEFMVVEtaFR1d0I3M3hkWTFjRi1yYlFYQmVUa0doenNrTnJ4ZzB1dUxYVk1aeHFYU1dLOVlNbnV2UlhBbDctZjJBYzIwYTU2QnBoM3JPVExpSjBJemZseXVPTnNZT0xVSTktSlVKUm1KVFk0RnJOdndjQjlYNF9OdGotRlp6anlkUi1yM2xGOEl1amdMaEw1YUxJazZrXy1MU21vNW5QTElPUQ?oc=5",
+   "fuente": "Blu Radio",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-14T10:07:14.616Z",
+   "titulo_en": "El Niño phenomenon: Colombia seeks to ensure reservoir targets to avoid energy risks"
   },
   {
    "id": "prensa-kkku03",
