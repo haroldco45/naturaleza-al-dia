@@ -1,24 +1,26 @@
 {
- "actualizado": "2026-11-20T17:57:00.714Z",
- "actualizadoBogota": "20 de noviembre de 2026 a las 12:57 p. m.",
+ "actualizado": "2026-11-20T23:55:46.605Z",
+ "actualizadoBogota": "20 de noviembre de 2026 a las 6:55 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 6,
+  "prensa": 7,
   "prensaBing": 11,
-  "prensaAmbiente": 7,
+  "prensaAmbiente": 12,
   "notasAbiertas": 0,
   "fotosPrensa": 5,
+  "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 3,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 39
+  "segundos": 58
  },
  "wwf": [
   {
@@ -537,6 +539,20 @@
    "titulo_en": "Colombia seeks financial and technical support at COP31 to protect its biodiversity"
   },
   {
+   "id": "prensa-1of72vz",
+   "titulo": "De afrontar la emergencia climática a mejorar la vida en pueblos y ciudades: las propuestas de los ecologistas de cara a las elecciones del 29-N",
+   "resumen": "",
+   "fecha": "2026-11-16T14:56:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPcWNnT0E2OWh3bUM1YWd3aWVSNHF6WnVPd0hPa1hCN3FNSmh2M0tYdEgyc0x2cmRWcUZWOURNSC12NDlacV95azR1RW5zZ3diVjR4aExFVnZmZGY0SlZFVWNoTHZlUXRKSU5ld2FZa0xOeTlJVjRPZFRGcktWRlM0UUhMUWs2cW02cjU0eVRBVE1CbGVaR1dobGhaUmoxOFkxdmNkOURlaG1FT3BmaWRHV3BqRW0zVmlLWDdQcWpvS3NlcXlwRzdRLWxERmVWWnlMNjJlZU1KZFJPT0dfYVFoZjB1THNLcklJTUs4MVE2b29MdXdWMGVMQm5kYkxQZXpzQ3ZyTlE3cXhHN3RtQWxpRXR0aGvSAa8CQVVfeXFMTXpZUG5pRlZKLVVoZF9sUE5BNzlXQlh4VW13azRTMVNablBOV3lrMkNwblZnd3doNjduZ3hjdUQ5SnUwOWNwaktyV1YzcktnVzdXU1pMdkYyQ3RDWlRSOHJKMTd5aU04Nk9vVzBlQ2hKMTEzcTcyNmp3TXBLS3gzOF82LTdpcEdZeGctRUNaSjJuNFo0a2gyN0VCZjgxMllHSzYxb21tbTBnR0N0QkxtZm5JdUFQRGlFRGxvRHYtRmhGbVlxYlhfZk9TblRkdnJNOUMybWJPb0JocWJSaHk4T3ZSRnlnRE1MV2t6SGZna2ppaGRwMDFrWEFnUmc1Rkw5ZFlMRmlPaVBFS1BobVdhRHlfZ25iSkdxUkZIMktzUUVjcEF5UWhwS0F1NDNxdFB3?oc=5",
+   "fuente": "Infobae",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-20T23:55:46.605Z",
+   "titulo_en": "From tackling the climate emergency to improving life in towns and cities: environmentalists' proposals ahead of the November 29 elections"
+  },
+  {
    "id": "prensa-1ft30n1",
    "titulo": "Recuperar los bosques quemados en Huila puede tardar hasta 40 años",
    "resumen": "",
@@ -703,6 +719,20 @@
    "destacada": false,
    "primeraVez": "2026-11-09T20:35:31.710Z",
    "titulo_en": "High Biodiversity Decline Reaches Unprecedented Pace"
+  },
+  {
+   "id": "prensa-azkqf2",
+   "titulo": "COP17 deja tareas urgentes a América Latina",
+   "resumen": "",
+   "fecha": "2026-11-08T21:35:27.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdHNndktfUDBwQzlNZERYOWdEZm0wNFFlUlZkOTN3QW9CSFZGM00tRllOMkFDSnhRMktlYkpHVzlaSjk0VU9HOE1iUy1UTjJLRGc3b0tJYVY3Yzh0ZnB3SVc1SmNwU2ZNRnI1OXJYVllPWU1mSXBaNTkzWTNDaWFrME1XOUdIaGFiRVRBNFF3WFdLY1d2WHZqbW9uN2ktTlgydjAtME1YTmtaRGZVNUtmZWQ0YVpHMUxMYV9N?oc=5",
+   "fuente": "Servindi",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-20T23:55:46.605Z",
+   "titulo_en": "COP17 leaves urgent tasks for Latin America"
   },
   {
    "id": "prensa-wj9031",
@@ -899,6 +929,20 @@
    "destacada": false,
    "primeraVez": "2026-11-01T13:00:21.002Z",
    "titulo_en": "The huge debt to the oceans at the close of biodiversity COP17"
+  },
+  {
+   "id": "prensa-185b3im",
+   "titulo": "Los países acuerdan acelerar las medidas para alcanzar las metas de biodiversidad de 2030 en la",
+   "resumen": "",
+   "fecha": "2026-10-31T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMizgJBVV95cUxORmNuNC1iRk9sa3pMeXlOb2J3Z0JiQUhCMHpsTFZ6RU9sMFpMYXlzVVlSRTY3UzN4R1d5SEZrdDhqZC1Sd0haZm9NTC1CY2FhcHhTT1BsWXgwZFpGelZiLUJ4eS05TUdJeEJKYnhIUF94MlZnWGpZV0RkX25hZUVGd1FzRExBamltTjNING9JaEVJNmVOcFpGblJKU1dKRTh3NU82OG5ac3BlUk5pbDNxSWllVnhINkRKdlFUUTV4SF91R1NkSldTNUlaeFg3djdEMW51UGhfOXdkX00ybGdOV29ab2xmMkt6UGZQNzVWVHpDZFlwUW9NbzhHcTdNMU9EM3hCNGN0ejFTNWhPdVB3Qy12UDc5bnhlQndIeThNMzhBOUJNdU5tQkpuSU9PZGtVczlNUElHMkttVkdsSzVuenk1cDdGd2plYUVfQlBR?oc=5",
+   "fuente": "WWF España",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-20T23:55:46.605Z",
+   "titulo_en": "Countries agree to accelerate measures to achieve the 2030 biodiversity goals in the"
   },
   {
    "id": "prensa-1uc49wn",
@@ -1529,48 +1573,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Johan, from Putumayo, won the Wild Wisdom final in Medellín: the country's most pilot adolescent in biodiversity"
-  },
-  {
-   "id": "prensa-8yppt8",
-   "titulo": "Colombia pone la naturaleza en el centro de la conversación sobre su futuro",
-   "resumen": "",
-   "fecha": "2026-10-05T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQWFDQ3NXVDJReE9PeEtJUGJsXzhlSzNaYzEyTGZna0xNMnZHbnpLSTAtYjY1WmdFQlV2bVhwSW9TRWV6OWU2RWxSVVVWZURsNTZlclFEVzNvMHFsU0Ywd0dGQzRoWUUxQnlEbUF3M19RZ052NlpPbm96YUZWLUtUbzdfaFdwdmNLOXVVTmk2QS1sRVcya1FmeTJXME5BY1ppS2FQVFRQeHltTzJGT040UWdxVmpnSW5vYXVxLTVUTG9nSDRU0gHKAUFVX3lxTE1zaWRBeWh0STY3b0o2MExGLVVmLURadWRQRHk2SVNkRkc4U1F5b3VOMVhBOElyaFVUdUNmNzdDeDd4UE1TNU91RnZwOF90elFicWU0cXJFTWkwYUVnRkJTSWxNeWlDWnJSYjlfZWR6enVOVXBfcXlfNGIySUk0MlB3eVVyV0R6dGkwMjI5MnpMOG5mRDlKZU5wZ2NQaEpRZHMtbW9tdTRNcHFMSTdHeGd0SVhsaDdXZ3BjZTdfRnl6eS1ZMWxra0hZNFE?oc=5",
-   "fuente": "Revista Semana",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Colombia puts nature at the center of the conversation about its future"
-  },
-  {
-   "id": "prensa-g1pgbi",
-   "titulo": "Aplicación del Water Risk Filter (WRF) en el sector financiero: caso Finagro",
-   "resumen": "",
-   "fecha": "2026-09-30T23:58:32.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYjZWZ1M3ajFja3k1b28teFFwd3NiSHp1LVdOaWN1TU9SZmg0a2I4T2lwWXk0RnVSZ3BwNVE2NENLODRPU3JYamNMeldQTmlKeHJiOXk0cjVCZVhycDY4LV9qbzBuVnB1Vm5Zc1NkOXVzaDV3cFpqbWdLLUgwT0xqVHNXY2VKS0tHRTJ3b0JVZmtTQ3kwLWlydDlXX01XeUM3ekh1b1Zobw?oc=5",
-   "fuente": "WWF Colombia",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Application of the Water Risk Filter (WRF) in the financial sector: Finagro case"
-  },
-  {
-   "id": "prensa-m864tu",
-   "titulo": "Amazonía y Caribe, las regiones colombianas ganadoras en Sabiduría Salvaje 2026",
-   "resumen": "",
-   "fecha": "2026-09-30T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zRmZQaHFDZTBURE9BWk5mS1BVdFVJYmwyZHBmXzFoM1V6bUdCamVOZ0FzeFlhTjZWQ21taGZoOG1wXzlxTXMxTG5oYzZNNVFBQlRFakxzZEhMdjBoVENJcFhmVEgxdm9MUi1OLVlhcDg?oc=5",
-   "fuente": "WWF Colombia",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Amazon and Caribbean, the Colombian regions winning in Savage Wisdom 2026"
   }
  ],
  "videos": [
