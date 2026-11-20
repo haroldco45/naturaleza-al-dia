@@ -1,26 +1,24 @@
 {
- "actualizado": "2026-11-20T01:08:15.402Z",
- "actualizadoBogota": "19 de noviembre de 2026 a las 8:08 p. m.",
+ "actualizado": "2026-11-20T09:01:54.734Z",
+ "actualizadoBogota": "20 de noviembre de 2026 a las 4:01 a. m.",
  "fuentes": {
-  "fotosInicio": 5,
-  "wwfInicio": 3,
-  "wwfNoticias": 3,
-  "wwfRSS": 20,
-  "prensa": "error: HTTP 503",
+  "wwfInicio": "error: bloqueado y sin respaldo",
+  "wwfNoticias": "error: sitio no disponible en esta corrida",
+  "wwfRSS": "error: sitio no disponible en esta corrida",
+  "prensa": 8,
   "prensaBing": 12,
-  "prensaAmbiente": "error: HTTP 503",
+  "prensaAmbiente": 6,
   "notasAbiertas": 0,
-  "fotosPrensa": 7,
-  "paginasConFoto": 28,
+  "fotosPrensa": 5,
   "fotosGaleria": 80,
   "videosCanal": 24,
   "traducciones": 0,
   "rutas": {
-   "www.wwf.org.co": "directo",
+   "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 38
+  "segundos": 53
  },
  "wwf": [
   {
@@ -1573,33 +1571,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Amazon and Caribbean, the Colombian regions winning in Savage Wisdom 2026"
-  },
-  {
-   "id": "prensa-zl678f",
-   "titulo": "Itaú Colombia y WWF Colombia lanzan la segunda fase de “Páramos para el Futuro” para proteger las fábricas de agua del país",
-   "resumen": "",
-   "fecha": "2026-04-24T08:00:00.000Z",
-   "imagen": "https://i.revistapym.com.co/cms/2026/04/24143745/3-10.png?w=1280",
-   "credito": "© revistapym.com.co",
-   "enlace": "https://www.revistapym.com.co/articulos/marcas-sostenibles/97131/itau-colombia-y-wwf-colombia-lanzan-la-segunda-fase-de-paramos-para-el-futuro-para-proteger-las-fabricas-de-agua-del-pais",
-   "fuente": "revistapym.com.co",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-20T01:08:15.402Z",
-   "fotoRevisada": true
-  },
-  {
-   "id": "prensa-1bcdwwd",
-   "titulo": "La Hora del Planeta 2026: así puede participar del gran apagón mundial",
-   "resumen": "",
-   "fecha": "2026-03-20T18:33:00.000Z",
-   "imagen": "https://www.bing.com/th?id=ONUT.mbVkllyO0MCr58qcKAJ_kg&pid=News",
-   "credito": "© El Espectador",
-   "enlace": "https://www.elespectador.com/ambiente/bibo/la-hora-del-planeta-2026-asi-puede-participar-del-gran-apagon-mundial/",
-   "fuente": "El Espectador",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-20T01:08:15.402Z"
   }
  ],
  "videos": [
