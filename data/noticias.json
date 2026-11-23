@@ -1,11 +1,11 @@
 {
- "actualizado": "2026-11-22T01:30:22.950Z",
- "actualizadoBogota": "21 de noviembre de 2026 a las 8:30 p. m.",
+ "actualizado": "2026-11-23T14:22:43.908Z",
+ "actualizadoBogota": "23 de noviembre de 2026 a las 9:22 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 6,
+  "prensa": 8,
   "prensaBing": 12,
   "prensaAmbiente": 9,
   "notasAbiertas": 0,
@@ -19,7 +19,7 @@
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 52
+  "segundos": 53
  },
  "wwf": [
   {
@@ -636,20 +636,6 @@
    "titulo_en": "El Niño triggers water and energy alerts in Colombia"
   },
   {
-   "id": "prensa-155bxii",
-   "titulo": "Fenómeno de El Niño aumenta la preocupación por el futuro del agua y los embalses en Colombia",
-   "resumen": "",
-   "fecha": "2026-11-11T17:38:27.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMHdBV3prVk84N1lBTDIwaWU5M3JXQ3FFdTFrQnMtZG5rTHhpYlpHWmhnaGR5cXI1Q1lXNXUwT3dkT042VkJfeHE5ODlwQXVxS1FmeUtxWU1uTlBGbVhQYVdDZWVqbDhmV0tscGdzdXBjb0RSb1Z2MHVRbjdHckI2aUkwQlJEc3B1azgtVWxaOVdHWDBCaXNhOVdFbWVBZkQ4TEMwTENVRUFyRGPSAasBQVVfeXFMUFZNcXVkWG1FbVBaX1QwMm9ocXVJci1uaFZnWkZGNXVPOVZ0SlRjOTRZUHpyTWVUY2FySmlDemY2OFFPVHdfSnRDUWEzcTVMNkI3N2psUkJGanZIMUt5N0Nkem52RHo2b1NWSkdxZmNRaGhCbnk5VzFXelAxR3lNS3Fqd0Y4TmotSE9RbEYtOUVVU05qd2d3T0trYjVYYXIyUmtRR2tRcTFNeXJN?oc=5",
-   "fuente": "La FM",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-15T20:56:18.049Z",
-   "titulo_en": "The El Niño phenomenon increases concerns about the future of water and reservoirs in Colombia"
-  },
-  {
    "id": "prensa-1y9d4vi",
    "titulo": "Colombia tiene el 5 % del agua dulce renovable del mundo",
    "resumen": "",
@@ -662,6 +648,20 @@
    "destacada": false,
    "primeraVez": "2026-11-11T22:37:32.211Z",
    "titulo_en": "Colombia has 5% of the world's renewable freshwater"
+  },
+  {
+   "id": "prensa-155bxii",
+   "titulo": "Fenómeno de El Niño aumenta la preocupación por el futuro del agua y los embalses en Colombia",
+   "resumen": "",
+   "fecha": "2026-11-11T08:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMHdBV3prVk84N1lBTDIwaWU5M3JXQ3FFdTFrQnMtZG5rTHhpYlpHWmhnaGR5cXI1Q1lXNXUwT3dkT042VkJfeHE5ODlwQXVxS1FmeUtxWU1uTlBGbVhQYVdDZWVqbDhmV0tscGdzdXBjb0RSb1Z2MHVRbjdHckI2aUkwQlJEc3B1azgtVWxaOVdHWDBCaXNhOVdFbWVBZkQ4TEMwTENVRUFyRGPSAasBQVVfeXFMUFZNcXVkWG1FbVBaX1QwMm9ocXVJci1uaFZnWkZGNXVPOVZ0SlRjOTRZUHpyTWVUY2FySmlDemY2OFFPVHdfSnRDUWEzcTVMNkI3N2psUkJGanZIMUt5N0Nkem52RHo2b1NWSkdxZmNRaGhCbnk5VzFXelAxR3lNS3Fqd0Y4TmotSE9RbEYtOUVVU05qd2d3T0trYjVYYXIyUmtRR2tRcTFNeXJN?oc=5",
+   "fuente": "La FM",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-15T20:56:18.049Z",
+   "titulo_en": "The El Niño phenomenon increases concerns about the future of water and reservoirs in Colombia"
   },
   {
    "id": "prensa-uj0eol",
