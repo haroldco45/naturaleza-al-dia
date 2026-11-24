@@ -1,25 +1,26 @@
 {
- "actualizado": "2026-11-23T14:22:43.908Z",
- "actualizadoBogota": "23 de noviembre de 2026 a las 9:22 a. m.",
+ "actualizado": "2026-11-24T01:49:37.175Z",
+ "actualizadoBogota": "23 de noviembre de 2026 a las 8:49 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 8,
+  "prensa": 10,
   "prensaBing": 12,
-  "prensaAmbiente": 9,
+  "prensaAmbiente": 12,
   "notasAbiertas": 0,
   "fotosPrensa": 5,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 3,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 53
+  "segundos": 59
  },
  "wwf": [
   {
@@ -482,6 +483,34 @@
  ],
  "prensa": [
   {
+   "id": "prensa-jh6gix",
+   "titulo": "Nuevas especies en Colombia sorprenden a los científicos hoy",
+   "resumen": "",
+   "fecha": "2026-11-23T21:01:05.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXh4R2VoQnhhUFJGMUxvUkNJeXc4N0NrbFpMWXFNcnA1c0M3akE0TU9GU3BVVkpXRTFNQ1ZwSlJndG0xVkVPR3FqOEdnbi1HWmJHWnVURHNyOW1oR2lWU2tfR2hCSFhqNWNnNFFDdE5lb2p6N2YwYy1oNnNMNXJsQ201TXVpbUVObkdwRGViVU9uV3VkOHpqOA?oc=5",
+   "fuente": "HSB Noticias",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-24T01:49:37.175Z",
+   "titulo_en": "New species in Colombia surprise scientists today"
+  },
+  {
+   "id": "prensa-bx88g8",
+   "titulo": "COP31: resultados insuficientes para responder a urgencia climática y abandonar combustibles fó",
+   "resumen": "",
+   "fecha": "2026-11-23T17:23:57.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQekYybnN6Q0xTYkUzM2FURkNlX1dUcF85X1cyRHJCNzVOTElOakZtRnRscXY3dzZsTk92NXJSU0hHR0VIYjlTd1pjX0FueHNTOFVTWU9HYTgybUxabnJaZ0VkNHJqdnB0X1IyTXNoLWJWVXJ5aDROcUJWN1p1OXBaMmFwWFJZczFh?oc=5",
+   "fuente": "WWF Colombia",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-24T01:49:37.175Z",
+   "titulo_en": "COP31: Insufficient results to respond to the climate emergency and phase out fossil fuels"
+  },
+  {
    "id": "prensa-1om0pxp",
    "titulo": "Asegurar agua y energía, los desafíos de Colombia más allá de El Niño",
    "resumen": "",
@@ -566,24 +595,24 @@
    "titulo_en": "It could take up to 40 years to restore the burned forests in Huila"
   },
   {
-   "id": "prensa-1xc14h7",
+   "id": "prensa-1amca3u",
    "titulo": "Día de las Áreas Protegidas: la oportunidad que ofrecen las OMEC para ampliar el alcance de la conservación",
    "resumen": "",
-   "fecha": "2026-11-16T13:05:53.000Z",
+   "fecha": "2026-11-16T13:07:18.000Z",
    "imagen": "",
    "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNamN4bnhETXJadUJTS0FlVVpETVhadWhYTnZ1Mks5VkczbTVqUUhSVThINk45RW5SQWdWZUJ1aGJEZ0hNV1ctOU5KcllIUDlUQmN5UXpSN05YVldva1RtUm1XcTNPSW5MeHhwM3FFcV9mbVFXeUhrSldJMUQtZHBOeE9mNFY1RkdWMl9zdktQV0hlY2NuU05uUHVicVc5cVFjLXY0MXFwd0pVU2FXb0J5SUc0Y2JFT0pRbmlncVlNNGZHR19GSnI4Tw?oc=5",
-   "fuente": "El MorroCotudo",
+   "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbmFxNlA4WVdNS0FhRUdZemZvTlIyeHlpMUZUMVJzQ290UGdFQXVpSDJaTmtUNzVWTmhJdEY4NEFaNlJZOVJhYVdKTFQzREJJU1FBMU9IdDk5S2ZGTFlicE5pblh6RS1LVV8zMUc3Mlp1VTJqcnllcnVWdEE2ejd0bHhwODViZ3pDb1hwaWhnYUhxdENYbWJsTEk1NExyc2JPVHhwVmd3cEU5RHlUZ3lOX2htR1p2VnZrVTk4Nlc1NzJjZw?oc=5",
+   "fuente": "La Opiñon.cl, Noticias de Temuco y Araucanía",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-11-17T01:59:11.253Z",
-   "titulo_en": "Protected Areas Day: The Opportunity Offered by OECMs to Expand the Reach of Conservation"
+   "primeraVez": "2026-11-24T01:49:37.175Z",
+   "titulo_en": "Protected Areas Day: The Opportunity Offered by OECMs to Expand the Scope of Conservation"
   },
   {
    "id": "prensa-1mtwej8",
    "titulo": "Colombia presenta propuestas sobre carbono en COP31",
    "resumen": "",
-   "fecha": "2026-11-16T03:37:11.000Z",
+   "fecha": "2026-11-15T08:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZW4tSlpGajZQS2x4QWlOUHFBbmpOMUtjbGlOQ051X0ROSklyUHUtM3I3MEpSUFlYc1NMMWtfdFJIcDdFdGRTMkFscUFmS3FaZGpsVFJSNXlmd0ZBNDZ6b21sak1PRE1JWWF0QW54c2Fsd2puQ19Jb18yNllJTlpKeE1aWVU5V3BPN2pOQjh0STZ2RWdKMWRuZQ?oc=5",
@@ -1544,34 +1573,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Wildlife populations continue to fall and Latin America bears the brunt"
-  },
-  {
-   "id": "prensa-ejjxyh",
-   "titulo": "Informe Planeta Vivo 2026 de WWF",
-   "resumen": "",
-   "fecha": "2026-10-07T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT3ZIQjg5R01oeGZWZHNLcEU4aGtta2xFYkZjOWQ3NWk4OXU0RGxiR0tMRVktZlpxUHNoZmJhMl9TOFpJSjF0UFNZYnhKbEJUTkFBZGdzVzJldDZoUXBxcVIzUmwzY0k0aHhuenhpLUdmNGpXbTRsSkZxTV95WEEzSWpWd3N2Q1FoRDJrUXl5RnFYZldTLUVFaEloYw?oc=5",
-   "fuente": "World Wildlife Fund",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-31T20:13:31.834Z",
-   "titulo_en": "WWF Living Planet Report 2026"
-  },
-  {
-   "id": "prensa-xomhm8",
-   "titulo": "Johan, de Putumayo, ganó la final de Sabiduría Salvaje en Medellín: el adolescente más pilo del país en biodiversidad",
-   "resumen": "",
-   "fecha": "2026-10-05T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOd055R0JuU1pPWVZrcmRVNnJGbmotMUpVSnlPUVFabzJoU1pXRU1VaFBzSWFoQ0ZhUnJhMmlUaldtVXpkRDdIa0VRZ2E4b1dfSUNIMVJlZUNTR0tGcEMtcnMwZEZYel9MeU5EZ2c0WHI3clBDUHNyZ0FpRW8xOFVRVnI2NjBfTFI4bDlMRVd0cFBzNGR1Sm1ySkRDcTVwdjNZdXNxVldIcWUzeG5JUFlBTlB2b0hISi0zRWVFbTdCQmpwLVJ1UVM2RENpTXp1ZlVFX2hsNEF3YU41Y2xrdjZCY3o4blZzQ2I0T3doN1N4TTFFeXRlajB3SFljVDZtSXM?oc=5",
-   "fuente": "Alcaldía de Medellín",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Johan, from Putumayo, won the Wild Wisdom final in Medellín: the country's most pilot adolescent in biodiversity"
   }
  ],
  "videos": [
