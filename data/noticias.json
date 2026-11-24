@@ -1,25 +1,26 @@
 {
- "actualizado": "2026-11-24T12:15:21.605Z",
- "actualizadoBogota": "24 de noviembre de 2026 a las 7:15 a. m.",
+ "actualizado": "2026-11-24T22:41:49.697Z",
+ "actualizadoBogota": "24 de noviembre de 2026 a las 5:41 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 10,
-  "prensaBing": 0,
+  "prensa": 32,
+  "prensaBing": 12,
   "prensaAmbiente": 9,
   "notasAbiertas": 0,
-  "fotosPrensa": 5,
+  "fotosPrensa": 4,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 4,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 53
+  "segundos": 58
  },
  "wwf": [
   {
@@ -510,17 +511,45 @@
    "titulo_en": "COP31: Insufficient results to respond to the climate emergency and phase out fossil fuels"
   },
   {
-   "id": "prensa-1om0pxp",
-   "titulo": "Asegurar agua y energía, los desafíos de Colombia más allá de El Niño",
+   "id": "prensa-sz47pc",
+   "titulo": "El aguacate que conecta empresarios, políticos, bancos y paraísos fiscales",
    "resumen": "",
-   "fecha": "2026-11-19T06:00:00.000Z",
-   "imagen": "https://www.bing.com/th?id=ONUT.qrDamxm2e5MS45haAXLyVA&pid=News",
-   "credito": "© El Espectador on MSN",
-   "enlace": "https://www.msn.com/es-co/el-tiempo/cambio-clim%C3%A1tico/asegurar-agua-y-energ%C3%ADa-los-desaf%C3%ADos-de-colombia-m%C3%A1s-all%C3%A1-de-el-ni%C3%B1o/ar-AA2hMmd1",
-   "fuente": "El Espectador on MSN",
+   "fecha": "2026-11-22T10:31:51.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkpHQ1lndV85MEtqYkU0SDZUS1FIQ3JNV2JLYnAxVlRFeHBYV0FVZWpCN3V4TURnWkl2eXhWQmpTQ3gxckVydG5oOEVTX0djOGlzZkptSWZqWkQxU0NibFVPSVpIY0xGNlZvN3VTN3Z1aGswb1dBZUNIdHA1eHJwZFJncUlfYU1rSW1xRUlPamtXemVMa3hOZWppd1F6Ums4VTB3Z2JTS2Fsb2J5c3FuMko5cEFwQ1JF?oc=5",
+   "fuente": "Vorágine - Periodismo Contracorriente",
    "tipo": "prensa",
    "destacada": false,
-   "primeraVez": "2026-11-19T18:33:20.838Z",
+   "primeraVez": "2026-11-24T22:41:49.697Z",
+   "titulo_en": "The avocado that connects businesspeople, politicians, banks, and tax havens"
+  },
+  {
+   "id": "prensa-pn6q2u",
+   "titulo": "El debate por el futuro de Caquetá y Putumayo que han generado las bases del PND",
+   "resumen": "",
+   "fecha": "2026-11-20T21:56:26.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRE9kUG9ZdTRjRXhXcHB3SnJobWZrdURVaUZXOVNoLWpYRU9rLVNCa3BDekdCY3RmajFxSWFWWXpuZlYtZ2ZrdnN5Z3JOa2N2TW01WGNhM2ZhOEg1djd3NnlpV1ZsZTkydXppdU9YVXlyY1Y4T2lzM2ZrTks5S3VxYjFzOEtmX21aZXh6d21BclpVX1FSQlBDRG5uOEgteHlST2NpT25rdEw4MWFCMlM1WllibGFIbm5GMkE?oc=5",
+   "fuente": "MiPutumayo Noticias",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-24T22:41:49.697Z",
+   "titulo_en": "The debate on the future of Caquetá and Putumayo that has laid the foundations for the National Development Plan (PND)"
+  },
+  {
+   "id": "prensa-zv92my",
+   "titulo": "Asegurar agua y energía, los desafíos de Colombia más allá de El Niño",
+   "resumen": "",
+   "fecha": "2026-11-19T14:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMGZqNnRacFhuTERwQzNVU2tyMW8xakRIcDZFeWxBRWVLRmxEWm1fVkp0YVFfemtJSHlCeEc5WGtrdzVpRU5uMk8tQ3Q2blF2Q3NqTHFUbE1pSDRUV1ViNjRWSjdQNzBWMXlraFFmVXZTSTgwMlJvOXFWaksxVzBiY0oyQ2dobzFSUGhFQjZiVmFFSnZDY3pJ0gGrAUFVX3lxTE9zTlVQMEg3UUdJMklvRU9QbmlmTGJhQ3EtSFdCbzhWYzEyX2k0RkVwaUpqeTFYV2lBeGZKaFRHaTk2YmVJcnlmQjBCd20tUHIzR0FqOG12aUFld3dUT1otZUltWkN1em5HeGh4M216WktXaldIVXU3alZPTllWLTVPZ3BRUnFSQ04zZWFET0Z0ZzhvVVF0Y2pYRkFVLU9ZVzAyYnE2cjl2VU1wWQ?oc=5",
+   "fuente": "El Espectador",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-24T22:41:49.697Z",
    "titulo_en": "Securing water and energy: Colombia's challenges beyond El Niño"
   },
   {
@@ -639,7 +668,7 @@
    "id": "prensa-1nugsds",
    "titulo": "WWF alerta del posible fracaso del plan ambiental de Doñana por falta de ejecución",
    "resumen": "",
-   "fecha": "2026-11-14T10:17:00.000Z",
+   "fecha": "2026-11-14T08:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYU1xTUY2OVAyVHNjTVNzb0FNdUJvaUxrUmpUTElKcFhJcFEwWmpIQU9TdEs4QVhfRWhHc2tpU3NWRmU0TzQ1cEw0OGdBOVdWUTV6cUZWMlNBQWducXR1NkFXMUFzRTRPZDhBa0FXN0t5YUw4d1JQM0ViRUd1SGdpRUY4aGF1Y2QyYWMydmxlQVUxU1lSRmdBOTV2cVdSMHhDVVNwM3ZiTHFyNUJMS1pYUFR0cF92NGNVOFY5VE1ULXlFOGx1T1FoUFBZR1RHMkXSAeoBQVVfeXFMUEtxYmxMb2Y0VVpoNjEzUHlrSEU1dzd1NDgtbHVudU9vUjZLVWozVktDMTR4c01BZ3VJU19QMXRqXzE2MHBiSWhiV2xtN0RUQjQ3Y2NBSXZqSEt1M3czbTdjWlRRSTVPTDg1VTdwTUloa1N3Z0o3TkJnMEpFNWEtZXN2X3RPQW9IcV9mekxNRzhjTW8tVnhvOUpzVGRacGMxTkFQYzJxWkN5SFFFdnctRU5VZEtJTmEwYzVWLVJMbE83SUlYZGluWlJNNmQ0M1E0N2ZIWnQ4ak11ZmZETHAwdFRiNG85OXY1T21B?oc=5",
@@ -709,7 +738,7 @@
    "id": "prensa-kkku03",
    "titulo": "Cacao colombiano: el fruto de la paz y la especialidad",
    "resumen": "",
-   "fecha": "2026-11-10T16:48:00.000Z",
+   "fecha": "2026-11-10T08:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VTTAyU0pudkwxWlBUVTgtRXZ4VHU2Nk5nd3VlTFc5SzYzeTRLWGhBUEZrR0NScXVCZWtPbllqZEpsNFgxc0lvWVVTVFcySktubDdGNDhzQmRhdmdjU3lnY1JqMHRQallCZGR6QUFGb2Fab2J0REZTZnlRZw?oc=5",
@@ -944,6 +973,20 @@
    "titulo_en": "#WeLoveBogotá: Share what you love most about the capital and support it in the ‘We Love Cities’ initiative"
   },
   {
+   "id": "prensa-1ucicmp",
+   "titulo": "Cámara escondida captó un oso de anteojos en Manta, Cundinamarca",
+   "resumen": "",
+   "fecha": "2026-10-31T21:21:23.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnZ3RWIxdTZ4UVdSOEZTbFM3N3JuNWR2c2lzVG5xYWU5cnJsQk5mbXBSUy1BM25UTkszd193SEExaGNXWHNOazY1NF9ycEZLTXY0cnM4OVVSNlAtTXRXalV1R0ZwMFR2eHc5aHBxQVRxQ1d4cGlVcDd5VmQyaDhNNmlDS3BENXM0VktYekIydi1jS1BNNy05UA?oc=5",
+   "fuente": "Canal Capital",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-24T22:41:49.697Z",
+   "titulo_en": "Hidden camera captured a spectacled bear in Manta, Cundinamarca"
+  },
+  {
    "id": "prensa-1l2pp26",
    "titulo": "La enorme deuda con los océanos al cierre de la COP17 de biodiversidad",
    "resumen": "",
@@ -998,6 +1041,19 @@
    "destacada": false,
    "primeraVez": "2026-11-09T01:52:21.018Z",
    "titulo_en": "WWF at the close of COP17: ambition in biodiversity must be accompanied by action"
+  },
+  {
+   "id": "prensa-d0ks4c",
+   "titulo": "Acelerar o debilitar la consulta previa: el Gobierno de Colombia cambia las reglas de ese derecho",
+   "resumen": "",
+   "fecha": "2026-10-30T07:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBzVHk5cHVuZzdmd0lRdWFnOFJXZTVXcGVjS1pKSXRZUlQzTDRPWWdHeEVLVEl1RUZ6bGtCN1VmSHpNa04wR3ZHNVlEQXFaUmYxVHNuZDJGT1E1ckdwNk9sWHpFQlYwcGlOX01CWElROHlUUHQtdnlWSnJlcw?oc=5",
+   "fuente": "Mongabay Latam",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-24T22:41:49.697Z"
   },
   {
    "id": "prensa-1yw9na1",
@@ -1516,62 +1572,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "WWF warns that wildlife populations have decreased by 73% worldwide"
-  },
-  {
-   "id": "prensa-1bzj5ix",
-   "titulo": "Científicos insisten en la importancia de la transformación de sistemas clave",
-   "resumen": "",
-   "fecha": "2026-10-08T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWmZhdUJqc3E3SWE3dG83RG9ySkRZSUhMbzUycm9Nemc5NUctYWpkTnpoQ1J2S1NFZXI5c0w3eEJBSENRWTB5WGYtLUlsSEZueVI3enlObTAtc3hRSk9hcHFSeVVIdEdycUdneXMxVDhMcTcxUDRDbi1BRWV1VGFDZWFOUGdSWmhUbXpodmthZ1BQN2ljUlFrWEZJLUFCd2VUS2UtdnV3ZV9KeU9HTkVnTUdORQ?oc=5",
-   "fuente": "Diario del Sur",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-02T09:11:25.290Z",
-   "titulo_en": "Scientists emphasize the importance of transforming key systems"
-  },
-  {
-   "id": "prensa-rce6sl",
-   "titulo": "Informe Planeta Vivo 2026",
-   "resumen": "",
-   "fecha": "2026-10-08T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2YnIyQnlZWVphRGtFZ0V2M3lTNUlScWhEWjVwcGpwd0pnX2xkQWJWVEFJcWNkODNfVk5ZU1FEMGtybVVrMVNZek1SNkJHZlVFaE5nZ1l1V2NSVXQ3UDc5VVNydHlLeGc?oc=5",
-   "fuente": "WWF Colombia",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-05T00:15:56.829Z",
-   "titulo_en": "Living Planet Report 2026"
-  },
-  {
-   "id": "prensa-fhijns",
-   "titulo": "América Latina da un paso para combatir legalmente el ecocidio",
-   "resumen": "",
-   "fecha": "2026-10-07T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV0lhbE9UdVpxVWYyLVVIbWZYbkpzcGhUZF9WNnBaM0xTV1ZBN2htX1ZNWExoa0NzdTNwUUgxdkF5dTNxaElDZ1hINmlrWWVCWnVtaENvOXhGRVFSVDJ4YS1JcURuYWpkLVJqcW9yUGJJZ0pGckpBc2N5MFlOVTl2UUtCQ19yc1JDV0ZSUlRMTkNob015NEZTdWt6LTB1RUhZOGfSAaIBQVVfeXFMUDhpTUxvajBIb1d6dlM5eU1EbVktT0tfVW5zX1NsNHhYZkhVaFFsdmwwXzRHLTdmdFBHSkk5NHM2TnNJR2RPbVRJQUpkcjNxRTlWZ0hBWWR0djVIZnF6S01aVno1LUx0N1hzaHdIRGhvQkpmOUFhLTlXLVE0RmluWXBJQk1Tb0RpNTl4dkYxTTNWTm9xdkhJNmFKek1zdnZHRk13?oc=5",
-   "fuente": "DW.com",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Latin America takes a step to legally combat ecocide"
-  },
-  {
-   "id": "prensa-1n2wdk5",
-   "titulo": "Las poblaciones de especies silvestres siguen cayendo y América Latina lleva la peor parte",
-   "resumen": "",
-   "fecha": "2026-10-07T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMGJkZ0UtSTN2UGFEempNVm9MWVN0SEhRSDN6dVJHMHh2RHNuU1B3akF3aWFjUnYyWFhUYTdjYXRQaEFrZDBwYkFKTWZNSkZKelBfYXp0RHgtNTZkdWxwNjFTUHlnb3hVQllPMURjQ04xN2N6YVc3dGpWdmM3ckpkY2hnaW5IbWw2MmItSzVuSXd5X25aMVJEcWxLSlZaelFTMDJfQlIxUWdRUVFGRW9uMEZlZjVPaVo0T093UTRmZVloN2FUUDdSdTVPUGp1ZldYN1NiY3VFc9IB6wFBVV95cUxPdHo1VnVucVpSc2c2ZlJFT3hjXzVKaFlkZmtWc0JoeHl3TFZfN2FLdUdXWTlVbG8zQWlFa1l4czAxQlRmeUlOOFlhSkpCUHd2NDBEMXVmUUlvVHRBaVBBVm96QjV6NjdWSU1FdWFtbXdKbWQ1bHFhY1hFQTZWMmJCbGFaWEJIYVByTlNsYzJwMFI5RTFzRlRHMTJIWWk2ZkE2LTczY05SeHJGVTBKNktMd211S0c0cE9SWHRqY2pCV1FOX0RqWE45d2ZTYWdrRmNwMjRZTVFPVDB3VnBnSFQtaTZZZm1IZ2x4NldZ?oc=5",
-   "fuente": "EL PAÍS",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Wildlife populations continue to fall and Latin America bears the brunt"
   }
  ],
  "videos": [
