@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-11-24T01:49:37.175Z",
- "actualizadoBogota": "23 de noviembre de 2026 a las 8:49 p. m.",
+ "actualizado": "2026-11-24T12:15:21.605Z",
+ "actualizadoBogota": "24 de noviembre de 2026 a las 7:15 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
   "prensa": 10,
-  "prensaBing": 12,
-  "prensaAmbiente": 12,
+  "prensaBing": 0,
+  "prensaAmbiente": 9,
   "notasAbiertas": 0,
   "fotosPrensa": 5,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 3,
-  "errorTraduccion": "google: HTTP 429",
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 59
+  "segundos": 53
  },
  "wwf": [
   {
@@ -553,20 +552,6 @@
    "titulo_en": "Colombia seeks to protect its forests at COP31"
   },
   {
-   "id": "prensa-snrmyw",
-   "titulo": "Colombia busca respaldo financiero y técnico en la COP31 para proteger su biodiversidad",
-   "resumen": "",
-   "fecha": "2026-11-16T16:51:18.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNDRNUENTNHc5aEJjRTN1OXFuTkxyMlltVmFaWTdQb2xZLWpmWVlOZ3NxWmNSazBkVmlCbGg1SkMtLXcxZXFLNUJvNzhzblRMRDZNQmhxamFnOFBOMEJQNUhTR2FTNjJ0WGFUS3R5Nk5JMjdaUmQ0NGswM25qMG1sY1h2YlBFTnhJeG50Y0RJeE9PRFRocWxhNmJ3NlFXeE83bDc2cW1pZGU5WFYzUmpROUw4TWo3clFsbXNCVW4xd9IB0wFBVV95cUxPSWo3SGhmZDJLc0VucnRCVDlScTFkTkc5M0JBZi1sMkJvMXFpSzJJcW1vN21JMUl6UXZYS2VyQzhWcmtLQ3J1anpnMnJPbDAwSWJkZkw2RC16Z05pS3dXM0pBRU5BR2tsZVNaX1JZb3N2UUwxN0tCdFpYeG9pUlFTN0pwanFmOXZGMC1Nb2ZyOWJrVXIwaEhHWnVqUHo5Q3pQdWFudy10dXZJTzRrUTRlMzV1MGVJYXNnbllPclE2TUJqeG9OOS1vT2VYZzFMRC1CcWJ3?oc=5",
-   "fuente": "Caracol Radio",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-16T18:14:32.253Z",
-   "titulo_en": "Colombia seeks financial and technical support at COP31 to protect its biodiversity"
-  },
-  {
    "id": "prensa-1of72vz",
    "titulo": "De afrontar la emergencia climática a mejorar la vida en pueblos y ciudades: las propuestas de los ecologistas de cara a las elecciones del 29-N",
    "resumen": "",
@@ -607,6 +592,20 @@
    "destacada": false,
    "primeraVez": "2026-11-24T01:49:37.175Z",
    "titulo_en": "Protected Areas Day: The Opportunity Offered by OECMs to Expand the Scope of Conservation"
+  },
+  {
+   "id": "prensa-snrmyw",
+   "titulo": "Colombia busca respaldo financiero y técnico en la COP31 para proteger su biodiversidad",
+   "resumen": "",
+   "fecha": "2026-11-16T08:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNDRNUENTNHc5aEJjRTN1OXFuTkxyMlltVmFaWTdQb2xZLWpmWVlOZ3NxWmNSazBkVmlCbGg1SkMtLXcxZXFLNUJvNzhzblRMRDZNQmhxamFnOFBOMEJQNUhTR2FTNjJ0WGFUS3R5Nk5JMjdaUmQ0NGswM25qMG1sY1h2YlBFTnhJeG50Y0RJeE9PRFRocWxhNmJ3NlFXeE83bDc2cW1pZGU5WFYzUmpROUw4TWo3clFsbXNCVW4xd9IB0wFBVV95cUxPSWo3SGhmZDJLc0VucnRCVDlScTFkTkc5M0JBZi1sMkJvMXFpSzJJcW1vN21JMUl6UXZYS2VyQzhWcmtLQ3J1anpnMnJPbDAwSWJkZkw2RC16Z05pS3dXM0pBRU5BR2tsZVNaX1JZb3N2UUwxN0tCdFpYeG9pUlFTN0pwanFmOXZGMC1Nb2ZyOWJrVXIwaEhHWnVqUHo5Q3pQdWFudy10dXZJTzRrUTRlMzV1MGVJYXNnbllPclE2TUJqeG9OOS1vT2VYZzFMRC1CcWJ3?oc=5",
+   "fuente": "Caracol Radio",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-16T18:14:32.253Z",
+   "titulo_en": "Colombia seeks financial and technical support at COP31 to protect its biodiversity"
   },
   {
    "id": "prensa-1mtwej8",
