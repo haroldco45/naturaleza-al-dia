@@ -1,11 +1,11 @@
 {
- "actualizado": "2026-11-25T05:19:24.962Z",
- "actualizadoBogota": "25 de noviembre de 2026 a las 12:19 a. m.",
+ "actualizado": "2026-11-25T15:57:06.209Z",
+ "actualizadoBogota": "25 de noviembre de 2026 a las 10:57 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 9,
+  "prensa": 32,
   "prensaBing": 12,
   "prensaAmbiente": 11,
   "notasAbiertas": 0,
@@ -13,13 +13,14 @@
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 3,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 44
+  "segundos": 59
  },
  "wwf": [
   {
@@ -538,6 +539,20 @@
    "titulo_en": "The debate on the future of Caquetá and Putumayo that has laid the foundations for the National Development Plan (PND)"
   },
   {
+   "id": "prensa-16170jd",
+   "titulo": "WWF exige un refuerzo de medios para frenar el deterioro del acuífero de Doñana",
+   "resumen": "",
+   "fecha": "2026-11-19T15:17:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSUJFYkJzMmJ0TWQ2UDlVS0dWNHpERXRqNWtIUFRMSjBsTjNFbkwtZGNGaVdGRDF5VnJ6T3ItaTc0XzhaOHZYM1pqWlYzVkhKRVpMMTZaQ2t1M1NtYXg4SUl3cl9Mbms3R3hzUklrQ1B5MFpwOG9nVUV3eUVDaGZ0Tmh6Sl9vU0RmREtERjZiVnJkUU9ia3VDUGlIVVEzQTlGZTNMRzBBdDFacDRfaFB5ZElOdDJKWkUtcE5QNzllNHhNanVTVGNtRHQ5SdIB5gFBVV95cUxNNlhUUUNoeVgyTDcxdkxsNURXMW5VV0NhTXNVMFRZZTJWSUdWcmZnTmZFZ1ZkNkpQNVdHaGM1dGFwRDJDV1VKWHg5eFBKR1dYRllVaWg2OU8tYUdNLU1vN3BmTXVjUVNWVmVlMXY1YWV1ZGU5aTUzbzZTc3VpOUlnZnNNRTNWbllpb1kxY21mZlMxX3Z2RlF0emx6V283VXU4TUd5SGliZWVQLXFGRDZfQWRzR0h5N1JIOHM3NHI0dTJ6YVMtNWNmamFtVW1LaUE4bEliaTI2X1BFUXRVZFpHMENqdFRsQQ?oc=5",
+   "fuente": "Infobae",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-25T15:57:06.209Z",
+   "titulo_en": "WWF calls for more resources to halt the deterioration of the Doñana aquifer"
+  },
+  {
    "id": "prensa-zv92my",
    "titulo": "Asegurar agua y energía, los desafíos de Colombia más allá de El Niño",
    "resumen": "",
@@ -580,10 +595,24 @@
    "titulo_en": "Colombia seeks to protect its forests at COP31"
   },
   {
+   "id": "prensa-19xwk6l",
+   "titulo": "Día de las Áreas Protegidas: la oportunidad que ofrecen las OMEC para ampliar el alcance de la conservación",
+   "resumen": "",
+   "fecha": "2026-11-16T20:07:11.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX3BCUUxmSHhmQlVhZzlNZlIwQnQ5eGN3bFBrWVJRSDZxZWFXSkxiSjEwcG1FUTNNQzR2eDRScGpsNGZnNjJKM25tRFdvVXZzMWFFMTQ2Ym0tQjBYTjYzcEYxOWtxcW1VR2pUUjlob2RvUHpGQVBLOFBDdkJ3R25mTmhudURnWjE2RVp2cmVDZVlhTjl3QmZkcGpMSzIzZXhoOFBkbDFXVDQ3RVEwWXpxQUtGaV95UF9jZEMtaDdQYVNFSHRU?oc=5",
+   "fuente": "El Vacanudo",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-25T15:57:06.209Z",
+   "titulo_en": "Protected Areas Day: The Opportunity Offered by OECMs to Expand the Reach of Conservation"
+  },
+  {
    "id": "prensa-1ft30n1",
    "titulo": "Recuperar los bosques quemados en Huila puede tardar hasta 40 años",
    "resumen": "",
-   "fecha": "2026-11-16T13:13:02.000Z",
+   "fecha": "2026-11-16T08:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wUDE1TFR3dmYwQ2pRR2ZYTzBLU29DUUNGbGJEUlRiNHhVMjlmRVJzc2tRRmF3ZHZWVUd6RzJlRGN1T1ZyOUlsdDhTbzhkcFlMVTdUWXBTeXBORHVEVHZSbE5zYkpraXBsNWg1Z05pQ25Vdw?oc=5",
@@ -592,20 +621,6 @@
    "destacada": false,
    "primeraVez": "2026-11-18T19:19:03.472Z",
    "titulo_en": "It could take up to 40 years to restore the burned forests in Huila"
-  },
-  {
-   "id": "prensa-1amca3u",
-   "titulo": "Día de las Áreas Protegidas: la oportunidad que ofrecen las OMEC para ampliar el alcance de la conservación",
-   "resumen": "",
-   "fecha": "2026-11-16T13:07:18.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbmFxNlA4WVdNS0FhRUdZemZvTlIyeHlpMUZUMVJzQ290UGdFQXVpSDJaTmtUNzVWTmhJdEY4NEFaNlJZOVJhYVdKTFQzREJJU1FBMU9IdDk5S2ZGTFlicE5pblh6RS1LVV8zMUc3Mlp1VTJqcnllcnVWdEE2ejd0bHhwODViZ3pDb1hwaWhnYUhxdENYbWJsTEk1NExyc2JPVHhwVmd3cEU5RHlUZ3lOX2htR1p2VnZrVTk4Nlc1NzJjZw?oc=5",
-   "fuente": "La Opiñon.cl, Noticias de Temuco y Araucanía",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-24T01:49:37.175Z",
-   "titulo_en": "Protected Areas Day: The Opportunity Offered by OECMs to Expand the Scope of Conservation"
   },
   {
    "id": "prensa-1of72vz",
@@ -653,7 +668,7 @@
    "id": "prensa-1ltzywx",
    "titulo": "Colombia gestiona financiamiento para impulsar mercados de carbono y proteger la biodiversidad",
    "resumen": "",
-   "fecha": "2026-11-14T18:43:44.000Z",
+   "fecha": "2026-11-14T08:00:00.000Z",
    "imagen": "",
    "credito": "",
    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMVFsb05wYnQ0eDBzSTNfSFk5TERIbzdGUHo0VTlPQnVjZVd2VHdtWktEUzJENlRuS2N4QXNxRGRZeXlnbl83UnJfaEhEU1kwMm8tVVBYdmhNNTZWQ3A1ZHRkQUpBX25iQ3RLaTRjdFhfN2JPN3NSeU56aU9tYVV1b2ZtbDBOaTJqWllKVHVVNkFQOWpJR3UxbC1qVjhFRGR5eFdyRGF0VFZnTjlORVN2WlNySXZWZGlhMDBRV20xbnJDZE14bzJ0M2xMaEEyd2cwb3NoZXJtSTFrNHNLSEhrel9vUWYzekFZSlZrX3ZaM3JoUktUNXNZ?oc=5",
@@ -676,6 +691,20 @@
    "destacada": false,
    "primeraVez": "2026-11-18T19:19:03.472Z",
    "titulo_en": "WWF warns of the possible failure of the Doñana environmental plan due to lack of implementation"
+  },
+  {
+   "id": "prensa-1hj0z70",
+   "titulo": "Neuquén compartió su experiencia en una cumbre internacional de hidrocarburos en Colombia",
+   "resumen": "",
+   "fecha": "2026-11-13T08:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSE5tTVAwOUkzYy1RbWs4ZzJWcTNZWXJFS01fRXB4NzVDM0FuVXpOLWNIRU1DellibGFiUUJjSUNLTk9sQTNMbjdzWGxUbG9kdnFtTHd4Rkt5REFrci1CZGdiSjJWUGlpb0IzaEtWXzFhSS15Vkc5QmFudHZBVjdTZU1lT0o5elc2M0o4RnVfYXE4T0gxSjA4aHRzd184eVl4SWJiRHBCT2QwSmpXRUZhRW8wT0UteG5pckdla3FHVXBwY3B3V29XZzFTMjNsR0R0N21qaHk4dGZoTmktOVVLUHZVYWvSAeoBQVVfeXFMUEVteFNuWnZqZG1wLS1VYzA0SEZnLTl4NnB2OUVWZ1ZiWjEyaTVtU3hmbkVzQ3lMYWVtVzZZSzhwbmFERHVPWW9fa2YxZDV2M2ZoWFJWaDhvek9XcUFpQkxTcVhxOUEzUkZsQ0s4V0FrbDgtdUVyRzM4RWt6OTlZVV9KMzlickQtUlNkbnFZblRaX09BU255MnQtS3o3Y2NOREZxT2VyMUpzN1E3M09FdzZGUGk2M25GSXU5NXA4ajJkZ1FISVFta2NPSnZleG16U2N2ZzVNRnNKU2tldkdLM2J2dmZjc0JUTEJn?oc=5",
+   "fuente": "Neuquen Informa",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-25T15:57:06.209Z",
+   "titulo_en": "Neuquén shared its experience at an international hydrocarbons summit in Colombia"
   },
   {
    "id": "prensa-ilrm70",
@@ -1543,34 +1572,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Wildlife populations fell 73% in 52 years, according to WWF"
-  },
-  {
-   "id": "prensa-zpx2pr",
-   "titulo": "La nueva fotografía de la biodiversidad global que revela el informe Planeta Vivo",
-   "resumen": "",
-   "fecha": "2026-10-08T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZFMxQUN6emFKRTN3dktwdEVWdjZRQTJ0WU5oQkxaWmhELUl3OU1NcjB1b1lSRVhKYW1WZFFtMjF3WXgyNkpQaG1mdTk1YUNUa1FHQmx6c0xnWjJKSC1GY1RSbV81dVBaaHBYbTQ1NENYekV2eFNiN1ItSzUxdW9COEZ0X3JUQXBRVzRhalpDbzNKYzVEQzRaZEllYkY2aW05SDIyQUtZdkhHbFdxMXlLVEdROW94M2k1Q19Ub3BmeElvSFXSAdcBQVVfeXFMTnhSWFpMekpMdzZhU3FhbFdVYzhiTnFHR3A1WXU2a2thV1ZfaWg4V1FIeTZWY1h6Qjd5QWVsWGcwaUlnRXV4VTlQX0Z3LV9NQU5DM2RoT1YyRlRWTWhlQkFRZkN5ajNNdzFwR25yUWFpcFhRMnFLRE5SUTBlMmVPdG45dW5lMWo2OTBaMFJWVVUtQ1o1R1hIYmNEbHh2SFIxUlZWdHd5T21GaVpDblpmWWxScm1TZXpaUF9PSFVFbDIzVGoxaGFZeDFSZW5QaUlGaWFLQ3RtX1k?oc=5",
-   "fuente": "El Espectador",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "The new picture of global biodiversity revealed by the Living Planet report"
-  },
-  {
-   "id": "prensa-1sb98kn",
-   "titulo": "WWF alerta que las poblaciones de fauna silvestre han disminuido un 73 % en el mundo",
-   "resumen": "",
-   "fecha": "2026-10-08T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUE52T3NPbEwta2EtaUtmSXBSWFBBUURFdHFhdUJpNXUzN1JsdW05MXB5MlkyTm82ZDdRNUFyU2VnYjk4QWVMQ1dfVlB0VF9JS193WVluSjNzOUJ1aEJweDBZVkc0UEFxSlk0LVpkWnBELWJKcE1IMEV2dlFoT1Rwa3NBRDVoZWdVMlBMNEJ1SUx1WGU2amxyU1lna21abkJlUTcxd3Niem1mQ01fVTl0X3JleENKcmtZV08wbXZB0gHLAUFVX3lxTE5Ucmd1aVF0TXlVMm9qdEJrSVVTUDhiN2NGZ1RYR0dJUzRrYmN5NER5SFZRRDFmc2RDMWExMU85NlpMZEFEVVBVNnBNdmRFSzFjSF9xNVpjYmJyVFJ4dDRKbERUZDBkZjgzQ1J0Wks4UWNTR3g0NzVsVTJuVDM3bTFEVDlEbkNDNm5iZVVTbV9fc2Fna1k5X25oV0FQVk9YU2dyMDRIVzN6X2NHUm95TGlsdFVtNnB1SmIzVkZYTFZyQjZzV3BTajlWb2xr?oc=5",
-   "fuente": "Blu Radio",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "WWF warns that wildlife populations have decreased by 73% worldwide"
   }
  ],
  "videos": [
