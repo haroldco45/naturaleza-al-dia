@@ -1,26 +1,25 @@
 {
- "actualizado": "2026-11-24T22:41:49.697Z",
- "actualizadoBogota": "24 de noviembre de 2026 a las 5:41 p. m.",
+ "actualizado": "2026-11-25T05:19:24.962Z",
+ "actualizadoBogota": "25 de noviembre de 2026 a las 12:19 a. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 32,
+  "prensa": 9,
   "prensaBing": 12,
-  "prensaAmbiente": 9,
+  "prensaAmbiente": 11,
   "notasAbiertas": 0,
   "fotosPrensa": 4,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 4,
-  "errorTraduccion": "google: HTTP 429",
+  "traducciones": 0,
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 58
+  "segundos": 44
  },
  "wwf": [
   {
@@ -581,20 +580,6 @@
    "titulo_en": "Colombia seeks to protect its forests at COP31"
   },
   {
-   "id": "prensa-1of72vz",
-   "titulo": "De afrontar la emergencia climática a mejorar la vida en pueblos y ciudades: las propuestas de los ecologistas de cara a las elecciones del 29-N",
-   "resumen": "",
-   "fecha": "2026-11-16T14:56:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPcWNnT0E2OWh3bUM1YWd3aWVSNHF6WnVPd0hPa1hCN3FNSmh2M0tYdEgyc0x2cmRWcUZWOURNSC12NDlacV95azR1RW5zZ3diVjR4aExFVnZmZGY0SlZFVWNoTHZlUXRKSU5ld2FZa0xOeTlJVjRPZFRGcktWRlM0UUhMUWs2cW02cjU0eVRBVE1CbGVaR1dobGhaUmoxOFkxdmNkOURlaG1FT3BmaWRHV3BqRW0zVmlLWDdQcWpvS3NlcXlwRzdRLWxERmVWWnlMNjJlZU1KZFJPT0dfYVFoZjB1THNLcklJTUs4MVE2b29MdXdWMGVMQm5kYkxQZXpzQ3ZyTlE3cXhHN3RtQWxpRXR0aGvSAa8CQVVfeXFMTXpZUG5pRlZKLVVoZF9sUE5BNzlXQlh4VW13azRTMVNablBOV3lrMkNwblZnd3doNjduZ3hjdUQ5SnUwOWNwaktyV1YzcktnVzdXU1pMdkYyQ3RDWlRSOHJKMTd5aU04Nk9vVzBlQ2hKMTEzcTcyNmp3TXBLS3gzOF82LTdpcEdZeGctRUNaSjJuNFo0a2gyN0VCZjgxMllHSzYxb21tbTBnR0N0QkxtZm5JdUFQRGlFRGxvRHYtRmhGbVlxYlhfZk9TblRkdnJNOUMybWJPb0JocWJSaHk4T3ZSRnlnRE1MV2t6SGZna2ppaGRwMDFrWEFnUmc1Rkw5ZFlMRmlPaVBFS1BobVdhRHlfZ25iSkdxUkZIMktzUUVjcEF5UWhwS0F1NDNxdFB3?oc=5",
-   "fuente": "Infobae",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-11-20T23:55:46.605Z",
-   "titulo_en": "From tackling the climate emergency to improving life in towns and cities: environmentalists' proposals ahead of the November 29 elections"
-  },
-  {
    "id": "prensa-1ft30n1",
    "titulo": "Recuperar los bosques quemados en Huila puede tardar hasta 40 años",
    "resumen": "",
@@ -621,6 +606,20 @@
    "destacada": false,
    "primeraVez": "2026-11-24T01:49:37.175Z",
    "titulo_en": "Protected Areas Day: The Opportunity Offered by OECMs to Expand the Scope of Conservation"
+  },
+  {
+   "id": "prensa-1of72vz",
+   "titulo": "De afrontar la emergencia climática a mejorar la vida en pueblos y ciudades: las propuestas de los ecologistas de cara a las elecciones del 29-N",
+   "resumen": "",
+   "fecha": "2026-11-16T08:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPcWNnT0E2OWh3bUM1YWd3aWVSNHF6WnVPd0hPa1hCN3FNSmh2M0tYdEgyc0x2cmRWcUZWOURNSC12NDlacV95azR1RW5zZ3diVjR4aExFVnZmZGY0SlZFVWNoTHZlUXRKSU5ld2FZa0xOeTlJVjRPZFRGcktWRlM0UUhMUWs2cW02cjU0eVRBVE1CbGVaR1dobGhaUmoxOFkxdmNkOURlaG1FT3BmaWRHV3BqRW0zVmlLWDdQcWpvS3NlcXlwRzdRLWxERmVWWnlMNjJlZU1KZFJPT0dfYVFoZjB1THNLcklJTUs4MVE2b29MdXdWMGVMQm5kYkxQZXpzQ3ZyTlE3cXhHN3RtQWxpRXR0aGvSAa8CQVVfeXFMTXpZUG5pRlZKLVVoZF9sUE5BNzlXQlh4VW13azRTMVNablBOV3lrMkNwblZnd3doNjduZ3hjdUQ5SnUwOWNwaktyV1YzcktnVzdXU1pMdkYyQ3RDWlRSOHJKMTd5aU04Nk9vVzBlQ2hKMTEzcTcyNmp3TXBLS3gzOF82LTdpcEdZeGctRUNaSjJuNFo0a2gyN0VCZjgxMllHSzYxb21tbTBnR0N0QkxtZm5JdUFQRGlFRGxvRHYtRmhGbVlxYlhfZk9TblRkdnJNOUMybWJPb0JocWJSaHk4T3ZSRnlnRE1MV2t6SGZna2ppaGRwMDFrWEFnUmc1Rkw5ZFlMRmlPaVBFS1BobVdhRHlfZ25iSkdxUkZIMktzUUVjcEF5UWhwS0F1NDNxdFB3?oc=5",
+   "fuente": "Infobae",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-20T23:55:46.605Z",
+   "titulo_en": "From tackling the climate emergency to improving life in towns and cities: environmentalists' proposals ahead of the November 29 elections"
   },
   {
    "id": "prensa-snrmyw",
