@@ -1,11 +1,11 @@
 {
- "actualizado": "2026-11-26T00:10:19.002Z",
- "actualizadoBogota": "25 de noviembre de 2026 a las 7:10 p. m.",
+ "actualizado": "2026-11-26T18:54:39.304Z",
+ "actualizadoBogota": "26 de noviembre de 2026 a las 1:54 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 8,
+  "prensa": 31,
   "prensaBing": 12,
   "prensaAmbiente": 12,
   "notasAbiertas": 0,
@@ -13,13 +13,14 @@
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 0,
+  "traducciones": 2,
+  "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 48
+  "segundos": 36
  },
  "wwf": [
   {
@@ -482,6 +483,20 @@
  ],
  "prensa": [
   {
+   "id": "prensa-1jm0ujc",
+   "titulo": "Ambientalistas piden auditar los subsidios a los combustibles fósiles en Brasil",
+   "resumen": "",
+   "fecha": "2026-11-26T16:59:25.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZ0ZSdVVoSDRtZlMtTTJJSzFldTlkWGRneTlZTDEtekhyMkQ5TW9rMVd6dXVRb2dyS3prVFFYX01ieFZ0VUw3cjcyenMzbUloSkJEdFhXX29oall3UTcta3hFXzVUSVVSbHVfWXZ6UkJKN1A4SjBwNW93UTNIRTBkc0lJei1kV25LSjZsMTB0UGxjalA2QW9FQ21oWHk5cTB2cmJZZjJnNFFtcG1JdGdFRFUyLVplNFNsSU9vMnVqdk45bjBKcFM5MlpfWWdHSVVmM0o0?oc=5",
+   "fuente": "France 24",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-26T18:54:39.304Z",
+   "titulo_en": "Environmentalists call for an audit of fossil fuel subsidies in Brazil"
+  },
+  {
    "id": "prensa-jh6gix",
    "titulo": "Nuevas especies en Colombia sorprenden a los científicos hoy",
    "resumen": "",
@@ -816,6 +831,20 @@
    "destacada": false,
    "primeraVez": "2026-11-20T23:55:46.605Z",
    "titulo_en": "COP17 leaves urgent tasks for Latin America"
+  },
+  {
+   "id": "prensa-11yojqb",
+   "titulo": "Colombia – Ley contra la pérdida y desperdicio de alimentos",
+   "resumen": "",
+   "fecha": "2026-11-08T08:00:00.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOczE5c3IwZkZQRDlaNlEwQ1ZnMEFZdWIzZEREZTk4bngzaEJoVUMxWFRHd1lXNUUxb2JRemFndllzbU5KOTBKS0VNaTFVbzUwb3VoWkRnbmN2WEFYU0VNT0x3YVBjOGItYUE5UXZoVXNJakg1Y052OXFXX0tUX2pWT3dtMjY5RWRmOG1Pd3FqSmVZczA?oc=5",
+   "fuente": "Diario Jurídico",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-26T18:54:39.304Z",
+   "titulo_en": "Colombia – Law against Food Loss and Waste"
   },
   {
    "id": "prensa-wj9031",
@@ -1543,34 +1572,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Latin America records a 95% drop in wildlife populations, warns WWF"
-  },
-  {
-   "id": "prensa-n36lnv",
-   "titulo": "Pérdida de biodiversidad está estrechamente relacionada con forma en que se producen alimentos, se genera energía y se orientan recursos financieros",
-   "resumen": "",
-   "fecha": "2026-10-08T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNNWpCS054NF8tUVVUTVFqWW5zSUtNUW5LSjdCYUtHbVVtNkQ5WnJxMU9MMk5oX3lMc2VNSVpNcVVUczdDcmJYaEhXM215dDZzU1gyYVpzTjdHT3NveklCZWllSGU3UzQ5Qmt3MGRTd2tsNnBSWGRsbmo2dE5YV1BFZjNQTy1DYjc3d1kzUFhlZUVBSjJlOHROdmtNMTBZeS1WSm15azBVZnd1cENYX25jcVFRd2VQdkNXVFdSbDR5T3ZFWjdvSWozVmtMLUQ3d19kTjRfa1Y5d1ZTbmJpWHdOWG5GTGxMMzlrdEU2aFI4WnhQOFROdUlxanVJQ1JkNXd0TENnQ01NOUtWQ2JWcThTSm1VQ19rYkNBYjFOZHpNMUlldm1QZ2Jn0gGsAkFVX3lxTE1oTTl6eGFmeVpBRHdPMW1tbmRNRWp0a19sazVZZ1kyMEVlWndsdWtPTnBHU1BBc1NxUnpxbFJ0V2NoUWZLX2tGckY5cHVZdVFuendjZDZFcjFmTHdMXzd6dmJJTWVDUk5kc0pYYkNlRENZbHBvY1pBS3hNbzlqNjhwYkd0WVl5d0tZWUQ1ZXRoV0M3VzBlR1pEMDdEU0FjaGtOM3loVGQ4NWVGVWZqUkp1b1lBeDZpNVp3WFZOLVd5UGY0Z01vbDVBYmQxcU1lRG83RkVCTkRndUdCcV9WMGI4ZkpjUnYzOE0wb1ZDY29IZ1JnVEUtc3g1b2hXaUlwMlA4Z3dWTFU2bk1ZRHVDZDhWakNURS1QYUh2ZU5aZV9OUC1qSlRsaFlEWGk3MA?oc=5",
-   "fuente": "El Tiempo",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Biodiversity loss is closely related to how food is produced, energy is generated and financial resources are directed"
-  },
-  {
-   "id": "prensa-5akb0g",
-   "titulo": "Poblaciones de fauna silvestre cayeron 73% en 52 años, según WWF",
-   "resumen": "",
-   "fecha": "2026-10-08T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaElFNk9HRnJIcEpnSU9uVGNnMkFyY3ltcWxZbWFUSHVSTmJuVVZTZEFuUGtKWThnRTRNcThsZm5XNlZHUGVHVWs2NXppTF9oa0hvUnVCSWtXZHgxeEtIVUlxY2JFVFB4ZEhXNURJMk5Cd3h1SXlicGpmVFRpazF5XzNVVkpsZmlRMHhhTkJ6TVNSMzJRdXptdmk3Z0NPMkVub2ZSRE9UWdIBrAFBVV95cUxOalVUUG5CT2lfNWlBbDZRR01aZVhKU3BiampjWkdhRjhKMHNwaEM5QjdEUktJcU5USmRtaUZDVXhxbl9fczY0R0U4MGQzVC1tT3JZREtXYmN5UVhkdE9OSDlvUWVoUDFqak5LazJfdEVzbi0zaXdmdTdGcTJwb1J1ODVBTXQxVFo0Vy15SjFHMW5SekJKWUdaVkZ2Wi11dFpYR0diNDlyVnFydENC?oc=5",
-   "fuente": "El País",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Wildlife populations fell 73% in 52 years, according to WWF"
   }
  ],
  "videos": [
