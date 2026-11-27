@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-11-26T18:54:39.304Z",
- "actualizadoBogota": "26 de noviembre de 2026 a las 1:54 p. m.",
+ "actualizado": "2026-11-27T02:05:42.207Z",
+ "actualizadoBogota": "26 de noviembre de 2026 a las 9:05 p. m.",
  "fuentes": {
   "wwfInicio": "error: bloqueado y sin respaldo",
   "wwfNoticias": "error: sitio no disponible en esta corrida",
   "wwfRSS": "error: sitio no disponible en esta corrida",
-  "prensa": 31,
+  "prensa": 30,
   "prensaBing": 12,
-  "prensaAmbiente": 12,
+  "prensaAmbiente": 8,
   "notasAbiertas": 0,
   "fotosPrensa": 4,
   "paginasConFoto": 0,
   "fotosGaleria": 80,
   "videosCanal": 24,
-  "traducciones": 2,
+  "traducciones": 1,
   "errorTraduccion": "google: HTTP 429",
   "rutas": {
    "news.google.com": "directo",
    "www.bing.com": "directo",
    "www.youtube.com": "directo"
   },
-  "segundos": 36
+  "segundos": 47
  },
  "wwf": [
   {
@@ -482,6 +482,20 @@
   }
  ],
  "prensa": [
+  {
+   "id": "prensa-sh0v1d",
+   "titulo": "¿Por qué la protección de los manglares es clave para la biodiversidad?",
+   "resumen": "",
+   "fecha": "2026-11-26T22:45:59.000Z",
+   "imagen": "",
+   "credito": "",
+   "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObURhQmZqbDY3alBPdmtpNjdweG43VElJUUVtdHJOck1aSE1UenFnLTZGdjBqY1UwdXhCTDQ5NjBLQV9TY01hR3ZkQnNGUHVhalFTMWlNMUQ4M2Z4ZXJ5RUpaZ3dQTC1xOE5EbXJNWjZTcHpweXhiSzVtOHVDQ2tRbHB2SG9OSHRJRDhWckU0YVIxM3JQZ25sb2dCamFaTGNpb3NSTXdOUDJTNVZmQmhwRDJTdkc1WVFrN2p1MA?oc=5",
+   "fuente": "WWF Colombia",
+   "tipo": "prensa",
+   "destacada": false,
+   "primeraVez": "2026-11-27T02:05:42.207Z",
+   "titulo_en": "Why is mangrove protection key to biodiversity?"
+  },
   {
    "id": "prensa-1jm0ujc",
    "titulo": "Ambientalistas piden auditar los subsidios a los combustibles fósiles en Brasil",
@@ -1558,20 +1572,6 @@
    "destacada": false,
    "primeraVez": "2026-10-24T01:44:27.869Z",
    "titulo_en": "Wildlife fell 73% between 1970 and 2022: WWF points to causes and recovery pathways"
-  },
-  {
-   "id": "prensa-15axfgz",
-   "titulo": "América Latina registra una caída del 95 % en poblaciones de fauna silvestre, advierte WWF",
-   "resumen": "",
-   "fecha": "2026-10-08T07:00:00.000Z",
-   "imagen": "",
-   "credito": "",
-   "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9uaTJnbW5RZm5ZT2RkRm1JR09TalFfWTVHT1FNdk80bURCTEFBTUo4Z3dLYXdKWFg4b2ZDSUl0aVZVZ1JfNHA1S3piOUN5b2R0TEwwOFdHSzFmOE5Ca3psdXdmOXZHSTh6cl9KeHNRdER2a0FTM21F?oc=5",
-   "fuente": "Radio Nacional de Colombia",
-   "tipo": "prensa",
-   "destacada": false,
-   "primeraVez": "2026-10-24T01:44:27.869Z",
-   "titulo_en": "Latin America records a 95% drop in wildlife populations, warns WWF"
   }
  ],
  "videos": [
